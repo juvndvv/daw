@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html,
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: #094293;
+    font-size: x-large;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 1vh 3vw 1vh 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#perfil {
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#perfil p {
+    padding-right: 10px;
+}
+
+#imagen-contenedor {
+    height: 60px;
+    width: 60px;
+    background-image: url('../img/perfil.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition-duration: .2s;
+}
+
+#imagen-contenedor:hover {
+    background-image: url('../img/perfil2.jpg');
+}
+
+nav {
+    background-color: lightgray;
+    display: flex;
+}
+
+nav button {
+    font-family: 'Poppins';
+    font-size: large;
+    border: none;
+    margin: 0;
+    background-color: lightgray;
+    padding: 2vh 4vh 2vh 4vh;
+    transition-duration: .2s;
+}
+
+nav button:hover {
+    background-color: whitesmoke;
+}
+
+main {
+    min-height: 70vh;
+    padding: 1vh 5vw 1vh 5vw;
+    color: #3a3a3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    color: #3a3a3a;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    #perfil p {
+        display: none;
+    }
+  }
+  

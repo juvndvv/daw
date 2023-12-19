@@ -1,0 +1,2 @@
+1.Instalar paquete ldap-account-manager
+2.

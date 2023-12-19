@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title th:text="${add} ? 'Nueva cuenta' : 'Actualizar cuenta'"></title>
+</head>
+<body>
+<h1 th:text="${add} ? 'Nueva cuenta' : 'Actualizar cuenta'" />
+<br>
+<br>
+<form th:action="@{/cuentas/save}"
+      th:object="${cuentaDTO}"
+      method="post" >
+    <table>
+        <tr th:if="${cuentaDTO.id}">
+            <td>id</td>
+            <td>:</td>
+            <td> <input type="text" th:field="*{id}" readonly/> </td>
+        </tr>
+        <tr>
+            <td>idCliente</td>
+            <td>:</td>
+            <td><input type="text" th:field="*{propietario.id}" th:placeholder="${cuentaDTO.propietario.id}" readonly></td>
+        </tr>
+        <tr>
+            <td>Banco</td>
+            <td>:</td>
+            <td> <input type="text" th:field="*{banco}" th:placeholder="${cuentaDTO.banco}" /> </td>
+        </tr>
+        <tr>
+            <td>Sucursal</td>
+            <td>:</td>
+            <td> <input type="text" th:field="*{sucursal}" th:placeholder="${cuentaDTO.sucursal}" /> </td>
+        </tr>
+        <tr>
+            <td>Numero de cuenta</td>
+            <td>:</td>
+            <td> <input type="text" th:field="*{numeroCuenta}" th:placeholder="${cuentaDTO.numeroCuenta}" /> </td>
+        </tr>
+        <tr>
+            <td>DC</td>
+            <td>:</td>
+            <td> <input type="text" th:field="*{dc}" th:placeholder="${cuentaDTO.dc}"/> </td>
+        </tr>
+        <tr>
+            <td>Saldo</td>
+            <td>:</td>
+            <td> <input th:field="*{saldo}" th:placeholder="${cuentaDTO.saldo}" /> </td>
+        </tr>
+    </table>
+    <input type="submit" th:value="${add} ? 'Nuevo' : 'Actualizar'" />
+    <ul style="color: red" th:if="errores">
+        <li th:each="error : ${errores}">
+            <span th:text="${error}">Error</span>
+        </li>
+    </ul>
+</form>
+<br>
+<a th:href="@{/cuentas/cliente/{idCliente}(idCliente=${cuentaDTO.propietario.id})}">Volver a la lista de cuentas</a>
+</body>
+</html>

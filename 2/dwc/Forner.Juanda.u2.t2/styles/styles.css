@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html,
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    transition-duration: 2s;
+}
+
+header {
+    background-color: #094293;
+    font-size: x-large;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 1vh 3vw 1vh 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#perfil {
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#perfil p {
+    padding-right: 10px;
+}
+
+#imagen-contenedor {
+    height: 60px;
+    width: 60px;
+    background-image: url('../img/perfil.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition-duration: .2s;
+}
+
+#imagen-contenedor:hover {
+    background-image: url('../img/perfil2.jpg');
+}
+
+nav {
+    background-color: lightgray;
+    display: flex;
+}
+
+nav button {
+    font-family: 'Poppins';
+    font-size: small;
+    border: none;
+    margin: 0;
+    background-color: lightgray;
+    padding: 2vh 4vh 2vh 4vh;
+    transition-duration: .2s;
+}
+
+nav button:hover {
+    background-color: whitesmoke;
+}
+
+main {
+    min-height: 70vh;
+    padding: 10px 20px;
+    color: #3a3a3a;
+}
+
+footer {
+    color: #3a3a3a;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+}
+
+section {
+    font-size: small;
+}
+
+/* Estilos para bonoloto */
+td {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+table {
+    text-align: center;
+}
+
+.seleccionado {
+    background-color: lightblue;
+}
+
+.fallado {
+    background-color: lightcoral;
+}
+
+.acertado {
+    background-color: lightgreen;
+}
+
+.complementario {
+    background-color: bisque;
+}
+
+.bonoloto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto 20px;
+}
+
+.bonoloto section {
+    margin-right: 20px;
+}
+
+.columna-numeros {
+    grid-area: j;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.columna-numeros button {
+    font-family: 'Poppins';
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    background-color: #007bff;
+}
+
+.columna-numeros button:hover {
+    background: #0b7dda;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    #perfil p {
+        display: none;
+    }
+
+    td {
+        height: 40px;
+        width: 40px;
+    }
+
+    .bonoloto {
+        flex-direction: column;
+    }
+  }
+  

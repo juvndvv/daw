@@ -1,0 +1,8 @@
+[SERVIDOR]
+	1.Crear la carpeta para guardar los perfiles moviles en el servidor
+	2.Exportar la carpeta
+
+[CLIENTE]
+	1.Crear la carpeta montaje
+	2.Dar todos los permisos
+	3.Configurar montaje en el inicio (fstab) 

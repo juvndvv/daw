@@ -1,0 +1,84 @@
+/* General Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* Visualizar Cliente Styles */
+
+table {
+    width: 50%;
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Mantenimiento de Clientes Styles */
+
+h2 {
+    color: #333;
+}
+
+table.maintenance {
+    width: 80%;
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div {
+    margin: 20px;
+}
+
+/* Nuevo/Actualizar Cliente Styles */
+
+form {
+    width: 50%;
+    margin: 20px;
+}
+
+table.form-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #0066cc;
+    color: #fff;
+    cursor: pointer;
+}

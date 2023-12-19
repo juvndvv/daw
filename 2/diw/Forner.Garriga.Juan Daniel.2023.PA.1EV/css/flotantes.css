@@ -1,0 +1,39 @@
+/* escribe aquí sólo las reglas que afecten a la visualización de elementos con flotantes*/
+
+/* Imagen de la izquierda del header */
+header>img:first-of-type {
+    float: left;
+}
+
+/* Contenedor de titulos del header */
+header>div {
+    padding: 50px;
+    height: 100%;
+    float: left;
+    margin: 0 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    width: calc(100% - 200px - 150px - 20px);
+}
+
+/* Imagen de la derecha del header */
+header>img:last-of-type {
+    float: right;
+    width: 150px;
+}
+
+/* Clearfix para el header*/
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Imagen situada a la derecha en el contenido principal */
+img[src="./img/float.png"] {
+    margin: 20px 30px;
+    float: right;
+    border: 1px solid black;
+    border-radius: 100px 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}

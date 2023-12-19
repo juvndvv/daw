@@ -1,0 +1,4962 @@
+<facturas>
+  <factura id="00059">
+    <cliente>91</cliente>
+    <fecha>2009-12-12</fecha>
+    <total>4707.5800€</total>
+  </factura>
+  <factura id="00128">
+    <cliente>7</cliente>
+    <fecha>1979-10-27</fecha>
+    <total>8253.7132€</total>
+  </factura>
+  <factura id="00226">
+    <cliente>49</cliente>
+    <fecha>2005-06-30</fecha>
+    <total>1918.9523€</total>
+  </factura>
+  <factura id="00353">
+    <cliente>48</cliente>
+    <fecha>1973-11-20</fecha>
+    <total>4338.5577€</total>
+  </factura>
+  <factura id="00435">
+    <cliente>24</cliente>
+    <fecha>2005-08-30</fecha>
+    <total>3063.7833€</total>
+  </factura>
+  <factura id="00495">
+    <cliente>43</cliente>
+    <fecha>1990-10-29</fecha>
+    <total>1836.6146€</total>
+  </factura>
+  <factura id="00522">
+    <cliente>74</cliente>
+    <fecha>2012-08-13</fecha>
+    <total>1632.0913€</total>
+  </factura>
+  <factura id="00571">
+    <cliente>2</cliente>
+    <fecha>2014-04-18</fecha>
+    <total>3462.3719€</total>
+  </factura>
+  <factura id="00609">
+    <cliente>64</cliente>
+    <fecha>1987-06-11</fecha>
+    <total>4193.0196€</total>
+  </factura>
+  <factura id="00687">
+    <cliente>98</cliente>
+    <fecha>1981-03-10</fecha>
+    <total>5171.4031€</total>
+  </factura>
+  <factura id="00703">
+    <cliente>64</cliente>
+    <fecha>1979-09-10</fecha>
+    <total>6012.4417€</total>
+  </factura>
+  <factura id="00752">
+    <cliente>80</cliente>
+    <fecha>1992-09-05</fecha>
+    <total>3569.3842€</total>
+  </factura>
+  <factura id="00848">
+    <cliente>30</cliente>
+    <fecha>1998-03-14</fecha>
+    <total>7186.7448€</total>
+  </factura>
+  <factura id="00907">
+    <cliente>62</cliente>
+    <fecha>1986-11-17</fecha>
+    <total>6285.5840€</total>
+  </factura>
+  <factura id="01046">
+    <cliente>8</cliente>
+    <fecha>2012-05-15</fecha>
+    <total>3725.3319€</total>
+  </factura>
+  <factura id="01117">
+    <cliente>63</cliente>
+    <fecha>2014-07-20</fecha>
+    <total>7024.6057€</total>
+  </factura>
+  <factura id="01120">
+    <cliente>30</cliente>
+    <fecha>2021-07-17</fecha>
+    <total>4241.2543€</total>
+  </factura>
+  <factura id="01351">
+    <cliente>90</cliente>
+    <fecha>2015-12-13</fecha>
+    <total>5046.6040€</total>
+  </factura>
+  <factura id="01398">
+    <cliente>29</cliente>
+    <fecha>1972-10-15</fecha>
+    <total>2547.9808€</total>
+  </factura>
+  <factura id="01431">
+    <cliente>57</cliente>
+    <fecha>2018-03-27</fecha>
+    <total>7930.2577€</total>
+  </factura>
+  <factura id="01557">
+    <cliente>95</cliente>
+    <fecha>1987-03-04</fecha>
+    <total>7252.8048€</total>
+  </factura>
+  <factura id="01649">
+    <cliente>34</cliente>
+    <fecha>1972-10-25</fecha>
+    <total>6270.3560€</total>
+  </factura>
+  <factura id="01710">
+    <cliente>15</cliente>
+    <fecha>2002-02-19</fecha>
+    <total>6279.0254€</total>
+  </factura>
+  <factura id="02219">
+    <cliente>53</cliente>
+    <fecha>2022-10-06</fecha>
+    <total>7915.7371€</total>
+  </factura>
+  <factura id="02337">
+    <cliente>15</cliente>
+    <fecha>1973-09-08</fecha>
+    <total>1490.6775€</total>
+  </factura>
+  <factura id="02368">
+    <cliente>70</cliente>
+    <fecha>1981-04-23</fecha>
+    <total>472.1521€</total>
+  </factura>
+  <factura id="02610">
+    <cliente>20</cliente>
+    <fecha>2007-06-09</fecha>
+    <total>1389.4463€</total>
+  </factura>
+  <factura id="02614">
+    <cliente>54</cliente>
+    <fecha>1998-06-23</fecha>
+    <total>6083.3850€</total>
+  </factura>
+  <factura id="02710">
+    <cliente>44</cliente>
+    <fecha>1983-04-20</fecha>
+    <total>3332.3667€</total>
+  </factura>
+  <factura id="02763">
+    <cliente>84</cliente>
+    <fecha>2001-01-20</fecha>
+    <total>3237.4862€</total>
+  </factura>
+  <factura id="02796">
+    <cliente>53</cliente>
+    <fecha>1971-10-12</fecha>
+    <total>4401.9170€</total>
+  </factura>
+  <factura id="02841">
+    <cliente>40</cliente>
+    <fecha>2019-06-27</fecha>
+    <total>2933.0559€</total>
+  </factura>
+  <factura id="03241">
+    <cliente>48</cliente>
+    <fecha>1985-08-19</fecha>
+    <total>1557.8536€</total>
+  </factura>
+  <factura id="03264">
+    <cliente>91</cliente>
+    <fecha>1976-04-11</fecha>
+    <total>9937.9542€</total>
+  </factura>
+  <factura id="03323">
+    <cliente>12</cliente>
+    <fecha>1999-02-18</fecha>
+    <total>5849.6013€</total>
+  </factura>
+  <factura id="03327">
+    <cliente>9</cliente>
+    <fecha>1978-09-26</fecha>
+    <total>4398.2366€</total>
+  </factura>
+  <factura id="03331">
+    <cliente>77</cliente>
+    <fecha>2006-07-11</fecha>
+    <total>6304.7860€</total>
+  </factura>
+  <factura id="03353">
+    <cliente>52</cliente>
+    <fecha>1985-02-13</fecha>
+    <total>7920.1406€</total>
+  </factura>
+  <factura id="03404">
+    <cliente>92</cliente>
+    <fecha>1980-02-13</fecha>
+    <total>1195.8115€</total>
+  </factura>
+  <factura id="03470">
+    <cliente>70</cliente>
+    <fecha>1983-06-01</fecha>
+    <total>1683.7258€</total>
+  </factura>
+  <factura id="03479">
+    <cliente>42</cliente>
+    <fecha>1981-10-10</fecha>
+    <total>844.9570€</total>
+  </factura>
+  <factura id="03505">
+    <cliente>74</cliente>
+    <fecha>1973-03-13</fecha>
+    <total>8000.5267€</total>
+  </factura>
+  <factura id="03563">
+    <cliente>27</cliente>
+    <fecha>1979-10-26</fecha>
+    <total>7707.9808€</total>
+  </factura>
+  <factura id="03583">
+    <cliente>48</cliente>
+    <fecha>2002-03-09</fecha>
+    <total>8922.2401€</total>
+  </factura>
+  <factura id="03605">
+    <cliente>69</cliente>
+    <fecha>1976-04-19</fecha>
+    <total>331.0452€</total>
+  </factura>
+  <factura id="03735">
+    <cliente>4</cliente>
+    <fecha>2022-10-26</fecha>
+    <total>2784.7207€</total>
+  </factura>
+  <factura id="03810">
+    <cliente>14</cliente>
+    <fecha>1976-05-30</fecha>
+    <total>774.7711€</total>
+  </factura>
+  <factura id="04098">
+    <cliente>32</cliente>
+    <fecha>2016-02-18</fecha>
+    <total>8587.9037€</total>
+  </factura>
+  <factura id="04187">
+    <cliente>11</cliente>
+    <fecha>1973-08-16</fecha>
+    <total>1573.9489€</total>
+  </factura>
+  <factura id="04293">
+    <cliente>55</cliente>
+    <fecha>1977-10-26</fecha>
+    <total>9189.8325€</total>
+  </factura>
+  <factura id="04358">
+    <cliente>98</cliente>
+    <fecha>2003-06-20</fecha>
+    <total>1612.1342€</total>
+  </factura>
+  <factura id="04535">
+    <cliente>8</cliente>
+    <fecha>1977-04-24</fecha>
+    <total>2893.7014€</total>
+  </factura>
+  <factura id="04540">
+    <cliente>15</cliente>
+    <fecha>2003-03-22</fecha>
+    <total>5163.5075€</total>
+  </factura>
+  <factura id="04600">
+    <cliente>72</cliente>
+    <fecha>1993-06-20</fecha>
+    <total>7430.0874€</total>
+  </factura>
+  <factura id="04720">
+    <cliente>82</cliente>
+    <fecha>2000-08-20</fecha>
+    <total>6938.2820€</total>
+  </factura>
+  <factura id="04807">
+    <cliente>51</cliente>
+    <fecha>2006-05-03</fecha>
+    <total>81.5395€</total>
+  </factura>
+  <factura id="04856">
+    <cliente>98</cliente>
+    <fecha>1973-05-15</fecha>
+    <total>2811.5794€</total>
+  </factura>
+  <factura id="04961">
+    <cliente>33</cliente>
+    <fecha>1992-12-13</fecha>
+    <total>719.0821€</total>
+  </factura>
+  <factura id="05025">
+    <cliente>85</cliente>
+    <fecha>1986-08-08</fecha>
+    <total>3970.7658€</total>
+  </factura>
+  <factura id="05044">
+    <cliente>14</cliente>
+    <fecha>2006-11-23</fecha>
+    <total>3567.4668€</total>
+  </factura>
+  <factura id="05063">
+    <cliente>66</cliente>
+    <fecha>1992-06-15</fecha>
+    <total>6989.1716€</total>
+  </factura>
+  <factura id="05119">
+    <cliente>43</cliente>
+    <fecha>1983-03-06</fecha>
+    <total>3026.2711€</total>
+  </factura>
+  <factura id="05196">
+    <cliente>32</cliente>
+    <fecha>1974-11-02</fecha>
+    <total>9839.9224€</total>
+  </factura>
+  <factura id="05261">
+    <cliente>23</cliente>
+    <fecha>1990-04-25</fecha>
+    <total>8002.9882€</total>
+  </factura>
+  <factura id="05367">
+    <cliente>49</cliente>
+    <fecha>1994-06-18</fecha>
+    <total>5362.4315€</total>
+  </factura>
+  <factura id="05389">
+    <cliente>42</cliente>
+    <fecha>1991-09-10</fecha>
+    <total>7908.4403€</total>
+  </factura>
+  <factura id="05495">
+    <cliente>70</cliente>
+    <fecha>1978-09-11</fecha>
+    <total>8694.8452€</total>
+  </factura>
+  <factura id="05507">
+    <cliente>75</cliente>
+    <fecha>1986-07-18</fecha>
+    <total>5440.5624€</total>
+  </factura>
+  <factura id="05547">
+    <cliente>32</cliente>
+    <fecha>1999-08-18</fecha>
+    <total>4664.8021€</total>
+  </factura>
+  <factura id="05655">
+    <cliente>27</cliente>
+    <fecha>2020-12-29</fecha>
+    <total>4723.7975€</total>
+  </factura>
+  <factura id="05756">
+    <cliente>24</cliente>
+    <fecha>2008-07-31</fecha>
+    <total>3498.8490€</total>
+  </factura>
+  <factura id="05771">
+    <cliente>12</cliente>
+    <fecha>2021-02-23</fecha>
+    <total>5877.9696€</total>
+  </factura>
+  <factura id="05811">
+    <cliente>84</cliente>
+    <fecha>1987-08-23</fecha>
+    <total>7901.4699€</total>
+  </factura>
+  <factura id="05864">
+    <cliente>41</cliente>
+    <fecha>1995-04-21</fecha>
+    <total>8873.0389€</total>
+  </factura>
+  <factura id="05958">
+    <cliente>82</cliente>
+    <fecha>1999-01-20</fecha>
+    <total>1353.6320€</total>
+  </factura>
+  <factura id="06183">
+    <cliente>28</cliente>
+    <fecha>1982-02-04</fecha>
+    <total>6151.5508€</total>
+  </factura>
+  <factura id="06187">
+    <cliente>33</cliente>
+    <fecha>2017-02-05</fecha>
+    <total>5720.9481€</total>
+  </factura>
+  <factura id="06255">
+    <cliente>9</cliente>
+    <fecha>1990-01-29</fecha>
+    <total>1926.7852€</total>
+  </factura>
+  <factura id="06273">
+    <cliente>80</cliente>
+    <fecha>2004-06-28</fecha>
+    <total>343.1577€</total>
+  </factura>
+  <factura id="06337">
+    <cliente>58</cliente>
+    <fecha>1986-05-13</fecha>
+    <total>3664.3375€</total>
+  </factura>
+  <factura id="06477">
+    <cliente>44</cliente>
+    <fecha>2008-06-29</fecha>
+    <total>5798.9452€</total>
+  </factura>
+  <factura id="06493">
+    <cliente>36</cliente>
+    <fecha>1972-05-16</fecha>
+    <total>8409.9256€</total>
+  </factura>
+  <factura id="06568">
+    <cliente>36</cliente>
+    <fecha>1993-05-09</fecha>
+    <total>8718.6020€</total>
+  </factura>
+  <factura id="06570">
+    <cliente>86</cliente>
+    <fecha>1995-06-11</fecha>
+    <total>7283.3252€</total>
+  </factura>
+  <factura id="07062">
+    <cliente>51</cliente>
+    <fecha>1991-03-29</fecha>
+    <total>575.9985€</total>
+  </factura>
+  <factura id="07088">
+    <cliente>36</cliente>
+    <fecha>2022-03-17</fecha>
+    <total>1737.3165€</total>
+  </factura>
+  <factura id="07294">
+    <cliente>41</cliente>
+    <fecha>1984-07-26</fecha>
+    <total>6890.1962€</total>
+  </factura>
+  <factura id="07356">
+    <cliente>30</cliente>
+    <fecha>2019-02-09</fecha>
+    <total>264.1528€</total>
+  </factura>
+  <factura id="07525">
+    <cliente>37</cliente>
+    <fecha>2015-11-28</fecha>
+    <total>4698.3096€</total>
+  </factura>
+  <factura id="07706">
+    <cliente>1</cliente>
+    <fecha>1986-07-26</fecha>
+    <total>598.0790€</total>
+  </factura>
+  <factura id="07732">
+    <cliente>77</cliente>
+    <fecha>2001-07-29</fecha>
+    <total>6878.4663€</total>
+  </factura>
+  <factura id="07810">
+    <cliente>97</cliente>
+    <fecha>1994-10-16</fecha>
+    <total>7052.3685€</total>
+  </factura>
+  <factura id="07939">
+    <cliente>43</cliente>
+    <fecha>2013-12-07</fecha>
+    <total>2640.2002€</total>
+  </factura>
+  <factura id="08300">
+    <cliente>80</cliente>
+    <fecha>1972-12-16</fecha>
+    <total>107.3333€</total>
+  </factura>
+  <factura id="08397">
+    <cliente>94</cliente>
+    <fecha>2013-10-08</fecha>
+    <total>3783.2735€</total>
+  </factura>
+  <factura id="08476">
+    <cliente>53</cliente>
+    <fecha>2001-05-22</fecha>
+    <total>5675.6486€</total>
+  </factura>
+  <factura id="08600">
+    <cliente>13</cliente>
+    <fecha>1978-07-12</fecha>
+    <total>3564.0983€</total>
+  </factura>
+  <factura id="08612">
+    <cliente>65</cliente>
+    <fecha>1978-09-03</fecha>
+    <total>5590.0073€</total>
+  </factura>
+  <factura id="08804">
+    <cliente>78</cliente>
+    <fecha>2012-07-23</fecha>
+    <total>7503.3036€</total>
+  </factura>
+  <factura id="08875">
+    <cliente>7</cliente>
+    <fecha>1974-10-16</fecha>
+    <total>2630.6314€</total>
+  </factura>
+  <factura id="08891">
+    <cliente>62</cliente>
+    <fecha>2013-02-24</fecha>
+    <total>1232.3677€</total>
+  </factura>
+  <factura id="09054">
+    <cliente>56</cliente>
+    <fecha>1997-10-07</fecha>
+    <total>200.4876€</total>
+  </factura>
+  <factura id="09065">
+    <cliente>16</cliente>
+    <fecha>1975-09-02</fecha>
+    <total>560.7666€</total>
+  </factura>
+  <factura id="09158">
+    <cliente>44</cliente>
+    <fecha>2022-02-27</fecha>
+    <total>120.9263€</total>
+  </factura>
+  <factura id="09501">
+    <cliente>51</cliente>
+    <fecha>2003-08-01</fecha>
+    <total>3956.2134€</total>
+  </factura>
+  <factura id="09662">
+    <cliente>13</cliente>
+    <fecha>2004-03-14</fecha>
+    <total>8464.8766€</total>
+  </factura>
+  <factura id="09877">
+    <cliente>59</cliente>
+    <fecha>1971-07-02</fecha>
+    <total>1276.4317€</total>
+  </factura>
+  <factura id="09918">
+    <cliente>7</cliente>
+    <fecha>1990-07-12</fecha>
+    <total>5675.2523€</total>
+  </factura>
+  <factura id="10157">
+    <cliente>38</cliente>
+    <fecha>2009-05-02</fecha>
+    <total>9970.9863€</total>
+  </factura>
+  <factura id="10228">
+    <cliente>71</cliente>
+    <fecha>1975-06-02</fecha>
+    <total>9304.5278€</total>
+  </factura>
+  <factura id="10275">
+    <cliente>50</cliente>
+    <fecha>1993-07-01</fecha>
+    <total>3662.2529€</total>
+  </factura>
+  <factura id="10478">
+    <cliente>1</cliente>
+    <fecha>1974-07-10</fecha>
+    <total>8207.2852€</total>
+  </factura>
+  <factura id="10812">
+    <cliente>9</cliente>
+    <fecha>2008-11-28</fecha>
+    <total>89.4882€</total>
+  </factura>
+  <factura id="10814">
+    <cliente>58</cliente>
+    <fecha>2006-01-31</fecha>
+    <total>8734.4642€</total>
+  </factura>
+  <factura id="10990">
+    <cliente>3</cliente>
+    <fecha>1978-12-16</fecha>
+    <total>6006.7173€</total>
+  </factura>
+  <factura id="11016">
+    <cliente>92</cliente>
+    <fecha>1973-11-13</fecha>
+    <total>7153.2668€</total>
+  </factura>
+  <factura id="11043">
+    <cliente>86</cliente>
+    <fecha>2020-06-28</fecha>
+    <total>8681.4839€</total>
+  </factura>
+  <factura id="11121">
+    <cliente>66</cliente>
+    <fecha>2013-02-20</fecha>
+    <total>2894.8870€</total>
+  </factura>
+  <factura id="11430">
+    <cliente>1</cliente>
+    <fecha>1992-03-09</fecha>
+    <total>1257.9384€</total>
+  </factura>
+  <factura id="11613">
+    <cliente>56</cliente>
+    <fecha>1975-09-30</fecha>
+    <total>1084.8373€</total>
+  </factura>
+  <factura id="11650">
+    <cliente>47</cliente>
+    <fecha>1987-09-03</fecha>
+    <total>2373.3961€</total>
+  </factura>
+  <factura id="11693">
+    <cliente>86</cliente>
+    <fecha>1998-11-30</fecha>
+    <total>4655.8982€</total>
+  </factura>
+  <factura id="11744">
+    <cliente>13</cliente>
+    <fecha>1977-02-22</fecha>
+    <total>3592.4926€</total>
+  </factura>
+  <factura id="11827">
+    <cliente>80</cliente>
+    <fecha>1970-08-11</fecha>
+    <total>7705.3780€</total>
+  </factura>
+  <factura id="11861">
+    <cliente>34</cliente>
+    <fecha>1979-08-27</fecha>
+    <total>3794.5613€</total>
+  </factura>
+  <factura id="11889">
+    <cliente>23</cliente>
+    <fecha>1987-01-20</fecha>
+    <total>4439.4202€</total>
+  </factura>
+  <factura id="11947">
+    <cliente>36</cliente>
+    <fecha>1975-09-02</fecha>
+    <total>3108.3419€</total>
+  </factura>
+  <factura id="12121">
+    <cliente>55</cliente>
+    <fecha>2010-11-02</fecha>
+    <total>4710.5169€</total>
+  </factura>
+  <factura id="12206">
+    <cliente>24</cliente>
+    <fecha>1976-01-13</fecha>
+    <total>273.4401€</total>
+  </factura>
+  <factura id="12241">
+    <cliente>78</cliente>
+    <fecha>1970-01-14</fecha>
+    <total>2401.0723€</total>
+  </factura>
+  <factura id="12310">
+    <cliente>86</cliente>
+    <fecha>1980-01-12</fecha>
+    <total>308.6606€</total>
+  </factura>
+  <factura id="12329">
+    <cliente>26</cliente>
+    <fecha>1983-06-09</fecha>
+    <total>4263.9204€</total>
+  </factura>
+  <factura id="12406">
+    <cliente>37</cliente>
+    <fecha>1974-03-21</fecha>
+    <total>468.8214€</total>
+  </factura>
+  <factura id="12430">
+    <cliente>20</cliente>
+    <fecha>2011-05-21</fecha>
+    <total>7274.9817€</total>
+  </factura>
+  <factura id="12643">
+    <cliente>60</cliente>
+    <fecha>1989-08-06</fecha>
+    <total>6264.8997€</total>
+  </factura>
+  <factura id="12672">
+    <cliente>83</cliente>
+    <fecha>1992-12-18</fecha>
+    <total>9623.6752€</total>
+  </factura>
+  <factura id="12692">
+    <cliente>39</cliente>
+    <fecha>1972-03-30</fecha>
+    <total>2548.5734€</total>
+  </factura>
+  <factura id="12700">
+    <cliente>51</cliente>
+    <fecha>2013-08-01</fecha>
+    <total>8305.2191€</total>
+  </factura>
+  <factura id="12884">
+    <cliente>83</cliente>
+    <fecha>2003-03-03</fecha>
+    <total>484.3597€</total>
+  </factura>
+  <factura id="12901">
+    <cliente>55</cliente>
+    <fecha>1998-04-01</fecha>
+    <total>8845.8654€</total>
+  </factura>
+  <factura id="13046">
+    <cliente>89</cliente>
+    <fecha>2021-12-19</fecha>
+    <total>1132.8839€</total>
+  </factura>
+  <factura id="13061">
+    <cliente>68</cliente>
+    <fecha>2014-06-04</fecha>
+    <total>5080.5529€</total>
+  </factura>
+  <factura id="13184">
+    <cliente>69</cliente>
+    <fecha>1974-03-16</fecha>
+    <total>5123.5865€</total>
+  </factura>
+  <factura id="13194">
+    <cliente>95</cliente>
+    <fecha>1997-12-30</fecha>
+    <total>5049.0943€</total>
+  </factura>
+  <factura id="13219">
+    <cliente>48</cliente>
+    <fecha>1973-09-06</fecha>
+    <total>3067.8352€</total>
+  </factura>
+  <factura id="13292">
+    <cliente>30</cliente>
+    <fecha>2015-04-20</fecha>
+    <total>363.3214€</total>
+  </factura>
+  <factura id="13660">
+    <cliente>98</cliente>
+    <fecha>1973-02-20</fecha>
+    <total>9689.4921€</total>
+  </factura>
+  <factura id="13687">
+    <cliente>52</cliente>
+    <fecha>1997-10-22</fecha>
+    <total>3557.1240€</total>
+  </factura>
+  <factura id="13800">
+    <cliente>22</cliente>
+    <fecha>1971-08-19</fecha>
+    <total>4142.8265€</total>
+  </factura>
+  <factura id="14303">
+    <cliente>82</cliente>
+    <fecha>2002-09-24</fecha>
+    <total>8355.0484€</total>
+  </factura>
+  <factura id="14440">
+    <cliente>10</cliente>
+    <fecha>2000-08-23</fecha>
+    <total>5433.7836€</total>
+  </factura>
+  <factura id="14522">
+    <cliente>80</cliente>
+    <fecha>1991-03-26</fecha>
+    <total>4718.9961€</total>
+  </factura>
+  <factura id="14713">
+    <cliente>32</cliente>
+    <fecha>2014-08-14</fecha>
+    <total>1637.6769€</total>
+  </factura>
+  <factura id="14858">
+    <cliente>36</cliente>
+    <fecha>1990-11-14</fecha>
+    <total>6908.3344€</total>
+  </factura>
+  <factura id="14968">
+    <cliente>87</cliente>
+    <fecha>1999-05-17</fecha>
+    <total>1077.2238€</total>
+  </factura>
+  <factura id="14989">
+    <cliente>38</cliente>
+    <fecha>1992-10-04</fecha>
+    <total>6987.2576€</total>
+  </factura>
+  <factura id="15109">
+    <cliente>33</cliente>
+    <fecha>2009-02-04</fecha>
+    <total>6218.2423€</total>
+  </factura>
+  <factura id="15297">
+    <cliente>44</cliente>
+    <fecha>1980-01-03</fecha>
+    <total>457.5549€</total>
+  </factura>
+  <factura id="15562">
+    <cliente>94</cliente>
+    <fecha>2018-08-31</fecha>
+    <total>2677.9874€</total>
+  </factura>
+  <factura id="15580">
+    <cliente>39</cliente>
+    <fecha>2000-03-31</fecha>
+    <total>1.3647€</total>
+  </factura>
+  <factura id="15603">
+    <cliente>28</cliente>
+    <fecha>2019-02-06</fecha>
+    <total>6008.4546€</total>
+  </factura>
+  <factura id="15862">
+    <cliente>57</cliente>
+    <fecha>2007-08-27</fecha>
+    <total>7181.7780€</total>
+  </factura>
+  <factura id="16112">
+    <cliente>71</cliente>
+    <fecha>2019-02-01</fecha>
+    <total>6875.4685€</total>
+  </factura>
+  <factura id="16137">
+    <cliente>11</cliente>
+    <fecha>1974-11-02</fecha>
+    <total>3329.2484€</total>
+  </factura>
+  <factura id="16274">
+    <cliente>80</cliente>
+    <fecha>2007-08-06</fecha>
+    <total>2267.8494€</total>
+  </factura>
+  <factura id="16395">
+    <cliente>40</cliente>
+    <fecha>1981-12-23</fecha>
+    <total>9867.0301€</total>
+  </factura>
+  <factura id="16446">
+    <cliente>50</cliente>
+    <fecha>1990-06-19</fecha>
+    <total>1204.2975€</total>
+  </factura>
+  <factura id="16625">
+    <cliente>88</cliente>
+    <fecha>2017-04-23</fecha>
+    <total>3667.5461€</total>
+  </factura>
+  <factura id="16729">
+    <cliente>41</cliente>
+    <fecha>2000-09-19</fecha>
+    <total>1498.7958€</total>
+  </factura>
+  <factura id="16757">
+    <cliente>92</cliente>
+    <fecha>2009-06-17</fecha>
+    <total>100.2084€</total>
+  </factura>
+  <factura id="16908">
+    <cliente>88</cliente>
+    <fecha>2019-05-14</fecha>
+    <total>9664.8968€</total>
+  </factura>
+  <factura id="16911">
+    <cliente>11</cliente>
+    <fecha>2010-03-07</fecha>
+    <total>2603.9601€</total>
+  </factura>
+  <factura id="17207">
+    <cliente>21</cliente>
+    <fecha>1972-01-27</fecha>
+    <total>5675.4666€</total>
+  </factura>
+  <factura id="17257">
+    <cliente>86</cliente>
+    <fecha>1996-09-24</fecha>
+    <total>6909.3576€</total>
+  </factura>
+  <factura id="17567">
+    <cliente>3</cliente>
+    <fecha>2017-05-25</fecha>
+    <total>4813.9700€</total>
+  </factura>
+  <factura id="17569">
+    <cliente>6</cliente>
+    <fecha>2016-11-15</fecha>
+    <total>5485.4180€</total>
+  </factura>
+  <factura id="17674">
+    <cliente>62</cliente>
+    <fecha>1977-03-09</fecha>
+    <total>8190.2352€</total>
+  </factura>
+  <factura id="17675">
+    <cliente>3</cliente>
+    <fecha>1977-02-04</fecha>
+    <total>2193.5273€</total>
+  </factura>
+  <factura id="17683">
+    <cliente>87</cliente>
+    <fecha>1985-07-14</fecha>
+    <total>1650.5637€</total>
+  </factura>
+  <factura id="17720">
+    <cliente>14</cliente>
+    <fecha>2015-03-20</fecha>
+    <total>6266.0177€</total>
+  </factura>
+  <factura id="17778">
+    <cliente>52</cliente>
+    <fecha>1977-04-29</fecha>
+    <total>1294.0275€</total>
+  </factura>
+  <factura id="17812">
+    <cliente>55</cliente>
+    <fecha>1994-11-24</fecha>
+    <total>2522.5270€</total>
+  </factura>
+  <factura id="17874">
+    <cliente>28</cliente>
+    <fecha>2017-12-09</fecha>
+    <total>1543.8365€</total>
+  </factura>
+  <factura id="18031">
+    <cliente>86</cliente>
+    <fecha>1970-07-15</fecha>
+    <total>8493.7684€</total>
+  </factura>
+  <factura id="18117">
+    <cliente>80</cliente>
+    <fecha>1995-06-12</fecha>
+    <total>3399.9148€</total>
+  </factura>
+  <factura id="18166">
+    <cliente>13</cliente>
+    <fecha>1971-05-14</fecha>
+    <total>1693.1474€</total>
+  </factura>
+  <factura id="18204">
+    <cliente>47</cliente>
+    <fecha>1970-02-16</fecha>
+    <total>4628.0595€</total>
+  </factura>
+  <factura id="18218">
+    <cliente>33</cliente>
+    <fecha>1989-08-31</fecha>
+    <total>6106.1457€</total>
+  </factura>
+  <factura id="18377">
+    <cliente>27</cliente>
+    <fecha>1996-09-02</fecha>
+    <total>4993.4468€</total>
+  </factura>
+  <factura id="18489">
+    <cliente>80</cliente>
+    <fecha>2021-05-16</fecha>
+    <total>6249.5402€</total>
+  </factura>
+  <factura id="18846">
+    <cliente>65</cliente>
+    <fecha>1974-03-05</fecha>
+    <total>9899.6600€</total>
+  </factura>
+  <factura id="18869">
+    <cliente>27</cliente>
+    <fecha>2000-07-19</fecha>
+    <total>361.6410€</total>
+  </factura>
+  <factura id="19046">
+    <cliente>30</cliente>
+    <fecha>2000-08-06</fecha>
+    <total>2208.9726€</total>
+  </factura>
+  <factura id="19089">
+    <cliente>49</cliente>
+    <fecha>1993-03-19</fecha>
+    <total>8244.6719€</total>
+  </factura>
+  <factura id="19148">
+    <cliente>62</cliente>
+    <fecha>2002-02-07</fecha>
+    <total>2976.3312€</total>
+  </factura>
+  <factura id="19242">
+    <cliente>42</cliente>
+    <fecha>1974-03-25</fecha>
+    <total>9198.7488€</total>
+  </factura>
+  <factura id="19379">
+    <cliente>25</cliente>
+    <fecha>2006-12-18</fecha>
+    <total>9537.0413€</total>
+  </factura>
+  <factura id="19534">
+    <cliente>43</cliente>
+    <fecha>1982-02-22</fecha>
+    <total>7648.7671€</total>
+  </factura>
+  <factura id="19561">
+    <cliente>98</cliente>
+    <fecha>1971-09-01</fecha>
+    <total>1740.4672€</total>
+  </factura>
+  <factura id="19740">
+    <cliente>38</cliente>
+    <fecha>2001-02-19</fecha>
+    <total>9503.3988€</total>
+  </factura>
+  <factura id="19795">
+    <cliente>61</cliente>
+    <fecha>1993-06-07</fecha>
+    <total>1169.0119€</total>
+  </factura>
+  <factura id="19821">
+    <cliente>70</cliente>
+    <fecha>2019-02-28</fecha>
+    <total>1766.9632€</total>
+  </factura>
+  <factura id="19845">
+    <cliente>49</cliente>
+    <fecha>1980-08-16</fecha>
+    <total>1456.0584€</total>
+  </factura>
+  <factura id="19943">
+    <cliente>83</cliente>
+    <fecha>1980-08-13</fecha>
+    <total>2452.2341€</total>
+  </factura>
+  <factura id="19955">
+    <cliente>37</cliente>
+    <fecha>1993-11-14</fecha>
+    <total>9820.3277€</total>
+  </factura>
+  <factura id="20227">
+    <cliente>87</cliente>
+    <fecha>1989-05-30</fecha>
+    <total>6523.4158€</total>
+  </factura>
+  <factura id="20244">
+    <cliente>53</cliente>
+    <fecha>2016-11-20</fecha>
+    <total>8225.3415€</total>
+  </factura>
+  <factura id="20249">
+    <cliente>48</cliente>
+    <fecha>2010-11-13</fecha>
+    <total>5128.9831€</total>
+  </factura>
+  <factura id="20254">
+    <cliente>35</cliente>
+    <fecha>2007-11-02</fecha>
+    <total>23.2660€</total>
+  </factura>
+  <factura id="20280">
+    <cliente>79</cliente>
+    <fecha>2021-04-19</fecha>
+    <total>4653.4000€</total>
+  </factura>
+  <factura id="20319">
+    <cliente>83</cliente>
+    <fecha>2012-04-12</fecha>
+    <total>508.4555€</total>
+  </factura>
+  <factura id="20500">
+    <cliente>99</cliente>
+    <fecha>2014-08-09</fecha>
+    <total>8484.4328€</total>
+  </factura>
+  <factura id="20648">
+    <cliente>40</cliente>
+    <fecha>2008-11-13</fecha>
+    <total>2048.0955€</total>
+  </factura>
+  <factura id="20797">
+    <cliente>37</cliente>
+    <fecha>1996-05-01</fecha>
+    <total>2464.5988€</total>
+  </factura>
+  <factura id="20977">
+    <cliente>8</cliente>
+    <fecha>2019-04-26</fecha>
+    <total>6635.6249€</total>
+  </factura>
+  <factura id="20981">
+    <cliente>83</cliente>
+    <fecha>2014-04-06</fecha>
+    <total>353.7337€</total>
+  </factura>
+  <factura id="20989">
+    <cliente>56</cliente>
+    <fecha>2021-07-18</fecha>
+    <total>4805.0545€</total>
+  </factura>
+  <factura id="21061">
+    <cliente>37</cliente>
+    <fecha>1978-02-23</fecha>
+    <total>3664.3477€</total>
+  </factura>
+  <factura id="21164">
+    <cliente>51</cliente>
+    <fecha>1984-10-17</fecha>
+    <total>6053.7308€</total>
+  </factura>
+  <factura id="21279">
+    <cliente>84</cliente>
+    <fecha>1975-11-13</fecha>
+    <total>386.6319€</total>
+  </factura>
+  <factura id="21313">
+    <cliente>92</cliente>
+    <fecha>2005-06-13</fecha>
+    <total>4983.2823€</total>
+  </factura>
+  <factura id="21415">
+    <cliente>63</cliente>
+    <fecha>1995-07-29</fecha>
+    <total>8328.5263€</total>
+  </factura>
+  <factura id="21546">
+    <cliente>1</cliente>
+    <fecha>1981-04-15</fecha>
+    <total>7104.5237€</total>
+  </factura>
+  <factura id="21626">
+    <cliente>32</cliente>
+    <fecha>2005-01-11</fecha>
+    <total>9792.4404€</total>
+  </factura>
+  <factura id="21752">
+    <cliente>29</cliente>
+    <fecha>1972-01-05</fecha>
+    <total>1802.6735€</total>
+  </factura>
+  <factura id="21810">
+    <cliente>54</cliente>
+    <fecha>1996-09-11</fecha>
+    <total>6063.2120€</total>
+  </factura>
+  <factura id="21943">
+    <cliente>56</cliente>
+    <fecha>1979-04-25</fecha>
+    <total>9891.9254€</total>
+  </factura>
+  <factura id="22026">
+    <cliente>31</cliente>
+    <fecha>1988-12-01</fecha>
+    <total>5418.3423€</total>
+  </factura>
+  <factura id="22238">
+    <cliente>93</cliente>
+    <fecha>2012-01-08</fecha>
+    <total>194.1130€</total>
+  </factura>
+  <factura id="22393">
+    <cliente>94</cliente>
+    <fecha>1985-10-01</fecha>
+    <total>2861.5997€</total>
+  </factura>
+  <factura id="22450">
+    <cliente>3</cliente>
+    <fecha>1970-07-05</fecha>
+    <total>4275.1571€</total>
+  </factura>
+  <factura id="22460">
+    <cliente>24</cliente>
+    <fecha>1993-10-16</fecha>
+    <total>4928.2976€</total>
+  </factura>
+  <factura id="22646">
+    <cliente>96</cliente>
+    <fecha>1988-07-25</fecha>
+    <total>6408.3521€</total>
+  </factura>
+  <factura id="22893">
+    <cliente>72</cliente>
+    <fecha>2010-12-13</fecha>
+    <total>2411.0364€</total>
+  </factura>
+  <factura id="22938">
+    <cliente>62</cliente>
+    <fecha>1993-02-22</fecha>
+    <total>6162.5297€</total>
+  </factura>
+  <factura id="23082">
+    <cliente>31</cliente>
+    <fecha>1997-06-21</fecha>
+    <total>8382.8184€</total>
+  </factura>
+  <factura id="23202">
+    <cliente>74</cliente>
+    <fecha>2009-04-17</fecha>
+    <total>4294.7182€</total>
+  </factura>
+  <factura id="23493">
+    <cliente>80</cliente>
+    <fecha>2005-12-05</fecha>
+    <total>9862.6699€</total>
+  </factura>
+  <factura id="23520">
+    <cliente>16</cliente>
+    <fecha>1971-10-05</fecha>
+    <total>1740.6928€</total>
+  </factura>
+  <factura id="23555">
+    <cliente>88</cliente>
+    <fecha>2015-01-17</fecha>
+    <total>3689.9707€</total>
+  </factura>
+  <factura id="23596">
+    <cliente>22</cliente>
+    <fecha>2006-01-11</fecha>
+    <total>7487.0014€</total>
+  </factura>
+  <factura id="23617">
+    <cliente>43</cliente>
+    <fecha>2022-07-05</fecha>
+    <total>7007.4608€</total>
+  </factura>
+  <factura id="23629">
+    <cliente>65</cliente>
+    <fecha>2003-01-25</fecha>
+    <total>4877.7664€</total>
+  </factura>
+  <factura id="23695">
+    <cliente>92</cliente>
+    <fecha>1970-09-14</fecha>
+    <total>5071.3061€</total>
+  </factura>
+  <factura id="24004">
+    <cliente>32</cliente>
+    <fecha>1991-06-18</fecha>
+    <total>4163.6860€</total>
+  </factura>
+  <factura id="24086">
+    <cliente>56</cliente>
+    <fecha>2014-07-28</fecha>
+    <total>3281.0971€</total>
+  </factura>
+  <factura id="24231">
+    <cliente>85</cliente>
+    <fecha>2005-08-20</fecha>
+    <total>2696.3066€</total>
+  </factura>
+  <factura id="24311">
+    <cliente>15</cliente>
+    <fecha>2001-02-15</fecha>
+    <total>6270.4634€</total>
+  </factura>
+  <factura id="24464">
+    <cliente>82</cliente>
+    <fecha>1975-05-15</fecha>
+    <total>2265.1158€</total>
+  </factura>
+  <factura id="24505">
+    <cliente>33</cliente>
+    <fecha>1981-02-22</fecha>
+    <total>4204.7742€</total>
+  </factura>
+  <factura id="24676">
+    <cliente>92</cliente>
+    <fecha>2010-12-16</fecha>
+    <total>2004.0106€</total>
+  </factura>
+  <factura id="25121">
+    <cliente>10</cliente>
+    <fecha>2021-11-16</fecha>
+    <total>9462.8634€</total>
+  </factura>
+  <factura id="25195">
+    <cliente>33</cliente>
+    <fecha>1973-09-14</fecha>
+    <total>1697.2065€</total>
+  </factura>
+  <factura id="25225">
+    <cliente>77</cliente>
+    <fecha>2014-09-29</fecha>
+    <total>8427.6148€</total>
+  </factura>
+  <factura id="25244">
+    <cliente>58</cliente>
+    <fecha>1986-12-24</fecha>
+    <total>9950.0304€</total>
+  </factura>
+  <factura id="25428">
+    <cliente>45</cliente>
+    <fecha>1991-04-17</fecha>
+    <total>3237.6952€</total>
+  </factura>
+  <factura id="25546">
+    <cliente>35</cliente>
+    <fecha>1976-06-27</fecha>
+    <total>3790.2845€</total>
+  </factura>
+  <factura id="25548">
+    <cliente>18</cliente>
+    <fecha>2019-01-31</fecha>
+    <total>8877.8630€</total>
+  </factura>
+  <factura id="25556">
+    <cliente>3</cliente>
+    <fecha>2023-02-09</fecha>
+    <total>8384.6565€</total>
+  </factura>
+  <factura id="25715">
+    <cliente>33</cliente>
+    <fecha>2020-10-04</fecha>
+    <total>8396.4884€</total>
+  </factura>
+  <factura id="25742">
+    <cliente>13</cliente>
+    <fecha>1996-01-27</fecha>
+    <total>7414.6089€</total>
+  </factura>
+  <factura id="25744">
+    <cliente>55</cliente>
+    <fecha>1992-12-21</fecha>
+    <total>3202.1696€</total>
+  </factura>
+  <factura id="25821">
+    <cliente>48</cliente>
+    <fecha>1981-05-08</fecha>
+    <total>6612.9256€</total>
+  </factura>
+  <factura id="25948">
+    <cliente>5</cliente>
+    <fecha>1970-07-27</fecha>
+    <total>5307.3171€</total>
+  </factura>
+  <factura id="26115">
+    <cliente>91</cliente>
+    <fecha>1991-04-04</fecha>
+    <total>7712.8889€</total>
+  </factura>
+  <factura id="26168">
+    <cliente>25</cliente>
+    <fecha>1977-12-11</fecha>
+    <total>6624.5818€</total>
+  </factura>
+  <factura id="26184">
+    <cliente>36</cliente>
+    <fecha>1995-01-19</fecha>
+    <total>804.3905€</total>
+  </factura>
+  <factura id="26475">
+    <cliente>75</cliente>
+    <fecha>1999-03-07</fecha>
+    <total>7819.5887€</total>
+  </factura>
+  <factura id="26606">
+    <cliente>34</cliente>
+    <fecha>1985-01-06</fecha>
+    <total>6116.0187€</total>
+  </factura>
+  <factura id="26673">
+    <cliente>22</cliente>
+    <fecha>2013-01-26</fecha>
+    <total>8016.2378€</total>
+  </factura>
+  <factura id="26679">
+    <cliente>10</cliente>
+    <fecha>1995-09-03</fecha>
+    <total>5989.4412€</total>
+  </factura>
+  <factura id="26691">
+    <cliente>79</cliente>
+    <fecha>2014-11-07</fecha>
+    <total>4378.6694€</total>
+  </factura>
+  <factura id="26795">
+    <cliente>76</cliente>
+    <fecha>2015-09-02</fecha>
+    <total>8517.2727€</total>
+  </factura>
+  <factura id="26825">
+    <cliente>18</cliente>
+    <fecha>1975-06-25</fecha>
+    <total>8241.0591€</total>
+  </factura>
+  <factura id="27246">
+    <cliente>12</cliente>
+    <fecha>1993-04-29</fecha>
+    <total>9285.8057€</total>
+  </factura>
+  <factura id="27541">
+    <cliente>43</cliente>
+    <fecha>2005-01-11</fecha>
+    <total>3191.6592€</total>
+  </factura>
+  <factura id="27569">
+    <cliente>40</cliente>
+    <fecha>1994-12-26</fecha>
+    <total>1591.5652€</total>
+  </factura>
+  <factura id="27587">
+    <cliente>14</cliente>
+    <fecha>1974-06-21</fecha>
+    <total>6499.1489€</total>
+  </factura>
+  <factura id="27643">
+    <cliente>76</cliente>
+    <fecha>1979-05-11</fecha>
+    <total>3770.5805€</total>
+  </factura>
+  <factura id="27655">
+    <cliente>96</cliente>
+    <fecha>1989-06-02</fecha>
+    <total>8381.5912€</total>
+  </factura>
+  <factura id="27880">
+    <cliente>14</cliente>
+    <fecha>1992-08-16</fecha>
+    <total>3314.2746€</total>
+  </factura>
+  <factura id="28106">
+    <cliente>21</cliente>
+    <fecha>1983-01-01</fecha>
+    <total>6118.6292€</total>
+  </factura>
+  <factura id="28144">
+    <cliente>76</cliente>
+    <fecha>2015-08-21</fecha>
+    <total>9961.9866€</total>
+  </factura>
+  <factura id="28332">
+    <cliente>55</cliente>
+    <fecha>1995-05-14</fecha>
+    <total>8700.3722€</total>
+  </factura>
+  <factura id="28333">
+    <cliente>71</cliente>
+    <fecha>1986-08-08</fecha>
+    <total>1915.8101€</total>
+  </factura>
+  <factura id="28677">
+    <cliente>17</cliente>
+    <fecha>1996-05-03</fecha>
+    <total>1188.9881€</total>
+  </factura>
+  <factura id="28843">
+    <cliente>63</cliente>
+    <fecha>2013-02-08</fecha>
+    <total>487.6774€</total>
+  </factura>
+  <factura id="29007">
+    <cliente>9</cliente>
+    <fecha>1991-07-19</fecha>
+    <total>1446.8284€</total>
+  </factura>
+  <factura id="29117">
+    <cliente>2</cliente>
+    <fecha>2021-08-12</fecha>
+    <total>2235.4879€</total>
+  </factura>
+  <factura id="29165">
+    <cliente>65</cliente>
+    <fecha>1973-07-06</fecha>
+    <total>1492.4125€</total>
+  </factura>
+  <factura id="29220">
+    <cliente>95</cliente>
+    <fecha>2000-06-07</fecha>
+    <total>2958.7089€</total>
+  </factura>
+  <factura id="29488">
+    <cliente>56</cliente>
+    <fecha>1976-12-21</fecha>
+    <total>2450.9131€</total>
+  </factura>
+  <factura id="29735">
+    <cliente>93</cliente>
+    <fecha>2020-02-16</fecha>
+    <total>1435.9637€</total>
+  </factura>
+  <factura id="29741">
+    <cliente>86</cliente>
+    <fecha>1970-02-02</fecha>
+    <total>6786.8030€</total>
+  </factura>
+  <factura id="29886">
+    <cliente>87</cliente>
+    <fecha>1983-11-29</fecha>
+    <total>2455.3127€</total>
+  </factura>
+  <factura id="29908">
+    <cliente>41</cliente>
+    <fecha>1991-03-19</fecha>
+    <total>7833.5327€</total>
+  </factura>
+  <factura id="30030">
+    <cliente>96</cliente>
+    <fecha>1998-03-24</fecha>
+    <total>5596.6000€</total>
+  </factura>
+  <factura id="30284">
+    <cliente>93</cliente>
+    <fecha>1985-03-23</fecha>
+    <total>5271.0666€</total>
+  </factura>
+  <factura id="30294">
+    <cliente>96</cliente>
+    <fecha>1991-03-08</fecha>
+    <total>7717.7749€</total>
+  </factura>
+  <factura id="30296">
+    <cliente>48</cliente>
+    <fecha>2014-12-06</fecha>
+    <total>2801.5993€</total>
+  </factura>
+  <factura id="30417">
+    <cliente>59</cliente>
+    <fecha>2009-04-10</fecha>
+    <total>3612.1671€</total>
+  </factura>
+  <factura id="30617">
+    <cliente>31</cliente>
+    <fecha>1978-04-08</fecha>
+    <total>4090.3768€</total>
+  </factura>
+  <factura id="30651">
+    <cliente>68</cliente>
+    <fecha>2020-08-14</fecha>
+    <total>8014.5182€</total>
+  </factura>
+  <factura id="30688">
+    <cliente>64</cliente>
+    <fecha>1980-10-14</fecha>
+    <total>1426.9947€</total>
+  </factura>
+  <factura id="30719">
+    <cliente>72</cliente>
+    <fecha>1982-09-24</fecha>
+    <total>2428.7354€</total>
+  </factura>
+  <factura id="30721">
+    <cliente>83</cliente>
+    <fecha>1983-07-26</fecha>
+    <total>7897.3517€</total>
+  </factura>
+  <factura id="30766">
+    <cliente>51</cliente>
+    <fecha>1984-01-16</fecha>
+    <total>865.5431€</total>
+  </factura>
+  <factura id="30857">
+    <cliente>86</cliente>
+    <fecha>1981-03-04</fecha>
+    <total>8939.4081€</total>
+  </factura>
+  <factura id="30871">
+    <cliente>94</cliente>
+    <fecha>2019-11-18</fecha>
+    <total>2936.6527€</total>
+  </factura>
+  <factura id="30932">
+    <cliente>71</cliente>
+    <fecha>2016-10-23</fecha>
+    <total>632.5163€</total>
+  </factura>
+  <factura id="31004">
+    <cliente>48</cliente>
+    <fecha>1995-11-13</fecha>
+    <total>6381.0793€</total>
+  </factura>
+  <factura id="31053">
+    <cliente>22</cliente>
+    <fecha>2011-06-10</fecha>
+    <total>8624.9668€</total>
+  </factura>
+  <factura id="31101">
+    <cliente>12</cliente>
+    <fecha>1993-10-08</fecha>
+    <total>8100.8243€</total>
+  </factura>
+  <factura id="31179">
+    <cliente>4</cliente>
+    <fecha>1975-03-08</fecha>
+    <total>1458.6494€</total>
+  </factura>
+  <factura id="31224">
+    <cliente>55</cliente>
+    <fecha>2015-01-28</fecha>
+    <total>4339.3339€</total>
+  </factura>
+  <factura id="31253">
+    <cliente>91</cliente>
+    <fecha>1972-12-22</fecha>
+    <total>5669.0153€</total>
+  </factura>
+  <factura id="31511">
+    <cliente>61</cliente>
+    <fecha>1996-10-28</fecha>
+    <total>9289.9918€</total>
+  </factura>
+  <factura id="31802">
+    <cliente>51</cliente>
+    <fecha>2020-04-26</fecha>
+    <total>4557.3671€</total>
+  </factura>
+  <factura id="31941">
+    <cliente>20</cliente>
+    <fecha>1981-01-25</fecha>
+    <total>5857.2616€</total>
+  </factura>
+  <factura id="31962">
+    <cliente>52</cliente>
+    <fecha>1973-12-08</fecha>
+    <total>4673.2733€</total>
+  </factura>
+  <factura id="31978">
+    <cliente>98</cliente>
+    <fecha>2009-11-12</fecha>
+    <total>8624.9697€</total>
+  </factura>
+  <factura id="31981">
+    <cliente>1</cliente>
+    <fecha>1990-04-29</fecha>
+    <total>1069.3487€</total>
+  </factura>
+  <factura id="32003">
+    <cliente>29</cliente>
+    <fecha>2011-12-02</fecha>
+    <total>6721.3169€</total>
+  </factura>
+  <factura id="32244">
+    <cliente>4</cliente>
+    <fecha>2011-09-26</fecha>
+    <total>4279.9384€</total>
+  </factura>
+  <factura id="32429">
+    <cliente>62</cliente>
+    <fecha>2009-09-05</fecha>
+    <total>7066.3782€</total>
+  </factura>
+  <factura id="32556">
+    <cliente>94</cliente>
+    <fecha>2020-03-02</fecha>
+    <total>4128.6525€</total>
+  </factura>
+  <factura id="32718">
+    <cliente>33</cliente>
+    <fecha>1996-06-26</fecha>
+    <total>2550.5204€</total>
+  </factura>
+  <factura id="32995">
+    <cliente>50</cliente>
+    <fecha>2019-05-29</fecha>
+    <total>4270.1074€</total>
+  </factura>
+  <factura id="33128">
+    <cliente>42</cliente>
+    <fecha>1991-09-06</fecha>
+    <total>5828.9826€</total>
+  </factura>
+  <factura id="33320">
+    <cliente>31</cliente>
+    <fecha>1998-05-05</fecha>
+    <total>6788.6792€</total>
+  </factura>
+  <factura id="33343">
+    <cliente>41</cliente>
+    <fecha>1996-12-27</fecha>
+    <total>3889.3249€</total>
+  </factura>
+  <factura id="33359">
+    <cliente>90</cliente>
+    <fecha>1998-12-15</fecha>
+    <total>1483.9265€</total>
+  </factura>
+  <factura id="33414">
+    <cliente>19</cliente>
+    <fecha>2009-06-20</fecha>
+    <total>4710.1755€</total>
+  </factura>
+  <factura id="33472">
+    <cliente>42</cliente>
+    <fecha>2011-06-25</fecha>
+    <total>4219.3720€</total>
+  </factura>
+  <factura id="33512">
+    <cliente>34</cliente>
+    <fecha>1996-06-03</fecha>
+    <total>1972.8774€</total>
+  </factura>
+  <factura id="33540">
+    <cliente>66</cliente>
+    <fecha>2014-06-30</fecha>
+    <total>5182.4166€</total>
+  </factura>
+  <factura id="33644">
+    <cliente>5</cliente>
+    <fecha>1996-02-22</fecha>
+    <total>2031.3237€</total>
+  </factura>
+  <factura id="33667">
+    <cliente>4</cliente>
+    <fecha>1990-05-20</fecha>
+    <total>8526.8358€</total>
+  </factura>
+  <factura id="33821">
+    <cliente>57</cliente>
+    <fecha>1975-06-03</fecha>
+    <total>918.0606€</total>
+  </factura>
+  <factura id="34000">
+    <cliente>61</cliente>
+    <fecha>1987-10-18</fecha>
+    <total>4429.8852€</total>
+  </factura>
+  <factura id="34002">
+    <cliente>86</cliente>
+    <fecha>2009-07-03</fecha>
+    <total>6868.7636€</total>
+  </factura>
+  <factura id="34029">
+    <cliente>64</cliente>
+    <fecha>1985-09-05</fecha>
+    <total>1708.2052€</total>
+  </factura>
+  <factura id="34376">
+    <cliente>87</cliente>
+    <fecha>1990-12-08</fecha>
+    <total>8617.8259€</total>
+  </factura>
+  <factura id="34434">
+    <cliente>26</cliente>
+    <fecha>1993-12-25</fecha>
+    <total>2573.1021€</total>
+  </factura>
+  <factura id="34466">
+    <cliente>93</cliente>
+    <fecha>2012-06-16</fecha>
+    <total>4434.2974€</total>
+  </factura>
+  <factura id="34480">
+    <cliente>90</cliente>
+    <fecha>1995-04-07</fecha>
+    <total>2335.0843€</total>
+  </factura>
+  <factura id="34526">
+    <cliente>99</cliente>
+    <fecha>1999-12-30</fecha>
+    <total>6213.8362€</total>
+  </factura>
+  <factura id="34590">
+    <cliente>21</cliente>
+    <fecha>2013-12-16</fecha>
+    <total>274.6103€</total>
+  </factura>
+  <factura id="34607">
+    <cliente>71</cliente>
+    <fecha>1972-08-07</fecha>
+    <total>2833.7564€</total>
+  </factura>
+  <factura id="34619">
+    <cliente>54</cliente>
+    <fecha>1999-08-25</fecha>
+    <total>7273.9213€</total>
+  </factura>
+  <factura id="34642">
+    <cliente>73</cliente>
+    <fecha>2016-07-13</fecha>
+    <total>2443.0160€</total>
+  </factura>
+  <factura id="34742">
+    <cliente>40</cliente>
+    <fecha>2014-05-15</fecha>
+    <total>3924.8932€</total>
+  </factura>
+  <factura id="35098">
+    <cliente>24</cliente>
+    <fecha>2011-05-25</fecha>
+    <total>158.3282€</total>
+  </factura>
+  <factura id="35160">
+    <cliente>94</cliente>
+    <fecha>1986-11-16</fecha>
+    <total>5191.2207€</total>
+  </factura>
+  <factura id="35195">
+    <cliente>42</cliente>
+    <fecha>1994-10-06</fecha>
+    <total>8825.9357€</total>
+  </factura>
+  <factura id="35351">
+    <cliente>8</cliente>
+    <fecha>2010-08-20</fecha>
+    <total>4494.4817€</total>
+  </factura>
+  <factura id="35378">
+    <cliente>96</cliente>
+    <fecha>2021-02-08</fecha>
+    <total>6344.3259€</total>
+  </factura>
+  <factura id="35578">
+    <cliente>36</cliente>
+    <fecha>1986-06-21</fecha>
+    <total>7054.8054€</total>
+  </factura>
+  <factura id="35708">
+    <cliente>57</cliente>
+    <fecha>1993-11-26</fecha>
+    <total>731.5701€</total>
+  </factura>
+  <factura id="35802">
+    <cliente>74</cliente>
+    <fecha>2018-02-22</fecha>
+    <total>8096.5677€</total>
+  </factura>
+  <factura id="36257">
+    <cliente>89</cliente>
+    <fecha>1994-05-04</fecha>
+    <total>3424.6080€</total>
+  </factura>
+  <factura id="36273">
+    <cliente>67</cliente>
+    <fecha>2015-12-19</fecha>
+    <total>48.3684€</total>
+  </factura>
+  <factura id="36307">
+    <cliente>95</cliente>
+    <fecha>2001-09-04</fecha>
+    <total>4410.2157€</total>
+  </factura>
+  <factura id="36661">
+    <cliente>13</cliente>
+    <fecha>1980-02-17</fecha>
+    <total>7279.2458€</total>
+  </factura>
+  <factura id="36821">
+    <cliente>8</cliente>
+    <fecha>2000-11-21</fecha>
+    <total>288.7752€</total>
+  </factura>
+  <factura id="36999">
+    <cliente>72</cliente>
+    <fecha>1993-05-18</fecha>
+    <total>511.0274€</total>
+  </factura>
+  <factura id="37095">
+    <cliente>37</cliente>
+    <fecha>1973-02-05</fecha>
+    <total>2920.6431€</total>
+  </factura>
+  <factura id="37269">
+    <cliente>52</cliente>
+    <fecha>2009-08-27</fecha>
+    <total>4585.8790€</total>
+  </factura>
+  <factura id="37302">
+    <cliente>50</cliente>
+    <fecha>2021-11-23</fecha>
+    <total>2972.9144€</total>
+  </factura>
+  <factura id="37372">
+    <cliente>18</cliente>
+    <fecha>2000-07-12</fecha>
+    <total>3447.8373€</total>
+  </factura>
+  <factura id="37421">
+    <cliente>86</cliente>
+    <fecha>1996-03-10</fecha>
+    <total>7893.6173€</total>
+  </factura>
+  <factura id="37448">
+    <cliente>85</cliente>
+    <fecha>1995-08-12</fecha>
+    <total>669.9329€</total>
+  </factura>
+  <factura id="37505">
+    <cliente>2</cliente>
+    <fecha>2004-11-11</fecha>
+    <total>6974.1034€</total>
+  </factura>
+  <factura id="37557">
+    <cliente>13</cliente>
+    <fecha>1973-06-18</fecha>
+    <total>6903.6045€</total>
+  </factura>
+  <factura id="37562">
+    <cliente>38</cliente>
+    <fecha>2006-06-13</fecha>
+    <total>6365.6775€</total>
+  </factura>
+  <factura id="37569">
+    <cliente>68</cliente>
+    <fecha>2021-05-02</fecha>
+    <total>6160.1662€</total>
+  </factura>
+  <factura id="37714">
+    <cliente>21</cliente>
+    <fecha>2015-09-04</fecha>
+    <total>4336.7644€</total>
+  </factura>
+  <factura id="37820">
+    <cliente>98</cliente>
+    <fecha>1974-09-14</fecha>
+    <total>3530.9439€</total>
+  </factura>
+  <factura id="37873">
+    <cliente>98</cliente>
+    <fecha>1972-12-28</fecha>
+    <total>6560.9272€</total>
+  </factura>
+  <factura id="38093">
+    <cliente>56</cliente>
+    <fecha>2010-12-25</fecha>
+    <total>8695.1816€</total>
+  </factura>
+  <factura id="38430">
+    <cliente>11</cliente>
+    <fecha>1994-10-24</fecha>
+    <total>7081.0064€</total>
+  </factura>
+  <factura id="38598">
+    <cliente>54</cliente>
+    <fecha>2011-09-09</fecha>
+    <total>6812.5908€</total>
+  </factura>
+  <factura id="38611">
+    <cliente>11</cliente>
+    <fecha>2022-12-11</fecha>
+    <total>7878.0844€</total>
+  </factura>
+  <factura id="38661">
+    <cliente>13</cliente>
+    <fecha>1987-07-10</fecha>
+    <total>7816.6269€</total>
+  </factura>
+  <factura id="38748">
+    <cliente>72</cliente>
+    <fecha>2017-06-25</fecha>
+    <total>6430.5478€</total>
+  </factura>
+  <factura id="38831">
+    <cliente>21</cliente>
+    <fecha>2003-06-27</fecha>
+    <total>7932.9834€</total>
+  </factura>
+  <factura id="38846">
+    <cliente>91</cliente>
+    <fecha>2000-07-07</fecha>
+    <total>249.6880€</total>
+  </factura>
+  <factura id="38886">
+    <cliente>17</cliente>
+    <fecha>2021-09-25</fecha>
+    <total>9479.2018€</total>
+  </factura>
+  <factura id="38958">
+    <cliente>77</cliente>
+    <fecha>1995-06-16</fecha>
+    <total>1185.3816€</total>
+  </factura>
+  <factura id="38981">
+    <cliente>7</cliente>
+    <fecha>2007-06-11</fecha>
+    <total>5884.2480€</total>
+  </factura>
+  <factura id="39055">
+    <cliente>12</cliente>
+    <fecha>2007-08-07</fecha>
+    <total>1121.1665€</total>
+  </factura>
+  <factura id="39109">
+    <cliente>52</cliente>
+    <fecha>2002-06-08</fecha>
+    <total>9464.9813€</total>
+  </factura>
+  <factura id="39185">
+    <cliente>87</cliente>
+    <fecha>1974-03-16</fecha>
+    <total>5649.6172€</total>
+  </factura>
+  <factura id="39230">
+    <cliente>92</cliente>
+    <fecha>1990-07-06</fecha>
+    <total>5959.5594€</total>
+  </factura>
+  <factura id="39236">
+    <cliente>71</cliente>
+    <fecha>2006-03-01</fecha>
+    <total>1095.2832€</total>
+  </factura>
+  <factura id="39886">
+    <cliente>63</cliente>
+    <fecha>2008-05-24</fecha>
+    <total>9843.7226€</total>
+  </factura>
+  <factura id="39982">
+    <cliente>3</cliente>
+    <fecha>2014-11-03</fecha>
+    <total>1494.3094€</total>
+  </factura>
+  <factura id="39993">
+    <cliente>77</cliente>
+    <fecha>2010-10-18</fecha>
+    <total>3871.5166€</total>
+  </factura>
+  <factura id="40286">
+    <cliente>5</cliente>
+    <fecha>1977-06-27</fecha>
+    <total>8869.4580€</total>
+  </factura>
+  <factura id="40295">
+    <cliente>50</cliente>
+    <fecha>1996-10-16</fecha>
+    <total>7974.3864€</total>
+  </factura>
+  <factura id="40324">
+    <cliente>61</cliente>
+    <fecha>1976-04-14</fecha>
+    <total>5018.2664€</total>
+  </factura>
+  <factura id="40462">
+    <cliente>75</cliente>
+    <fecha>1974-11-13</fecha>
+    <total>2546.3592€</total>
+  </factura>
+  <factura id="40475">
+    <cliente>43</cliente>
+    <fecha>2009-05-25</fecha>
+    <total>2544.4747€</total>
+  </factura>
+  <factura id="40493">
+    <cliente>26</cliente>
+    <fecha>1981-08-27</fecha>
+    <total>6107.6193€</total>
+  </factura>
+  <factura id="40623">
+    <cliente>34</cliente>
+    <fecha>2006-10-04</fecha>
+    <total>2661.3859€</total>
+  </factura>
+  <factura id="40761">
+    <cliente>79</cliente>
+    <fecha>1993-02-05</fecha>
+    <total>4808.4336€</total>
+  </factura>
+  <factura id="40805">
+    <cliente>2</cliente>
+    <fecha>1989-04-21</fecha>
+    <total>6261.2780€</total>
+  </factura>
+  <factura id="41141">
+    <cliente>84</cliente>
+    <fecha>1993-08-22</fecha>
+    <total>7355.3423€</total>
+  </factura>
+  <factura id="41153">
+    <cliente>38</cliente>
+    <fecha>1987-11-12</fecha>
+    <total>1047.6950€</total>
+  </factura>
+  <factura id="41231">
+    <cliente>90</cliente>
+    <fecha>1981-10-07</fecha>
+    <total>4514.1267€</total>
+  </factura>
+  <factura id="41253">
+    <cliente>32</cliente>
+    <fecha>1971-06-05</fecha>
+    <total>6096.5005€</total>
+  </factura>
+  <factura id="41453">
+    <cliente>41</cliente>
+    <fecha>2010-11-15</fecha>
+    <total>9086.4550€</total>
+  </factura>
+  <factura id="41531">
+    <cliente>38</cliente>
+    <fecha>1975-02-23</fecha>
+    <total>8715.4262€</total>
+  </factura>
+  <factura id="41577">
+    <cliente>36</cliente>
+    <fecha>1970-02-13</fecha>
+    <total>4456.6706€</total>
+  </factura>
+  <factura id="41618">
+    <cliente>14</cliente>
+    <fecha>1971-03-01</fecha>
+    <total>1968.2585€</total>
+  </factura>
+  <factura id="41770">
+    <cliente>60</cliente>
+    <fecha>2014-08-10</fecha>
+    <total>4437.3082€</total>
+  </factura>
+  <factura id="41852">
+    <cliente>21</cliente>
+    <fecha>2003-05-18</fecha>
+    <total>2555.3048€</total>
+  </factura>
+  <factura id="41875">
+    <cliente>3</cliente>
+    <fecha>1982-02-07</fecha>
+    <total>9211.5474€</total>
+  </factura>
+  <factura id="42036">
+    <cliente>66</cliente>
+    <fecha>2009-04-21</fecha>
+    <total>1227.6483€</total>
+  </factura>
+  <factura id="42136">
+    <cliente>92</cliente>
+    <fecha>1980-10-28</fecha>
+    <total>9107.0725€</total>
+  </factura>
+  <factura id="42407">
+    <cliente>63</cliente>
+    <fecha>2002-07-08</fecha>
+    <total>2079.6079€</total>
+  </factura>
+  <factura id="42688">
+    <cliente>88</cliente>
+    <fecha>1985-08-16</fecha>
+    <total>4163.5316€</total>
+  </factura>
+  <factura id="42710">
+    <cliente>2</cliente>
+    <fecha>2005-10-26</fecha>
+    <total>6702.5073€</total>
+  </factura>
+  <factura id="42891">
+    <cliente>15</cliente>
+    <fecha>1973-10-15</fecha>
+    <total>763.4092€</total>
+  </factura>
+  <factura id="42926">
+    <cliente>15</cliente>
+    <fecha>1993-09-18</fecha>
+    <total>4284.8715€</total>
+  </factura>
+  <factura id="43082">
+    <cliente>17</cliente>
+    <fecha>2011-03-08</fecha>
+    <total>2436.4321€</total>
+  </factura>
+  <factura id="43092">
+    <cliente>19</cliente>
+    <fecha>2019-09-08</fecha>
+    <total>8535.5596€</total>
+  </factura>
+  <factura id="43266">
+    <cliente>20</cliente>
+    <fecha>1980-09-23</fecha>
+    <total>7820.6260€</total>
+  </factura>
+  <factura id="43395">
+    <cliente>4</cliente>
+    <fecha>1973-10-21</fecha>
+    <total>9324.2641€</total>
+  </factura>
+  <factura id="43557">
+    <cliente>82</cliente>
+    <fecha>2008-08-22</fecha>
+    <total>9692.2307€</total>
+  </factura>
+  <factura id="43665">
+    <cliente>65</cliente>
+    <fecha>1999-05-01</fecha>
+    <total>3951.7209€</total>
+  </factura>
+  <factura id="44322">
+    <cliente>52</cliente>
+    <fecha>2014-06-18</fecha>
+    <total>1049.0766€</total>
+  </factura>
+  <factura id="44362">
+    <cliente>27</cliente>
+    <fecha>1994-10-01</fecha>
+    <total>1956.5689€</total>
+  </factura>
+  <factura id="44383">
+    <cliente>74</cliente>
+    <fecha>1985-06-27</fecha>
+    <total>6484.8233€</total>
+  </factura>
+  <factura id="44441">
+    <cliente>17</cliente>
+    <fecha>1981-11-21</fecha>
+    <total>1295.4610€</total>
+  </factura>
+  <factura id="44547">
+    <cliente>72</cliente>
+    <fecha>1999-11-24</fecha>
+    <total>4065.4507€</total>
+  </factura>
+  <factura id="44647">
+    <cliente>56</cliente>
+    <fecha>1975-12-26</fecha>
+    <total>8897.8337€</total>
+  </factura>
+  <factura id="44747">
+    <cliente>7</cliente>
+    <fecha>2012-02-21</fecha>
+    <total>6646.4851€</total>
+  </factura>
+  <factura id="44819">
+    <cliente>68</cliente>
+    <fecha>2006-01-13</fecha>
+    <total>7547.3029€</total>
+  </factura>
+  <factura id="44997">
+    <cliente>6</cliente>
+    <fecha>2015-05-10</fecha>
+    <total>1527.2698€</total>
+  </factura>
+  <factura id="45139">
+    <cliente>28</cliente>
+    <fecha>1994-02-23</fecha>
+    <total>6564.0591€</total>
+  </factura>
+  <factura id="45175">
+    <cliente>58</cliente>
+    <fecha>2020-09-04</fecha>
+    <total>4032.8486€</total>
+  </factura>
+  <factura id="45284">
+    <cliente>52</cliente>
+    <fecha>1987-07-08</fecha>
+    <total>6412.3564€</total>
+  </factura>
+  <factura id="45294">
+    <cliente>6</cliente>
+    <fecha>1976-04-23</fecha>
+    <total>936.2226€</total>
+  </factura>
+  <factura id="45446">
+    <cliente>60</cliente>
+    <fecha>2011-01-13</fecha>
+    <total>2353.7074€</total>
+  </factura>
+  <factura id="45461">
+    <cliente>99</cliente>
+    <fecha>2010-07-25</fecha>
+    <total>3032.4578€</total>
+  </factura>
+  <factura id="45616">
+    <cliente>67</cliente>
+    <fecha>2008-10-19</fecha>
+    <total>3081.2929€</total>
+  </factura>
+  <factura id="45675">
+    <cliente>64</cliente>
+    <fecha>1991-10-29</fecha>
+    <total>9660.7062€</total>
+  </factura>
+  <factura id="45688">
+    <cliente>70</cliente>
+    <fecha>1979-02-10</fecha>
+    <total>6991.3060€</total>
+  </factura>
+  <factura id="45689">
+    <cliente>86</cliente>
+    <fecha>2006-02-28</fecha>
+    <total>8584.8861€</total>
+  </factura>
+  <factura id="45763">
+    <cliente>87</cliente>
+    <fecha>1972-11-01</fecha>
+    <total>2425.9654€</total>
+  </factura>
+  <factura id="45866">
+    <cliente>1</cliente>
+    <fecha>1985-10-05</fecha>
+    <total>9095.3845€</total>
+  </factura>
+  <factura id="45880">
+    <cliente>47</cliente>
+    <fecha>1998-04-16</fecha>
+    <total>7443.8652€</total>
+  </factura>
+  <factura id="45894">
+    <cliente>54</cliente>
+    <fecha>1979-03-05</fecha>
+    <total>3709.5782€</total>
+  </factura>
+  <factura id="46147">
+    <cliente>33</cliente>
+    <fecha>1982-12-04</fecha>
+    <total>7567.6974€</total>
+  </factura>
+  <factura id="46256">
+    <cliente>95</cliente>
+    <fecha>1980-05-04</fecha>
+    <total>7018.9828€</total>
+  </factura>
+  <factura id="46260">
+    <cliente>24</cliente>
+    <fecha>2016-05-15</fecha>
+    <total>4007.0608€</total>
+  </factura>
+  <factura id="46559">
+    <cliente>30</cliente>
+    <fecha>1974-09-22</fecha>
+    <total>2622.0394€</total>
+  </factura>
+  <factura id="46703">
+    <cliente>49</cliente>
+    <fecha>1982-01-07</fecha>
+    <total>5479.1404€</total>
+  </factura>
+  <factura id="46704">
+    <cliente>46</cliente>
+    <fecha>1999-07-21</fecha>
+    <total>1966.3522€</total>
+  </factura>
+  <factura id="46863">
+    <cliente>6</cliente>
+    <fecha>2001-01-12</fecha>
+    <total>5338.2351€</total>
+  </factura>
+  <factura id="46882">
+    <cliente>79</cliente>
+    <fecha>2009-02-24</fecha>
+    <total>8609.1117€</total>
+  </factura>
+  <factura id="46948">
+    <cliente>45</cliente>
+    <fecha>1999-07-06</fecha>
+    <total>703.8532€</total>
+  </factura>
+  <factura id="47073">
+    <cliente>25</cliente>
+    <fecha>2012-07-14</fecha>
+    <total>9663.0308€</total>
+  </factura>
+  <factura id="47342">
+    <cliente>96</cliente>
+    <fecha>1991-06-06</fecha>
+    <total>1003.3647€</total>
+  </factura>
+  <factura id="47509">
+    <cliente>9</cliente>
+    <fecha>1998-07-12</fecha>
+    <total>8758.4348€</total>
+  </factura>
+  <factura id="47551">
+    <cliente>57</cliente>
+    <fecha>1989-04-12</fecha>
+    <total>5254.8008€</total>
+  </factura>
+  <factura id="47970">
+    <cliente>79</cliente>
+    <fecha>1970-02-21</fecha>
+    <total>7407.6795€</total>
+  </factura>
+  <factura id="48265">
+    <cliente>67</cliente>
+    <fecha>2017-10-16</fecha>
+    <total>2453.4614€</total>
+  </factura>
+  <factura id="48446">
+    <cliente>18</cliente>
+    <fecha>2004-05-09</fecha>
+    <total>7156.9523€</total>
+  </factura>
+  <factura id="48524">
+    <cliente>61</cliente>
+    <fecha>2016-02-18</fecha>
+    <total>8386.5788€</total>
+  </factura>
+  <factura id="48537">
+    <cliente>79</cliente>
+    <fecha>1973-05-31</fecha>
+    <total>4220.6497€</total>
+  </factura>
+  <factura id="48587">
+    <cliente>60</cliente>
+    <fecha>1977-05-28</fecha>
+    <total>8034.9330€</total>
+  </factura>
+  <factura id="48591">
+    <cliente>65</cliente>
+    <fecha>1976-08-31</fecha>
+    <total>5570.0573€</total>
+  </factura>
+  <factura id="48789">
+    <cliente>12</cliente>
+    <fecha>1981-01-06</fecha>
+    <total>5200.7506€</total>
+  </factura>
+  <factura id="48900">
+    <cliente>51</cliente>
+    <fecha>2019-11-06</fecha>
+    <total>8907.2993€</total>
+  </factura>
+  <factura id="48952">
+    <cliente>8</cliente>
+    <fecha>1987-12-22</fecha>
+    <total>8562.4650€</total>
+  </factura>
+  <factura id="48971">
+    <cliente>1</cliente>
+    <fecha>2002-10-26</fecha>
+    <total>220.3930€</total>
+  </factura>
+  <factura id="48997">
+    <cliente>55</cliente>
+    <fecha>1979-02-09</fecha>
+    <total>6283.5894€</total>
+  </factura>
+  <factura id="49062">
+    <cliente>69</cliente>
+    <fecha>2005-07-18</fecha>
+    <total>928.6238€</total>
+  </factura>
+  <factura id="49063">
+    <cliente>46</cliente>
+    <fecha>1993-04-05</fecha>
+    <total>263.4859€</total>
+  </factura>
+  <factura id="49120">
+    <cliente>27</cliente>
+    <fecha>1997-02-19</fecha>
+    <total>4399.5760€</total>
+  </factura>
+  <factura id="49245">
+    <cliente>56</cliente>
+    <fecha>2009-12-23</fecha>
+    <total>9077.8816€</total>
+  </factura>
+  <factura id="49435">
+    <cliente>72</cliente>
+    <fecha>1996-07-10</fecha>
+    <total>6662.2680€</total>
+  </factura>
+  <factura id="49443">
+    <cliente>42</cliente>
+    <fecha>2008-05-10</fecha>
+    <total>3437.6896€</total>
+  </factura>
+  <factura id="49577">
+    <cliente>85</cliente>
+    <fecha>2000-09-29</fecha>
+    <total>7007.3891€</total>
+  </factura>
+  <factura id="49637">
+    <cliente>80</cliente>
+    <fecha>2009-07-21</fecha>
+    <total>4141.6020€</total>
+  </factura>
+  <factura id="49774">
+    <cliente>78</cliente>
+    <fecha>1987-05-06</fecha>
+    <total>1763.4913€</total>
+  </factura>
+  <factura id="49778">
+    <cliente>8</cliente>
+    <fecha>2002-08-21</fecha>
+    <total>9450.9560€</total>
+  </factura>
+  <factura id="49870">
+    <cliente>36</cliente>
+    <fecha>1970-12-23</fecha>
+    <total>8.6422€</total>
+  </factura>
+  <factura id="49948">
+    <cliente>20</cliente>
+    <fecha>2006-04-06</fecha>
+    <total>530.7233€</total>
+  </factura>
+  <factura id="49969">
+    <cliente>99</cliente>
+    <fecha>2007-02-01</fecha>
+    <total>9844.4924€</total>
+  </factura>
+  <factura id="49983">
+    <cliente>80</cliente>
+    <fecha>1979-08-02</fecha>
+    <total>9951.0923€</total>
+  </factura>
+  <factura id="50004">
+    <cliente>49</cliente>
+    <fecha>1978-08-22</fecha>
+    <total>2460.0625€</total>
+  </factura>
+  <factura id="50107">
+    <cliente>65</cliente>
+    <fecha>2011-07-12</fecha>
+    <total>4716.4198€</total>
+  </factura>
+  <factura id="50201">
+    <cliente>20</cliente>
+    <fecha>1986-01-30</fecha>
+    <total>4762.2817€</total>
+  </factura>
+  <factura id="50261">
+    <cliente>23</cliente>
+    <fecha>1986-07-20</fecha>
+    <total>5490.8136€</total>
+  </factura>
+  <factura id="50398">
+    <cliente>46</cliente>
+    <fecha>1971-12-02</fecha>
+    <total>8471.3136€</total>
+  </factura>
+  <factura id="50409">
+    <cliente>34</cliente>
+    <fecha>1971-01-05</fecha>
+    <total>3642.6573€</total>
+  </factura>
+  <factura id="50412">
+    <cliente>85</cliente>
+    <fecha>1999-01-24</fecha>
+    <total>3688.3385€</total>
+  </factura>
+  <factura id="50458">
+    <cliente>17</cliente>
+    <fecha>2016-03-18</fecha>
+    <total>1506.4289€</total>
+  </factura>
+  <factura id="50491">
+    <cliente>34</cliente>
+    <fecha>2002-07-26</fecha>
+    <total>7131.0756€</total>
+  </factura>
+  <factura id="50542">
+    <cliente>18</cliente>
+    <fecha>2007-10-30</fecha>
+    <total>7983.2512€</total>
+  </factura>
+  <factura id="50587">
+    <cliente>73</cliente>
+    <fecha>2011-10-01</fecha>
+    <total>4894.3774€</total>
+  </factura>
+  <factura id="50678">
+    <cliente>37</cliente>
+    <fecha>1998-03-25</fecha>
+    <total>9805.9858€</total>
+  </factura>
+  <factura id="50991">
+    <cliente>56</cliente>
+    <fecha>1991-01-03</fecha>
+    <total>3731.7659€</total>
+  </factura>
+  <factura id="51180">
+    <cliente>24</cliente>
+    <fecha>2012-12-19</fecha>
+    <total>9389.9527€</total>
+  </factura>
+  <factura id="51193">
+    <cliente>62</cliente>
+    <fecha>1972-07-29</fecha>
+    <total>547.6840€</total>
+  </factura>
+  <factura id="51322">
+    <cliente>23</cliente>
+    <fecha>2005-11-21</fecha>
+    <total>8501.9541€</total>
+  </factura>
+  <factura id="51328">
+    <cliente>28</cliente>
+    <fecha>1993-02-21</fecha>
+    <total>6886.2818€</total>
+  </factura>
+  <factura id="51371">
+    <cliente>97</cliente>
+    <fecha>2014-08-03</fecha>
+    <total>5199.5401€</total>
+  </factura>
+  <factura id="51647">
+    <cliente>63</cliente>
+    <fecha>1981-10-13</fecha>
+    <total>9602.8015€</total>
+  </factura>
+  <factura id="51713">
+    <cliente>61</cliente>
+    <fecha>1994-12-14</fecha>
+    <total>6720.9618€</total>
+  </factura>
+  <factura id="51845">
+    <cliente>57</cliente>
+    <fecha>2003-04-09</fecha>
+    <total>8683.4531€</total>
+  </factura>
+  <factura id="52101">
+    <cliente>42</cliente>
+    <fecha>1975-02-04</fecha>
+    <total>147.3487€</total>
+  </factura>
+  <factura id="52102">
+    <cliente>41</cliente>
+    <fecha>2020-06-06</fecha>
+    <total>121.0849€</total>
+  </factura>
+  <factura id="52372">
+    <cliente>61</cliente>
+    <fecha>1993-02-28</fecha>
+    <total>6307.7105€</total>
+  </factura>
+  <factura id="52539">
+    <cliente>19</cliente>
+    <fecha>1991-02-28</fecha>
+    <total>835.4188€</total>
+  </factura>
+  <factura id="52638">
+    <cliente>20</cliente>
+    <fecha>1982-04-06</fecha>
+    <total>4546.9546€</total>
+  </factura>
+  <factura id="52756">
+    <cliente>90</cliente>
+    <fecha>1986-04-24</fecha>
+    <total>6353.5606€</total>
+  </factura>
+  <factura id="52803">
+    <cliente>94</cliente>
+    <fecha>1977-07-27</fecha>
+    <total>6464.4945€</total>
+  </factura>
+  <factura id="53040">
+    <cliente>53</cliente>
+    <fecha>2011-04-16</fecha>
+    <total>3127.3731€</total>
+  </factura>
+  <factura id="53183">
+    <cliente>28</cliente>
+    <fecha>1991-05-09</fecha>
+    <total>7163.7518€</total>
+  </factura>
+  <factura id="53212">
+    <cliente>84</cliente>
+    <fecha>2002-02-21</fecha>
+    <total>1547.2187€</total>
+  </factura>
+  <factura id="53335">
+    <cliente>28</cliente>
+    <fecha>1988-10-05</fecha>
+    <total>2597.9368€</total>
+  </factura>
+  <factura id="53360">
+    <cliente>69</cliente>
+    <fecha>2001-03-03</fecha>
+    <total>6387.5421€</total>
+  </factura>
+  <factura id="53543">
+    <cliente>16</cliente>
+    <fecha>1990-07-03</fecha>
+    <total>8645.1530€</total>
+  </factura>
+  <factura id="53557">
+    <cliente>42</cliente>
+    <fecha>2021-06-29</fecha>
+    <total>9703.6961€</total>
+  </factura>
+  <factura id="53579">
+    <cliente>51</cliente>
+    <fecha>1997-02-09</fecha>
+    <total>8317.3346€</total>
+  </factura>
+  <factura id="53635">
+    <cliente>88</cliente>
+    <fecha>2012-07-12</fecha>
+    <total>9835.3167€</total>
+  </factura>
+  <factura id="53713">
+    <cliente>85</cliente>
+    <fecha>1983-03-28</fecha>
+    <total>49.1413€</total>
+  </factura>
+  <factura id="53715">
+    <cliente>21</cliente>
+    <fecha>2018-03-31</fecha>
+    <total>5171.2660€</total>
+  </factura>
+  <factura id="54136">
+    <cliente>96</cliente>
+    <fecha>1973-02-12</fecha>
+    <total>9457.3898€</total>
+  </factura>
+  <factura id="54376">
+    <cliente>44</cliente>
+    <fecha>1976-10-02</fecha>
+    <total>6611.3129€</total>
+  </factura>
+  <factura id="54432">
+    <cliente>59</cliente>
+    <fecha>2021-01-04</fecha>
+    <total>9892.4132€</total>
+  </factura>
+  <factura id="54476">
+    <cliente>84</cliente>
+    <fecha>1987-11-14</fecha>
+    <total>3605.9514€</total>
+  </factura>
+  <factura id="54825">
+    <cliente>42</cliente>
+    <fecha>1971-10-27</fecha>
+    <total>3369.1674€</total>
+  </factura>
+  <factura id="54925">
+    <cliente>5</cliente>
+    <fecha>2014-12-05</fecha>
+    <total>7593.2693€</total>
+  </factura>
+  <factura id="54990">
+    <cliente>27</cliente>
+    <fecha>2008-07-03</fecha>
+    <total>4901.0793€</total>
+  </factura>
+  <factura id="55022">
+    <cliente>25</cliente>
+    <fecha>1973-07-06</fecha>
+    <total>5480.6245€</total>
+  </factura>
+  <factura id="55236">
+    <cliente>56</cliente>
+    <fecha>1970-11-06</fecha>
+    <total>3408.0087€</total>
+  </factura>
+  <factura id="55507">
+    <cliente>58</cliente>
+    <fecha>1981-09-04</fecha>
+    <total>1109.9690€</total>
+  </factura>
+  <factura id="55596">
+    <cliente>56</cliente>
+    <fecha>2018-11-09</fecha>
+    <total>8918.5658€</total>
+  </factura>
+  <factura id="55598">
+    <cliente>25</cliente>
+    <fecha>2013-05-22</fecha>
+    <total>7777.4306€</total>
+  </factura>
+  <factura id="55973">
+    <cliente>64</cliente>
+    <fecha>1979-05-13</fecha>
+    <total>9888.7772€</total>
+  </factura>
+  <factura id="56027">
+    <cliente>91</cliente>
+    <fecha>2008-04-03</fecha>
+    <total>3691.3291€</total>
+  </factura>
+  <factura id="56152">
+    <cliente>53</cliente>
+    <fecha>2009-08-31</fecha>
+    <total>6480.4075€</total>
+  </factura>
+  <factura id="56229">
+    <cliente>33</cliente>
+    <fecha>1988-07-03</fecha>
+    <total>254.5448€</total>
+  </factura>
+  <factura id="56399">
+    <cliente>55</cliente>
+    <fecha>1999-04-16</fecha>
+    <total>9893.5973€</total>
+  </factura>
+  <factura id="56493">
+    <cliente>76</cliente>
+    <fecha>1976-12-29</fecha>
+    <total>7997.4951€</total>
+  </factura>
+  <factura id="56573">
+    <cliente>90</cliente>
+    <fecha>1987-09-16</fecha>
+    <total>7360.2432€</total>
+  </factura>
+  <factura id="56655">
+    <cliente>73</cliente>
+    <fecha>1976-10-02</fecha>
+    <total>8365.5315€</total>
+  </factura>
+  <factura id="56661">
+    <cliente>10</cliente>
+    <fecha>1988-02-13</fecha>
+    <total>5666.6808€</total>
+  </factura>
+  <factura id="56739">
+    <cliente>35</cliente>
+    <fecha>2006-01-26</fecha>
+    <total>5603.4676€</total>
+  </factura>
+  <factura id="56812">
+    <cliente>33</cliente>
+    <fecha>2004-08-22</fecha>
+    <total>9764.7116€</total>
+  </factura>
+  <factura id="56827">
+    <cliente>90</cliente>
+    <fecha>1984-06-02</fecha>
+    <total>5196.6752€</total>
+  </factura>
+  <factura id="56872">
+    <cliente>64</cliente>
+    <fecha>1975-02-17</fecha>
+    <total>9111.7499€</total>
+  </factura>
+  <factura id="57018">
+    <cliente>82</cliente>
+    <fecha>1997-08-01</fecha>
+    <total>4523.6898€</total>
+  </factura>
+  <factura id="57273">
+    <cliente>91</cliente>
+    <fecha>1978-11-08</fecha>
+    <total>5347.0154€</total>
+  </factura>
+  <factura id="57387">
+    <cliente>83</cliente>
+    <fecha>2008-06-26</fecha>
+    <total>951.4231€</total>
+  </factura>
+  <factura id="57505">
+    <cliente>56</cliente>
+    <fecha>1974-08-20</fecha>
+    <total>2600.4990€</total>
+  </factura>
+  <factura id="57667">
+    <cliente>87</cliente>
+    <fecha>2007-07-24</fecha>
+    <total>7538.3951€</total>
+  </factura>
+  <factura id="57785">
+    <cliente>94</cliente>
+    <fecha>1984-01-29</fecha>
+    <total>2894.4148€</total>
+  </factura>
+  <factura id="58266">
+    <cliente>37</cliente>
+    <fecha>1988-11-16</fecha>
+    <total>2705.5123€</total>
+  </factura>
+  <factura id="58293">
+    <cliente>52</cliente>
+    <fecha>1996-03-16</fecha>
+    <total>9555.1658€</total>
+  </factura>
+  <factura id="58403">
+    <cliente>7</cliente>
+    <fecha>2007-05-26</fecha>
+    <total>9186.3496€</total>
+  </factura>
+  <factura id="58443">
+    <cliente>37</cliente>
+    <fecha>1976-04-20</fecha>
+    <total>119.4694€</total>
+  </factura>
+  <factura id="58621">
+    <cliente>98</cliente>
+    <fecha>1998-08-20</fecha>
+    <total>5114.3239€</total>
+  </factura>
+  <factura id="58805">
+    <cliente>45</cliente>
+    <fecha>1982-04-28</fecha>
+    <total>2750.3136€</total>
+  </factura>
+  <factura id="58901">
+    <cliente>25</cliente>
+    <fecha>1991-05-05</fecha>
+    <total>8865.1644€</total>
+  </factura>
+  <factura id="58964">
+    <cliente>39</cliente>
+    <fecha>2017-04-01</fecha>
+    <total>1101.0029€</total>
+  </factura>
+  <factura id="59178">
+    <cliente>56</cliente>
+    <fecha>1978-12-01</fecha>
+    <total>2900.5964€</total>
+  </factura>
+  <factura id="59184">
+    <cliente>88</cliente>
+    <fecha>1994-10-21</fecha>
+    <total>6420.2011€</total>
+  </factura>
+  <factura id="59205">
+    <cliente>67</cliente>
+    <fecha>1986-06-02</fecha>
+    <total>4329.2717€</total>
+  </factura>
+  <factura id="59263">
+    <cliente>10</cliente>
+    <fecha>2009-03-08</fecha>
+    <total>7121.7162€</total>
+  </factura>
+  <factura id="59318">
+    <cliente>40</cliente>
+    <fecha>1976-01-21</fecha>
+    <total>3119.4585€</total>
+  </factura>
+  <factura id="59391">
+    <cliente>47</cliente>
+    <fecha>1997-01-18</fecha>
+    <total>3206.4195€</total>
+  </factura>
+  <factura id="59436">
+    <cliente>51</cliente>
+    <fecha>1992-03-14</fecha>
+    <total>5452.5994€</total>
+  </factura>
+  <factura id="59678">
+    <cliente>89</cliente>
+    <fecha>1973-11-04</fecha>
+    <total>9994.5551€</total>
+  </factura>
+  <factura id="59794">
+    <cliente>58</cliente>
+    <fecha>2002-12-29</fecha>
+    <total>2613.3657€</total>
+  </factura>
+  <factura id="59819">
+    <cliente>59</cliente>
+    <fecha>2000-02-12</fecha>
+    <total>2242.7333€</total>
+  </factura>
+  <factura id="59901">
+    <cliente>85</cliente>
+    <fecha>1996-07-07</fecha>
+    <total>4277.8657€</total>
+  </factura>
+  <factura id="59962">
+    <cliente>56</cliente>
+    <fecha>2020-05-20</fecha>
+    <total>2364.1811€</total>
+  </factura>
+  <factura id="60271">
+    <cliente>39</cliente>
+    <fecha>2009-10-04</fecha>
+    <total>4909.8095€</total>
+  </factura>
+  <factura id="60368">
+    <cliente>89</cliente>
+    <fecha>1984-02-02</fecha>
+    <total>5882.9017€</total>
+  </factura>
+  <factura id="60406">
+    <cliente>20</cliente>
+    <fecha>1994-03-02</fecha>
+    <total>5673.4548€</total>
+  </factura>
+  <factura id="60474">
+    <cliente>76</cliente>
+    <fecha>2012-01-16</fecha>
+    <total>3237.3198€</total>
+  </factura>
+  <factura id="60556">
+    <cliente>75</cliente>
+    <fecha>2013-01-19</fecha>
+    <total>7687.3705€</total>
+  </factura>
+  <factura id="60637">
+    <cliente>52</cliente>
+    <fecha>2021-05-29</fecha>
+    <total>6603.3087€</total>
+  </factura>
+  <factura id="60710">
+    <cliente>72</cliente>
+    <fecha>2005-10-28</fecha>
+    <total>3735.1690€</total>
+  </factura>
+  <factura id="60918">
+    <cliente>80</cliente>
+    <fecha>1987-06-13</fecha>
+    <total>5479.5186€</total>
+  </factura>
+  <factura id="60947">
+    <cliente>25</cliente>
+    <fecha>1974-12-22</fecha>
+    <total>109.1158€</total>
+  </factura>
+  <factura id="61026">
+    <cliente>90</cliente>
+    <fecha>2001-03-14</fecha>
+    <total>2505.2488€</total>
+  </factura>
+  <factura id="61193">
+    <cliente>71</cliente>
+    <fecha>2013-03-04</fecha>
+    <total>623.8700€</total>
+  </factura>
+  <factura id="61216">
+    <cliente>84</cliente>
+    <fecha>1986-10-16</fecha>
+    <total>7297.0509€</total>
+  </factura>
+  <factura id="61283">
+    <cliente>34</cliente>
+    <fecha>1996-10-30</fecha>
+    <total>7429.7798€</total>
+  </factura>
+  <factura id="61539">
+    <cliente>68</cliente>
+    <fecha>1994-01-18</fecha>
+    <total>1795.8250€</total>
+  </factura>
+  <factura id="61738">
+    <cliente>85</cliente>
+    <fecha>1990-01-04</fecha>
+    <total>8661.0541€</total>
+  </factura>
+  <factura id="61830">
+    <cliente>85</cliente>
+    <fecha>2019-05-17</fecha>
+    <total>3474.1186€</total>
+  </factura>
+  <factura id="62099">
+    <cliente>61</cliente>
+    <fecha>1994-07-23</fecha>
+    <total>2603.0877€</total>
+  </factura>
+  <factura id="62212">
+    <cliente>2</cliente>
+    <fecha>1974-09-23</fecha>
+    <total>2891.8895€</total>
+  </factura>
+  <factura id="62536">
+    <cliente>17</cliente>
+    <fecha>1979-05-11</fecha>
+    <total>6314.7638€</total>
+  </factura>
+  <factura id="62760">
+    <cliente>92</cliente>
+    <fecha>2008-07-08</fecha>
+    <total>9332.5704€</total>
+  </factura>
+  <factura id="62959">
+    <cliente>74</cliente>
+    <fecha>1991-07-20</fecha>
+    <total>7605.8971€</total>
+  </factura>
+  <factura id="62990">
+    <cliente>35</cliente>
+    <fecha>2001-06-08</fecha>
+    <total>2316.8142€</total>
+  </factura>
+  <factura id="62993">
+    <cliente>13</cliente>
+    <fecha>2021-03-20</fecha>
+    <total>8980.7720€</total>
+  </factura>
+  <factura id="63189">
+    <cliente>57</cliente>
+    <fecha>1979-05-29</fecha>
+    <total>8108.9512€</total>
+  </factura>
+  <factura id="63436">
+    <cliente>73</cliente>
+    <fecha>1980-09-28</fecha>
+    <total>9864.5590€</total>
+  </factura>
+  <factura id="63582">
+    <cliente>52</cliente>
+    <fecha>2021-07-29</fecha>
+    <total>9756.2968€</total>
+  </factura>
+  <factura id="63642">
+    <cliente>42</cliente>
+    <fecha>2011-01-30</fecha>
+    <total>855.1656€</total>
+  </factura>
+  <factura id="63668">
+    <cliente>10</cliente>
+    <fecha>1974-03-08</fecha>
+    <total>7466.6002€</total>
+  </factura>
+  <factura id="63706">
+    <cliente>63</cliente>
+    <fecha>2018-11-02</fecha>
+    <total>8665.2178€</total>
+  </factura>
+  <factura id="63732">
+    <cliente>14</cliente>
+    <fecha>1992-02-08</fecha>
+    <total>7243.1758€</total>
+  </factura>
+  <factura id="63897">
+    <cliente>8</cliente>
+    <fecha>2006-02-16</fecha>
+    <total>5151.6187€</total>
+  </factura>
+  <factura id="63898">
+    <cliente>5</cliente>
+    <fecha>1997-08-01</fecha>
+    <total>8351.3302€</total>
+  </factura>
+  <factura id="64073">
+    <cliente>36</cliente>
+    <fecha>2013-03-11</fecha>
+    <total>9563.6832€</total>
+  </factura>
+  <factura id="64117">
+    <cliente>70</cliente>
+    <fecha>1971-12-03</fecha>
+    <total>6734.7801€</total>
+  </factura>
+  <factura id="64186">
+    <cliente>77</cliente>
+    <fecha>2017-02-24</fecha>
+    <total>4973.6715€</total>
+  </factura>
+  <factura id="64268">
+    <cliente>84</cliente>
+    <fecha>1995-08-29</fecha>
+    <total>1704.1189€</total>
+  </factura>
+  <factura id="64373">
+    <cliente>11</cliente>
+    <fecha>2013-12-21</fecha>
+    <total>4421.4579€</total>
+  </factura>
+  <factura id="64409">
+    <cliente>27</cliente>
+    <fecha>1970-11-29</fecha>
+    <total>9726.7385€</total>
+  </factura>
+  <factura id="64502">
+    <cliente>74</cliente>
+    <fecha>2006-03-12</fecha>
+    <total>1829.8920€</total>
+  </factura>
+  <factura id="64659">
+    <cliente>71</cliente>
+    <fecha>2011-09-02</fecha>
+    <total>5161.9347€</total>
+  </factura>
+  <factura id="64681">
+    <cliente>43</cliente>
+    <fecha>2007-08-29</fecha>
+    <total>3438.0472€</total>
+  </factura>
+  <factura id="64722">
+    <cliente>32</cliente>
+    <fecha>1975-10-29</fecha>
+    <total>4568.7924€</total>
+  </factura>
+  <factura id="65024">
+    <cliente>78</cliente>
+    <fecha>2009-09-14</fecha>
+    <total>7412.2005€</total>
+  </factura>
+  <factura id="65344">
+    <cliente>53</cliente>
+    <fecha>2010-05-31</fecha>
+    <total>2017.4481€</total>
+  </factura>
+  <factura id="65372">
+    <cliente>95</cliente>
+    <fecha>2002-04-19</fecha>
+    <total>8135.4575€</total>
+  </factura>
+  <factura id="65381">
+    <cliente>5</cliente>
+    <fecha>1998-10-13</fecha>
+    <total>6960.5079€</total>
+  </factura>
+  <factura id="65422">
+    <cliente>74</cliente>
+    <fecha>1994-09-04</fecha>
+    <total>2350.4564€</total>
+  </factura>
+  <factura id="65545">
+    <cliente>23</cliente>
+    <fecha>1974-12-23</fecha>
+    <total>4614.4988€</total>
+  </factura>
+  <factura id="65831">
+    <cliente>77</cliente>
+    <fecha>2007-06-28</fecha>
+    <total>2576.7684€</total>
+  </factura>
+  <factura id="66010">
+    <cliente>96</cliente>
+    <fecha>1988-10-03</fecha>
+    <total>8376.6671€</total>
+  </factura>
+  <factura id="66082">
+    <cliente>37</cliente>
+    <fecha>2022-08-21</fecha>
+    <total>3528.7987€</total>
+  </factura>
+  <factura id="66103">
+    <cliente>48</cliente>
+    <fecha>2003-02-23</fecha>
+    <total>8898.5674€</total>
+  </factura>
+  <factura id="66117">
+    <cliente>24</cliente>
+    <fecha>1980-12-22</fecha>
+    <total>8549.0221€</total>
+  </factura>
+  <factura id="66123">
+    <cliente>47</cliente>
+    <fecha>1987-06-23</fecha>
+    <total>6607.7865€</total>
+  </factura>
+  <factura id="66195">
+    <cliente>51</cliente>
+    <fecha>2005-07-03</fecha>
+    <total>2616.7879€</total>
+  </factura>
+  <factura id="66224">
+    <cliente>51</cliente>
+    <fecha>1977-05-25</fecha>
+    <total>5423.5877€</total>
+  </factura>
+  <factura id="66247">
+    <cliente>97</cliente>
+    <fecha>2010-04-22</fecha>
+    <total>667.5173€</total>
+  </factura>
+  <factura id="66308">
+    <cliente>41</cliente>
+    <fecha>1980-12-24</fecha>
+    <total>9639.0700€</total>
+  </factura>
+  <factura id="66519">
+    <cliente>66</cliente>
+    <fecha>1983-08-21</fecha>
+    <total>6663.0259€</total>
+  </factura>
+  <factura id="66587">
+    <cliente>97</cliente>
+    <fecha>2002-01-07</fecha>
+    <total>9243.7327€</total>
+  </factura>
+  <factura id="66630">
+    <cliente>7</cliente>
+    <fecha>1971-07-29</fecha>
+    <total>3369.6943€</total>
+  </factura>
+  <factura id="66814">
+    <cliente>12</cliente>
+    <fecha>2002-06-20</fecha>
+    <total>937.8896€</total>
+  </factura>
+  <factura id="66898">
+    <cliente>72</cliente>
+    <fecha>2022-11-22</fecha>
+    <total>6571.7978€</total>
+  </factura>
+  <factura id="66913">
+    <cliente>82</cliente>
+    <fecha>1984-02-11</fecha>
+    <total>5876.8534€</total>
+  </factura>
+  <factura id="67056">
+    <cliente>44</cliente>
+    <fecha>1985-11-20</fecha>
+    <total>3134.5289€</total>
+  </factura>
+  <factura id="67106">
+    <cliente>57</cliente>
+    <fecha>1979-08-19</fecha>
+    <total>4838.5618€</total>
+  </factura>
+  <factura id="67124">
+    <cliente>53</cliente>
+    <fecha>2017-12-23</fecha>
+    <total>6491.9950€</total>
+  </factura>
+  <factura id="67274">
+    <cliente>2</cliente>
+    <fecha>1977-05-12</fecha>
+    <total>8329.0924€</total>
+  </factura>
+  <factura id="67299">
+    <cliente>57</cliente>
+    <fecha>1978-03-08</fecha>
+    <total>2192.8150€</total>
+  </factura>
+  <factura id="67355">
+    <cliente>12</cliente>
+    <fecha>2002-05-11</fecha>
+    <total>3233.2439€</total>
+  </factura>
+  <factura id="67548">
+    <cliente>72</cliente>
+    <fecha>2012-03-14</fecha>
+    <total>8073.4996€</total>
+  </factura>
+  <factura id="67594">
+    <cliente>83</cliente>
+    <fecha>2019-12-18</fecha>
+    <total>3043.2380€</total>
+  </factura>
+  <factura id="67721">
+    <cliente>61</cliente>
+    <fecha>2014-08-28</fecha>
+    <total>7707.3275€</total>
+  </factura>
+  <factura id="67798">
+    <cliente>45</cliente>
+    <fecha>2020-06-17</fecha>
+    <total>5634.8101€</total>
+  </factura>
+  <factura id="68066">
+    <cliente>1</cliente>
+    <fecha>1973-03-05</fecha>
+    <total>9616.0748€</total>
+  </factura>
+  <factura id="68100">
+    <cliente>14</cliente>
+    <fecha>1981-06-25</fecha>
+    <total>4222.7532€</total>
+  </factura>
+  <factura id="68408">
+    <cliente>81</cliente>
+    <fecha>1972-04-01</fecha>
+    <total>7955.2217€</total>
+  </factura>
+  <factura id="68501">
+    <cliente>23</cliente>
+    <fecha>2012-03-31</fecha>
+    <total>7857.3537€</total>
+  </factura>
+  <factura id="68742">
+    <cliente>83</cliente>
+    <fecha>1985-09-30</fecha>
+    <total>5524.0030€</total>
+  </factura>
+  <factura id="68824">
+    <cliente>3</cliente>
+    <fecha>2021-02-28</fecha>
+    <total>6538.7975€</total>
+  </factura>
+  <factura id="68834">
+    <cliente>96</cliente>
+    <fecha>1982-03-17</fecha>
+    <total>6144.1300€</total>
+  </factura>
+  <factura id="68840">
+    <cliente>41</cliente>
+    <fecha>2010-05-13</fecha>
+    <total>1861.8801€</total>
+  </factura>
+  <factura id="68850">
+    <cliente>40</cliente>
+    <fecha>2002-11-06</fecha>
+    <total>7834.2067€</total>
+  </factura>
+  <factura id="68892">
+    <cliente>4</cliente>
+    <fecha>1978-06-18</fecha>
+    <total>4160.0838€</total>
+  </factura>
+  <factura id="68921">
+    <cliente>54</cliente>
+    <fecha>2009-10-05</fecha>
+    <total>8748.9889€</total>
+  </factura>
+  <factura id="68988">
+    <cliente>90</cliente>
+    <fecha>1980-01-24</fecha>
+    <total>3904.4250€</total>
+  </factura>
+  <factura id="69019">
+    <cliente>88</cliente>
+    <fecha>1981-10-24</fecha>
+    <total>5697.5117€</total>
+  </factura>
+  <factura id="69132">
+    <cliente>42</cliente>
+    <fecha>1980-12-23</fecha>
+    <total>9054.2997€</total>
+  </factura>
+  <factura id="69293">
+    <cliente>4</cliente>
+    <fecha>2001-01-22</fecha>
+    <total>5477.2300€</total>
+  </factura>
+  <factura id="69636">
+    <cliente>14</cliente>
+    <fecha>1993-10-21</fecha>
+    <total>3433.9939€</total>
+  </factura>
+  <factura id="69663">
+    <cliente>65</cliente>
+    <fecha>2010-09-03</fecha>
+    <total>9973.8488€</total>
+  </factura>
+  <factura id="69802">
+    <cliente>47</cliente>
+    <fecha>1975-02-09</fecha>
+    <total>6864.0410€</total>
+  </factura>
+  <factura id="69877">
+    <cliente>95</cliente>
+    <fecha>1996-11-01</fecha>
+    <total>6444.2612€</total>
+  </factura>
+  <factura id="70012">
+    <cliente>4</cliente>
+    <fecha>1984-10-06</fecha>
+    <total>8087.9079€</total>
+  </factura>
+  <factura id="70041">
+    <cliente>50</cliente>
+    <fecha>2013-12-14</fecha>
+    <total>3935.6870€</total>
+  </factura>
+  <factura id="70076">
+    <cliente>96</cliente>
+    <fecha>2022-05-07</fecha>
+    <total>203.6177€</total>
+  </factura>
+  <factura id="70140">
+    <cliente>52</cliente>
+    <fecha>1994-10-23</fecha>
+    <total>7608.8807€</total>
+  </factura>
+  <factura id="70151">
+    <cliente>83</cliente>
+    <fecha>2001-12-14</fecha>
+    <total>8260.2150€</total>
+  </factura>
+  <factura id="70364">
+    <cliente>74</cliente>
+    <fecha>2005-11-06</fecha>
+    <total>6583.7053€</total>
+  </factura>
+  <factura id="70383">
+    <cliente>48</cliente>
+    <fecha>1970-08-12</fecha>
+    <total>2904.4813€</total>
+  </factura>
+  <factura id="70422">
+    <cliente>91</cliente>
+    <fecha>2017-10-02</fecha>
+    <total>9772.1053€</total>
+  </factura>
+  <factura id="70523">
+    <cliente>15</cliente>
+    <fecha>1971-05-07</fecha>
+    <total>1316.4944€</total>
+  </factura>
+  <factura id="70610">
+    <cliente>8</cliente>
+    <fecha>1982-09-22</fecha>
+    <total>2175.6750€</total>
+  </factura>
+  <factura id="70681">
+    <cliente>1</cliente>
+    <fecha>1998-08-22</fecha>
+    <total>411.8000€</total>
+  </factura>
+  <factura id="70718">
+    <cliente>40</cliente>
+    <fecha>2011-12-13</fecha>
+    <total>2194.9296€</total>
+  </factura>
+  <factura id="70792">
+    <cliente>98</cliente>
+    <fecha>1992-04-19</fecha>
+    <total>45.7355€</total>
+  </factura>
+  <factura id="70973">
+    <cliente>60</cliente>
+    <fecha>2012-10-20</fecha>
+    <total>2338.2356€</total>
+  </factura>
+  <factura id="71248">
+    <cliente>68</cliente>
+    <fecha>1971-08-16</fecha>
+    <total>8088.6409€</total>
+  </factura>
+  <factura id="71800">
+    <cliente>31</cliente>
+    <fecha>2003-03-28</fecha>
+    <total>2167.1427€</total>
+  </factura>
+  <factura id="72414">
+    <cliente>64</cliente>
+    <fecha>1990-10-05</fecha>
+    <total>9798.8678€</total>
+  </factura>
+  <factura id="72741">
+    <cliente>74</cliente>
+    <fecha>1974-04-29</fecha>
+    <total>3755.9922€</total>
+  </factura>
+  <factura id="72936">
+    <cliente>66</cliente>
+    <fecha>1972-09-03</fecha>
+    <total>2547.9067€</total>
+  </factura>
+  <factura id="73009">
+    <cliente>43</cliente>
+    <fecha>1995-09-24</fecha>
+    <total>3861.1751€</total>
+  </factura>
+  <factura id="73086">
+    <cliente>41</cliente>
+    <fecha>1972-12-14</fecha>
+    <total>4123.0722€</total>
+  </factura>
+  <factura id="73264">
+    <cliente>17</cliente>
+    <fecha>2010-02-16</fecha>
+    <total>1355.9055€</total>
+  </factura>
+  <factura id="73266">
+    <cliente>18</cliente>
+    <fecha>2020-11-12</fecha>
+    <total>1420.4177€</total>
+  </factura>
+  <factura id="73283">
+    <cliente>46</cliente>
+    <fecha>2005-11-06</fecha>
+    <total>2037.5191€</total>
+  </factura>
+  <factura id="73463">
+    <cliente>16</cliente>
+    <fecha>1985-11-01</fecha>
+    <total>1303.0349€</total>
+  </factura>
+  <factura id="73627">
+    <cliente>46</cliente>
+    <fecha>1977-03-25</fecha>
+    <total>413.6307€</total>
+  </factura>
+  <factura id="73639">
+    <cliente>21</cliente>
+    <fecha>2012-07-14</fecha>
+    <total>3061.6281€</total>
+  </factura>
+  <factura id="73731">
+    <cliente>59</cliente>
+    <fecha>1971-10-18</fecha>
+    <total>8579.2964€</total>
+  </factura>
+  <factura id="73941">
+    <cliente>31</cliente>
+    <fecha>2008-08-21</fecha>
+    <total>8909.7244€</total>
+  </factura>
+  <factura id="73945">
+    <cliente>79</cliente>
+    <fecha>1985-05-09</fecha>
+    <total>7269.2347€</total>
+  </factura>
+  <factura id="74195">
+    <cliente>42</cliente>
+    <fecha>1991-05-09</fecha>
+    <total>7542.2901€</total>
+  </factura>
+  <factura id="74392">
+    <cliente>29</cliente>
+    <fecha>2016-09-06</fecha>
+    <total>6737.8672€</total>
+  </factura>
+  <factura id="74423">
+    <cliente>34</cliente>
+    <fecha>2022-08-29</fecha>
+    <total>9770.1068€</total>
+  </factura>
+  <factura id="74521">
+    <cliente>37</cliente>
+    <fecha>1975-03-10</fecha>
+    <total>9420.0369€</total>
+  </factura>
+  <factura id="74630">
+    <cliente>87</cliente>
+    <fecha>1992-09-17</fecha>
+    <total>5641.4983€</total>
+  </factura>
+  <factura id="74703">
+    <cliente>59</cliente>
+    <fecha>1987-10-09</fecha>
+    <total>248.6215€</total>
+  </factura>
+  <factura id="74731">
+    <cliente>63</cliente>
+    <fecha>1973-08-26</fecha>
+    <total>2741.9518€</total>
+  </factura>
+  <factura id="74736">
+    <cliente>83</cliente>
+    <fecha>1980-06-25</fecha>
+    <total>6330.6393€</total>
+  </factura>
+  <factura id="74745">
+    <cliente>71</cliente>
+    <fecha>1975-04-04</fecha>
+    <total>4561.0120€</total>
+  </factura>
+  <factura id="74977">
+    <cliente>78</cliente>
+    <fecha>1993-07-15</fecha>
+    <total>6793.0056€</total>
+  </factura>
+  <factura id="75009">
+    <cliente>78</cliente>
+    <fecha>2016-11-19</fecha>
+    <total>8697.5673€</total>
+  </factura>
+  <factura id="75076">
+    <cliente>13</cliente>
+    <fecha>2000-04-11</fecha>
+    <total>45.6820€</total>
+  </factura>
+  <factura id="75183">
+    <cliente>12</cliente>
+    <fecha>1987-12-22</fecha>
+    <total>1849.2878€</total>
+  </factura>
+  <factura id="75226">
+    <cliente>72</cliente>
+    <fecha>2001-01-22</fecha>
+    <total>7861.0627€</total>
+  </factura>
+  <factura id="75428">
+    <cliente>75</cliente>
+    <fecha>2003-08-21</fecha>
+    <total>2670.4231€</total>
+  </factura>
+  <factura id="75473">
+    <cliente>23</cliente>
+    <fecha>1971-02-21</fecha>
+    <total>7777.7219€</total>
+  </factura>
+  <factura id="75519">
+    <cliente>69</cliente>
+    <fecha>1992-01-23</fecha>
+    <total>939.0920€</total>
+  </factura>
+  <factura id="75556">
+    <cliente>38</cliente>
+    <fecha>2014-01-15</fecha>
+    <total>6510.4316€</total>
+  </factura>
+  <factura id="75604">
+    <cliente>9</cliente>
+    <fecha>2020-10-27</fecha>
+    <total>8829.2651€</total>
+  </factura>
+  <factura id="75718">
+    <cliente>67</cliente>
+    <fecha>2011-05-27</fecha>
+    <total>9529.4941€</total>
+  </factura>
+  <factura id="75788">
+    <cliente>18</cliente>
+    <fecha>1998-07-05</fecha>
+    <total>9852.0264€</total>
+  </factura>
+  <factura id="75831">
+    <cliente>16</cliente>
+    <fecha>2002-07-28</fecha>
+    <total>6031.1684€</total>
+  </factura>
+  <factura id="75859">
+    <cliente>50</cliente>
+    <fecha>1979-10-26</fecha>
+    <total>2723.3428€</total>
+  </factura>
+  <factura id="76022">
+    <cliente>16</cliente>
+    <fecha>1979-10-17</fecha>
+    <total>5042.1482€</total>
+  </factura>
+  <factura id="76058">
+    <cliente>16</cliente>
+    <fecha>2009-03-11</fecha>
+    <total>992.6381€</total>
+  </factura>
+  <factura id="76067">
+    <cliente>80</cliente>
+    <fecha>1993-04-25</fecha>
+    <total>268.1031€</total>
+  </factura>
+  <factura id="76193">
+    <cliente>40</cliente>
+    <fecha>1972-02-12</fecha>
+    <total>4324.1479€</total>
+  </factura>
+  <factura id="76333">
+    <cliente>61</cliente>
+    <fecha>2010-09-13</fecha>
+    <total>2642.2028€</total>
+  </factura>
+  <factura id="76431">
+    <cliente>34</cliente>
+    <fecha>1971-02-04</fecha>
+    <total>7718.4006€</total>
+  </factura>
+  <factura id="76454">
+    <cliente>14</cliente>
+    <fecha>2010-10-09</fecha>
+    <total>3225.0739€</total>
+  </factura>
+  <factura id="76568">
+    <cliente>31</cliente>
+    <fecha>2011-01-19</fecha>
+    <total>5811.7539€</total>
+  </factura>
+  <factura id="76659">
+    <cliente>90</cliente>
+    <fecha>1993-10-11</fecha>
+    <total>9911.0542€</total>
+  </factura>
+  <factura id="76846">
+    <cliente>51</cliente>
+    <fecha>1995-08-12</fecha>
+    <total>9491.1413€</total>
+  </factura>
+  <factura id="76922">
+    <cliente>75</cliente>
+    <fecha>1993-09-16</fecha>
+    <total>6660.7371€</total>
+  </factura>
+  <factura id="76940">
+    <cliente>18</cliente>
+    <fecha>2006-08-22</fecha>
+    <total>2768.5637€</total>
+  </factura>
+  <factura id="77008">
+    <cliente>71</cliente>
+    <fecha>1980-12-26</fecha>
+    <total>762.8149€</total>
+  </factura>
+  <factura id="77057">
+    <cliente>64</cliente>
+    <fecha>2022-08-17</fecha>
+    <total>8752.5587€</total>
+  </factura>
+  <factura id="77071">
+    <cliente>79</cliente>
+    <fecha>1983-11-21</fecha>
+    <total>7526.0709€</total>
+  </factura>
+  <factura id="77248">
+    <cliente>13</cliente>
+    <fecha>2012-09-19</fecha>
+    <total>2046.7759€</total>
+  </factura>
+  <factura id="77270">
+    <cliente>96</cliente>
+    <fecha>2015-08-05</fecha>
+    <total>6692.8947€</total>
+  </factura>
+  <factura id="77329">
+    <cliente>24</cliente>
+    <fecha>2001-10-13</fecha>
+    <total>9990.9939€</total>
+  </factura>
+  <factura id="77463">
+    <cliente>31</cliente>
+    <fecha>1987-12-24</fecha>
+    <total>4281.1408€</total>
+  </factura>
+  <factura id="77523">
+    <cliente>89</cliente>
+    <fecha>1989-08-08</fecha>
+    <total>3227.4080€</total>
+  </factura>
+  <factura id="77745">
+    <cliente>7</cliente>
+    <fecha>2020-07-16</fecha>
+    <total>5741.7675€</total>
+  </factura>
+  <factura id="77771">
+    <cliente>52</cliente>
+    <fecha>2011-11-12</fecha>
+    <total>7496.8627€</total>
+  </factura>
+  <factura id="77930">
+    <cliente>70</cliente>
+    <fecha>1971-05-18</fecha>
+    <total>764.6256€</total>
+  </factura>
+  <factura id="77947">
+    <cliente>43</cliente>
+    <fecha>2014-03-08</fecha>
+    <total>4415.2299€</total>
+  </factura>
+  <factura id="77959">
+    <cliente>52</cliente>
+    <fecha>1974-09-13</fecha>
+    <total>1327.4292€</total>
+  </factura>
+  <factura id="77987">
+    <cliente>66</cliente>
+    <fecha>1977-03-30</fecha>
+    <total>2746.4203€</total>
+  </factura>
+  <factura id="78013">
+    <cliente>50</cliente>
+    <fecha>1976-09-12</fecha>
+    <total>6117.3707€</total>
+  </factura>
+  <factura id="78024">
+    <cliente>60</cliente>
+    <fecha>1972-02-11</fecha>
+    <total>4577.2229€</total>
+  </factura>
+  <factura id="78149">
+    <cliente>2</cliente>
+    <fecha>1980-09-18</fecha>
+    <total>4103.8132€</total>
+  </factura>
+  <factura id="78196">
+    <cliente>63</cliente>
+    <fecha>1980-09-14</fecha>
+    <total>377.5834€</total>
+  </factura>
+  <factura id="78372">
+    <cliente>18</cliente>
+    <fecha>1994-06-01</fecha>
+    <total>4995.9852€</total>
+  </factura>
+  <factura id="78509">
+    <cliente>99</cliente>
+    <fecha>2005-07-12</fecha>
+    <total>220.8408€</total>
+  </factura>
+  <factura id="78617">
+    <cliente>69</cliente>
+    <fecha>1973-11-10</fecha>
+    <total>8779.5230€</total>
+  </factura>
+  <factura id="78676">
+    <cliente>30</cliente>
+    <fecha>1972-06-04</fecha>
+    <total>8548.0268€</total>
+  </factura>
+  <factura id="78690">
+    <cliente>56</cliente>
+    <fecha>1979-09-10</fecha>
+    <total>6120.7815€</total>
+  </factura>
+  <factura id="78695">
+    <cliente>41</cliente>
+    <fecha>2013-06-06</fecha>
+    <total>8778.3013€</total>
+  </factura>
+  <factura id="78897">
+    <cliente>93</cliente>
+    <fecha>1988-04-29</fecha>
+    <total>9074.7367€</total>
+  </factura>
+  <factura id="78937">
+    <cliente>4</cliente>
+    <fecha>1981-03-24</fecha>
+    <total>5377.9512€</total>
+  </factura>
+  <factura id="78946">
+    <cliente>64</cliente>
+    <fecha>1982-08-26</fecha>
+    <total>3484.0351€</total>
+  </factura>
+  <factura id="79124">
+    <cliente>35</cliente>
+    <fecha>2009-09-23</fecha>
+    <total>9537.1448€</total>
+  </factura>
+  <factura id="79125">
+    <cliente>71</cliente>
+    <fecha>1988-04-29</fecha>
+    <total>5246.8838€</total>
+  </factura>
+  <factura id="79273">
+    <cliente>68</cliente>
+    <fecha>1973-08-27</fecha>
+    <total>9604.9564€</total>
+  </factura>
+  <factura id="79307">
+    <cliente>11</cliente>
+    <fecha>2007-02-08</fecha>
+    <total>6065.9793€</total>
+  </factura>
+  <factura id="79341">
+    <cliente>14</cliente>
+    <fecha>1972-06-14</fecha>
+    <total>3907.9277€</total>
+  </factura>
+  <factura id="79391">
+    <cliente>8</cliente>
+    <fecha>1983-10-25</fecha>
+    <total>1365.3539€</total>
+  </factura>
+  <factura id="79492">
+    <cliente>12</cliente>
+    <fecha>1992-05-21</fecha>
+    <total>9205.0961€</total>
+  </factura>
+  <factura id="79624">
+    <cliente>33</cliente>
+    <fecha>1997-11-28</fecha>
+    <total>9493.9036€</total>
+  </factura>
+  <factura id="79724">
+    <cliente>22</cliente>
+    <fecha>1983-12-25</fecha>
+    <total>2523.2273€</total>
+  </factura>
+  <factura id="79788">
+    <cliente>48</cliente>
+    <fecha>1992-04-02</fecha>
+    <total>8614.7070€</total>
+  </factura>
+  <factura id="79869">
+    <cliente>73</cliente>
+    <fecha>1972-09-20</fecha>
+    <total>9058.8764€</total>
+  </factura>
+  <factura id="80175">
+    <cliente>25</cliente>
+    <fecha>1998-09-09</fecha>
+    <total>7127.7427€</total>
+  </factura>
+  <factura id="80231">
+    <cliente>39</cliente>
+    <fecha>2004-10-21</fecha>
+    <total>9205.8275€</total>
+  </factura>
+  <factura id="80355">
+    <cliente>5</cliente>
+    <fecha>2017-07-03</fecha>
+    <total>3930.2895€</total>
+  </factura>
+  <factura id="80392">
+    <cliente>90</cliente>
+    <fecha>2010-05-16</fecha>
+    <total>862.9781€</total>
+  </factura>
+  <factura id="80433">
+    <cliente>97</cliente>
+    <fecha>1997-06-21</fecha>
+    <total>7209.1113€</total>
+  </factura>
+  <factura id="80552">
+    <cliente>48</cliente>
+    <fecha>1975-02-05</fecha>
+    <total>2137.4881€</total>
+  </factura>
+  <factura id="80572">
+    <cliente>47</cliente>
+    <fecha>1985-02-06</fecha>
+    <total>8200.3413€</total>
+  </factura>
+  <factura id="80722">
+    <cliente>21</cliente>
+    <fecha>1991-10-09</fecha>
+    <total>8068.3263€</total>
+  </factura>
+  <factura id="80773">
+    <cliente>73</cliente>
+    <fecha>2007-05-06</fecha>
+    <total>6309.2426€</total>
+  </factura>
+  <factura id="80820">
+    <cliente>52</cliente>
+    <fecha>1972-12-10</fecha>
+    <total>1169.8227€</total>
+  </factura>
+  <factura id="80984">
+    <cliente>83</cliente>
+    <fecha>2017-06-08</fecha>
+    <total>5055.2255€</total>
+  </factura>
+  <factura id="81354">
+    <cliente>13</cliente>
+    <fecha>1978-05-13</fecha>
+    <total>5733.0662€</total>
+  </factura>
+  <factura id="81355">
+    <cliente>94</cliente>
+    <fecha>1985-10-20</fecha>
+    <total>381.5701€</total>
+  </factura>
+  <factura id="81522">
+    <cliente>7</cliente>
+    <fecha>1997-12-10</fecha>
+    <total>3257.6935€</total>
+  </factura>
+  <factura id="81593">
+    <cliente>86</cliente>
+    <fecha>2022-11-28</fecha>
+    <total>6343.2320€</total>
+  </factura>
+  <factura id="81600">
+    <cliente>77</cliente>
+    <fecha>2012-11-13</fecha>
+    <total>531.2448€</total>
+  </factura>
+  <factura id="81621">
+    <cliente>17</cliente>
+    <fecha>2021-08-02</fecha>
+    <total>5002.8831€</total>
+  </factura>
+  <factura id="81624">
+    <cliente>69</cliente>
+    <fecha>1982-01-25</fecha>
+    <total>5422.0272€</total>
+  </factura>
+  <factura id="81837">
+    <cliente>11</cliente>
+    <fecha>1978-10-27</fecha>
+    <total>4432.8920€</total>
+  </factura>
+  <factura id="82045">
+    <cliente>62</cliente>
+    <fecha>1970-10-28</fecha>
+    <total>5766.8843€</total>
+  </factura>
+  <factura id="82048">
+    <cliente>39</cliente>
+    <fecha>1982-03-15</fecha>
+    <total>5586.6123€</total>
+  </factura>
+  <factura id="82065">
+    <cliente>59</cliente>
+    <fecha>1985-10-23</fecha>
+    <total>8196.5951€</total>
+  </factura>
+  <factura id="82133">
+    <cliente>10</cliente>
+    <fecha>2016-04-04</fecha>
+    <total>1565.6096€</total>
+  </factura>
+  <factura id="82169">
+    <cliente>82</cliente>
+    <fecha>1979-03-14</fecha>
+    <total>6631.5494€</total>
+  </factura>
+  <factura id="82245">
+    <cliente>74</cliente>
+    <fecha>1978-07-02</fecha>
+    <total>5698.4113€</total>
+  </factura>
+  <factura id="82346">
+    <cliente>85</cliente>
+    <fecha>1998-03-10</fecha>
+    <total>7833.5742€</total>
+  </factura>
+  <factura id="82471">
+    <cliente>25</cliente>
+    <fecha>2000-11-04</fecha>
+    <total>705.1402€</total>
+  </factura>
+  <factura id="82699">
+    <cliente>79</cliente>
+    <fecha>1987-05-25</fecha>
+    <total>6900.6290€</total>
+  </factura>
+  <factura id="82700">
+    <cliente>19</cliente>
+    <fecha>1994-01-27</fecha>
+    <total>9253.0016€</total>
+  </factura>
+  <factura id="82868">
+    <cliente>80</cliente>
+    <fecha>1990-05-19</fecha>
+    <total>5905.3656€</total>
+  </factura>
+  <factura id="82982">
+    <cliente>22</cliente>
+    <fecha>1978-02-17</fecha>
+    <total>8400.9754€</total>
+  </factura>
+  <factura id="83031">
+    <cliente>8</cliente>
+    <fecha>1992-04-23</fecha>
+    <total>2064.2711€</total>
+  </factura>
+  <factura id="83150">
+    <cliente>85</cliente>
+    <fecha>2003-01-30</fecha>
+    <total>1452.3309€</total>
+  </factura>
+  <factura id="83159">
+    <cliente>89</cliente>
+    <fecha>1972-07-23</fecha>
+    <total>3941.2306€</total>
+  </factura>
+  <factura id="83388">
+    <cliente>66</cliente>
+    <fecha>1982-08-09</fecha>
+    <total>636.4942€</total>
+  </factura>
+  <factura id="83399">
+    <cliente>95</cliente>
+    <fecha>2000-03-24</fecha>
+    <total>2727.5303€</total>
+  </factura>
+  <factura id="83419">
+    <cliente>13</cliente>
+    <fecha>1998-06-28</fecha>
+    <total>6357.6467€</total>
+  </factura>
+  <factura id="83463">
+    <cliente>86</cliente>
+    <fecha>1998-05-28</fecha>
+    <total>1387.9263€</total>
+  </factura>
+  <factura id="83653">
+    <cliente>88</cliente>
+    <fecha>2002-07-30</fecha>
+    <total>4894.4883€</total>
+  </factura>
+  <factura id="83774">
+    <cliente>79</cliente>
+    <fecha>2016-03-27</fecha>
+    <total>1466.0778€</total>
+  </factura>
+  <factura id="83834">
+    <cliente>81</cliente>
+    <fecha>1979-10-18</fecha>
+    <total>7074.8087€</total>
+  </factura>
+  <factura id="83841">
+    <cliente>74</cliente>
+    <fecha>2005-08-15</fecha>
+    <total>6558.2316€</total>
+  </factura>
+  <factura id="84027">
+    <cliente>37</cliente>
+    <fecha>1992-01-11</fecha>
+    <total>5679.3059€</total>
+  </factura>
+  <factura id="84208">
+    <cliente>25</cliente>
+    <fecha>2005-08-15</fecha>
+    <total>2763.6718€</total>
+  </factura>
+  <factura id="84240">
+    <cliente>3</cliente>
+    <fecha>2001-09-20</fecha>
+    <total>9523.3994€</total>
+  </factura>
+  <factura id="84306">
+    <cliente>78</cliente>
+    <fecha>1973-02-16</fecha>
+    <total>1007.2009€</total>
+  </factura>
+  <factura id="84428">
+    <cliente>74</cliente>
+    <fecha>1991-10-28</fecha>
+    <total>4331.4925€</total>
+  </factura>
+  <factura id="84594">
+    <cliente>27</cliente>
+    <fecha>2010-07-25</fecha>
+    <total>8685.0091€</total>
+  </factura>
+  <factura id="84910">
+    <cliente>54</cliente>
+    <fecha>1985-12-30</fecha>
+    <total>18.7578€</total>
+  </factura>
+  <factura id="84923">
+    <cliente>5</cliente>
+    <fecha>2002-09-04</fecha>
+    <total>3134.4148€</total>
+  </factura>
+  <factura id="85042">
+    <cliente>65</cliente>
+    <fecha>2001-09-16</fecha>
+    <total>159.1501€</total>
+  </factura>
+  <factura id="85101">
+    <cliente>45</cliente>
+    <fecha>1983-08-05</fecha>
+    <total>3332.2749€</total>
+  </factura>
+  <factura id="85126">
+    <cliente>19</cliente>
+    <fecha>2013-08-17</fecha>
+    <total>4116.3935€</total>
+  </factura>
+  <factura id="85147">
+    <cliente>62</cliente>
+    <fecha>1986-03-14</fecha>
+    <total>5160.5933€</total>
+  </factura>
+  <factura id="85183">
+    <cliente>92</cliente>
+    <fecha>1982-10-18</fecha>
+    <total>4997.2670€</total>
+  </factura>
+  <factura id="85251">
+    <cliente>4</cliente>
+    <fecha>2018-12-02</fecha>
+    <total>5603.2113€</total>
+  </factura>
+  <factura id="85272">
+    <cliente>60</cliente>
+    <fecha>1972-07-08</fecha>
+    <total>3825.0172€</total>
+  </factura>
+  <factura id="85341">
+    <cliente>77</cliente>
+    <fecha>1983-10-11</fecha>
+    <total>8502.9509€</total>
+  </factura>
+  <factura id="85354">
+    <cliente>51</cliente>
+    <fecha>1996-04-07</fecha>
+    <total>3629.0444€</total>
+  </factura>
+  <factura id="85532">
+    <cliente>1</cliente>
+    <fecha>2007-05-20</fecha>
+    <total>1861.5227€</total>
+  </factura>
+  <factura id="85596">
+    <cliente>96</cliente>
+    <fecha>1989-03-04</fecha>
+    <total>5403.1703€</total>
+  </factura>
+  <factura id="85853">
+    <cliente>2</cliente>
+    <fecha>2008-11-02</fecha>
+    <total>1433.0725€</total>
+  </factura>
+  <factura id="85864">
+    <cliente>84</cliente>
+    <fecha>1985-10-20</fecha>
+    <total>454.1510€</total>
+  </factura>
+  <factura id="85965">
+    <cliente>64</cliente>
+    <fecha>1984-07-17</fecha>
+    <total>9851.3598€</total>
+  </factura>
+  <factura id="86027">
+    <cliente>27</cliente>
+    <fecha>2018-12-11</fecha>
+    <total>276.8605€</total>
+  </factura>
+  <factura id="86350">
+    <cliente>30</cliente>
+    <fecha>2014-02-25</fecha>
+    <total>7170.1438€</total>
+  </factura>
+  <factura id="86633">
+    <cliente>22</cliente>
+    <fecha>1979-04-07</fecha>
+    <total>798.2123€</total>
+  </factura>
+  <factura id="86868">
+    <cliente>10</cliente>
+    <fecha>1976-03-28</fecha>
+    <total>4705.1128€</total>
+  </factura>
+  <factura id="86946">
+    <cliente>60</cliente>
+    <fecha>1998-12-14</fecha>
+    <total>4681.7965€</total>
+  </factura>
+  <factura id="87068">
+    <cliente>75</cliente>
+    <fecha>1973-05-16</fecha>
+    <total>9715.8172€</total>
+  </factura>
+  <factura id="87083">
+    <cliente>44</cliente>
+    <fecha>2001-02-09</fecha>
+    <total>6331.4939€</total>
+  </factura>
+  <factura id="87188">
+    <cliente>46</cliente>
+    <fecha>1983-09-04</fecha>
+    <total>5444.4157€</total>
+  </factura>
+  <factura id="87299">
+    <cliente>14</cliente>
+    <fecha>2001-06-13</fecha>
+    <total>1465.8910€</total>
+  </factura>
+  <factura id="87436">
+    <cliente>89</cliente>
+    <fecha>2005-01-13</fecha>
+    <total>264.8854€</total>
+  </factura>
+  <factura id="87634">
+    <cliente>27</cliente>
+    <fecha>2007-05-22</fecha>
+    <total>9277.7308€</total>
+  </factura>
+  <factura id="87673">
+    <cliente>22</cliente>
+    <fecha>2020-01-12</fecha>
+    <total>9986.4916€</total>
+  </factura>
+  <factura id="87689">
+    <cliente>35</cliente>
+    <fecha>1979-09-07</fecha>
+    <total>8920.9176€</total>
+  </factura>
+  <factura id="87908">
+    <cliente>31</cliente>
+    <fecha>2013-01-22</fecha>
+    <total>8265.1435€</total>
+  </factura>
+  <factura id="87961">
+    <cliente>81</cliente>
+    <fecha>1982-01-30</fecha>
+    <total>3660.6926€</total>
+  </factura>
+  <factura id="88109">
+    <cliente>99</cliente>
+    <fecha>1997-11-24</fecha>
+    <total>8507.9596€</total>
+  </factura>
+  <factura id="88117">
+    <cliente>86</cliente>
+    <fecha>1972-11-23</fecha>
+    <total>7630.6461€</total>
+  </factura>
+  <factura id="88184">
+    <cliente>40</cliente>
+    <fecha>1981-06-09</fecha>
+    <total>4516.6232€</total>
+  </factura>
+  <factura id="88188">
+    <cliente>92</cliente>
+    <fecha>2005-02-24</fecha>
+    <total>9749.8890€</total>
+  </factura>
+  <factura id="88218">
+    <cliente>51</cliente>
+    <fecha>1991-12-12</fecha>
+    <total>7343.6954€</total>
+  </factura>
+  <factura id="88220">
+    <cliente>80</cliente>
+    <fecha>1971-04-06</fecha>
+    <total>8472.5704€</total>
+  </factura>
+  <factura id="88246">
+    <cliente>17</cliente>
+    <fecha>1971-05-22</fecha>
+    <total>4367.4562€</total>
+  </factura>
+  <factura id="88249">
+    <cliente>44</cliente>
+    <fecha>2019-07-06</fecha>
+    <total>8830.2977€</total>
+  </factura>
+  <factura id="88345">
+    <cliente>47</cliente>
+    <fecha>1975-08-15</fecha>
+    <total>6477.9630€</total>
+  </factura>
+  <factura id="88422">
+    <cliente>6</cliente>
+    <fecha>2000-02-21</fecha>
+    <total>5062.8523€</total>
+  </factura>
+  <factura id="88443">
+    <cliente>84</cliente>
+    <fecha>2007-07-01</fecha>
+    <total>604.8150€</total>
+  </factura>
+  <factura id="88455">
+    <cliente>48</cliente>
+    <fecha>2018-06-13</fecha>
+    <total>7122.5913€</total>
+  </factura>
+  <factura id="88462">
+    <cliente>95</cliente>
+    <fecha>1972-05-07</fecha>
+    <total>4457.5852€</total>
+  </factura>
+  <factura id="88532">
+    <cliente>74</cliente>
+    <fecha>2014-10-11</fecha>
+    <total>3372.9341€</total>
+  </factura>
+  <factura id="88555">
+    <cliente>72</cliente>
+    <fecha>2013-10-22</fecha>
+    <total>6505.6800€</total>
+  </factura>
+  <factura id="88680">
+    <cliente>35</cliente>
+    <fecha>1980-12-27</fecha>
+    <total>4291.9789€</total>
+  </factura>
+  <factura id="88769">
+    <cliente>44</cliente>
+    <fecha>1981-04-09</fecha>
+    <total>8631.0166€</total>
+  </factura>
+  <factura id="88864">
+    <cliente>20</cliente>
+    <fecha>1983-09-15</fecha>
+    <total>7588.2340€</total>
+  </factura>
+  <factura id="88890">
+    <cliente>91</cliente>
+    <fecha>2004-07-30</fecha>
+    <total>1305.4011€</total>
+  </factura>
+  <factura id="89163">
+    <cliente>94</cliente>
+    <fecha>1970-02-03</fecha>
+    <total>8974.3401€</total>
+  </factura>
+  <factura id="89165">
+    <cliente>7</cliente>
+    <fecha>1992-04-07</fecha>
+    <total>9131.6538€</total>
+  </factura>
+  <factura id="89315">
+    <cliente>64</cliente>
+    <fecha>1970-05-06</fecha>
+    <total>8240.6605€</total>
+  </factura>
+  <factura id="89326">
+    <cliente>79</cliente>
+    <fecha>1987-07-30</fecha>
+    <total>4753.2011€</total>
+  </factura>
+  <factura id="89373">
+    <cliente>31</cliente>
+    <fecha>1993-05-04</fecha>
+    <total>9525.7742€</total>
+  </factura>
+  <factura id="89445">
+    <cliente>90</cliente>
+    <fecha>2005-03-24</fecha>
+    <total>80.1927€</total>
+  </factura>
+  <factura id="89570">
+    <cliente>22</cliente>
+    <fecha>2010-11-05</fecha>
+    <total>3614.7360€</total>
+  </factura>
+  <factura id="89642">
+    <cliente>51</cliente>
+    <fecha>2015-07-25</fecha>
+    <total>2115.8741€</total>
+  </factura>
+  <factura id="89682">
+    <cliente>44</cliente>
+    <fecha>2008-01-24</fecha>
+    <total>4778.0250€</total>
+  </factura>
+  <factura id="89813">
+    <cliente>55</cliente>
+    <fecha>1996-12-21</fecha>
+    <total>5208.3237€</total>
+  </factura>
+  <factura id="89825">
+    <cliente>63</cliente>
+    <fecha>2014-12-18</fecha>
+    <total>7628.1520€</total>
+  </factura>
+  <factura id="90132">
+    <cliente>11</cliente>
+    <fecha>1972-01-07</fecha>
+    <total>1989.0736€</total>
+  </factura>
+  <factura id="90332">
+    <cliente>83</cliente>
+    <fecha>1976-07-20</fecha>
+    <total>6252.2481€</total>
+  </factura>
+  <factura id="90346">
+    <cliente>76</cliente>
+    <fecha>2021-07-23</fecha>
+    <total>1366.8589€</total>
+  </factura>
+  <factura id="90577">
+    <cliente>23</cliente>
+    <fecha>1986-04-30</fecha>
+    <total>4139.6579€</total>
+  </factura>
+  <factura id="90624">
+    <cliente>59</cliente>
+    <fecha>1984-04-12</fecha>
+    <total>4067.7791€</total>
+  </factura>
+  <factura id="90763">
+    <cliente>49</cliente>
+    <fecha>1996-02-06</fecha>
+    <total>4799.9725€</total>
+  </factura>
+  <factura id="90924">
+    <cliente>88</cliente>
+    <fecha>2010-06-04</fecha>
+    <total>6883.4722€</total>
+  </factura>
+  <factura id="91092">
+    <cliente>27</cliente>
+    <fecha>1979-05-25</fecha>
+    <total>428.4243€</total>
+  </factura>
+  <factura id="91103">
+    <cliente>38</cliente>
+    <fecha>2020-07-11</fecha>
+    <total>55.6086€</total>
+  </factura>
+  <factura id="91123">
+    <cliente>24</cliente>
+    <fecha>1995-08-28</fecha>
+    <total>320.3790€</total>
+  </factura>
+  <factura id="91145">
+    <cliente>72</cliente>
+    <fecha>2003-12-04</fecha>
+    <total>8426.6958€</total>
+  </factura>
+  <factura id="91302">
+    <cliente>73</cliente>
+    <fecha>1983-05-11</fecha>
+    <total>5190.3474€</total>
+  </factura>
+  <factura id="91331">
+    <cliente>14</cliente>
+    <fecha>1976-01-02</fecha>
+    <total>9515.0763€</total>
+  </factura>
+  <factura id="91361">
+    <cliente>8</cliente>
+    <fecha>1993-04-25</fecha>
+    <total>7633.2369€</total>
+  </factura>
+  <factura id="91372">
+    <cliente>7</cliente>
+    <fecha>2008-06-25</fecha>
+    <total>2481.5730€</total>
+  </factura>
+  <factura id="91400">
+    <cliente>25</cliente>
+    <fecha>2017-11-26</fecha>
+    <total>4791.0959€</total>
+  </factura>
+  <factura id="91421">
+    <cliente>75</cliente>
+    <fecha>1993-09-13</fecha>
+    <total>7936.8157€</total>
+  </factura>
+  <factura id="91445">
+    <cliente>51</cliente>
+    <fecha>1984-01-29</fecha>
+    <total>3193.0800€</total>
+  </factura>
+  <factura id="91519">
+    <cliente>75</cliente>
+    <fecha>1981-07-28</fecha>
+    <total>650.4120€</total>
+  </factura>
+  <factura id="91681">
+    <cliente>30</cliente>
+    <fecha>1972-04-02</fecha>
+    <total>8539.8258€</total>
+  </factura>
+  <factura id="91686">
+    <cliente>14</cliente>
+    <fecha>1971-03-26</fecha>
+    <total>192.2953€</total>
+  </factura>
+  <factura id="91969">
+    <cliente>26</cliente>
+    <fecha>1997-05-12</fecha>
+    <total>5672.4684€</total>
+  </factura>
+  <factura id="92032">
+    <cliente>82</cliente>
+    <fecha>2006-05-06</fecha>
+    <total>8816.1396€</total>
+  </factura>
+  <factura id="92151">
+    <cliente>9</cliente>
+    <fecha>2006-06-03</fecha>
+    <total>7057.3555€</total>
+  </factura>
+  <factura id="92158">
+    <cliente>52</cliente>
+    <fecha>1992-07-29</fecha>
+    <total>4615.1154€</total>
+  </factura>
+  <factura id="92231">
+    <cliente>86</cliente>
+    <fecha>1990-05-05</fecha>
+    <total>4730.1863€</total>
+  </factura>
+  <factura id="92347">
+    <cliente>34</cliente>
+    <fecha>2022-04-24</fecha>
+    <total>3522.2079€</total>
+  </factura>
+  <factura id="92629">
+    <cliente>6</cliente>
+    <fecha>2007-02-02</fecha>
+    <total>1656.5282€</total>
+  </factura>
+  <factura id="92732">
+    <cliente>55</cliente>
+    <fecha>2005-01-18</fecha>
+    <total>3059.2820€</total>
+  </factura>
+  <factura id="92747">
+    <cliente>16</cliente>
+    <fecha>1984-05-24</fecha>
+    <total>238.7992€</total>
+  </factura>
+  <factura id="93047">
+    <cliente>47</cliente>
+    <fecha>2012-06-29</fecha>
+    <total>1760.3455€</total>
+  </factura>
+  <factura id="93057">
+    <cliente>79</cliente>
+    <fecha>1992-09-02</fecha>
+    <total>1761.7591€</total>
+  </factura>
+  <factura id="93140">
+    <cliente>9</cliente>
+    <fecha>1973-12-04</fecha>
+    <total>2921.6685€</total>
+  </factura>
+  <factura id="93202">
+    <cliente>55</cliente>
+    <fecha>2010-10-10</fecha>
+    <total>1866.1496€</total>
+  </factura>
+  <factura id="93282">
+    <cliente>86</cliente>
+    <fecha>1986-09-05</fecha>
+    <total>1628.1271€</total>
+  </factura>
+  <factura id="93345">
+    <cliente>93</cliente>
+    <fecha>2003-12-09</fecha>
+    <total>2493.1064€</total>
+  </factura>
+  <factura id="93471">
+    <cliente>70</cliente>
+    <fecha>1992-08-18</fecha>
+    <total>2199.8397€</total>
+  </factura>
+  <factura id="93488">
+    <cliente>47</cliente>
+    <fecha>2006-11-26</fecha>
+    <total>5634.6435€</total>
+  </factura>
+  <factura id="93757">
+    <cliente>26</cliente>
+    <fecha>1972-04-24</fecha>
+    <total>9493.9854€</total>
+  </factura>
+  <factura id="93832">
+    <cliente>20</cliente>
+    <fecha>2022-04-19</fecha>
+    <total>4655.9287€</total>
+  </factura>
+  <factura id="93923">
+    <cliente>98</cliente>
+    <fecha>1998-12-28</fecha>
+    <total>7065.1281€</total>
+  </factura>
+  <factura id="94175">
+    <cliente>83</cliente>
+    <fecha>2013-08-04</fecha>
+    <total>1879.7802€</total>
+  </factura>
+  <factura id="94186">
+    <cliente>13</cliente>
+    <fecha>2022-11-13</fecha>
+    <total>8169.8712€</total>
+  </factura>
+  <factura id="94366">
+    <cliente>63</cliente>
+    <fecha>2003-06-29</fecha>
+    <total>679.5359€</total>
+  </factura>
+  <factura id="94421">
+    <cliente>69</cliente>
+    <fecha>1991-04-23</fecha>
+    <total>1465.5887€</total>
+  </factura>
+  <factura id="94504">
+    <cliente>43</cliente>
+    <fecha>1972-09-17</fecha>
+    <total>8585.4738€</total>
+  </factura>
+  <factura id="94674">
+    <cliente>23</cliente>
+    <fecha>1991-06-03</fecha>
+    <total>8038.0108€</total>
+  </factura>
+  <factura id="94743">
+    <cliente>6</cliente>
+    <fecha>1991-12-24</fecha>
+    <total>1924.5730€</total>
+  </factura>
+  <factura id="94752">
+    <cliente>42</cliente>
+    <fecha>2003-08-22</fecha>
+    <total>7414.2312€</total>
+  </factura>
+  <factura id="94876">
+    <cliente>77</cliente>
+    <fecha>1985-05-30</fecha>
+    <total>8724.2309€</total>
+  </factura>
+  <factura id="95060">
+    <cliente>51</cliente>
+    <fecha>1983-12-27</fecha>
+    <total>7547.8551€</total>
+  </factura>
+  <factura id="95082">
+    <cliente>6</cliente>
+    <fecha>2015-09-27</fecha>
+    <total>8976.6193€</total>
+  </factura>
+  <factura id="95243">
+    <cliente>62</cliente>
+    <fecha>2006-11-05</fecha>
+    <total>7447.6572€</total>
+  </factura>
+  <factura id="95487">
+    <cliente>12</cliente>
+    <fecha>1984-01-05</fecha>
+    <total>6774.3022€</total>
+  </factura>
+  <factura id="95516">
+    <cliente>68</cliente>
+    <fecha>2010-03-21</fecha>
+    <total>1391.1290€</total>
+  </factura>
+  <factura id="95634">
+    <cliente>43</cliente>
+    <fecha>2013-10-16</fecha>
+    <total>372.4687€</total>
+  </factura>
+  <factura id="95716">
+    <cliente>57</cliente>
+    <fecha>1992-07-06</fecha>
+    <total>7997.9159€</total>
+  </factura>
+  <factura id="95905">
+    <cliente>63</cliente>
+    <fecha>1979-01-16</fecha>
+    <total>6790.6837€</total>
+  </factura>
+  <factura id="95951">
+    <cliente>72</cliente>
+    <fecha>2015-01-09</fecha>
+    <total>8755.9675€</total>
+  </factura>
+  <factura id="96047">
+    <cliente>9</cliente>
+    <fecha>2004-07-19</fecha>
+    <total>2211.0188€</total>
+  </factura>
+  <factura id="96217">
+    <cliente>98</cliente>
+    <fecha>2008-03-27</fecha>
+    <total>7689.5181€</total>
+  </factura>
+  <factura id="96334">
+    <cliente>84</cliente>
+    <fecha>1988-04-07</fecha>
+    <total>6814.4482€</total>
+  </factura>
+  <factura id="96354">
+    <cliente>59</cliente>
+    <fecha>2005-07-20</fecha>
+    <total>7571.4775€</total>
+  </factura>
+  <factura id="96379">
+    <cliente>27</cliente>
+    <fecha>2010-07-12</fecha>
+    <total>4823.1653€</total>
+  </factura>
+  <factura id="96426">
+    <cliente>69</cliente>
+    <fecha>1973-03-04</fecha>
+    <total>3994.9091€</total>
+  </factura>
+  <factura id="96587">
+    <cliente>17</cliente>
+    <fecha>2019-08-03</fecha>
+    <total>1339.5255€</total>
+  </factura>
+  <factura id="96593">
+    <cliente>84</cliente>
+    <fecha>1970-06-07</fecha>
+    <total>7953.4064€</total>
+  </factura>
+  <factura id="96647">
+    <cliente>44</cliente>
+    <fecha>1980-03-18</fecha>
+    <total>1815.1130€</total>
+  </factura>
+  <factura id="96757">
+    <cliente>97</cliente>
+    <fecha>2016-05-11</fecha>
+    <total>6146.4453€</total>
+  </factura>
+  <factura id="96813">
+    <cliente>67</cliente>
+    <fecha>1985-09-06</fecha>
+    <total>1226.9246€</total>
+  </factura>
+  <factura id="96824">
+    <cliente>4</cliente>
+    <fecha>2010-01-10</fecha>
+    <total>9146.2311€</total>
+  </factura>
+  <factura id="96867">
+    <cliente>87</cliente>
+    <fecha>2005-09-07</fecha>
+    <total>3742.9452€</total>
+  </factura>
+  <factura id="97012">
+    <cliente>59</cliente>
+    <fecha>1999-12-23</fecha>
+    <total>5658.7575€</total>
+  </factura>
+  <factura id="97050">
+    <cliente>85</cliente>
+    <fecha>1979-03-19</fecha>
+    <total>7635.4403€</total>
+  </factura>
+  <factura id="97313">
+    <cliente>10</cliente>
+    <fecha>1988-09-08</fecha>
+    <total>1758.3929€</total>
+  </factura>
+  <factura id="97316">
+    <cliente>91</cliente>
+    <fecha>1982-02-27</fecha>
+    <total>84.1841€</total>
+  </factura>
+  <factura id="97393">
+    <cliente>26</cliente>
+    <fecha>2007-07-17</fecha>
+    <total>2962.5358€</total>
+  </factura>
+  <factura id="97472">
+    <cliente>93</cliente>
+    <fecha>1988-06-19</fecha>
+    <total>9159.5303€</total>
+  </factura>
+  <factura id="97577">
+    <cliente>6</cliente>
+    <fecha>2015-06-07</fecha>
+    <total>9648.5110€</total>
+  </factura>
+  <factura id="97749">
+    <cliente>86</cliente>
+    <fecha>1983-01-02</fecha>
+    <total>2728.1448€</total>
+  </factura>
+  <factura id="97924">
+    <cliente>49</cliente>
+    <fecha>2014-12-10</fecha>
+    <total>4390.5510€</total>
+  </factura>
+  <factura id="97985">
+    <cliente>14</cliente>
+    <fecha>2020-08-12</fecha>
+    <total>4856.6177€</total>
+  </factura>
+  <factura id="98169">
+    <cliente>4</cliente>
+    <fecha>2017-04-22</fecha>
+    <total>4452.0865€</total>
+  </factura>
+  <factura id="98194">
+    <cliente>49</cliente>
+    <fecha>2022-09-12</fecha>
+    <total>7242.0819€</total>
+  </factura>
+  <factura id="98234">
+    <cliente>55</cliente>
+    <fecha>1991-04-30</fecha>
+    <total>9938.4084€</total>
+  </factura>
+  <factura id="98251">
+    <cliente>70</cliente>
+    <fecha>2021-07-22</fecha>
+    <total>2533.7518€</total>
+  </factura>
+  <factura id="98313">
+    <cliente>1</cliente>
+    <fecha>1986-06-19</fecha>
+    <total>1497.7046€</total>
+  </factura>
+  <factura id="98410">
+    <cliente>5</cliente>
+    <fecha>1971-12-26</fecha>
+    <total>6056.1615€</total>
+  </factura>
+  <factura id="98531">
+    <cliente>8</cliente>
+    <fecha>2013-05-04</fecha>
+    <total>4045.3335€</total>
+  </factura>
+  <factura id="98589">
+    <cliente>4</cliente>
+    <fecha>1990-10-12</fecha>
+    <total>271.0493€</total>
+  </factura>
+  <factura id="98606">
+    <cliente>6</cliente>
+    <fecha>1977-04-15</fecha>
+    <total>8818.4799€</total>
+  </factura>
+  <factura id="98891">
+    <cliente>78</cliente>
+    <fecha>2014-01-27</fecha>
+    <total>4901.7454€</total>
+  </factura>
+  <factura id="98977">
+    <cliente>72</cliente>
+    <fecha>1990-10-30</fecha>
+    <total>7640.1342€</total>
+  </factura>
+  <factura id="98989">
+    <cliente>95</cliente>
+    <fecha>2016-08-30</fecha>
+    <total>6428.5707€</total>
+  </factura>
+  <factura id="99072">
+    <cliente>82</cliente>
+    <fecha>2007-08-31</fecha>
+    <total>323.8442€</total>
+  </factura>
+  <factura id="99166">
+    <cliente>35</cliente>
+    <fecha>2019-11-09</fecha>
+    <total>9505.2526€</total>
+  </factura>
+  <factura id="99489">
+    <cliente>2</cliente>
+    <fecha>1977-04-20</fecha>
+    <total>8623.8169€</total>
+  </factura>
+  <factura id="99621">
+    <cliente>77</cliente>
+    <fecha>1983-08-19</fecha>
+    <total>9605.1950€</total>
+  </factura>
+  <factura id="99628">
+    <cliente>24</cliente>
+    <fecha>1972-07-19</fecha>
+    <total>9821.8307€</total>
+  </factura>
+  <factura id="99676">
+    <cliente>51</cliente>
+    <fecha>1971-03-07</fecha>
+    <total>3589.5916€</total>
+  </factura>
+  <factura id="99714">
+    <cliente>32</cliente>
+    <fecha>2005-06-12</fecha>
+    <total>9980.8987€</total>
+  </factura>
+  <factura id="99767">
+    <cliente>61</cliente>
+    <fecha>2012-12-04</fecha>
+    <total>7153.9171€</total>
+  </factura>
+  <factura id="99789">
+    <cliente>42</cliente>
+    <fecha>2005-07-14</fecha>
+    <total>98.8643€</total>
+  </factura>
+  <factura id="99949">
+    <cliente>52</cliente>
+    <fecha>2009-09-25</fecha>
+    <total>5603.6312€</total>
+  </factura>
+</facturas>

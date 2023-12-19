@@ -1,0 +1,18 @@
+SERVIDOR
+	1.Instalacion de paquetes nfs-kernel-server, nfs-common y rpcbind
+	2.Reinicio del equipo necesario
+	3.Comprobacion mediante grep nfs /proc/filesystems
+	
+	4.Crear carpetas para compartir con todos los permisos y sin propietarios ni grupos
+	5.Editar el archivo /etc/exports e indicar cfg:
+		ruta client1(opciones) client2(opciones)
+	6.Reiniciar el servicio nfs-kernel-server (service)
+
+CLIENTE
+	1.Instalacion de paquetes nfs-common rpcbind
+	2.Crear el punto de montaje (carpeta en la que como user tengamos permisos)
+	3.Montar con mount o modificando fstab
+	   MOUNT
+		mount [servidor]:[ruta-serv] [ruta]
+	   FSTAB
+		[servidor]:[ruta-serv] [ruta] auto,noatime,nolock,bg,nfsvers=3,intr,tcp,actimeo=1800 0 0

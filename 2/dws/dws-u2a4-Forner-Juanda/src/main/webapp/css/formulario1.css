@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el formulario */
+form > section {
+    display: none;
+}
+
+#formulario {
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    align-items: center;
+    }
+
+#formulario form {
+    height: 100%;
+}
+
+.activa {
+    height: 100%;
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.producto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Estilos para los botones */
+#formulario .button-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario .button-wrapper button {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: none;
+    border: none;
+}
+
+#formulario .button-wrapper button:hover {
+    background-color: aliceblue;
+}
+
+.limit {
+    display: none;
+}

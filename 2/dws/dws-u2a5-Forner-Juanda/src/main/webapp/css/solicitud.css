@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #474b4e;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+form h3 {
+    background-color: #4c2882;
+    color: whitesmoke;
+    border-bottom: 1px solid black;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin: 0;
+    padding: 20px;
+}
+
+form .entradas {
+    margin: 20px;
+}
+
+form .entradas .entrada {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form .entradas .submit-section{
+    display: flex;
+    justify-content: flex-end;
+}

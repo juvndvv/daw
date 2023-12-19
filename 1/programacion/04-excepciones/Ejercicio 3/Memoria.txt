@@ -1,0 +1,9 @@
+
+La primera excepcion con la que nos encontramos es "java.lang.ArrayIndexOutOfBoundsException"
+que es provocada por el desbordamiento del vector.
+
+Tambien, al dividir un numero entre 0 nos lanza la excepcion "java.lang.ArithmeticException"
+
+Cuando introducimos por teclado cualquier valor que no sea un entero obtenemos la 
+excepcion "java.util.InputMismatchException" o tambien cuando introducimos un valor que no
+se puede almacenar en 32 bits, ya que el Scanner lo tomara como cadena y no como entero

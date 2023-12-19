@@ -1,0 +1,82 @@
+
+body>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    min-width: 150px;
+    flex-direction: column;
+    padding-block-start: 24px;
+    padding-inline: 12px;
+}
+
+nav>a {
+    margin-inline-start: 0;
+    margin-block-end: 32px;
+    font-size: .8rem;
+}
+
+main {
+    padding-block: 24px;
+    flex-direction: column;
+}
+
+/* Estilos para las secciones de los viajes */
+main>section {
+    align-items: center;
+    border-block-end: 1px solid lightgray;
+    padding-block: 16px;
+}
+
+main>section>* {
+    padding: 12px;
+}
+
+main>section:first-child {
+    padding-block-start: 0px;
+}
+
+main>section:last-child {
+    padding-block-end: 0px;
+    border-block-end: none;
+}
+
+/* Titulo del viaje */
+main>section>h3 {
+    text-align: center;
+    font-size: 1rem;
+    width: 100px;
+}
+
+main>section>div:first-of-type {
+    max-width: 200px;
+    overflow: hidden;
+}
+
+main>section>div:last-of-type {
+    width: 350px;
+}
+
+main>section>div>img {
+    border-radius: 16px;
+    height: 100%;
+}
+
+/* Estilos para el aside */
+aside {
+    padding: 24px;
+    min-width: 150px;
+}
+
+aside>h3{
+    margin: 0;
+}
+
+aside>*{
+    margin-block-end: 32px;
+}
+
+aside>div>ul>li {
+    margin-block: 16px;
+}

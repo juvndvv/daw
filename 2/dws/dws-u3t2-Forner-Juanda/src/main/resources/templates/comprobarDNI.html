@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduce el dni</title>
+</head>
+<body>
+    <form th:action="@{/}" th:object="${alumno}" method="post">
+        <h2>Introduce <label for="dni">DNI</label> a buscar</h2>
+        <input type="text" id="dni" th:field="*{dni}">
+        <button type="submit">Enviar</button>
+    </form>
+    <p th:text="${mensaje}"></p>
+</body>
+</html>

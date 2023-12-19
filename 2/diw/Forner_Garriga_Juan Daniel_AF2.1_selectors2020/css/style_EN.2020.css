@@ -1,0 +1,254 @@
+/* October-2020.   */
+
+/* cuerpo de la página */
+
+/* As hex codes */
+
+/* And different gray scale */
+/*  color: #444;     BODY */
+/*  color: #343434;  header + header p */
+/*  color: #555;     p */
+
+.color-primary-10 {
+    color: #A64B14
+}
+
+.color-primary-11 {
+    color: #D9ACA7
+}
+
+/* más claro */
+.color-primary-12 {
+    color: #BD867F
+}
+
+.color-primary-13 {
+    color: #573D3C
+}
+
+.color-primary-14 {
+    color: #1F2326
+}
+
+/* más oscuro */
+
+
+
+/*1. for de body page  */
+body {
+    width: 1000px;
+    margin: 0 auto;
+    color: #444;
+    /*gray*/
+}
+
+/* 2. For all elements */
+* {
+    font: 1em/1.3 Arial, Helvetica, sans-serif;
+}
+
+/* 3. for all <section> */
+section {
+    /*! border: 2px solid #A64B14; */
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    text-align: justify;
+    line-height: 3em;
+}
+
+/* 4. All headers */
+header {
+    padding: 10px;
+}
+
+/* 5. ALL <h1> and <h2> of the page */
+h1,
+h2 {
+    font-size: x-large;
+}
+
+/* 6. All paragraphs of the page */
+p {
+    color: #555;
+}
+
+/* 7. All links on the page */
+a {
+    color: #A64B14;
+    font-style: italic;
+}
+
+/* 8. All "em" elements of "special" class throughout the page */
+em.special {
+    background: #D9ACA7;
+    border: 1px solid #A64B14;
+    padding: .1em .3em;
+}
+
+
+/* 9. General page header */
+body > header {
+    text-align: center;
+    background-image: url("../images/TheGreatMigration.jpg");
+    /* The image used */
+    background-color: #A64B14;
+    /* Used if the image is unavailable */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    color: white;
+    margin: 10px 0;
+}
+
+
+/* 10. Title <h1> of the general header */
+h1
+
+/* Por que solo un h1 por pagina */
+    {
+    color: black;
+    background-color: rgb(255, 255, 255, 0.5);
+    font-weight: 900;
+    width: 30%;
+    margin: 0 auto;
+}
+
+/* 11. For <header> of all sections */
+section header {
+    background-color: #BD867F;
+    color: #FFF;
+    text-align: left;
+}
+
+/* 12 Header showing THE GREAT MIGRATION /* "first-section". You cannot include classes or identifiers.  */
+body > header + section header {
+    background-color: #573D3C;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* 13 title of the Header showing THE GREAT MIGRATION /* first section. You cannot include classes or identifiers.  */
+body > header + section h2 {
+    font-family: "MV Boli";
+}
+
+/* 14. All the paragraphs contained in the "first section"  */
+body > header + section p {
+    color: #343434;
+}
+
+
+/* 15. The elements "em" contained in the "first section" */
+body > header + section em {
+    border: 1px solid #A64B14;
+    color: #573D3C;
+    padding: .2em .6em;
+}
+
+
+/* 16. Header contained in the section with id="second".*/
+#second > header {
+    text-align: center;
+    background-color: #573D3C;
+
+}
+
+/* 17. h2 of the Header contained in the section with id="second".*/
+#second > header h2 {
+    font-style: oblique;
+}
+
+
+/* 18. Span elements contained in the section with id="second".*/
+#second span {
+    font-weight: bold;
+}
+
+/* 19. All items in all lists */
+li {
+    color: #555;
+}
+
+/* 20. sorted list */
+ol {
+    text-shadow: 1px 1px black;
+}
+
+/* 21. The items in the sorted list*/
+ol li {
+    font-style: italic;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* 22. For the <hr> that follow the disordered lists */
+ul + hr {
+    color: #BD867F;
+    width: 50%;
+    height: 3px;
+}
+
+/* 23. For <hr> which are right after <div> */
+div + hr {
+    color: #573D3C;
+    width: 50%;
+    height: 5px;
+}
+
+/* 24. For <span> of <p> included in a <article> */
+article p span {
+    font-size: xx-large;
+    font-family: 'MV Boli';
+    color: #573D3C;
+}
+
+/* 25 for <span> children of "div-one"*/
+header + div {
+    color: #A64B14;
+}
+
+/* 26. for class "special"*/
+.special {
+    font-family: 'MV Boli';
+}
+
+/* 27.for class transparentBG*/
+.transparentBG {
+    background: rgba(217, 172, 167, 0.4);
+    padding: 10px 40px;
+}
+
+/* 28. For the div children of class transparentBG. */
+.transparentBG div {
+    padding: 15px;
+}
+
+/* 29. For the paragraphs of the previous div. */
+.transparentBG div p {
+    font-weight: bold;
+    color: #1F2326;
+}
+
+/* 30.  footer*/
+footer {
+    background-color: #573D3C;
+    color: #fff;
+    line-height: 2em;
+    text-align: right;
+    padding: 10px;
+}
+
+/* 31.  for the footer span*/
+footer span {
+    font-size: 2em;
+}
+
+/* 32. For the Link to the "anchor" to "#paragraphs"*/
+a[href="#paragraphs"] {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}

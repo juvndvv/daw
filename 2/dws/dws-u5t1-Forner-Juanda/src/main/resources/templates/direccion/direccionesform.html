@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Crear nueva direccion</title>
+</head>
+<body>
+<header th:replace="common/header"></header>
+<nav th:replace="common/nav"></nav>
+
+<main>
+    <form th:action="@{/direcciones/save}"
+    th:object="${direccion}"
+    method="post">
+        <h2 th:text="'Agregar cuenta a ' + ${cliente.nombre}"></h2>
+
+        <div th:if="${select}" class="form-field">
+            <select name="direcciones" id="direcciones">
+                <option th:each="item : ${direcciones}"></option>
+            </select>
+        </div>
+
+        <div th:if="${!select}">
+            <div class="form-field">
+                <label for=""></label>
+                <input type="text">
+            </div>
+            <div class="form-field">
+                <label for=""></label>
+                <input type="text">
+            </div>
+            <div class="form-field">
+                <label for=""></label>
+                <input type="text">
+            </div>
+            <div class="form-field">
+                <label for=""></label>
+                <input type="text">
+            </div>
+        </div>
+
+        <div>
+            <button>Añadir</button>
+        </div>
+    </form>
+</main>
+
+<form th:action="@{/direcciones/cliente/{idCliente}/save(idCliente=${cliente.id})}"
+      th:object="${direccion}"
+      method="POST">
+    <table border="0">
+        <tr th:if="${direccion.idDireccion}">
+            <td>ID</td>
+            <td>:</td>
+            <td>
+                <input type="text" th:field="*{idDireccion}" readonly />
+            </td>
+        </tr>
+        <tr>
+            <td>Direccion</td>
+            <td>:</td>
+            <td>
+                <input type="text" th:field="*{descripcion}" />
+            </td>
+        </tr>
+        <tr>
+            <td>País</td>
+            <td>:</td>
+            <td>
+                <input type="text" th:field="*{pais}" />
+            </td>
+        </tr>
+        <tr>
+            <td>Código postal</td>
+            <td>:</td>
+            <td>
+                <input type="text" th:field="*{cp}" />
+            </td>
+        </tr>
+    </table>
+    <input type="submit" th:value="Crear" /> </form>
+<br/>
+<br/>
+<a
+        th:href="@{/direcciones/cliente/{idCliente}(idCliente=${cliente.id})}">Volver a la
+    lista de direcciones</a>
+</body>
+</html>

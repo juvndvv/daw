@@ -1,0 +1,892 @@
+<clientes>
+  <cliente id="1">
+    <name>Easter Sykes</name>
+    <address>
+      <street>0854 Doris Avenue</street>
+      <city>Murrieta</city>
+      <country>Mexico</country>
+      <zip>76469</zip>
+    </address>
+    <created>896</created>
+  </cliente>
+  <cliente id="2">
+    <name>Lizbeth Forte</name>
+    <address>
+      <street>5047 Tanhill Street</street>
+      <city>Kalamazoo</city>
+      <country>Chile</country>
+      <zip>98193</zip>
+    </address>
+    <created>743</created>
+  </cliente>
+  <cliente id="3">
+    <name>Quinn Dingle</name>
+    <address>
+      <street>3633 Cartmel</street>
+      <city>Pompano Beach</city>
+      <country>Sao Tome &amp; Principe</country>
+      <zip>08681</zip>
+    </address>
+    <created>219</created>
+  </cliente>
+  <cliente id="4">
+    <name>Elise Champagne</name>
+    <address>
+      <street>6775 Carrswood Avenue</street>
+      <city>Wichita</city>
+      <country>Moldova</country>
+      <zip>95013</zip>
+    </address>
+    <created>861</created>
+  </cliente>
+  <cliente id="5">
+    <name>Carissa Tillery</name>
+    <address>
+      <street>8657 Farmer Avenue</street>
+      <city>Kailua</city>
+      <country>Belize</country>
+      <zip>99614</zip>
+    </address>
+    <created>87</created>
+  </cliente>
+  <cliente id="6">
+    <name>Alan Mackenzie</name>
+    <address>
+      <street>8179 Dew Lane</street>
+      <city>Memphis</city>
+      <country>Greece</country>
+      <zip>88325</zip>
+    </address>
+    <created>204</created>
+  </cliente>
+  <cliente id="8">
+    <name>Sunni Forbes</name>
+    <address>
+      <street>4427 Swithland Avenue</street>
+      <city>St. Louis</city>
+      <country>Mozambique</country>
+      <zip>78630</zip>
+    </address>
+    <created>68</created>
+  </cliente>
+  <cliente id="9">
+    <name>Kyoko Gilbertson</name>
+    <address>
+      <street>8135 Lower Street</street>
+      <city>Lancaster</city>
+      <country>Bahamas</country>
+      <zip>81694</zip>
+    </address>
+    <created>861</created>
+  </cliente>
+  <cliente id="10">
+    <name>Darci Day</name>
+    <address>
+      <street>7727 Shawbrook</street>
+      <city>Spartanburg</city>
+      <country>Lithuania</country>
+      <zip>39371</zip>
+    </address>
+    <created>707</created>
+  </cliente>
+  <cliente id="12">
+    <name>Marna Chatman</name>
+    <address>
+      <street>3186 Hayward</street>
+      <city>Saint Petersburg</city>
+      <country>St Lucia</country>
+      <zip>06612</zip>
+    </address>
+    <created>397</created>
+  </cliente>
+  <cliente id="13">
+    <name>Wynell Wofford</name>
+    <address>
+      <street>1363 Kirby</street>
+      <city>Tampa</city>
+      <country>Botswana</country>
+      <zip>55192</zip>
+    </address>
+    <created>666</created>
+  </cliente>
+  <cliente id="14">
+    <name>Shandra Pettis</name>
+    <address>
+      <street>3731 Great Lane</street>
+      <city>Springdale</city>
+      <country>Serbia</country>
+      <zip>12848</zip>
+    </address>
+    <created>79</created>
+  </cliente>
+  <cliente id="15">
+    <name>Vanita Quiroz</name>
+    <address>
+      <street>8188 Radcliffe Road</street>
+      <city>Ogden</city>
+      <country>Maldives</country>
+      <zip>81396</zip>
+    </address>
+    <created>385</created>
+  </cliente>
+  <cliente id="16">
+    <name>Kandice Priest</name>
+    <address>
+      <street>5119 Clock Avenue</street>
+      <city>Chesapeake</city>
+      <country>Germany</country>
+      <zip>11499</zip>
+    </address>
+    <created>625</created>
+  </cliente>
+  <cliente id="17">
+    <name>Cinderella Burks</name>
+    <address>
+      <street>7027 Caistor Road</street>
+      <city>Norfolk</city>
+      <country>Namibia</country>
+      <zip>21978</zip>
+    </address>
+    <created>864</created>
+  </cliente>
+  <cliente id="18">
+    <name>Mallie Lozano</name>
+    <address>
+      <street>3454 Lowestoft Street</street>
+      <city>Bethlehem</city>
+      <country>Uruguay</country>
+      <zip>41594</zip>
+    </address>
+    <created>522</created>
+  </cliente>
+  <cliente id="19">
+    <name>Sabra Keefer</name>
+    <address>
+      <street>2956 Haywood Circle</street>
+      <city>Billings</city>
+      <country>Grenada</country>
+      <zip>21138</zip>
+    </address>
+    <created>340</created>
+  </cliente>
+  <cliente id="20">
+    <name>Tobias Bowlin</name>
+    <address>
+      <street>6609 Pobgreen Street</street>
+      <city>Westminster</city>
+      <country>Swaziland</country>
+      <zip>38368</zip>
+    </address>
+    <created>680</created>
+  </cliente>
+  <cliente id="21">
+    <name>Ozie Quillen</name>
+    <address>
+      <street>8168 Haroldene Circle</street>
+      <city>Dallas</city>
+      <country>Micronesia</country>
+      <zip>30531</zip>
+    </address>
+    <created>821</created>
+  </cliente>
+  <cliente id="22">
+    <name>Veta Walling</name>
+    <address>
+      <street>2267 Elizabeth Lane</street>
+      <city>Las Cruces</city>
+      <country>United Kingdom</country>
+      <zip>76524</zip>
+    </address>
+    <created>221</created>
+  </cliente>
+  <cliente id="24">
+    <name>Alia Spriggs</name>
+    <address>
+      <street>8077 Sephton Street</street>
+      <city>Redding</city>
+      <country>Botswana</country>
+      <zip>82294</zip>
+    </address>
+    <created>795</created>
+  </cliente>
+  <cliente id="25">
+    <name>Cleta Figueroa</name>
+    <address>
+      <street>5161 Dolphin Avenue</street>
+      <city>San Buenaventura</city>
+      <country>Egypt</country>
+      <zip>03764</zip>
+    </address>
+    <created>187</created>
+  </cliente>
+  <cliente id="26">
+    <name>Athena English</name>
+    <address>
+      <street>4392 Clough Lane</street>
+      <city>Mission Viejo</city>
+      <country>Nicaragua</country>
+      <zip>75457</zip>
+    </address>
+    <created>766</created>
+  </cliente>
+  <cliente id="27">
+    <name>Eleanor Mattison</name>
+    <address>
+      <street>7507 Porchester Lane</street>
+      <city>Salem</city>
+      <country>Russian Federation</country>
+      <zip>77939</zip>
+    </address>
+    <created>174</created>
+  </cliente>
+  <cliente id="28">
+    <name>Ma Unger</name>
+    <address>
+      <street>9055 Rigby Circle</street>
+      <city>Scottsdale</city>
+      <country>Vietnam</country>
+      <zip>35822</zip>
+    </address>
+    <created>185</created>
+  </cliente>
+  <cliente id="29">
+    <name>Ute Swann</name>
+    <address>
+      <street>7007 Heyes</street>
+      <city>Garden Grove</city>
+      <country>Denmark</country>
+      <zip>23079</zip>
+    </address>
+    <created>474</created>
+  </cliente>
+  <cliente id="30">
+    <name>Marylyn Kennedy</name>
+    <address>
+      <street>5452 Edna Road</street>
+      <city>Killeen</city>
+      <country>Nigeria</country>
+      <zip>37128</zip>
+    </address>
+    <created>4</created>
+  </cliente>
+  <cliente id="31">
+    <name>Katlyn Leavitt</name>
+    <address>
+      <street>5793 Lamberton Road</street>
+      <city>Fairfield</city>
+      <country>Guatemala</country>
+      <zip>94799</zip>
+    </address>
+    <created>40</created>
+  </cliente>
+  <cliente id="32">
+    <name>Rob Bible</name>
+    <address>
+      <street>2689 Norbreck Street</street>
+      <city>Philadelphia</city>
+      <country>Oman</country>
+      <zip>90291</zip>
+    </address>
+    <created>643</created>
+  </cliente>
+  <cliente id="33">
+    <name>Drew Brink</name>
+    <address>
+      <street>2487 Earle Lane</street>
+      <city>Duluth</city>
+      <country>Congo</country>
+      <zip>12504</zip>
+    </address>
+    <created>127</created>
+  </cliente>
+  <cliente id="34">
+    <name>Neva Correia</name>
+    <address>
+      <street>5034 Back</street>
+      <city>Austin</city>
+      <country>Romania</country>
+      <zip>97028</zip>
+    </address>
+    <created>716</created>
+  </cliente>
+  <cliente id="35">
+    <name>Bernadette Gant</name>
+    <address>
+      <street>5806 East</street>
+      <city>San Bernardino</city>
+      <country>Malawi</country>
+      <zip>55526</zip>
+    </address>
+    <created>990</created>
+  </cliente>
+  <cliente id="36">
+    <name>Andree Valadez</name>
+    <address>
+      <street>4531 Dorsey Lane</street>
+      <city>Gulfport-Biloxi</city>
+      <country>Djibouti</country>
+      <zip>71032</zip>
+    </address>
+    <created>573</created>
+  </cliente>
+  <cliente id="37">
+    <name>Breana Barr</name>
+    <address>
+      <street>4739 East Avenue</street>
+      <city>Detroit</city>
+      <country>Chile</country>
+      <zip>93316</zip>
+    </address>
+    <created>431</created>
+  </cliente>
+  <cliente id="38">
+    <name>Natosha Colbert</name>
+    <address>
+      <street>5179 Edward Avenue</street>
+      <city>Berkeley</city>
+      <country>Tajikistan</country>
+      <zip>88127</zip>
+    </address>
+    <created>783</created>
+  </cliente>
+  <cliente id="39">
+    <name>Rene Clemens</name>
+    <address>
+      <street>6965 Leamington Avenue</street>
+      <city>Brownsville</city>
+      <country>St Lucia</country>
+      <zip>23562</zip>
+    </address>
+    <created>593</created>
+  </cliente>
+  <cliente id="40">
+    <name>Pansy London</name>
+    <address>
+      <street>5370 Raddel</street>
+      <city>Kaneohe</city>
+      <country>Solomon Islands</country>
+      <zip>35222</zip>
+    </address>
+    <created>449</created>
+  </cliente>
+  <cliente id="41">
+    <name>Hoa Thomsen</name>
+    <address>
+      <street>3945 Kirkhope Road</street>
+      <city>Norfolk</city>
+      <country>Algeria</country>
+      <zip>24569</zip>
+    </address>
+    <created>236</created>
+  </cliente>
+  <cliente id="42">
+    <name>Roslyn Shephard-Santana</name>
+    <address>
+      <street>6220 Shakerley Street</street>
+      <city>Louisville</city>
+      <country>Ecuador</country>
+      <zip>82429</zip>
+    </address>
+    <created>585</created>
+  </cliente>
+  <cliente id="43">
+    <name>Marlen Thurston</name>
+    <address>
+      <street>5773 Crossley Avenue</street>
+      <city>Miami</city>
+      <country>Portugal</country>
+      <zip>95819</zip>
+    </address>
+    <created>484</created>
+  </cliente>
+  <cliente id="44">
+    <name>Madeline Winters</name>
+    <address>
+      <street>4821 King</street>
+      <city>Jackson</city>
+      <country>Equatorial Guinea</country>
+      <zip>80811</zip>
+    </address>
+    <created>350</created>
+  </cliente>
+  <cliente id="45">
+    <name>Hermine Bingham</name>
+    <address>
+      <street>8766 Pendlecroft</street>
+      <city>Columbus</city>
+      <country>Paraguay</country>
+      <zip>53821</zip>
+    </address>
+    <created>148</created>
+  </cliente>
+  <cliente id="46">
+    <name>Frieda Stubblefield</name>
+    <address>
+      <street>0367 Ruthen Street</street>
+      <city>Merced</city>
+      <country>Georgia</country>
+      <zip>76137</zip>
+    </address>
+    <created>898</created>
+  </cliente>
+  <cliente id="47">
+    <name>Terence Moss</name>
+    <address>
+      <street>0079 Argyle Lane</street>
+      <city>Lorain</city>
+      <country>Liechtenstein</country>
+      <zip>99510</zip>
+    </address>
+    <created>555</created>
+  </cliente>
+  <cliente id="48">
+    <name>Jene Steed</name>
+    <address>
+      <street>7586 Hollhey</street>
+      <city>Olathe</city>
+      <country>Jamaica</country>
+      <zip>82453</zip>
+    </address>
+    <created>836</created>
+  </cliente>
+  <cliente id="49">
+    <name>Cecilia Riggs</name>
+    <address>
+      <street>1037 Firbeck</street>
+      <city>Atlanta</city>
+      <country>Cyprus</country>
+      <zip>05402</zip>
+    </address>
+    <created>459</created>
+  </cliente>
+  <cliente id="51">
+    <name>Eda Langley</name>
+    <address>
+      <street>1961 Agden</street>
+      <city>Vancouver</city>
+      <country>Ivory Coast</country>
+      <zip>91150</zip>
+    </address>
+    <created>119</created>
+  </cliente>
+  <cliente id="52">
+    <name>Wan Willis</name>
+    <address>
+      <street>6830 Back</street>
+      <city>Amarillo</city>
+      <country>New Zealand</country>
+      <zip>18525</zip>
+    </address>
+    <created>234</created>
+  </cliente>
+  <cliente id="53">
+    <name>Jordon Gorham</name>
+    <address>
+      <street>7036 Enderby Street</street>
+      <city>Clearwater</city>
+      <country>Greece</country>
+      <zip>28579</zip>
+    </address>
+    <created>62</created>
+  </cliente>
+  <cliente id="54">
+    <name>Donita Lindley</name>
+    <address>
+      <street>8248 Cawthorne Circle</street>
+      <city>Utica</city>
+      <country>Bahrain</country>
+      <zip>25308</zip>
+    </address>
+    <created>310</created>
+  </cliente>
+  <cliente id="55">
+    <name>Ezekiel Lloyd</name>
+    <address>
+      <street>5733 Esmond Street</street>
+      <city>Kissimmee</city>
+      <country>Tonga</country>
+      <zip>69102</zip>
+    </address>
+    <created>528</created>
+  </cliente>
+  <cliente id="56">
+    <name>Melani Logsdon</name>
+    <address>
+      <street>7520 Steel Lane</street>
+      <city>Newburgh</city>
+      <country>Chile</country>
+      <zip>22143</zip>
+    </address>
+    <created>300</created>
+  </cliente>
+  <cliente id="57">
+    <name>Weldon Culp</name>
+    <address>
+      <street>6015 Birkby Street</street>
+      <city>Tulsa</city>
+      <country>Djibouti</country>
+      <zip>84158</zip>
+    </address>
+    <created>319</created>
+  </cliente>
+  <cliente id="58">
+    <name>Latrice Christianson</name>
+    <address>
+      <street>1490 Firs</street>
+      <city>Glendale</city>
+      <country>Palau</country>
+      <zip>95182</zip>
+    </address>
+    <created>956</created>
+  </cliente>
+  <cliente id="59">
+    <name>Claudine Ridley</name>
+    <address>
+      <street>1310 Marchwood Street</street>
+      <city>Norwalk</city>
+      <country>Mexico</country>
+      <zip>21108</zip>
+    </address>
+    <created>519</created>
+  </cliente>
+  <cliente id="60">
+    <name>Burma Branson</name>
+    <address>
+      <street>4403 Thirlemere Avenue</street>
+      <city>Mission Viejo</city>
+      <country>Austria</country>
+      <zip>49912</zip>
+    </address>
+    <created>900</created>
+  </cliente>
+  <cliente id="61">
+    <name>Laurice Lim</name>
+    <address>
+      <street>2865 Leegate Road</street>
+      <city>Winston</city>
+      <country>Serbia</country>
+      <zip>58470</zip>
+    </address>
+    <created>320</created>
+  </cliente>
+  <cliente id="62">
+    <name>Darell Kirby</name>
+    <address>
+      <street>5137 Barnwell Street</street>
+      <city>Concord</city>
+      <country>Bosnia Herzegovina</country>
+      <zip>90918</zip>
+    </address>
+    <created>170</created>
+  </cliente>
+  <cliente id="63">
+    <name>Thomas Hanks</name>
+    <address>
+      <street>1124 Robin Lane</street>
+      <city>Buffalo</city>
+      <country>Mali</country>
+      <zip>16437</zip>
+    </address>
+    <created>328</created>
+  </cliente>
+  <cliente id="64">
+    <name>Katie Salazar</name>
+    <address>
+      <street>9428 Trentham Avenue</street>
+      <city>Punta Gorda</city>
+      <country>Yemen</country>
+      <zip>06011</zip>
+    </address>
+    <created>923</created>
+  </cliente>
+  <cliente id="66">
+    <name>Laverne Lemus</name>
+    <address>
+      <street>7481 Blunn Lane</street>
+      <city>Hagerstown</city>
+      <country>Tajikistan</country>
+      <zip>12722</zip>
+    </address>
+    <created>270</created>
+  </cliente>
+  <cliente id="67">
+    <name>Jerry Kaye</name>
+    <address>
+      <street>1260 Hilrose Circle</street>
+      <city>Danbury</city>
+      <country>St Kitts &amp; Nevis</country>
+      <zip>91689</zip>
+    </address>
+    <created>69</created>
+  </cliente>
+  <cliente id="68">
+    <name>Bobbye Jansen</name>
+    <address>
+      <street>2111 Elton Avenue</street>
+      <city>Dayton</city>
+      <country>Iraq</country>
+      <zip>25232</zip>
+    </address>
+    <created>225</created>
+  </cliente>
+  <cliente id="70">
+    <name>Ulysses Eason-Edmond</name>
+    <address>
+      <street>9414 Springwood Lane</street>
+      <city>Bethlehem</city>
+      <country>Saudi Arabia</country>
+      <zip>74347</zip>
+    </address>
+    <created>248</created>
+  </cliente>
+  <cliente id="71">
+    <name>Brendan Pate</name>
+    <address>
+      <street>0575 Chretien Lane</street>
+      <city>Houston</city>
+      <country>Canada</country>
+      <zip>26962</zip>
+    </address>
+    <created>909</created>
+  </cliente>
+  <cliente id="72">
+    <name>Roselia Watson</name>
+    <address>
+      <street>3770 Clifton Road</street>
+      <city>San Bernardino</city>
+      <country>Dominica</country>
+      <zip>69953</zip>
+    </address>
+    <created>266</created>
+  </cliente>
+  <cliente id="73">
+    <name>Rocio Ahmad</name>
+    <address>
+      <street>9999 Broomhurst</street>
+      <city>Normal</city>
+      <country>Bulgaria</country>
+      <zip>27182</zip>
+    </address>
+    <created>959</created>
+  </cliente>
+  <cliente id="74">
+    <name>Brooks Mcdermott</name>
+    <address>
+      <street>2897 Bray Street</street>
+      <city>Burlington</city>
+      <country>Congo</country>
+      <zip>40127</zip>
+    </address>
+    <created>964</created>
+  </cliente>
+  <cliente id="75">
+    <name>Zana Bernier</name>
+    <address>
+      <street>3972 Cross Circle</street>
+      <city>Aberdeen</city>
+      <country>Marshall Islands</country>
+      <zip>01497</zip>
+    </address>
+    <created>946</created>
+  </cliente>
+  <cliente id="77">
+    <name>Kacie Paige</name>
+    <address>
+      <street>3977 Dexter Avenue</street>
+      <city>Daly City</city>
+      <country>Syria</country>
+      <zip>36025</zip>
+    </address>
+    <created>543</created>
+  </cliente>
+  <cliente id="78">
+    <name>Lasonya Banks</name>
+    <address>
+      <street>1666 Thankerton Circle</street>
+      <city>Thornton</city>
+      <country>Philippines</country>
+      <zip>45797</zip>
+    </address>
+    <created>105</created>
+  </cliente>
+  <cliente id="79">
+    <name>Barbera Gooch</name>
+    <address>
+      <street>1468 Blackwood Avenue</street>
+      <city>Savannah</city>
+      <country>Tajikistan</country>
+      <zip>68323</zip>
+    </address>
+    <created>702</created>
+  </cliente>
+  <cliente id="82">
+    <name>Katelynn Ledesma</name>
+    <address>
+      <street>3324 Back</street>
+      <city>Vero Beach</city>
+      <country>Latvia</country>
+      <zip>21621</zip>
+    </address>
+    <created>360</created>
+  </cliente>
+  <cliente id="83">
+    <name>Mariano Hightower</name>
+    <address>
+      <street>5225 Springs Lane</street>
+      <city>Lancaster</city>
+      <country>Trinidad &amp; Tobago</country>
+      <zip>39312</zip>
+    </address>
+    <created>681</created>
+  </cliente>
+  <cliente id="84">
+    <name>Olive Goodin</name>
+    <address>
+      <street>0917 Willis Street</street>
+      <city>Portland</city>
+      <country>Mexico</country>
+      <zip>68684</zip>
+    </address>
+    <created>805</created>
+  </cliente>
+  <cliente id="85">
+    <name>Twyla Fleck</name>
+    <address>
+      <street>6080 Gravel Lane</street>
+      <city>Richland</city>
+      <country>Namibia</country>
+      <zip>72405</zip>
+    </address>
+    <created>81</created>
+  </cliente>
+  <cliente id="86">
+    <name>Carrol Lilley</name>
+    <address>
+      <street>8665 Sandleigh</street>
+      <city>Gainesville</city>
+      <country>Panama</country>
+      <zip>49626</zip>
+    </address>
+    <created>923</created>
+  </cliente>
+  <cliente id="87">
+    <name>Moises Greenwood</name>
+    <address>
+      <street>3419 Birtles Lane</street>
+      <city>Omaha</city>
+      <country>Albania</country>
+      <zip>54042</zip>
+    </address>
+    <created>127</created>
+  </cliente>
+  <cliente id="88">
+    <name>Elouise Hudspeth</name>
+    <address>
+      <street>0904 Rivershill</street>
+      <city>San Jose</city>
+      <country>Equatorial Guinea</country>
+      <zip>47060</zip>
+    </address>
+    <created>486</created>
+  </cliente>
+  <cliente id="89">
+    <name>Deloris Lima</name>
+    <address>
+      <street>4663 Braddyll</street>
+      <city>Long Beach</city>
+      <country>Brunei</country>
+      <zip>10718</zip>
+    </address>
+    <created>536</created>
+  </cliente>
+  <cliente id="90">
+    <name>Tashina Ferris</name>
+    <address>
+      <street>5558 Back Street</street>
+      <city>Champaign</city>
+      <country>Libya</country>
+      <zip>28850</zip>
+    </address>
+    <created>309</created>
+  </cliente>
+  <cliente id="91">
+    <name>Jude Wilder</name>
+    <address>
+      <street>0153 Dunsop Circle</street>
+      <city>Fort Lauderdale</city>
+      <country>Mauritius</country>
+      <zip>26809</zip>
+    </address>
+    <created>452</created>
+  </cliente>
+  <cliente id="93">
+    <name>Silas Scanlon</name>
+    <address>
+      <street>5179 Raphael</street>
+      <city>Gilbert</city>
+      <country>Belarus</country>
+      <zip>27502</zip>
+    </address>
+    <created>366</created>
+  </cliente>
+  <cliente id="94">
+    <name>Cole Andrade</name>
+    <address>
+      <street>2938 Greville Road</street>
+      <city>Jersey City</city>
+      <country>Kiribati</country>
+      <zip>30622</zip>
+    </address>
+    <created>863</created>
+  </cliente>
+  <cliente id="95">
+    <name>Georgann Hearn</name>
+    <address>
+      <street>5042 Cleabarrow</street>
+      <city>Tallahassee</city>
+      <country>Swaziland</country>
+      <zip>49593</zip>
+    </address>
+    <created>326</created>
+  </cliente>
+  <cliente id="96">
+    <name>Velvet Guzman</name>
+    <address>
+      <street>4145 Ripponden Road</street>
+      <city>Baltimore</city>
+      <country>Dominica</country>
+      <zip>27342</zip>
+    </address>
+    <created>453</created>
+  </cliente>
+  <cliente id="97">
+    <name>Son Benoit</name>
+    <address>
+      <street>8847 Wasdale</street>
+      <city>Chattanooga</city>
+      <country>Kazakhstan</country>
+      <zip>21745</zip>
+    </address>
+    <created>759</created>
+  </cliente>
+  <cliente id="98">
+    <name>Latanya Shoemaker</name>
+    <address>
+      <street>5751 Clive Road</street>
+      <city>Las Cruces</city>
+      <country>Portugal</country>
+      <zip>59361</zip>
+    </address>
+    <created>695</created>
+  </cliente>
+  <cliente id="99">
+    <name>Jeneva Houser</name>
+    <address>
+      <street>2506 Queenston Circle</street>
+      <city>Colorado Springs</city>
+      <country>United Kingdom</country>
+      <zip>67970</zip>
+    </address>
+    <created>368</created>
+  </cliente>
+</clientes>

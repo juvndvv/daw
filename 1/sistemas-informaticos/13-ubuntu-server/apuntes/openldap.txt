@@ -1,0 +1,33 @@
+[SERVIDOR]
+	1.Configurar IP estatica [OPCIONAL]
+	2.Configurar nombre servidor [OPCIONAL]
+	3.Añadir a /etc/hosts una linea con:
+		[ip] [nombres logicos...]
+		[ip] ldapserver.empresa.local ldapserver
+	4.Instalar paquetes slapd ldap-utils
+	5.Comprobar con sudo slapcat
+	6.Si no funciona: sudo dpkg-reconfigure slapd y introducir datos
+	7.ldapadd -x -D cn=admin,dc=forner,dc=local -W -f archivo.ldif
+
+[CLIENTE PARA INICAR AUTENTICARSE]
+	1.Instalar paquetes libnss-ldap libpam-ldap ldap-utils
+	2.Configuracion necesaria sobre el servidor
+		ldap://ip
+		empresa.local
+		version3
+		si
+		no
+		admin.empresa.local
+		password admin
+	3.Si no funciona: sudo dpkg-reconfigure ldap-auth-config
+	4.Editar el archivo /etc/nsswitch.conf
+		passwd: add ldap
+		group:  add ldap
+	5.Editar el archivo /etc/pam.d/common-password
+		l26: remove use_authtok
+	6.Editar el archivo /etc/pam.d/common-sesion
+		add line: session optional pam_mkhomedir.so skel=/etc/skel umask=077
+	7.Reiniciar
+
+	8.Se puede iniciar sesion graficamente instalando el paquete nscd y /etc/init.d/nscd restart
+	9.Ctrl+Alt+F3 para inicar sesion texto

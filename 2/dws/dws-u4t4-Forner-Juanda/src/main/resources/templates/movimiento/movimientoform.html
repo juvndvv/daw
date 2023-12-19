@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title th:text="${add} ? 'Nuevo movimiento' : 'Actualizar movimiento'"></title>
+</head>
+<body>
+<!-- Cabecera -->
+<header th:replace="common/header"></header>
+<nav th:replace="common/nav"></nav>
+
+<!-- Contenido principal -->
+<main>
+
+    <!-- Errores del formulario -->
+    <ul class="errores-form" style="color: red" th:if="errores">
+        <li th:each="error : ${errores}">
+            <span th:text="${error}">Error</span>
+        </li>
+    </ul>
+
+    <!-- Formulario -->
+    <form th:action="@{/movimientos/save}" th:object="${movimientoDTO}" method="post">
+
+        <!-- Cabecera del formulario -->
+        <h2 th:text="(${add} ? 'Nuevo movimiento' : 'Actualizar movimiento') + ' para ' + ${movimientoDTO.cuentaOrigen.numeroCuenta}" />
+
+        <!-- Campos del formulario -->
+        <div th:if="${movimientoDTO.id}" class="form-field">
+            <label for="id">id</label>
+            <input id="id" type="text" th:field="*{id}" readonly/>
+        </div>
+        <div class="form-field">
+            <label for="cuenta-origen">Origen</label>
+            <input id="cuenta-origen" type="text"  th:field="*{cuentaOrigen.id}" th:placeholder="${movimientoDTO.cuentaOrigen.id}" readonly>
+        </div>
+        <div class="form-field">
+            <label for="cuenta-destino">Destino</label>
+
+            <!-- if añadir -->
+            <select th:if="${add}" th:field="*{cuentaDestino.id}" name="cuentas" id="cuenta-destino">
+                <option th:if="${movimientoDTO.cuentaOrigen.id != item.id}" th:each="item : ${cuentasDTO}" th:value="${item.id}"
+                        th:text="${item.numeroCuenta} + ' (' + ${item.propietario.nombre} + ' ' + ${item.propietario.apellidos}
+                            + ')'"></option>
+            </select>
+
+            <!-- if editar -->
+            <input th:if="${!add}" id="cuenta-destino" type="text" th:field="*{cuentaDestino.id}" readonly>
+        </div>
+        <div class="form-field">
+            <label for="tipo">Tipo</label>
+            <input id="tipo" type="text" th:field="*{tipo}" th:placeholder="${movimientoDTO.tipo}" />
+        </div>
+        <div class="form-field">
+            <label for="fecha">Fecha</label>
+            <input id="fecha" type="date" th:field="*{fechaOperacion}"/>
+        </div>
+        <div class="form-field">
+            <label for="descripcion">Descripción</label>
+            <input id="descripcion" type="text" th:field="*{descripcion}" th:placeholder="${movimientoDTO.descripcion}" />
+        </div>
+        <div class="form-field">
+            <label for="importe">Importe</label>
+            <input id="importe" type="text" th:field="*{importe}" th:placeholder="${movimientoDTO.importe}" />
+        </div>
+
+        <!-- Submit -->
+        <div>
+            <button th:text="${add} ? 'Nuevo' : 'Actualizar'"> </button>
+        </div>
+    </form>
+
+    <!-- Botones de navegación -->
+    <div class="btn-container">
+        <a th:href="@{/movimientos/cuenta/{idCuenta}(idCuenta=${movimientoDTO.cuentaOrigen.id})}">Volver a la lista de movimientos</a>
+    </div>
+</main>
+</body>
+</html>

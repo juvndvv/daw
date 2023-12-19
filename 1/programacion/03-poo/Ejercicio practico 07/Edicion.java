@@ -1,0 +1,40 @@
+
+public abstract class Edicion {
+    protected String Isin;
+    protected String fecha;
+    protected String tipo;
+
+    public Edicion(String Isin, String fecha, String tipo) {
+        this.Isin = Isin;
+        this.fecha = fecha;
+        this.tipo = tipo;
+    }
+
+    public String getIsin() {
+        return Isin;
+    }
+    
+    public void setIsin(String isin) {
+        Isin = isin;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String info() {
+        return String.format("ISIN: %s%nFecha: %s%nTipo: %s%n", this.Isin, this.fecha, this.tipo);
+    }
+}

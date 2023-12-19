@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Visualizar zona</title>
+</head>
+<body>
+<h1>Visualizar zona</h1>
+<table>
+	<tr>
+		<td>id</td>
+		<td>:</td>
+		<td th:text="${zona.id}"></td>
+	</tr>
+	<tr>
+		<td>Letra</td>
+		<td>:</td>
+		<td th:text="${zona.letra}"></td>
+	</tr>
+	<tr>
+		<td>Profundidad</td>
+		<td>:</td>
+		<td th:text="${zona.profundidad}"></td>
+	</tr>
+	<tr>
+		<td>Dimensiones</td>
+		<td>:</td>
+		<td th:text="${zona.dimensiones}"></td>
+	</tr>
+</table>
+<a th:href="@{/zonas}">Volver a la lista de zonas</a>
+</body>
+</html>

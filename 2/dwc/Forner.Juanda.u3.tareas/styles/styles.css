@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html,
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    transition-duration: 2s;
+}
+
+header {
+    font-family: 'Poppins';
+    background-color: #094293;
+    font-size: x-large;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 1vh 3vw 1vh 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#perfil {
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#perfil p {
+    padding-right: 10px;
+}
+
+#imagen-contenedor {
+    height: 60px;
+    width: 60px;
+    background-image: url('../img/perfil.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition-duration: .2s;
+}
+
+#imagen-contenedor:hover {
+    background-image: url('../img/perfil2.jpg');
+}
+
+nav {
+    background-color: lightgray;
+    display: flex;
+}
+
+nav button {
+    font-family: 'Poppins';
+    font-size: small;
+    font-weight: 500;
+    border: none;
+    margin: 0;
+    background-color: lightgray;
+    padding: 2vh 4vh 2vh 4vh;
+    transition-duration: .2s;
+}
+
+nav button:hover {
+    background-color: whitesmoke;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 70vh;
+    padding: 10px 20px;
+    color: #3a3a3a;
+}
+
+main input {
+    font-family: 'Poppins';
+    font-size: medium;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 9999px;
+}
+
+main button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 9999px;
+}
+
+main button:hover {
+    background-color: lightgray;
+}
+
+footer {
+    color: #3a3a3a;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+}
+
+section {
+    font-size: small;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);
+    z-index: 1;
+}
+
+#info {
+    color: red;;
+}
+
+#maquinaEscribir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#maquinaEscribir p {
+    font-family: 'Poppins';
+    font-size: 2em;
+    margin: 0;
+    padding: 0; 
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    #perfil p {
+        display: none;
+    }
+
+    td {
+        height: 40px;
+        width: 40px;
+    }
+}
+

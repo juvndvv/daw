@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title th:text="${add} ? 'Nuevo cliente' : 'Actualizar cliente'"></title>
+</head>
+<body>
+<!-- Cabecera -->
+<header th:replace="~{common/header}"></header>
+<nav th:replace="~{common/nav}"></nav>
+
+<!-- Contenido principal -->
+<main>
+    <!-- Formulario -->
+    <form th:action="@{/clientes/save}" th:object="${clienteDto}"
+          method="POST">
+
+        <!-- Cabecera del formulario -->
+        <h2 th:text="${add} ? 'Nuevo cliente' : 'Actualizar cliente'" />
+
+        <!-- Campos del formulario -->
+        <div class="form-field">
+            <label for="id">Id</label>
+            <input id="id" type="text" th:field="*{id}" th:placeholder="${clienteDto.getId()}" readonly/>
+        </div>
+        <div class="form-field">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" th:field="*{nombre}" th:placeholder="${clienteDto.getNombre()}" />
+        </div>
+        <div class="form-field">
+            <label for="apellidos">Apellidos</label>
+            <input id="apellidos" type="text" th:field="*{apellidos}" th:placeholder="${clienteDto.getApellidos()}" />
+        </div>
+        <div class="form-field">
+            <label for="nif">NIF</label>
+            <input id="nif" type="text" th:field="*{nif}" th:placeholder="${clienteDto.getNif()}"/>
+        </div>
+        <div class="form-field">
+            <label for="email">Correo electrónico</label>
+            <input id="email" type="text" th:field="*{email}" th:placeholder="${clienteDto.getEmail()}" />
+        </div>
+        <div class="form-field">
+            <label for="clave">Clave de seguridad</label>
+            <input id="clave" type="text" th:field="*{claveSeguridad}" th:placeholder="${clienteDto.getClaveSeguridad()}" />
+        </div>
+        <div class="form-field">
+            <label for="recomendacion">Recomendación</label>
+            <input id="recomendacion" type="text" th:field="*{recomendacionDto.observaciones}" th:placeholder="${clienteDto.getRecomendacionDto().getObservaciones()}" />
+        </div>
+
+        <input type="hidden" th:field="*{recomendacionDto.id}">
+
+        <!-- Submit -->
+        <div>
+            <button th:text="${add} ? 'Nuevo' : 'Actualizar'"> </button>
+        </div>
+    </form>
+
+    <!-- Botones de navegación -->
+    <div class="btn-container">
+        <a th:href="@{/clientes}">Volver a la lista de clientes</a>
+    </div>
+</main>
+</body>
+</html>

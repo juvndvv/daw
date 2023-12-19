@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+  <title th:if="${propietario}" th:text="'Cuentas de ' + ${propietario.nombre}"></title>
+  <title th:if="${propietario == null}" th:text="'Cuentas'"></title>
+</head>
+<body>
+
+<!-- Cabecera -->
+<header th:replace="~{common/header}"></header>
+<nav th:replace="~{common/nav}"></nav>
+
+<!-- Contenido principal -->
+<main>
+
+  <div th:if="${propietario!=null}" class="btn-container">
+    <a th:href="@{/cuentas/cliente/{idCliente}/create(idCliente=${propietario.id})}">Crear cuenta</a>
+  </div>
+
+  <!-- Si no hay cuentas -->
+  <h2 th:if="${listaCuentasDto.isEmpty()}">No hay cuentas</h2>
+
+  <!-- Si hay cuentas -->
+  <section th:if="${!listaCuentasDto.isEmpty()}">
+
+    <!--Titulo: Si se estan mostrando las cuentas de un propietario -->
+      <h2 th:if="${propietario != null}" th:text="'Cuentas de ' + ${propietario.nombre} + ' ' + ${propietario.apellidos}"></h2>
+
+    <!-- Tiulo: Si se estan mostrando todas las cuentas -->
+    <h2 th:if="${propietario == null}" th:text="'Listado de cuentas'"></h2>
+
+    <!-- Tabla de cuentas -->
+    <table>
+      <thead>
+      <tr>
+        <td>id</td>
+        <td>Propietario</td>
+        <td>Banco</td>
+        <td>Sucursal</td>
+        <td>Número de cuenta</td>
+        <td>Dc</td>
+        <td>Saldo</td>
+        <td>Editar</td>
+        <td>Eliminar</td>
+        <td>Movimientos</td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr th:each="item : ${listaCuentasDto}">
+        <td>
+          <a th:text="${item.id}" th:href="@{/cuentas/{idCuenta}(idCuenta=${item.id})}"></a>
+        </td>
+        <td>
+          <a th:href="@{/clientes/{idPropietario}(idPropietario=${item.propietarioDto.id})}" th:text="${item.propietarioDto.nombre} + ' ' + ${item.propietarioDto.apellidos}"></a>
+        </td>
+        <td th:text="${item.banco}"></td>
+        <td th:text="${item.sucursal}"></td>
+        <td th:text="${item.numeroCuenta}"></td>
+        <td th:text="${item.dc}"></td>
+        <td th:text="${item.saldo}"></td>
+        <td><a th:href="@{/cuentas/update/{idCuenta}(idCuenta=${item.id})}">Editar</a></td>
+        <td><a th:href="@{/cuentas/delete/{idCuenta}(idCuenta=${item.id})}">Eliminar</a></td>
+        <td><a th:href="@{/movimientos/cuenta/{idCuenta}(idCuenta=${item.id})}">Ver movimientos</a></td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+</body>
+</html>

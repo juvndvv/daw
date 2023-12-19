@@ -1,0 +1,65 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+
+    background-color: #222;
+}
+
+main {
+    margin-left: 300px;
+    padding: 50px;
+    min-height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    align-items: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main>section {
+    /* Texto */
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+
+    /* Centrar el numero de caja */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Tamaño de la caja */
+    background-color: yellowgreen;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.caja:nth-child(1) {
+    flex-basis: 49%;
+}
+
+.caja:nth-child(2) {
+    flex-basis: 49%;
+}
+
+.caja:nth-child(3) {
+    min-height: 800px;
+    flex-basis: 100%;
+}

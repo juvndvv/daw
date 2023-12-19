@@ -1,0 +1,40 @@
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+main>section{
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 33%;
+    padding: 8px;
+}
+
+main>section>* {
+    margin-block-end: 12px;
+}
+
+main>section>h3 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+main>section>div:last-of-type>div:not(:last-child) {
+    margin-block-end: 12px;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+aside>* {
+    width: 20%;
+}
+
+aside>h3 {
+    margin-inline-start: 16px;
+}

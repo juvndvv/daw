@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background: lightgray;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#pedido-form {
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    height: 500px;
+    width: 600px;
+    padding: 10px;
+    row-gap: 0;
+    display: grid;
+    grid-template-areas:
+        'titulo titulo titulo'
+        'nombre nombre nombre'
+        'dir dir dir'
+        'ingredientes tamaño pago'
+        'ingredientes tamaño pago'
+        'instrucciones instrucciones instrucciones'
+        'instrucciones instrucciones instrucciones'
+        'buttons buttons buttons'
+        ;
+}
+
+#pedido-form h1 {
+    text-align: center;
+    margin: 0;
+    grid-area: titulo;
+    background-color: orange;
+}
+
+#pedido-form h3 {
+    background-color: orangered;
+    text-align: center;
+    margin: 5px;
+}
+
+#pedido-form p {
+    margin: 2px;
+}
+
+#nombre {
+    grid-area: nombre;
+}
+
+#direccion {
+    grid-area: dir;
+}
+
+#ingredientes {
+    grid-area: ingredientes;
+}
+
+#tamaño {
+    grid-area: tamaño;
+}
+
+#pago {
+    grid-area: pago;
+}
+
+#pago .wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#instrucciones {
+    grid-area: instrucciones;
+}
+
+#buttons {
+    grid-area: buttons;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#instrucciones h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#instrucciones .wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#instrucciones textarea {
+    width: 90%;
+    height: 90%;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#pedido-form .horizontal {
+    display: grid;
+    grid-template-columns: 30% auto;
+    align-items: center;
+}
+
+#pedido-form .horizontal .wrapper input {
+    width: 95%;
+}
+
+#pedido-form .vertical {
+    display: grid;
+    grid-template-rows: 30% auto;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-top: 0;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* Estilos generales */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-color: whitesmoke;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'main main';
+
+    grid-template-rows: 10% auto;
+}
+
+main {
+    position: relative;
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}

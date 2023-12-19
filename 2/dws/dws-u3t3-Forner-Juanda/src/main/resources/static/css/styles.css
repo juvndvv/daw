@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+}
+
+form legend {
+    font-size: larger;
+    font-weight: 800;
+}
+
+form label {
+    font-size: medium;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}

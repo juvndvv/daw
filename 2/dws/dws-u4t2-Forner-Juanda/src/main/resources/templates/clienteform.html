@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+  <title th:text="${add} ? 'Nuevo cliente' : 'Actualizar cliente'"></title>
+</head>
+<body>
+<h1 th:text="${add} ? 'Nuevo cliente' : 'Actualizar cliente'" />
+<br>
+<br>
+<form th:action="@{/clientes/save}" th:object="${clienteDTO}"
+      method="POST">
+  <table border="0">
+    <tr th:if="${clienteDTO.id}">
+      <td>id</td>
+      <td>:</td>
+      <td> <input type="text" th:field="*{id}" readonly/> </td>
+    </tr>
+    <tr>
+      <td>Nombre</td>
+      <td>:</td>
+      <td> <input type="text" th:field="*{nombre}" th:placeholder="${clienteDTO.getNombre()}" /> </td>
+    </tr>
+    <tr>
+      <td>Apellidos</td>
+      <td>:</td>
+      <td> <input type="text" th:field="*{apellidos}" th:placeholder="${clienteDTO.getApellidos()}" /> </td>
+    </tr>
+    <tr>
+      <td>NIF</td>
+      <td>:</td>
+      <td> <input type="text" th:field="*{nif}" th:placeholder="${clienteDTO.getNif()}"/> </td>
+    </tr>
+    <tr>
+      <td>Correo electrónico</td>
+      <td>:</td>
+      <td> <input type="text" th:field="*{email}" th:placeholder="${clienteDTO.getEmail()}" /> </td>
+    </tr>
+    <tr>
+      <td>Clave seguridad</td>
+      <td>:</td>
+      <td> <input type="password" th:field="*{claveSeguridad}" th:placeholder="${add} ? '' : ${clienteDTO.getClaveSeguridad()}" /> </td>
+    </tr>
+    <tr>
+      <td>Recomendación</td>
+      <td>:</td>
+      <td> <input type="text" th:field="*{recomendacionDTO.observaciones}" th:placeholder="${clienteDTO.getRecomendacionDTO().getObservaciones()}" /> </td>
+    </tr>
+  </table>
+  <input type="submit" th:value="${add} ? 'Nuevo' : 'Actualizar'" />
+  <ul style="color: red" th:if="errores">
+    <li th:each="error : ${errores}">
+      <span th:text="${error}">Error</span>
+    </li>
+  </ul>
+</form>
+<br>
+<a th:href="@{/clientes}">Volver a la lista de clientes</a>
+</body>
+</html>

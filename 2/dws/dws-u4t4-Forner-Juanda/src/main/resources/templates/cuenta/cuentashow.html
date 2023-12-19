@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title th:text="${cuentaDTO.numeroCuenta}">Visualizar cuenta</title>
+</head>
+<body>
+<!-- Cabecera -->
+<header th:replace="common/header"></header>
+<nav th:replace="common/nav"></nav>
+
+<!-- Contenido principal -->
+<main>
+
+    <!-- Cuenta -->
+    <section class="show">
+        <h1 th:text="${cuentaDTO.numeroCuenta}"></h1>
+        <div class="show-field">
+            <h2>id</h2>
+            <p th:text="${cuentaDTO.id}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Propietario</h2>
+            <p th:text="${cuentaDTO.propietario.nombre} + ' ' + ${cuentaDTO.propietario.apellidos}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Banco</h2>
+            <p th:text="${cuentaDTO.banco}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Sucursal</h2>
+            <p th:text="${cuentaDTO.sucursal}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Numero de cuenta</h2>
+            <p th:text="${cuentaDTO.numeroCuenta}"></p>
+        </div>
+        <div class="show-field">
+            <h2>dc</h2>
+            <p th:text="${cuentaDTO.dc}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Saldo</h2>
+            <p th:text="${cuentaDTO.saldo}"></p>
+        </div>
+    </section>
+    <div class="btn-container">
+        <a th:href="@{/clientes}">Volver al inicio</a>
+    </div>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>Nombre: <span th:text="${pedido.getNombre()}"></span></p>
+    <p>Direccion: <span th:text="${pedido.getDireccion()}"></span></p>
+    <p>Ingredientes:</p>
+    <ul>
+        <li th:each="ingrediente : ${pedido.getIngredientes()}" th:text="${ingrediente}"></li>
+    </ul>
+    <p>Tamaño: <span th:text="${pedido.getTamano()}"></span></p>
+    <p>Forma de pago: <span th:text="${pedido.getFormaPago()}"></span></p>
+    <p>Instrucciones: <span th:text="${pedido.getInstrucciones()}"></span></p>
+</body>
+</html>

@@ -1,0 +1,2059 @@
+<Cocktails>
+  <Cocktail>
+    <Name>Cocktail_1</Name>
+    <Component id="31">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="10">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="30">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="43">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="75">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="76">
+      <Quantity>36</Quantity>
+    </Component>
+    <Price>1733</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_2</Name>
+    <Component id="80">
+      <Quantity>34</Quantity>
+    </Component>
+    <Component id="78">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="12">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="66">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="72">
+      <Quantity>18</Quantity>
+    </Component>
+    <Price>1542</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_3</Name>
+    <Component id="33">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="20">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="72">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="61">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="72">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="34">
+      <Quantity>16</Quantity>
+    </Component>
+    <Price>1246</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_4</Name>
+    <Component id="56">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="23">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="10">
+      <Quantity>19</Quantity>
+    </Component>
+    <Component id="92">
+      <Quantity>34</Quantity>
+    </Component>
+    <Component id="97">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="2">
+      <Quantity>23</Quantity>
+    </Component>
+    <Price>1305</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_5</Name>
+    <Component id="60">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="54">
+      <Quantity>12</Quantity>
+    </Component>
+    <Component id="29">
+      <Quantity>15</Quantity>
+    </Component>
+    <Component id="28">
+      <Quantity>40</Quantity>
+    </Component>
+    <Price>1399</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_6</Name>
+    <Component id="16">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="80">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="64">
+      <Quantity>13</Quantity>
+    </Component>
+    <Component id="73">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="55">
+      <Quantity>33</Quantity>
+    </Component>
+    <Price>1400</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_7</Name>
+    <Component id="1">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="59">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="4">
+      <Quantity>20</Quantity>
+    </Component>
+    <Price>1604</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_8</Name>
+    <Component id="6">
+      <Quantity>15</Quantity>
+    </Component>
+    <Component id="6">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="14">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="38">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="86">
+      <Quantity>20</Quantity>
+    </Component>
+    <Component id="19">
+      <Quantity>29</Quantity>
+    </Component>
+    <Price>1663</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_9</Name>
+    <Component id="66">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="59">
+      <Quantity>13</Quantity>
+    </Component>
+    <Component id="3">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="52">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="47">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="54">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="70">
+      <Quantity>21</Quantity>
+    </Component>
+    <Price>1698</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_10</Name>
+    <Component id="56">
+      <Quantity>34</Quantity>
+    </Component>
+    <Component id="54">
+      <Quantity>15</Quantity>
+    </Component>
+    <Component id="9">
+      <Quantity>23</Quantity>
+    </Component>
+    <Price>1208</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_11</Name>
+    <Component id="93">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="49">
+      <Quantity>20</Quantity>
+    </Component>
+    <Component id="48">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="29">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="47">
+      <Quantity>15</Quantity>
+    </Component>
+    <Price>1247</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_12</Name>
+    <Component id="20">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="47">
+      <Quantity>13</Quantity>
+    </Component>
+    <Component id="96">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="39">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="73">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="72">
+      <Quantity>17</Quantity>
+    </Component>
+    <Price>1735</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_13</Name>
+    <Component id="22">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="73">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="61">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="78">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="100">
+      <Quantity>15</Quantity>
+    </Component>
+    <Price>1334</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_14</Name>
+    <Component id="4">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="35">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="36">
+      <Quantity>19</Quantity>
+    </Component>
+    <Price>1459</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_15</Name>
+    <Component id="33">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="1">
+      <Quantity>12</Quantity>
+    </Component>
+    <Component id="58">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="61">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="21">
+      <Quantity>36</Quantity>
+    </Component>
+    <Price>1491</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_16</Name>
+    <Component id="45">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="86">
+      <Quantity>13</Quantity>
+    </Component>
+    <Component id="33">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="16">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="40">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="16">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="56">
+      <Quantity>31</Quantity>
+    </Component>
+    <Price>1320</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_17</Name>
+    <Component id="4">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="23">
+      <Quantity>14</Quantity>
+    </Component>
+    <Component id="64">
+      <Quantity>19</Quantity>
+    </Component>
+    <Price>1796</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_18</Name>
+    <Component id="32">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="12">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="21">
+      <Quantity>28</Quantity>
+    </Component>
+    <Price>1372</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_19</Name>
+    <Component id="53">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="36">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="90">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="80">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="17">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="26">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="97">
+      <Quantity>34</Quantity>
+    </Component>
+    <Price>1372</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_20</Name>
+    <Component id="63">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="5">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="95">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="5">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="8">
+      <Quantity>10</Quantity>
+    </Component>
+    <Price>1170</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_21</Name>
+    <Component id="16">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="18">
+      <Quantity>19</Quantity>
+    </Component>
+    <Component id="76">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="59">
+      <Quantity>39</Quantity>
+    </Component>
+    <Price>1842</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_22</Name>
+    <Component id="97">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="47">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="91">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="80">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="61">
+      <Quantity>33</Quantity>
+    </Component>
+    <Price>1943</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_23</Name>
+    <Component id="58">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="39">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="4">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="20">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="7">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="59">
+      <Quantity>40</Quantity>
+    </Component>
+    <Price>1547</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_24</Name>
+    <Component id="55">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="67">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="28">
+      <Quantity>40</Quantity>
+    </Component>
+    <Component id="84">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="77">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="6">
+      <Quantity>30</Quantity>
+    </Component>
+    <Price>1498</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_25</Name>
+    <Component id="78">
+      <Quantity>40</Quantity>
+    </Component>
+    <Component id="94">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="2">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="78">
+      <Quantity>32</Quantity>
+    </Component>
+    <Price>1078</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_26</Name>
+    <Component id="62">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="30">
+      <Quantity>20</Quantity>
+    </Component>
+    <Component id="17">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="59">
+      <Quantity>19</Quantity>
+    </Component>
+    <Component id="69">
+      <Quantity>12</Quantity>
+    </Component>
+    <Price>1811</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_27</Name>
+    <Component id="41">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="72">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="8">
+      <Quantity>34</Quantity>
+    </Component>
+    <Component id="63">
+      <Quantity>23</Quantity>
+    </Component>
+    <Price>1395</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_28</Name>
+    <Component id="63">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="82">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="37">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="27">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="38">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="91">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="22">
+      <Quantity>19</Quantity>
+    </Component>
+    <Price>1785</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_29</Name>
+    <Component id="30">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="16">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="86">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="95">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="65">
+      <Quantity>25</Quantity>
+    </Component>
+    <Price>1283</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_30</Name>
+    <Component id="62">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="55">
+      <Quantity>40</Quantity>
+    </Component>
+    <Component id="45">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="36">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="95">
+      <Quantity>18</Quantity>
+    </Component>
+    <Price>1489</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_31</Name>
+    <Component id="8">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="91">
+      <Quantity>15</Quantity>
+    </Component>
+    <Component id="93">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="7">
+      <Quantity>14</Quantity>
+    </Component>
+    <Price>1568</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_32</Name>
+    <Component id="30">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="41">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="85">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="45">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="53">
+      <Quantity>13</Quantity>
+    </Component>
+    <Component id="7">
+      <Quantity>38</Quantity>
+    </Component>
+    <Price>1741</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_33</Name>
+    <Component id="59">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="99">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="84">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="92">
+      <Quantity>15</Quantity>
+    </Component>
+    <Component id="45">
+      <Quantity>35</Quantity>
+    </Component>
+    <Price>1917</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_34</Name>
+    <Component id="68">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="62">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="89">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="72">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="13">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="31">
+      <Quantity>34</Quantity>
+    </Component>
+    <Price>1033</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_35</Name>
+    <Component id="54">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="50">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="47">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="66">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="76">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="92">
+      <Quantity>37</Quantity>
+    </Component>
+    <Price>1686</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_36</Name>
+    <Component id="90">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="83">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="8">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="1">
+      <Quantity>17</Quantity>
+    </Component>
+    <Price>1161</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_37</Name>
+    <Component id="34">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="2">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="73">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="36">
+      <Quantity>33</Quantity>
+    </Component>
+    <Price>1356</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_38</Name>
+    <Component id="71">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="29">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="17">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="32">
+      <Quantity>19</Quantity>
+    </Component>
+    <Price>1519</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_39</Name>
+    <Component id="98">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="19">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="71">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="80">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="60">
+      <Quantity>34</Quantity>
+    </Component>
+    <Price>1942</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_40</Name>
+    <Component id="99">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="21">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="44">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="72">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="88">
+      <Quantity>12</Quantity>
+    </Component>
+    <Price>1645</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_41</Name>
+    <Component id="33">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="98">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="84">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="14">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="26">
+      <Quantity>27</Quantity>
+    </Component>
+    <Price>1086</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_42</Name>
+    <Component id="14">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="99">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="1">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="1">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="20">
+      <Quantity>16</Quantity>
+    </Component>
+    <Price>1183</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_43</Name>
+    <Component id="95">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="85">
+      <Quantity>14</Quantity>
+    </Component>
+    <Component id="56">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="47">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="46">
+      <Quantity>22</Quantity>
+    </Component>
+    <Price>1320</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_44</Name>
+    <Component id="11">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="55">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="5">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="39">
+      <Quantity>40</Quantity>
+    </Component>
+    <Component id="92">
+      <Quantity>13</Quantity>
+    </Component>
+    <Component id="95">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="10">
+      <Quantity>20</Quantity>
+    </Component>
+    <Price>1694</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_45</Name>
+    <Component id="57">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="20">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="59">
+      <Quantity>37</Quantity>
+    </Component>
+    <Price>1603</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_46</Name>
+    <Component id="76">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="6">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="52">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="31">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="96">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="31">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="62">
+      <Quantity>36</Quantity>
+    </Component>
+    <Price>1645</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_47</Name>
+    <Component id="13">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="58">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="98">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="62">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="34">
+      <Quantity>11</Quantity>
+    </Component>
+    <Price>1888</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_48</Name>
+    <Component id="94">
+      <Quantity>34</Quantity>
+    </Component>
+    <Component id="21">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="78">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="80">
+      <Quantity>29</Quantity>
+    </Component>
+    <Price>1122</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_49</Name>
+    <Component id="3">
+      <Quantity>40</Quantity>
+    </Component>
+    <Component id="26">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="55">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="33">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="65">
+      <Quantity>11</Quantity>
+    </Component>
+    <Price>1471</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_50</Name>
+    <Component id="10">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="18">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="57">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="3">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="48">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="86">
+      <Quantity>34</Quantity>
+    </Component>
+    <Price>1425</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_51</Name>
+    <Component id="60">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="47">
+      <Quantity>12</Quantity>
+    </Component>
+    <Component id="40">
+      <Quantity>14</Quantity>
+    </Component>
+    <Component id="46">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="90">
+      <Quantity>10</Quantity>
+    </Component>
+    <Price>1340</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_52</Name>
+    <Component id="78">
+      <Quantity>20</Quantity>
+    </Component>
+    <Component id="15">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="58">
+      <Quantity>15</Quantity>
+    </Component>
+    <Price>1597</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_53</Name>
+    <Component id="45">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="97">
+      <Quantity>40</Quantity>
+    </Component>
+    <Component id="11">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="83">
+      <Quantity>13</Quantity>
+    </Component>
+    <Component id="34">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="50">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="43">
+      <Quantity>27</Quantity>
+    </Component>
+    <Price>1255</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_54</Name>
+    <Component id="58">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="36">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="84">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="58">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="50">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="97">
+      <Quantity>33</Quantity>
+    </Component>
+    <Price>1358</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_55</Name>
+    <Component id="82">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="99">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="17">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="60">
+      <Quantity>14</Quantity>
+    </Component>
+    <Price>1802</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_56</Name>
+    <Component id="11">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="35">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="11">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="87">
+      <Quantity>40</Quantity>
+    </Component>
+    <Component id="73">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="100">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="55">
+      <Quantity>12</Quantity>
+    </Component>
+    <Price>1094</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_57</Name>
+    <Component id="68">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="6">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="35">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="17">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="48">
+      <Quantity>40</Quantity>
+    </Component>
+    <Price>1913</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_58</Name>
+    <Component id="40">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="37">
+      <Quantity>19</Quantity>
+    </Component>
+    <Component id="96">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="42">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="7">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="97">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="45">
+      <Quantity>18</Quantity>
+    </Component>
+    <Price>1937</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_59</Name>
+    <Component id="57">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="10">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="45">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="3">
+      <Quantity>20</Quantity>
+    </Component>
+    <Component id="1">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="9">
+      <Quantity>40</Quantity>
+    </Component>
+    <Price>1208</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_60</Name>
+    <Component id="23">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="59">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="27">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="69">
+      <Quantity>15</Quantity>
+    </Component>
+    <Component id="38">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="5">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="92">
+      <Quantity>40</Quantity>
+    </Component>
+    <Price>1198</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_61</Name>
+    <Component id="96">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="92">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="85">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="71">
+      <Quantity>19</Quantity>
+    </Component>
+    <Component id="75">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="98">
+      <Quantity>36</Quantity>
+    </Component>
+    <Price>1636</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_62</Name>
+    <Component id="8">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="21">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="15">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="11">
+      <Quantity>19</Quantity>
+    </Component>
+    <Component id="70">
+      <Quantity>30</Quantity>
+    </Component>
+    <Price>1486</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_63</Name>
+    <Component id="43">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="65">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="42">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="11">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="65">
+      <Quantity>31</Quantity>
+    </Component>
+    <Price>1413</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_64</Name>
+    <Component id="92">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="99">
+      <Quantity>15</Quantity>
+    </Component>
+    <Component id="86">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="17">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="8">
+      <Quantity>15</Quantity>
+    </Component>
+    <Price>1594</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_65</Name>
+    <Component id="34">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="71">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="19">
+      <Quantity>12</Quantity>
+    </Component>
+    <Component id="59">
+      <Quantity>16</Quantity>
+    </Component>
+    <Price>1641</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_66</Name>
+    <Component id="93">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="54">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="17">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="92">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="51">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="100">
+      <Quantity>22</Quantity>
+    </Component>
+    <Price>1709</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_67</Name>
+    <Component id="41">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="37">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="34">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="30">
+      <Quantity>23</Quantity>
+    </Component>
+    <Price>1784</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_68</Name>
+    <Component id="81">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="17">
+      <Quantity>19</Quantity>
+    </Component>
+    <Component id="79">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="17">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="42">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="64">
+      <Quantity>24</Quantity>
+    </Component>
+    <Price>1349</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_69</Name>
+    <Component id="88">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="86">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="65">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="49">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="59">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="5">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="20">
+      <Quantity>11</Quantity>
+    </Component>
+    <Price>1773</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_70</Name>
+    <Component id="32">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="79">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="47">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="22">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="86">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="10">
+      <Quantity>22</Quantity>
+    </Component>
+    <Price>1074</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_71</Name>
+    <Component id="9">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="26">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="41">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="41">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="40">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="3">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="9">
+      <Quantity>20</Quantity>
+    </Component>
+    <Price>1760</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_72</Name>
+    <Component id="30">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="23">
+      <Quantity>15</Quantity>
+    </Component>
+    <Component id="75">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="50">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="81">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="75">
+      <Quantity>23</Quantity>
+    </Component>
+    <Price>1250</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_73</Name>
+    <Component id="79">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="11">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="86">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="30">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="3">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="78">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="78">
+      <Quantity>17</Quantity>
+    </Component>
+    <Price>1352</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_74</Name>
+    <Component id="65">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="98">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="81">
+      <Quantity>13</Quantity>
+    </Component>
+    <Component id="44">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="57">
+      <Quantity>20</Quantity>
+    </Component>
+    <Price>1430</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_75</Name>
+    <Component id="9">
+      <Quantity>34</Quantity>
+    </Component>
+    <Component id="95">
+      <Quantity>20</Quantity>
+    </Component>
+    <Component id="84">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="35">
+      <Quantity>34</Quantity>
+    </Component>
+    <Component id="56">
+      <Quantity>20</Quantity>
+    </Component>
+    <Component id="47">
+      <Quantity>34</Quantity>
+    </Component>
+    <Price>1650</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_76</Name>
+    <Component id="52">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="52">
+      <Quantity>14</Quantity>
+    </Component>
+    <Component id="81">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="36">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="11">
+      <Quantity>37</Quantity>
+    </Component>
+    <Price>1107</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_77</Name>
+    <Component id="41">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="8">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="77">
+      <Quantity>40</Quantity>
+    </Component>
+    <Component id="60">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="8">
+      <Quantity>11</Quantity>
+    </Component>
+    <Price>1822</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_78</Name>
+    <Component id="6">
+      <Quantity>13</Quantity>
+    </Component>
+    <Component id="32">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="71">
+      <Quantity>32</Quantity>
+    </Component>
+    <Price>1661</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_79</Name>
+    <Component id="85">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="25">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="57">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="95">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="45">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="42">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="20">
+      <Quantity>27</Quantity>
+    </Component>
+    <Price>1054</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_80</Name>
+    <Component id="78">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="15">
+      <Quantity>15</Quantity>
+    </Component>
+    <Component id="84">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="79">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="88">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="73">
+      <Quantity>25</Quantity>
+    </Component>
+    <Price>1037</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_81</Name>
+    <Component id="99">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="57">
+      <Quantity>12</Quantity>
+    </Component>
+    <Component id="68">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="93">
+      <Quantity>14</Quantity>
+    </Component>
+    <Component id="73">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="63">
+      <Quantity>14</Quantity>
+    </Component>
+    <Component id="55">
+      <Quantity>23</Quantity>
+    </Component>
+    <Price>1407</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_82</Name>
+    <Component id="62">
+      <Quantity>40</Quantity>
+    </Component>
+    <Component id="80">
+      <Quantity>14</Quantity>
+    </Component>
+    <Component id="72">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="81">
+      <Quantity>26</Quantity>
+    </Component>
+    <Price>1723</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_83</Name>
+    <Component id="32">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="52">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="99">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="14">
+      <Quantity>33</Quantity>
+    </Component>
+    <Price>1036</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_84</Name>
+    <Component id="19">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="97">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="7">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="82">
+      <Quantity>15</Quantity>
+    </Component>
+    <Component id="85">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="93">
+      <Quantity>19</Quantity>
+    </Component>
+    <Price>1205</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_85</Name>
+    <Component id="51">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="97">
+      <Quantity>29</Quantity>
+    </Component>
+    <Component id="5">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="98">
+      <Quantity>34</Quantity>
+    </Component>
+    <Component id="22">
+      <Quantity>11</Quantity>
+    </Component>
+    <Price>1704</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_86</Name>
+    <Component id="20">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="72">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="53">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="12">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="89">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="51">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="77">
+      <Quantity>13</Quantity>
+    </Component>
+    <Price>1537</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_87</Name>
+    <Component id="66">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="34">
+      <Quantity>19</Quantity>
+    </Component>
+    <Component id="48">
+      <Quantity>21</Quantity>
+    </Component>
+    <Component id="3">
+      <Quantity>10</Quantity>
+    </Component>
+    <Component id="7">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="46">
+      <Quantity>18</Quantity>
+    </Component>
+    <Price>1398</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_88</Name>
+    <Component id="40">
+      <Quantity>33</Quantity>
+    </Component>
+    <Component id="36">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="55">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="68">
+      <Quantity>14</Quantity>
+    </Component>
+    <Component id="3">
+      <Quantity>36</Quantity>
+    </Component>
+    <Price>1205</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_89</Name>
+    <Component id="95">
+      <Quantity>22</Quantity>
+    </Component>
+    <Component id="65">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="68">
+      <Quantity>26</Quantity>
+    </Component>
+    <Price>1872</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_90</Name>
+    <Component id="11">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="15">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="94">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="58">
+      <Quantity>27</Quantity>
+    </Component>
+    <Component id="83">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="90">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="29">
+      <Quantity>30</Quantity>
+    </Component>
+    <Price>1094</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_91</Name>
+    <Component id="49">
+      <Quantity>39</Quantity>
+    </Component>
+    <Component id="59">
+      <Quantity>31</Quantity>
+    </Component>
+    <Component id="62">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="74">
+      <Quantity>38</Quantity>
+    </Component>
+    <Component id="95">
+      <Quantity>16</Quantity>
+    </Component>
+    <Price>1964</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_92</Name>
+    <Component id="92">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="21">
+      <Quantity>12</Quantity>
+    </Component>
+    <Component id="3">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="71">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="81">
+      <Quantity>12</Quantity>
+    </Component>
+    <Price>1623</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_93</Name>
+    <Component id="78">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="77">
+      <Quantity>12</Quantity>
+    </Component>
+    <Component id="75">
+      <Quantity>26</Quantity>
+    </Component>
+    <Component id="49">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="94">
+      <Quantity>40</Quantity>
+    </Component>
+    <Price>1232</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_94</Name>
+    <Component id="99">
+      <Quantity>16</Quantity>
+    </Component>
+    <Component id="14">
+      <Quantity>32</Quantity>
+    </Component>
+    <Component id="45">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="30">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="49">
+      <Quantity>15</Quantity>
+    </Component>
+    <Price>1245</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_95</Name>
+    <Component id="68">
+      <Quantity>24</Quantity>
+    </Component>
+    <Component id="44">
+      <Quantity>23</Quantity>
+    </Component>
+    <Component id="21">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="60">
+      <Quantity>20</Quantity>
+    </Component>
+    <Component id="13">
+      <Quantity>11</Quantity>
+    </Component>
+    <Component id="49">
+      <Quantity>26</Quantity>
+    </Component>
+    <Price>1294</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_96</Name>
+    <Component id="94">
+      <Quantity>17</Quantity>
+    </Component>
+    <Component id="84">
+      <Quantity>30</Quantity>
+    </Component>
+    <Component id="47">
+      <Quantity>19</Quantity>
+    </Component>
+    <Price>1027</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_97</Name>
+    <Component id="22">
+      <Quantity>36</Quantity>
+    </Component>
+    <Component id="3">
+      <Quantity>20</Quantity>
+    </Component>
+    <Component id="87">
+      <Quantity>31</Quantity>
+    </Component>
+    <Price>1445</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_98</Name>
+    <Component id="88">
+      <Quantity>20</Quantity>
+    </Component>
+    <Component id="58">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="63">
+      <Quantity>37</Quantity>
+    </Component>
+    <Component id="70">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="22">
+      <Quantity>28</Quantity>
+    </Component>
+    <Component id="10">
+      <Quantity>35</Quantity>
+    </Component>
+    <Component id="60">
+      <Quantity>15</Quantity>
+    </Component>
+    <Price>1648</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_99</Name>
+    <Component id="45">
+      <Quantity>18</Quantity>
+    </Component>
+    <Component id="29">
+      <Quantity>40</Quantity>
+    </Component>
+    <Component id="33">
+      <Quantity>12</Quantity>
+    </Component>
+    <Price>1954</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+  <Cocktail>
+    <Name>Cocktail_100</Name>
+    <Component id="79">
+      <Quantity>13</Quantity>
+    </Component>
+    <Component id="12">
+      <Quantity>25</Quantity>
+    </Component>
+    <Component id="69">
+      <Quantity>17</Quantity>
+    </Component>
+    <Price>1129</Price>
+    <Procedure>Cocktails instructions go here</Procedure>
+  </Cocktail>
+</Cocktails>

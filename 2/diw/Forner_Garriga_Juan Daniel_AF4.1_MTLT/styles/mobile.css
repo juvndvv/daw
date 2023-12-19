@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+}
+
+p,
+h3,
+h4,
+a {
+    font-size: 1rem;
+}
+
+/* Estilos para el header */
+header {
+    min-width: 0;
+    width: 100vw;
+    position: absolute;
+}
+
+header>div {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 50px 0;
+}
+
+header>div>h1,
+header>div>h2 {
+    font-size: 1rem;
+}
+
+header>img {
+    display: none;
+}
+
+/* Contenedor de nav, main y aside */
+body>div {
+    width: 100vw;
+}
+
+/* Estilos para el nav */
+nav {
+    width: 100vw;
+    flex-direction: column;
+}
+
+nav>a {
+    padding-block: 16px;
+}
+
+/* Estilos para el main */
+main {
+    /* display:none; */
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Tarjeta del viaje */
+main>section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Titulo del viaje */
+main>section>h3 {
+    text-align: center;
+}
+
+/* Contenedor de la image */
+main>section>div:first-of-type {
+    max-width: 100%;
+}
+
+/* Contenedor de los parrafos del viaje */
+main>section>div:last-of-type {
+    padding: 12px 0;
+}
+
+main>section>div>div:not(:last-of-type) {
+    padding-block-end: 24px;
+}
+
+/* Estilos para el aside */
+aside {
+    flex-direction: column;
+}
+
+aside>h3{
+    text-align: center;
+}
+
+aside>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside>div>ul {
+    margin: 0;
+}
+
+aside>div>ul>li {
+    text-align: center;
+}
+
+footer {
+    display: none;
+}

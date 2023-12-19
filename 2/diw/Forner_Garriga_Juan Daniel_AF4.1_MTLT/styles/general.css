@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --color-primary-1: #D8B188;
+    --color-primary-2: #2F5663;
+    --color-primary-3: #C18653;
+    --color-primary-4: #383B38;
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+}
+
+/* Estilos generales para el header */
+header {
+    width: 100%;
+    height: 150px;
+    min-width: 1000px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-image: url(../img/header-fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Capa semioscura a la imagen */
+header::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, .8) 0%, rgba(0, 0, 0) 100%);
+}
+
+/* Clearfix del header */
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Imagenes del header */
+header>img {
+    height: 100%;
+    padding: 32px;
+}
+
+/* Imagen de la izquierda */
+header>img:first-of-type {
+    float: left;
+}
+
+/* Imagen de la derecha */
+header>img:last-of-type {
+    float: right;
+}
+
+/* Contenedor de los titulos del header */
+header>div {
+    text-align: center;
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    padding-block: 32px;
+}
+
+/* Titulos del header */
+header>div>h1,
+header>div>h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+/* Titulo principal de la pagina */
+header>div>h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* Subtitulo principal de la pagina */
+header>div>h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del contenido principal */
+body>div {
+    width: 1000px;
+    margin: 150px auto 0 auto;
+    padding: 0;
+    background: linear-gradient(to bottom, white 0%, lightgray 100%);
+}
+
+/* Barra de navegación */
+nav {
+    background-color: var(--color-primary-2);
+    display: flex;
+}
+
+/* Estilos para los links de la barra de navegación */
+nav>a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+nav>a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: whitesmoke;
+    transition: width 0.3s ease-in-out;
+}
+
+nav>a:hover::after {
+    width: 100%;
+}
+
+nav>a:hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+nav>a:link,
+nav>a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav>a:active {
+    opacity: 0.5;
+}
+
+nav>a:active::after {
+    opacity: .8;
+}
+
+nav>a>img {
+    width: 32px;
+}
+
+main {
+    display: flex;
+}
+
+main>section {
+    display: flex;
+}
+
+main>section>div:first-of-type {
+    padding: 0;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+}
+
+main>section>div:first-of-type>img {
+    display: block;
+    border-radius: 16px;
+    max-height: 250px;
+}
+
+main>section>div>img:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+main>section>h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+main>section>h3::first-letter {
+    font-size: 2rem;
+    color: var(--color-primary-3);
+}
+
+main>section>div>div {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, .9);
+    line-height: 24px;
+}
+
+main>section>div>div>h4 {
+    display: inline;
+}
+
+main>section>div>div>h4::after {
+    content: ":";
+}
+
+main>section>div>div>p {
+    display: inline;
+    margin-block: 16px;
+}
+
+main>section>div>div:not(:first-of-type)::first-line {
+    text-decoration: underline;
+}
+
+/* Estilos para el aside */
+aside {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    width: 100%;
+}
+
+aside>div>h4 {
+    font-weight: 700;
+}
+
+aside>div>ul {
+    list-style: none;
+    padding: 0;
+    font-size: .8rem;
+}
+
+aside>div>ul>li {
+    margin-block: 16px;
+}
+
+aside>div>ul>li>a {
+    font-weight: 100;
+    color: rgba(0, 0, 0, .8);
+}
+
+aside>div>ul>li>a:hover {
+    color: rgba(0, 0, 0, 1);
+    transition: color 0.3s ease-in-out;
+}
+
+aside>div>ul>li>a:active {
+    opacity: .5;
+}
+
+aside>div>ul>li>a:link,
+aside>div>ul>li>a:visited {
+    text-decoration: none;
+}
+
+/* Estilos para el footer */
+footer {
+    /* position: absolute; */
+    padding: 0;
+    min-width: 1000px;
+    width: 100%;
+    ;
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+footer>div {
+    /* position: relative; */
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, .5);
+    border: 30px solid transparent;
+    border-style: solid;
+    border-color: transparent;
+    border-image-source: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuNTc4IDUuMzQzYTkuMjUgOS4yNSAwIDAgMCA2LjgwMyAxNS45Yy0uMjA2LS45MTItLjIzNC0yLjEzOC4zOTMtMy4zMTljLjY1Mi0xLjIyOSAyLjAwMi0xLjc2MiAyLjk5NS0yLjAwNmE5LjE4MyA5LjE4MyAwIDAgMSAxLjg5OC0uMjU0aC4wNDNjMS42NzMtLjAxOCAyLjQyNi0uNTYyIDIuODI2LTEuMDhjLjM0Mi0uNDQ0LjQ3LS44ODcuNjAyLTEuMzM2bC4wNS0uMTcyQTkuMjIgOS4yMiAwIDAgMCAxOC42IDUuNTE5YTUuNDg2IDUuNDg2IDAgMCAxLS4wMjcuMWMtLjE2My41OTQtLjQyNSAxLjIwMi0uNzExIDEuNjM2Yy0uMjU2LjM4OC0uNzUyLjc4LTEuMTY0IDEuMDc2YTkuNTEgOS41MSAwIDAgMS0uOTAyLjU2Yy0uMjI4LjEzMi0uNDMzLjI1LS42My4zOGMtLjQzMi4yODYtLjc2Ni41OTMtLjk5MSAxLjA1NmEuNjY1LjY2NSAwIDAgMC0uMDM1LjQ5Yy4wNzUuMjcyLjEyNi41NzguMTI2Ljg4OWMuMDAyLjY0OS0uMzI5IDEuMTc2LS43NTMgMS41MThhMi40MSAyLjQxIDAgMCAxLTEuNTIxLjUyNmMtMi40NTUtLjAyNy0zLjk2NS0yLjAyLTQuMTY0LTQuMjM2Yy0uMDgtLjg4MS0uNDY2LTEuNzczLS45NTQtMi41NTJhOC44MzggOC44MzggMCAwIDAtMS4yOTYtMS42MlptMS4xNjctLjk1NmExMC40OSAxMC40OSAwIDAgMSAxLjQgMS43NzljLjU1OC44OSAxLjA2OSAyLjAxMiAxLjE3NyAzLjIxNGMuMTUgMS42OCAxLjIxMyAyLjg1NCAyLjY4NiAyLjg3YS45MS45MSAwIDAgMCAuNTYzLS4xOTRjLjE0Ni0uMTE3LjE5Ni0uMjQuMTk1LS4zNDZjMC0uMTU2LS4wMjYtLjMyOC0uMDcyLS40OTVhMi4xNjMgMi4xNjMgMCAwIDEgLjEzMS0xLjU0MmMuMzg1LS43OTQuOTU2LTEuMjg1IDEuNTE0LTEuNjUzYy4yMzktLjE1OC40ODctLjMuNzEtLjQzbC4wOS0uMDVjLjI1NS0uMTQ4LjQ4LS4yOC42ODMtLjQyN2MuNDMxLS4zMS43MDQtLjU1Ny43ODctLjY4NGMuMTgzLS4yNzYuMzg4LS43MzQuNTE4LTEuMjA3Yy4xMDMtLjM3NC4xMzEtLjY2Mi4xMjItLjg0QTkuMjA3IDkuMjA3IDAgMCAwIDEyIDIuNzVhOS4yMDcgOS4yMDcgMCAwIDAtNS4yNTUgMS42MzdaTTIyLjY4IDEzLjI0Yy4wNDctLjQwNy4wNzEtLjgyLjA3MS0xLjI0YzAtNS45MzctNC44MTMtMTAuNzUtMTAuNzUtMTAuNzVTMS4yNSA2LjA2MyAxLjI1IDEyUzYuMDYzIDIyLjc1IDEyIDIyLjc1YzUuNDYgMCA5Ljk3LTQuMDcxIDEwLjY1OS05LjM0NGEyLjg5IDIuODkgMCAwIDEgLjA0OC0uMTU2bC0uMDI4LS4wMVptLTIuNzc0IDMuNTY3Yy0uNTk2LjIxOC0xLjMxNC4zNDgtMi4xNzkuMzU3aC0uMDMxbC0uMDkuMDAzYTcuNjggNy42OCAwIDAgMC0xLjQ3Ny4yMDhjLS45MDIuMjIxLTEuNjkzLjYyLTIuMDI5IDEuMjUyYy0uNDU2Ljg1OS0uMzkgMS43OTMtLjIyIDIuNDMyYTkuMjYxIDkuMjYxIDAgMCAwIDYuMDI2LTQuMjUyWiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
+}
+
+footer>div>p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+footer>div>p:first-child {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+footer>div>p:last-child {
+    font-size: .8rem;
+}

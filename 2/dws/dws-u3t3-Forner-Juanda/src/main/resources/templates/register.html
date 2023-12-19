@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Registro</title>
+</head>
+<body>
+    <form th:object="${user}" th:action="@{/register}" method="post">
+        <fieldset>
+            <legend>Registro</legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                    <input th:value="*{nombre}" name="nombre" id="nombre" type="text">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input th:value="*{email}" name="email" id="email" type="text">
+            </div>
+            <div>
+                <label for="pasword">Password</label>
+                <input th:value="*{password}" name="password" id="pasword" type="password">
+            </div>
+            <div>
+                <label for="fechaNacimiento">Fecha de nacimiento</label>
+                <input th:value="*{fechaNacimiento}" name="fechaNacimiento" id="fechaNacimiento" type="text">
+            </div>
+            <button type="submit">Enviar</button>
+            <p>Ya tienes una cuenta? <a href="login">Inicia sesión</a></p>
+        </fieldset>
+    </form>
+</body>
+</html>

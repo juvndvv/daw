@@ -1,0 +1,29 @@
+[
+    {
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "edad": 25,
+        "genero": "Masculino",
+        "telefono": "12345678",
+        "correo": "correo1@prueba.es",
+        "direccion": "Calle 1"
+    },
+    {
+        "nombre": "Maria",
+        "apellido": "Lopez",
+        "edad": 30,
+        "genero": "Femenino",
+        "telefono": "87654321",
+        "correo": "correo2@prueba.es",
+        "direccion": "Calle 2"
+    },
+    {
+        "nombre": "Pedro",
+        "apellido": "Gonzalez",
+        "edad": 40,
+        "genero": "Masculino",
+        "telefono": "12344321",
+        "correo": "correo3@prueba.es",
+        "direccion": "Calle 3"
+    }
+]

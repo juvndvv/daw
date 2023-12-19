@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    transition-duration: 2s;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    background-color: #117A65;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 1vh 3vw 1vh 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    font-style: italic;
+}
+
+#perfil {
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#perfil p {
+    padding-right: 10px;
+}
+
+#imagen-contenedor {
+    height: 60px;
+    width: 60px;
+    background-image: url('../img/perfil.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition-duration: .2s;
+}
+
+#imagen-contenedor:hover {
+    background-image: url('../img/perfil2.jpg');
+}
+
+/* Estilos para la barra de navegacion */
+nav {
+    background-color: lightgray;
+    display: flex;
+}
+
+nav>a {
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+nav>a:hover {
+    background-color: whitesmoke;
+    transition-duration: .3s;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 70vh;
+    padding: 10px 20px;
+    color: #3a3a3a;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+/* Estilos para tablas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+thead>tr {
+    background-color: #117A65aa;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody>tr.saliente {
+    background-color: #ff0000aa;
+}
+
+/* Estilos para formularios */
+form {
+    width: 1000px;
+    padding: 10px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-field {
+    height: 80px;
+}
+
+.form-field>* {
+    display: block;
+    width: 100%;
+}
+form>h2 {
+    margin: 0 0 8px 0;
+}
+
+form>div>input {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+form>div>select {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+form>div>select>option {
+    padding: 8px;
+}
+
+form>div:last-of-type>button {
+    border: none;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #117A65aa;
+    color: white;
+}
+
+form>div:last-of-type>button:hover {
+    background-color: #117A65;
+    cursor: pointer;
+}
+
+.errores {
+    color: red;
+    list-style: none;
+}
+
+/* Estilos para la visualizacion del cliente */
+.show {
+    width: 300px;
+    margin: 0 auto;
+}
+.show>h1 {
+    border-bottom: 1px solid lightgray;
+}
+
+.show-field {
+    margin-bottom: 8px;
+}
+
+.show-field>* {
+    display: inline;
+}
+
+.show-field>h2 {
+    font-size: 1rem;
+}
+
+.show-field>h2::after {
+    content: ": ";
+}
+
+/* Botones de navegación */
+.btn-container {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-top: 24px;
+}
+
+.btn-container>a{
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #117A65aa;
+    color: white;
+    padding: 10px;
+}
+
+.btn-container>a:hover{
+    background-color: #117A65;
+    transition-duration: .2s;
+}
+
+.center {
+    justify-content: center;
+}

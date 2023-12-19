@@ -1,0 +1,83 @@
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizzeria</title>
+</head>
+
+<body>
+<main>
+    <form id="pedido-form" th:action="@{/pedidopizza}" th:object="${pedido}" method="post">
+        <h1>Pedido de pizza</h1>
+        <section class="campo horizontal" id="nombre">
+            <h3>Nombre:</h3>
+            <div class="wrapper">
+                <input th:field="*{nombre}" type="text" name="nombre">
+            </div>
+        </section>
+        <section class="campo horizontal" id="direccion">
+            <h3>Direccion:</h3>
+            <div class="wrapper">
+                <input th:field="*{direccion}" type="text" name="direccion">
+            </div>
+        </section>
+        <section class="campo vertical" id="ingredientes">
+            <h3>Ingredientes:</h3>
+            <div class="option">
+                <input th:field="*{ingredientes}" type="checkbox" name="ingrediente" value="queso">
+                <p>Queso</p>
+            </div>
+            <div class="option">
+                <input th:field="*{ingredientes}" type="checkbox" name="ingrediente" value="pimiento">
+                <p>Pimiento</p>
+            </div>
+            <div class="option">
+                <input th:field="*{ingredientes}" type="checkbox" name="ingrediente" value="cebolla">
+                <p>Cebolla</p>
+            </div>
+        </section>
+
+        <section class="campo vertical" id="tamaño">
+            <h3>Tamaño:</h3>
+            <div class="option">
+                <input th:field="*{tamano}" type="radio" name="tamaño" value="pequeña">
+                <p>Pequeña</p>
+            </div>
+            <div class="option">
+                <input th:field="*{tamano}"  type="radio" name="tamaño" value="mediana">
+                <p>Mediana</p>
+            </div>
+            <div class="option">
+                <input th:field="*{tamano}"  type="radio" name="tamaño" value="grande">
+                <p>Grande</p>
+            </div>
+        </section>
+
+        <section class="campo vertical" id="pago">
+            <h3>Forma de pago:</h3>
+            <div class="wrapper">
+                <select th:field="*{formaPago}">
+                    <option value="visa">Visa</option>
+                    <option value="cheque">Cheque</option>
+                    <option value="contado">Contado</option>
+                    <option value="metalico">Metalico</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="campo vertical" id="instrucciones">
+            <h3>Instrucciones:</h3>
+            <div class="wrapper">
+                <textarea th:field="*{instrucciones}" name="" id="" cols="8" rows="4"></textarea>
+            </div>
+        </section>
+
+        <section class="campo" id="buttons">
+            <button type="submit">Enviar formulario</button>
+            <button type="reset">Borrar formulario</button>
+        </section>
+    </form>
+</main>
+
+
+</body></html>

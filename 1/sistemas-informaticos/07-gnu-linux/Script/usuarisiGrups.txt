@@ -1,0 +1,4 @@
+iron man;socelmillor;Tony Stark;/bin/bash;/home/ironman;marvel
+batman;batmovil;Batman i Robin;/bin/bash;/home/batman;dc
+superman;criptonita;Clark Kent;/bin/sh;/home/superman;dc
+lobezno;adamantium;Logan;/bin/sh/;/home/lobezno;marvel

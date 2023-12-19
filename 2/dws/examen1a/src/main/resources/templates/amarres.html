@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Mantenimiento de Amarres</title>
+</head>
+<body>
+	<main>
+		<h2 th:if="${amarres.isEmpty()}">No hay amarres</h2>
+
+		<section th:if="${!amarres.isEmpty()}">
+			<h2>Mantenimiento de amarres</h2>
+			<h3 th:text="'Id de la zona seleccionada ' + ${zona.id} + ' y la letra ' + ${zona.letra}"></h3>
+			<table>
+				<tr>
+					<td>id</td>
+					<td>Numero</td>
+					<td>Tipo</td>
+					<td>Dimensiones</td>
+					<td>Profundidad de la zona</td>
+					<td>Eliminar</td>
+					<td>Mostrar barcos</td>
+				</tr>
+
+				<tr th:each="amarre : ${amarres}">
+					<td th:text="${amarre.id}"></td>
+					<td th:text="${amarre.numero}"></td>
+					<td th:text="${amarre.tipo}"></td>
+					<td th:text="${amarre.dimensiones}"></td>
+					<td th:text="${zona.profundidad}"></td>
+					<td><a th:href="@{/amarres/delete/{idAmarre}(idAmarre=${amarre.id})}">Eliminar</a></td>
+					<td><a href="#">Mostrar barcos</a></td>
+				</tr>
+			</table>
+			<a th:href="@{/zonas}">Volver a las zonas</a>
+		</section>
+	</main>
+</body>
+</html>

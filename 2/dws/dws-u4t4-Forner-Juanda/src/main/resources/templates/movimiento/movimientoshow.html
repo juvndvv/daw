@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title th:text="'Movimiento ' + ${movimientoDTO.id}">Visualizar cuenta</title>
+</head>
+<body>
+<!-- Cabecera -->
+<header th:replace="common/header"></header>
+<nav th:replace="common/nav"></nav>
+
+<!-- Contenido principal -->
+<main>
+
+    <!-- Muestra del cliente -->
+    <section class="show">
+        <h1 th:text="'Movimiento nº ' + ${movimientoDTO.id}"></h1>
+        <div class="show-field">
+            <h2>id</h2>
+            <p th:text="${movimientoDTO.id}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Tipo</h2>
+            <pt th:text="${movimientoDTO.tipo}"></pt>
+        </div>
+        <div class="show-field">
+            <h2>Fecha de la operación</h2>
+            <p th:text="${#dates.format(movimientoDTO.fechaOperacion, 'dd/MM/yyyy')}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Descripción</h2>
+            <p th:text="${movimientoDTO.descripcion}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Importe</h2>
+            <p th:text="${movimientoDTO.importe}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Origen</h2>
+            <p th:text="${movimientoDTO.cuentaOrigen.numeroCuenta}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Destino</h2>
+            <p th:text="${movimientoDTO.cuentaDestino.numeroCuenta}"></p>
+        </div>
+    </section>
+
+    <!-- Menu de navegación -->
+    <div class="btn-container">
+        <a th:href="@{/}">Volver al inicio</a>
+    </div>
+</main>
+
+</body>
+</html>

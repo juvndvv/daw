@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title th:if="${cuentaDTO}">Movimientos de</title>
+    <title th:if="${cuentaDTO == null}">Movimientos</title>
+</head>
+<body>
+
+<!-- Cabecera -->
+<header th:replace="common/header"></header>
+<nav th:replace="common/nav"></nav>
+
+<!-- Contenido principal -->
+<main>
+
+    <!-- if not movimientos -->
+    <h2 th:if="${movimientos.isEmpty()}">No hay movimientos</h2>
+
+    <!-- if movimientos -->
+    <section th:if="${!movimientos.isEmpty()}">
+
+        <!-- Titulo: si se estan mostrando todos los movimientos -->
+        <h2 th:if="${cuentaDTO}" th:text="'Movimientos de ' + ${cuentaDTO.numeroCuenta}">Mantenimiento de movimientos</h2>
+
+        <!-- Titulo: si se estan mostrando los movimientos de una cuenta -->
+        <h2 th:if="${cuentaDTO == null}">Listado de movimientos</h2>
+
+        <!-- Tabla de movimientos -->
+        <table>
+            <thead>
+                <tr>
+                    <td>id</td>
+                    <td>Origen</td>
+                    <td>Destino</td>
+                    <td>Tipo</td>
+                    <td>Fecha de operación</td>
+                    <td>Descripción</td>
+                    <td>Importe</td>
+                    <td>Editar</td>
+                    <td>Eliminar</td>
+                </tr>
+            </thead>
+            <tbody>
+            <tr th:class="${cuentaDTO != null && item.cuentaOrigen.id == cuentaDTO.id} ? 'saliente' : 'entrante'" th:each="item : ${movimientos}">
+                <td>
+                    <a th:text="${item.id}" th:href="@{/movimientos/{idMovimiento}(idMovimiento=${item.id})}">Id</a>
+                </td>
+                <td>
+                    <a th:href="@{/cuentas/{idCuenta}(idCuenta=${item.cuentaOrigen.id})}" th:text="${item.cuentaOrigen.numeroCuenta}"></a>
+                </td>
+                <td>
+                    <a th:href="@{/cuentas/{idCuenta}(idCuenta=${item.cuentaDestino.id})}" th:text="${item.cuentaDestino.numeroCuenta}"></a>
+                </td>
+                <td th:text="${item.tipo}">Tipo</td>
+                <td th:text="${#dates.format(item.fechaOperacion, 'dd/MM/yyyy')}">Fecha de la operación</td>
+                <td th:text="${item.descripcion}">Descripción</td>
+                <td th:text="${item.importe}">Importe</td>
+                <td><a th:href="@{/movimientos/update/{idMovimiento}(idMovimiento=${item.id})}">Editar</a></td>
+                <td><a th:href="@{/movimientos/delete/{idMovimiento}(idMovimiento=${item.id})}">Eliminar</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Botones de navegación -->
+    <div class="btn-container">
+        <a th:if="${cuentaDTO}" th:href="@{/movimientos/cuenta/{idCuenta}/add(idCuenta=${cuentaDTO.id})}">Agregar movimiento</a> <br>
+        <a th:href="@{/}">Volver al inicio</a>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Pagina de inicio</title>
+</head>
+<body>
+    <main>
+    <p>Bienvenido <span th:text="${user.getNombre()}"></span>!</p>
+    <p>Tu fecha de nacimiento es: <span th:text="${user.getFechaNacimiento()}"></span></p>
+    <p>Tu correo es: <span th:text="${user.getEmail()}"></span></p>
+
+    <form th:action="@{/logout}" method="post">
+        <button type="submit">Cerrar sesion</button>
+    </form>
+    </main>
+</body>
+</html>

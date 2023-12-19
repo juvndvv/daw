@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title>Visualizar cuenta</title>
+</head>
+<body>
+<h1>Visualizar cliente</h1>
+<br>
+<table>
+    <tr>
+        <td>id</td>
+        <td>:</td>
+        <td th:text="${cuentaDTO.id}"></td>
+    </tr>
+    <tr>
+        <td>Banco</td>
+        <td>:</td>
+        <td th:text="${cuentaDTO.banco}"></td>
+    </tr>
+    <tr>
+        <td>Sucursal</td>
+        <td>:</td>
+        <td th:text="${cuentaDTO.sucursal}"></td>
+    </tr>
+    <tr>
+        <td>Numero de cuenta</td>
+        <td>:</td>
+        <td th:text="${cuentaDTO.numeroCuenta}"></td>
+    </tr>
+    <tr>
+        <td>DC</td>
+        <td>:</td>
+        <td th:text="${cuentaDTO.dc}"></td>
+    </tr>
+    <tr>
+        <td>Saldo</td>
+        <td>:</td>
+        <td th:text="${cuentaDTO.saldo}"></td>
+    </tr>
+</table>
+<br>
+<br>
+<a th:href="@{/cuentas/cliente/{idCliente}(idCliente=${cuentaDTO.propietario.id})}">Volver a la lista de clientes</a>
+</body>
+</html>

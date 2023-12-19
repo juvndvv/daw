@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title th:text="${add} ? 'Nueva cuenta' : 'Actualizar cuenta'"></title>
+</head>
+<body>
+<!-- Cabecera -->
+<header th:replace="common/header"></header>
+<nav th:replace="common/nav"></nav>
+
+<!-- Contenido principal -->
+<main>
+
+    <!-- Errores del formulario -->
+    <ul style="color: red" th:if="errores">
+        <li th:each="error : ${errores}">
+            <span th:text="${error}">Error</span>
+        </li>
+    </ul>
+
+    <!-- Formulario -->
+    <form th:action="@{/cuentas/save}"
+          th:object="${cuentaDTO}"
+          method="post" >
+
+        <!-- Cabecera del formulario -->
+        <h2 th:text="${add} ? 'Agregar cuenta a ' + ${cuentaDTO.propietario.nombre} + ' ' + ${cuentaDTO.propietario.apellidos}  : 'Actualizar cuenta'" />
+
+        <!-- Campos del formulario -->
+        <div th:if="${cuentaDTO.id}" class="form-field">
+            <label for="id">id</label>
+            <input id="id" type="text" th:field="*{id}" readonly/>
+        </div>
+        <div class="form-field">
+            <label for="propietario">Propietario</label>
+            <input id="propietario" type="text" th:field="*{propietario.id}" readonly>
+        </div>
+        <div class="form-field">
+            <label for="banco">Banco</label>
+            <input id="banco" type="text" th:field="*{banco}" th:placeholder="${cuentaDTO.banco}" />
+        </div>
+        <div class="form-field">
+            <label for="sucursal">Sucursal</label>
+            <input id="sucursal" type="text" th:field="*{sucursal}" th:placeholder="${cuentaDTO.sucursal}" />
+        </div>
+        <div class="form-field">
+            <label for="numero-cuenta">Numero de cuenta</label>
+            <input id="numero-cuenta" type="text" th:field="*{numeroCuenta}" th:placeholder="${cuentaDTO.numeroCuenta}" />
+        </div>
+        <div class="form-field">
+            <label for="dc">dc</label>
+            <input id="dc" type="text" th:field="*{dc}" th:placeholder="${cuentaDTO.dc}"/>
+        </div>
+        <div class="form-field">
+            <label for="saldo">Saldo</label>
+            <input id="saldo" th:field="*{saldo}" th:placeholder="${cuentaDTO.saldo}" />
+        </div>
+
+        <!-- Submit -->
+        <div>
+            <button th:text="${add} ? 'Nuevo' : 'Actualizar'" />
+        </div>
+    </form>
+
+    <!-- Botones de navegación -->
+    <div class="btn-container">
+        <a th:href="@{/cuentas/cliente/{idCliente}(idCliente=${cuentaDTO.propietario.id})}">Volver a la lista de cuentas</a>
+    </div>
+</main>
+</body>
+</html>

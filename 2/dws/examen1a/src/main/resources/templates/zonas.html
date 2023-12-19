@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Mantenimiento de Zonas</title>
+</head>
+<body>
+	<main>
+		<h2 th:if="${zonas.isEmpty()}">No hay zonas</h2>
+
+		<section  th:if="${!zonas.isEmpty()}">
+			<h2>Mantenimiento de zonas</h2>
+
+			<table>
+				<thead>
+				<tr>
+					<td>id</td>
+					<td>Letra</td>
+					<td>Proundidad</td>
+					<td>Dimensiones</td>
+					<td>Editar</td>
+					<td>Eliminar</td>
+					<td>Mostrar amarres</td>
+				</tr>
+				</thead>
+
+				<tbody>
+				<tr th:each="zona : ${zonas}">
+					<td><a th:href="@{/zonas/{idZona}(idZona=${zona.id})}" th:text="${zona.id}"></a></td>
+					<td th:text="${zona.letra}"></td>
+					<td th:text="${zona.profundidad}"></td>
+					<td th:text="${zona.dimensiones}"></td>
+					<td><a th:href="@{/zonas/update/{idZona}(idZona=${zona.id})}">Editar</a></td>
+					<td><a th:href="@{/zonas/delete/{idZona}(idZona=${zona.id})}">Eliminar</a></td>
+					<td><a th:href="@{/amarres/zona/{idZona}(idZona=${zona.id})}">Mostrar amarres</a></td>
+				</tr>
+				</tbody>
+			</table>
+			<a th:href="@{/zonas/add}">Agregar zona</a>
+		</section>
+	</main>
+</body>
+</html>

@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@500&family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+::-webkit-scrollbar{
+    width: 10px;
+    padding-top: 20px;
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar-track{
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #148F77aa;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+}
+
+/* Estilos generales */
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+    font-style: italic;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    overflow-y: auto;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #148F77;
+    color: white;
+    padding: 0 25px;
+    width: 100%;
+    height: 100px;
+}
+
+header>* {
+    height: 100%;
+}
+
+header>h1 {
+    float: left;
+    font-family: 'Agbalumo', sans-serif;
+    margin: 0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+header>nav {
+    float: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+}
+
+header>nav>div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header>nav>div>a {
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: auto 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+header>nav>div>a:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+header>nav>div>a>* {
+    display: inline-block;
+    margin: auto 0;
+}
+
+header>nav>div>a>p,
+header>nav>div>p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: auto 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#username {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#username>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/* Estilos para el main */
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+/* Seccion de compra y venta */
+main>section {
+    min-height: calc(100vh - 100px);
+    width: 100%;
+    max-height: 100px;
+    margin: 0 300px;
+}
+
+/* Titulo de la seccion */
+main>section>h2 {
+    margin-left: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 800;
+    margin-bottom: 16px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#articles {
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+main>aside {
+    color: black;
+    padding: 0 25px;
+    margin: 0 auto;
+    animation: fadeIn .5s ease forwards;
+}
+
+main>aside::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+aside>button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 16px 32px;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    animation: fadeIn .5s ease forwards;
+}
+
+aside>button.active {
+    background-color: #148F77cc;
+    color: white;
+    font-weight: bold;
+}
+
+aside>button:hover {
+    color: #148F77;
+    transition: color 0.5s;
+}
+
+aside>button.active:hover {
+    color: white;
+}
+
+.article {
+    width: 310px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+    animation: fromBelow 1s ease forwards;
+}
+
+.article img {
+    height: 100px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.article h3 {
+    margin-top: 10px;
+}
+
+.article p:first-of-type {
+    height: 60px;
+    font-weight: lighter;
+    font-size: 1em;
+    overflow-y: hidden;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.article>p:last-of-type::after {
+    content: ' €';
+}
+
+.article button {
+    background-color: #148F77aa;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.article button:hover {
+    background-color: #148F77;
+    transition: background-color .3s;
+}
+
+.article button:last-of-type {
+    margin-left: 10px;
+}
+
+button.delete {
+    background-color: red;
+}
+
+/* Estilos formulario */
+form {
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 500px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: 50px 0 0 0;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    animation: fadeIn .5s ease forwards;
+}
+
+form>h2 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 60px;
+}
+
+form>div>* {
+    display: inline-block;
+}
+
+form>div>label {
+    display: none;
+}
+
+form>div>input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2em;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+form>div>input::placeholder {
+    color: white;
+}
+
+form>div>select {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2em;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+form>div>select>option {
+    color: black;
+}
+
+form>div>select::placeholder {
+    color: white;
+}
+
+form>.error>p {
+    color: red;
+    animation: bounce 1s ease forwards;
+    margin: 0;
+    font-size: 1rem;
+    margin-left: 8px;
+}
+
+form>div>input:focus {
+    outline: none;
+    border-bottom: 1px solid #148F77;
+    transition: border-bottom 0.3s;
+}
+
+form>div>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+form>button {
+    width: fit-content;
+    border: none;
+    border-radius: 16px;
+    background-color: #148F77;
+    color: white;
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+form>button:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+form textarea {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2em;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    resize: none;
+    overflow-y: scroll;
+}
+
+.remove-animation {
+    animation: remove 1s forwards;
+}
+
+.correct::after {
+    position: absolute;
+    /* Situa en el centro del contenedor */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '✓';
+    color: #148F77;
+    font-size: 5rem;
+    margin-left: 10px;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes remove {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fromBelow {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,146 @@
+/* General.css  2023 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1000px;
+    width: 80vw;
+    height: 100vh;
+    min-height: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8em;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(214,214,246,1) 35%, rgba(0,0,0,1) 100%);
+}
+
+img {
+    object-fit: cover;
+    display: block;
+    font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+p::first-letter {
+    color: green;
+    font-size: 2em;
+}
+
+/*a todos los primeros span de la página */
+span:first-of-type {
+    text-decoration: underline overline;
+}
+
+/* Estilos para el header */
+header {
+    height: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-image: url(../fondos/fondo3.jpg);
+}
+
+/* Imagenes del header */
+header>img {
+    width: 200px;
+}
+
+/* Primera imagen del header y del contenido principal */
+img:first-child {
+    border: 1px solid green;
+    border-radius: 100px 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Titulos de la cabecera */
+header>div>* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Titulo de la cabera */
+header>div>h1 {
+    margin-bottom: 20px;
+}
+
+/* Subtitulo de la cabecera */
+header>div>h2 {
+    text-transform: uppercase;
+}
+
+body>div,
+footer {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: whitesmoke;
+}
+
+/* Links del nav */
+nav>a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+nav>a:link,
+nav>a:visited {
+    color: whitesmoke;
+}
+
+/* Contenido principal */
+main {
+    width: calc(100% - 200px - 200px);
+    padding: 0 20px;
+}
+
+/* Titulo del contenido principal */
+main>h2 {
+    text-align: center;
+}
+
+/* Span del titulo del contenido principal */
+main>h2>span {
+    text-transform: uppercase;
+}
+
+main>div>p::first-line {
+    color:green;
+}
+
+
+/* Ultimo span del texto */
+main>div>p>span:last-of-type {
+    background-color: yellow;
+    color: black;
+}
+
+/* Numeros del aside */
+aside>h3:last-of-type {
+    font-size: 3em;
+}
+
+/* Numero del aside de la derecha */
+aside:last-of-type>h3:last-of-type {
+    text-shadow: 2px 2px blue;
+}

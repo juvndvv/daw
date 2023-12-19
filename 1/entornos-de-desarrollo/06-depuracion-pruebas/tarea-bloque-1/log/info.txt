@@ -1,0 +1,8 @@
+may 20, 2023 5:02:32 P. M. ed.ud6.debugger.test.EjercicioDepuracion main
+INFO: Iniciamos la aplicación
+may 20, 2023 5:02:32 P. M. ed.ud6.debugger.test.EjercicioDepuracion main
+INFO: Var opcion = -1
+may 20, 2023 5:02:32 P. M. ed.ud6.debugger.test.EjercicioDepuracion menu
+INFO: Mostramos el menú
+may 20, 2023 5:03:05 P. M. ed.ud6.debugger.test.EjercicioDepuracion main
+INFO: Var opcion = 0

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title>Mantenimiento de cuentas</title>
+</head>
+<body>
+<div>
+    <br>
+    <h2 th:if="${cuentas.isEmpty()}">No hay cuentas</h2>
+    <div th:if="${!cuentas.isEmpty()}">
+        <h2>Mantenimiento de cuentas</h2>
+        <table>
+            <thead>
+            <tr>
+                <td>id</td>
+                <td>Banco</td>
+                <td>Sucursal</td>
+                <td>Número de cuenta</td>
+                <td>Dc</td>
+                <td>Saldo</td>
+                <td>Editar</td>
+                <td>Eliminar</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="item : ${cuentas}">
+                <td>
+                    <a th:text="${item.id}" th:href="@{/cuentas/{idCuenta}(idCuenta=${item.id})}"></a>
+                </td>
+                <td th:text="${item.banco}"></td>
+                <td th:text="${item.sucursal}"></td>
+                <td th:text="${item.numeroCuenta}"></td>
+                <td th:text="${item.dc}"></td>
+                <td th:text="${item.saldo}"></td>
+                <td><a th:href="@{/cuentas/update/{idCuenta}(idCuenta=${item.id})}">Editar</a></td>
+                <td><a th:href="@{/cuentas/delete/{idCuenta}(idCuenta=${item.id})}">Eliminar</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<br>
+<div>
+    <a th:href="@{/cuentas/cliente/{idCliente}/add(idCliente=${idCliente})}">Agregar cuenta</a> <br>
+    <a th:href="@{/clientes}">Volver al inicio</a>
+</div>
+</body>
+</html>

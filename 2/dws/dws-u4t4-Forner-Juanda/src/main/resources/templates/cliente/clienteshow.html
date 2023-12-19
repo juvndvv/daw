@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+  <title th:text="${clienteDTO.nombre} + ' ' + ${clienteDTO.apellidos}">Visualizar cliente</title>
+</head>
+<body>
+<!-- Cabecera -->
+<header th:replace="common/header"></header>
+<nav th:replace="common/nav"></nav>
+
+<!-- Contenido principal -->
+<main>
+
+  <!-- Cliente -->
+  <section class="show">
+    <h1 th:text="${clienteDTO.nombre} + ' ' + ${clienteDTO.apellidos}">Visualizar cliente</h1>
+    <div class="show-field">
+      <h2>id</h2>
+      <p th:text="${clienteDTO.id}"></p>
+    </div>
+    <div class="show-field">
+      <h2>Nombre</h2>
+      <p th:text="${clienteDTO.nombre}"></p>
+    </div>
+    <div class="show-field">
+      <h2>Apellidos</h2>
+      <p th:text="${clienteDTO.apellidos}"></p>
+    </div>
+    <div class="show-field">
+      <h2>nif</h2>
+      <p th:text="${clienteDTO.nif}"></p>
+    </div>
+    <div class="show-field">
+      <h2>Email</h2>
+      <p th:text="${clienteDTO.email}"></p>
+    </div>
+    <div class="show-field">
+      <h2>Clave</h2>
+      <p th:text="${clienteDTO.claveSeguridad}"></p>
+    </div>
+    <div class="show-field">
+      <h2>Observaciones</h2>
+      <p th:text="${clienteDTO.recomendacionDTO.observaciones}"></p>
+    </div>
+  </section>
+
+  <!-- Botones para la navegación -->
+  <div class="btn-container">
+    <a th:href="@{/clientes}">Volver al inicio</a>
+  </div>
+</main>
+</body>
+</html>

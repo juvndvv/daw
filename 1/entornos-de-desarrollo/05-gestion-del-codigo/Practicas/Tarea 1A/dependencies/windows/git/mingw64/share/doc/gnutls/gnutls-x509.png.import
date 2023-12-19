@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/gnutls-x509.png-38a85d3fce1a0963d5c1a3f9b5eb4d3a.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://dependencies/windows/git/mingw64/share/doc/gnutls/gnutls-x509.png"
+dest_files=[ "res://.import/gnutls-x509.png-38a85d3fce1a0963d5c1a3f9b5eb4d3a.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

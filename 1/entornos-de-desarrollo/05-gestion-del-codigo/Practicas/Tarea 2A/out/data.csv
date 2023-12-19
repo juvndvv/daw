@@ -1,0 +1,9 @@
+quicksort,mergesort,heapsort
+0,0,0
+1,0,0
+1,2,1
+13,21,11
+94,170,141
+1077,1763,2315
+12321,20125,34048
+OutOfMemory,OutOfMemory,OutOfMemory

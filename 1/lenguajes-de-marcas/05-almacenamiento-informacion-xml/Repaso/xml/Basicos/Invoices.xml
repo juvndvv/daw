@@ -1,0 +1,3512 @@
+<Invoices>
+  <Invoice>
+    <Id>Invoice_1</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>12</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>71</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>71</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_14</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>96</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>25</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>24</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>62</Unit_price>
+      </Product>
+    </Line>
+    <Date>2015</Date>
+    <Discount>0.18</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_2</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_5</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>64</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>93</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>58</Unit_price>
+      </Product>
+    </Line>
+    <Date>2020</Date>
+    <Discount>0.02</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_3</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>85</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>40</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>34</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>85</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>98</Unit_price>
+      </Product>
+    </Line>
+    <Date>2020</Date>
+    <Discount>0.04</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_4</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>37</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>86</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>105</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>99</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>69</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>26</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>18</Unit_price>
+      </Product>
+    </Line>
+    <Date>2011</Date>
+    <Discount>0.01</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_5</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>21</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>25</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>24</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>41</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>54</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>40</Unit_price>
+      </Product>
+    </Line>
+    <Date>2016</Date>
+    <Discount>0.15</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_6</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>23</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>14</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>67</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>88</Unit_price>
+      </Product>
+    </Line>
+    <Date>2005</Date>
+    <Discount>0.04</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_7</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>12</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>63</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>41</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>92</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>104</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>97</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>23</Unit_price>
+      </Product>
+    </Line>
+    <Date>2007</Date>
+    <Discount>0.07</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_8</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>75</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>67</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>62</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>89</Unit_price>
+      </Product>
+    </Line>
+    <Date>2007</Date>
+    <Discount>0.01</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_9</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>86</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>65</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>15</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>77</Unit_price>
+      </Product>
+    </Line>
+    <Date>2022</Date>
+    <Discount>0.18</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_10</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>17</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>108</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>85</Unit_price>
+      </Product>
+    </Line>
+    <Date>2004</Date>
+    <Discount>0.2</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_11</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>88</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>101</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>43</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>24</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>60</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>59</Unit_price>
+      </Product>
+    </Line>
+    <Date>2021</Date>
+    <Discount>0.28</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_12</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>50</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>27</Unit_price>
+      </Product>
+    </Line>
+    <Date>2015</Date>
+    <Discount>0.24</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_13</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>22</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>66</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>67</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>49</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>96</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>29</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>73</Unit_price>
+      </Product>
+    </Line>
+    <Date>2004</Date>
+    <Discount>0.19</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_14</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>31</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>27</Unit_price>
+      </Product>
+    </Line>
+    <Date>2022</Date>
+    <Discount>0.12</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_15</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_27</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>95</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>19</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>91</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>76</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>10</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>88</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>61</Unit_price>
+      </Product>
+    </Line>
+    <Date>2010</Date>
+    <Discount>0.06</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_16</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_14</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>99</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>64</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>76</Unit_price>
+      </Product>
+    </Line>
+    <Date>2017</Date>
+    <Discount>0.24</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_17</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>102</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>46</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>27</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>70</Unit_price>
+      </Product>
+    </Line>
+    <Date>2021</Date>
+    <Discount>0.28</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_18</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>20</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>84</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>76</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>69</Unit_price>
+      </Product>
+    </Line>
+    <Date>2001</Date>
+    <Discount>0.06</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_19</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>25</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_27</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>52</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>87</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>30</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>83</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>42</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>64</Unit_price>
+      </Product>
+    </Line>
+    <Date>2015</Date>
+    <Discount>0.13</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_20</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>65</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>33</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_5</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>50</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>44</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>21</Unit_price>
+      </Product>
+    </Line>
+    <Date>2014</Date>
+    <Discount>0</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_21</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>66</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>78</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>82</Unit_price>
+      </Product>
+    </Line>
+    <Date>2022</Date>
+    <Discount>0</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_22</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_27</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>10</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>100</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>14</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>33</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>37</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>25</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>91</Unit_price>
+      </Product>
+    </Line>
+    <Date>2000</Date>
+    <Discount>0.2</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_23</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>42</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_14</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>104</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>38</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>60</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>72</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>56</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>43</Unit_price>
+      </Product>
+    </Line>
+    <Date>2010</Date>
+    <Discount>0.08</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_24</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>96</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>10</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>24</Unit_price>
+      </Product>
+    </Line>
+    <Date>2005</Date>
+    <Discount>0.1</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_25</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>96</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>102</Unit_price>
+      </Product>
+    </Line>
+    <Date>2016</Date>
+    <Discount>0.06</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_26</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>64</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>33</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>101</Unit_price>
+      </Product>
+    </Line>
+    <Date>2008</Date>
+    <Discount>0.11</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_27</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>24</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>97</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>97</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_27</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>104</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>39</Unit_price>
+      </Product>
+    </Line>
+    <Date>2001</Date>
+    <Discount>0.09</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_28</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>103</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_27</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>65</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>66</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>41</Unit_price>
+      </Product>
+    </Line>
+    <Date>2020</Date>
+    <Discount>0.15</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_29</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>22</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>91</Unit_price>
+      </Product>
+    </Line>
+    <Date>2014</Date>
+    <Discount>0.03</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_30</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>78</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>75</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>45</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>14</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>99</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>56</Unit_price>
+      </Product>
+    </Line>
+    <Date>2014</Date>
+    <Discount>0</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_31</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>73</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>108</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>19</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>83</Unit_price>
+      </Product>
+    </Line>
+    <Date>2000</Date>
+    <Discount>0.23</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_32</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>68</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>34</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>89</Unit_price>
+      </Product>
+    </Line>
+    <Date>2019</Date>
+    <Discount>0.06</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_33</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>79</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>54</Unit_price>
+      </Product>
+    </Line>
+    <Date>2020</Date>
+    <Discount>0.2</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_34</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>14</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>27</Unit_price>
+      </Product>
+    </Line>
+    <Date>2013</Date>
+    <Discount>0.23</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_35</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>10</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>63</Unit_price>
+      </Product>
+    </Line>
+    <Date>2006</Date>
+    <Discount>0.13</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_36</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>108</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>37</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>102</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>65</Unit_price>
+      </Product>
+    </Line>
+    <Date>2014</Date>
+    <Discount>0.29</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_37</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_5</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>14</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>67</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>10</Unit_price>
+      </Product>
+    </Line>
+    <Date>2004</Date>
+    <Discount>0.2</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_38</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>31</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>21</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>15</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>87</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_14</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>95</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>38</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>103</Unit_price>
+      </Product>
+    </Line>
+    <Date>2014</Date>
+    <Discount>0.1</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_39</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>90</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>21</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_27</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>70</Unit_price>
+      </Product>
+    </Line>
+    <Date>2022</Date>
+    <Discount>0.1</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_40</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>94</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>46</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>50</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>105</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>98</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>33</Unit_price>
+      </Product>
+    </Line>
+    <Date>2008</Date>
+    <Discount>0.27</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_41</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>66</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_5</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>36</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>60</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>77</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>39</Unit_price>
+      </Product>
+    </Line>
+    <Date>2006</Date>
+    <Discount>0.25</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_42</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>88</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>76</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>56</Unit_price>
+      </Product>
+    </Line>
+    <Date>2012</Date>
+    <Discount>0.11</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_43</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>63</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>22</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>107</Unit_price>
+      </Product>
+    </Line>
+    <Date>2021</Date>
+    <Discount>0.29</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_44</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>19</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>31</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>30</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>36</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>90</Unit_price>
+      </Product>
+    </Line>
+    <Date>2001</Date>
+    <Discount>0.23</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_45</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>33</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>14</Unit_price>
+      </Product>
+    </Line>
+    <Date>2018</Date>
+    <Discount>0.15</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_46</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>70</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>80</Unit_price>
+      </Product>
+    </Line>
+    <Date>2012</Date>
+    <Discount>0.25</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_47</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>12</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_27</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>13</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>49</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>25</Unit_price>
+      </Product>
+    </Line>
+    <Date>2019</Date>
+    <Discount>0.08</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_48</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>94</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>62</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>43</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>99</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>27</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>63</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>78</Unit_price>
+      </Product>
+    </Line>
+    <Date>2010</Date>
+    <Discount>0.29</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_49</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>93</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>23</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>10</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>31</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>100</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>62</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>60</Unit_price>
+      </Product>
+    </Line>
+    <Date>2015</Date>
+    <Discount>0.27</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_50</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>15</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>79</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>83</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>94</Unit_price>
+      </Product>
+    </Line>
+    <Date>2005</Date>
+    <Discount>0.02</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_51</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>16</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>104</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>78</Unit_price>
+      </Product>
+    </Line>
+    <Date>2000</Date>
+    <Discount>0.03</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_52</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>107</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>35</Unit_price>
+      </Product>
+    </Line>
+    <Date>2014</Date>
+    <Discount>0.19</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_53</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>25</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>34</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>19</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>42</Unit_price>
+      </Product>
+    </Line>
+    <Date>2017</Date>
+    <Discount>0.09</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_54</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>44</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>97</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>43</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_5</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>38</Unit_price>
+      </Product>
+    </Line>
+    <Date>2011</Date>
+    <Discount>0.06</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_55</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>73</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>99</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>79</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>62</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>50</Unit_price>
+      </Product>
+    </Line>
+    <Date>2013</Date>
+    <Discount>0.19</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_56</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>34</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>81</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>67</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>57</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>55</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>51</Unit_price>
+      </Product>
+    </Line>
+    <Date>2000</Date>
+    <Discount>0.05</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_57</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>101</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>12</Unit_price>
+      </Product>
+    </Line>
+    <Date>2006</Date>
+    <Discount>0.19</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_58</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>31</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>106</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>38</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>61</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>92</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>53</Unit_price>
+      </Product>
+    </Line>
+    <Date>2018</Date>
+    <Discount>0.27</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_59</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>81</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>99</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>52</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>25</Unit_price>
+      </Product>
+    </Line>
+    <Date>2023</Date>
+    <Discount>0.19</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_60</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>52</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>93</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>104</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>64</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_14</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>62</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>101</Unit_price>
+      </Product>
+    </Line>
+    <Date>2006</Date>
+    <Discount>0.04</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_61</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>49</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_14</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>66</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>38</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>34</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>87</Unit_price>
+      </Product>
+    </Line>
+    <Date>2020</Date>
+    <Discount>0.15</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_62</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>37</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>12</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>103</Unit_price>
+      </Product>
+    </Line>
+    <Date>2020</Date>
+    <Discount>0.14</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_63</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>101</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>71</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>92</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>73</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_27</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>96</Unit_price>
+      </Product>
+    </Line>
+    <Date>2011</Date>
+    <Discount>0.07</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_64</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>68</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>73</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>48</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>52</Unit_price>
+      </Product>
+    </Line>
+    <Date>2016</Date>
+    <Discount>0.28</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_65</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>18</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>11</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>95</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>89</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>90</Unit_price>
+      </Product>
+    </Line>
+    <Date>2020</Date>
+    <Discount>0.06</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_66</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>14</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>41</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>72</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>19</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>55</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>44</Unit_price>
+      </Product>
+    </Line>
+    <Date>2001</Date>
+    <Discount>0.24</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_67</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>108</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>104</Unit_price>
+      </Product>
+    </Line>
+    <Date>2018</Date>
+    <Discount>0.01</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_68</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>80</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>40</Unit_price>
+      </Product>
+    </Line>
+    <Date>2021</Date>
+    <Discount>0.06</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_69</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>77</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>88</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>15</Unit_price>
+      </Product>
+    </Line>
+    <Date>2019</Date>
+    <Discount>0.13</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_70</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>85</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>18</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>14</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_5</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>82</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>29</Unit_price>
+      </Product>
+    </Line>
+    <Date>2009</Date>
+    <Discount>0.07</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_71</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>53</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>91</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>83</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>59</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>81</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>42</Unit_price>
+      </Product>
+    </Line>
+    <Date>2004</Date>
+    <Discount>0.08</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_72</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>105</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>45</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>11</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>50</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>108</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>75</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>13</Unit_price>
+      </Product>
+    </Line>
+    <Date>2003</Date>
+    <Discount>0.29</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_73</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>53</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>11</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>106</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>69</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>64</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>27</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>46</Unit_price>
+      </Product>
+    </Line>
+    <Date>2018</Date>
+    <Discount>0.17</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_74</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>99</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>66</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>109</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>13</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>83</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>23</Unit_price>
+      </Product>
+    </Line>
+    <Date>2013</Date>
+    <Discount>0.2</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_75</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>84</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>87</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>89</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>58</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>26</Unit_price>
+      </Product>
+    </Line>
+    <Date>2006</Date>
+    <Discount>0.11</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_76</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>81</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>104</Unit_price>
+      </Product>
+    </Line>
+    <Date>2015</Date>
+    <Discount>0.26</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_77</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>35</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>92</Unit_price>
+      </Product>
+    </Line>
+    <Date>2005</Date>
+    <Discount>0.17</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_78</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>88</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>109</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_14</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>72</Unit_price>
+      </Product>
+    </Line>
+    <Date>2002</Date>
+    <Discount>0.06</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_79</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>105</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>98</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>78</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>30</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_27</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>21</Unit_price>
+      </Product>
+    </Line>
+    <Date>2016</Date>
+    <Discount>0.02</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_80</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>63</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>55</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>106</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>72</Unit_price>
+      </Product>
+    </Line>
+    <Date>2004</Date>
+    <Discount>0.19</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_81</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_8</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>65</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>24</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>83</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>27</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>28</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>25</Unit_price>
+      </Product>
+    </Line>
+    <Date>2011</Date>
+    <Discount>0.13</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_82</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_14</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>27</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>94</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>43</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>77</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_5</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>12</Unit_price>
+      </Product>
+    </Line>
+    <Date>2012</Date>
+    <Discount>0.08</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_83</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>20</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>18</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>109</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_5</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>86</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>78</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>52</Unit_price>
+      </Product>
+    </Line>
+    <Date>2021</Date>
+    <Discount>0.22</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_84</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_10</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>37</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_17</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>20</Unit_price>
+      </Product>
+    </Line>
+    <Date>2002</Date>
+    <Discount>0.25</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_85</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>75</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_2</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>93</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>13</Unit_price>
+      </Product>
+    </Line>
+    <Date>2010</Date>
+    <Discount>0.08</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_86</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>83</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>81</Unit_price>
+      </Product>
+    </Line>
+    <Date>2017</Date>
+    <Discount>0.28</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_87</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>11</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>54</Unit_price>
+      </Product>
+    </Line>
+    <Date>2011</Date>
+    <Discount>0.2</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_88</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_20</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>37</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>91</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_30</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>30</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>59</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>32</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>61</Unit_price>
+      </Product>
+    </Line>
+    <Date>2014</Date>
+    <Discount>0.1</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_89</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>63</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_26</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>28</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>61</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>44</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>103</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>43</Unit_price>
+      </Product>
+    </Line>
+    <Date>2022</Date>
+    <Discount>0.09</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_90</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>43</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>83</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>36</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_27</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>68</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>42</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_4</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>47</Unit_price>
+      </Product>
+    </Line>
+    <Date>2008</Date>
+    <Discount>0.2</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_91</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>80</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>24</Unit_price>
+      </Product>
+    </Line>
+    <Date>2009</Date>
+    <Discount>0.02</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_92</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>64</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>46</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>75</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_12</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>43</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_16</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>22</Unit_price>
+      </Product>
+    </Line>
+    <Date>2005</Date>
+    <Discount>0.28</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_93</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>19</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>30</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_24</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>96</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_29</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>35</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>25</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>54</Unit_price>
+      </Product>
+    </Line>
+    <Date>2020</Date>
+    <Discount>0.21</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_94</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>96</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>56</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>65</Unit_price>
+      </Product>
+    </Line>
+    <Date>2010</Date>
+    <Discount>0.27</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_95</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>49</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>43</Unit_price>
+      </Product>
+    </Line>
+    <Date>2011</Date>
+    <Discount>0.24</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_96</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_22</Name>
+        <Quantity>5</Quantity>
+        <Unit_price>94</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>27</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_21</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>87</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>2</Quantity>
+        <Unit_price>104</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_28</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>95</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>10</Quantity>
+        <Unit_price>106</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="7">
+      <Product>
+        <Name>Articulo_19</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>94</Unit_price>
+      </Product>
+    </Line>
+    <Date>2015</Date>
+    <Discount>0.05</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_97</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_5</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>44</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>65</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_7</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>101</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_13</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>52</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="5">
+      <Product>
+        <Name>Articulo_9</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>99</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="6">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>21</Unit_price>
+      </Product>
+    </Line>
+    <Date>2000</Date>
+    <Discount>0.26</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_98</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_5</Name>
+        <Quantity>9</Quantity>
+        <Unit_price>29</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_6</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>11</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_3</Name>
+        <Quantity>3</Quantity>
+        <Unit_price>79</Unit_price>
+      </Product>
+    </Line>
+    <Date>2013</Date>
+    <Discount>0.29</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_99</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_23</Name>
+        <Quantity>6</Quantity>
+        <Unit_price>47</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_18</Name>
+        <Quantity>1</Quantity>
+        <Unit_price>26</Unit_price>
+      </Product>
+    </Line>
+    <Date>2001</Date>
+    <Discount>0.13</Discount>
+  </Invoice>
+  <Invoice>
+    <Id>Invoice_100</Id>
+    <Line numl="1">
+      <Product>
+        <Name>Articulo_1</Name>
+        <Quantity>4</Quantity>
+        <Unit_price>26</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="2">
+      <Product>
+        <Name>Articulo_25</Name>
+        <Quantity>7</Quantity>
+        <Unit_price>49</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="3">
+      <Product>
+        <Name>Articulo_15</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>52</Unit_price>
+      </Product>
+    </Line>
+    <Line numl="4">
+      <Product>
+        <Name>Articulo_11</Name>
+        <Quantity>8</Quantity>
+        <Unit_price>59</Unit_price>
+      </Product>
+    </Line>
+    <Date>2002</Date>
+    <Discount>0.13</Discount>
+  </Invoice>
+</Invoices>

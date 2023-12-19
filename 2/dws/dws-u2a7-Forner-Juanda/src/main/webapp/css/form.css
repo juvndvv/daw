@@ -1,0 +1,132 @@
+form {
+    height: 535px;
+    width: 500px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-areas:
+        'nombre nombre'
+        'dias dias'
+        'edad pago'
+        'extras extras'
+        'botonera botonera';
+
+    grid-template-columns: auto auto;
+    grid-template-rows: 10% 10% 32% auto 8%;
+
+    -webkit-box-shadow: 17px 10px 50px -28px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 17px 10px 50px -28px rgba(0, 0, 0, 0.75);
+    box-shadow: 17px 10px 50px -28px rgba(0, 0, 0, 0.75);
+}
+
+#nombre {
+    grid-area: nombre;
+}
+
+#numero {
+    grid-area: dias;
+}
+
+#edad {
+    grid-area: edad;
+}
+
+#pago {
+    grid-area: pago;
+}
+
+#extras {
+    grid-area: extras;
+}
+
+#botonera {
+    grid-area: botonera;
+}
+
+section {
+    padding-bottom: 3px;
+}
+
+section h3 {
+    font-size: medium;
+    font-weight: lighter;
+}
+
+/* Nombre pelicula y numero de dias */
+
+.texto {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 40% auto;
+    align-items: center;
+}
+
+.texto input {
+    font-family: 'Poppins';
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Estilos generales para las columnas */
+
+.columna {
+    display: grid;
+    grid-template-rows: 30% auto;
+    align-items: center;
+}
+
+/* Edad */
+
+.opcion-edad {
+    display: flex;
+}
+
+.opcion-edad p {
+    font-size: medium;
+    margin: 0;
+}
+
+/* Forma de pago */
+
+#pago .opciones {
+    padding-left: 3px;
+}
+
+#pago .opciones select {
+    font-family: 'Poppins';
+    font-size: medium;
+}
+
+/* Extras */
+#extras {
+    display: grid;
+    grid-template-rows: 10% auto;
+    align-items: center;
+}
+
+#extras h3 {
+    text-align: center;
+}
+
+#extras textarea {
+    resize: none;
+    height: 90%;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#botonera {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    font-family: 'Poppins';
+    padding: 7px;
+}
