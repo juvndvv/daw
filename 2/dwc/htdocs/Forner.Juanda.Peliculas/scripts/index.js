@@ -1,6 +1,13 @@
 import { fetchMoviesData } from "./peticiones.js";
 import { renderMovies } from "./render.js";
 
+// Fetch movies
+function fetchMovies() {
+  fetchMoviesData(currPage)
+    .then((movies) => renderMovies(movies))
+    .catch((error) => console.log(error));
+}
+
 let currPage = 1;
 
 // Next page button
@@ -22,11 +29,5 @@ function handlePrevPage() {
 
 document.querySelector("#prev").addEventListener("click", handlePrevPage);
 
-// Fetch movies
-function fetchMovies() {
-  fetchMoviesData(currPage)
-    .then((movies) => renderMovies(movies))
-    .catch((error) => console.log(error));
-}
-
+// Search movies
 fetchMovies();
