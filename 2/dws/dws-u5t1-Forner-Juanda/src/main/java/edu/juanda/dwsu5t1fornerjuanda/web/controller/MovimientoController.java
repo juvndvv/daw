@@ -69,18 +69,9 @@ public class MovimientoController {
     public ModelAndView save(@ModelAttribute MovimientoDTO movimientoDTO) {
         log.info("MovimientoController - save: guardando: " + movimientoDTO);
 
-        // Actualizamos el saldo de la cuenta origen
-        CuentaDTO cuentaOrigenDTO = cuentaService.findById(movimientoDTO.getCuentaOrigenDto().getId());
-        cuentaOrigenDTO.setSaldo(cuentaOrigenDTO.getSaldo() - movimientoDTO.getImporte());
-        cuentaService.save(cuentaOrigenDTO);
-
-        // Actualizamos el saldo de la cuenta destino
-        CuentaDTO cuentaDestinoDTO = cuentaService.findById(movimientoDTO.getCuentaDestinoDto().getId());
-        cuentaDestinoDTO.setSaldo(cuentaDestinoDTO.getSaldo() + movimientoDTO.getImporte());
-        cuentaService.save(cuentaDestinoDTO);
-
         // Guardamos el movimiento
         movimientoService.save(movimientoDTO);
+
         return new ModelAndView("redirect:/movimientos/cuenta/" + movimientoDTO.getCuentaOrigenDto().getId());
     }
 

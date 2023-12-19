@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" th:href="@{/css/styles.css}">
-  <title th:if="${propietario}" th:text="'Cuentas de ' + ${propietario.nombre}"></title>
-  <title th:if="${propietario == null}" th:text="'Cuentas'"></title>
+  <title>Cuentas</title>
 </head>
 <body>
 
@@ -17,6 +16,7 @@
 
   <div th:if="${propietario!=null}" class="btn-container">
     <a th:href="@{/cuentas/cliente/{idCliente}/create(idCliente=${propietario.id})}">Crear cuenta</a>
+    <a th:href="@{/clientes}">Volver a la lista de clientes</a>
   </div>
 
   <!-- Si no hay cuentas -->

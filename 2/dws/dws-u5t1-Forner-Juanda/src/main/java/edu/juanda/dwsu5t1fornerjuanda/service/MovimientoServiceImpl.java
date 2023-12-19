@@ -78,15 +78,15 @@ public class MovimientoServiceImpl implements MovimientoService {
         movimientoDto.getCuentaOrigenDto().setSaldo(movimientoDto.getCuentaOrigenDto().getSaldo() - movimientoDto.getImporte());
         movimientoDto.getCuentaDestinoDto().setSaldo(movimientoDto.getCuentaDestinoDto().getSaldo() + movimientoDto.getImporte());
 
-        // Guarda la cuenta origen
+        // Actualiza la cuenta origen
         Cuenta cuentaOrigenActualizada = cuentaMapper.toEntity(movimientoDto.getCuentaOrigenDto(), new Cliente());
         cuentaRepository.save(cuentaOrigenActualizada);
 
-        // Guarda la cuenta destino
+        // Actualiza la cuenta destino
         Cuenta cuentaDestinoActualizada = cuentaMapper.toEntity(movimientoDto.getCuentaDestinoDto(), new Cliente());
         cuentaRepository.save(cuentaDestinoActualizada);
 
-        // Guardar el movimiento
+        // Guarda el movimiento
         Cuenta cuentaOrigen = cuentaMapper.toEntity(movimientoDto.getCuentaOrigenDto(), new Cliente());
         Cuenta cuentaDestino = cuentaMapper.toEntity(movimientoDto.getCuentaDestinoDto(), new Cliente());
 

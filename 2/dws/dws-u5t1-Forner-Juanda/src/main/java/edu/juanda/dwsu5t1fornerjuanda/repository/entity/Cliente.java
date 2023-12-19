@@ -35,11 +35,11 @@ public class Cliente {
     @ToString.Exclude
     private Recomendacion recomendacion;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "propietario", cascade = CascadeType.ALL)
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "propietario", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
     private Set<Cuenta> cuentas;
 
-    @ManyToMany(fetch = FetchType.EAGER, cascade = { CascadeType.ALL })
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "clientes_direcciones",
             joinColumns = @JoinColumn(name = "id_cliente"),

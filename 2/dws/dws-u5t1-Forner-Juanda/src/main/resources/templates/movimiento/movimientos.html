@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" th:href="@{/css/styles.css}">
-    <title th:if="${cuentaDto}">Movimientos de</title>
-    <title th:if="${cuentaDto == null}">Movimientos</title>
+    <title>Movimientos</title>
 </head>
 <body>
 
@@ -17,6 +16,7 @@
 
     <div th:if="${cuentaDto != null}" class="btn-container">
         <a th:href="@{/movimientos/cuenta/{idCuenta}/create(idCuenta=${cuentaDto.id})}">Crear movimiento</a>
+        <a th:href="@{/cuentas/cliente/{idCliente}(idCliente=${cuentaDto.propietarioDto.id})}">Volver a la lista de cuentas</a>
     </div>
 
     <!-- if not movimientos -->

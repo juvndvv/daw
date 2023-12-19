@@ -24,7 +24,7 @@ public class Cuenta {
 
     private double saldo;
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "id_cliente")
     @ToString.Exclude
     private Cliente propietario;

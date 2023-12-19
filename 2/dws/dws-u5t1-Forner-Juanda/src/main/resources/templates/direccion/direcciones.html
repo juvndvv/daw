@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" th:href="@{/css/styles.css}">
-    <title th:text="'Direcciones de ' + ${cliente.nombre}"></title>
+    <title>Direcciones</title>
 </head>
 <body>
 
@@ -16,6 +16,7 @@
 
     <div class="btn-container">
         <a th:href="@{/direcciones/cliente/{idCliente}/add(idCliente=${cliente.id})}">Crear dirección</a>
+        <a th:href="@{/clientes}">Volver a la lista de clientes</a>
     </div>
 
     <!-- Si no hay cuentas -->

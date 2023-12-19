@@ -47,21 +47,7 @@ public class DireccionController {
         ClienteDTO clienteDTO = clienteService.findById(idCliente);
 
         ModelAndView mav = new ModelAndView("direccion/direccionesform");
-        mav.addObject("select", false);
         mav.addObject("direccion", new DireccionDTO());
-        mav.addObject("cliente", clienteDTO);
-        return mav;
-    }
-
-    @GetMapping("/cliente/{idCliente}/addselect")
-    public ModelAndView addSelect(@PathVariable Long idCliente) {
-        log.info("DireccionController - addSelect: Añadimos una direccion existente al cliente " + idCliente);
-
-        ClienteDTO clienteDTO = clienteService.findById(idCliente);
-
-        ModelAndView mav = new ModelAndView("direccion/direccionesform");
-        mav.addObject("select", true);
-        mav.addObject("direcciones", direccionService.findAll());
         mav.addObject("cliente", clienteDTO);
         return mav;
     }
