@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title>Crear nueva dirección</title>
+</head>
+<body>
+<header th:replace="common/header"></header>
+
+<main>
+    <form th:action="@{/direcciones/cliente/{idCliente}/save(idCliente=${clienteDTO.id})}"
+          th:object="${direccionDTO}"
+          method="post">
+        <h2 th:text="'Agregar direccion existente a' + ${clienteDTO.nombre}"></h2>
+        <select th:field="*{id}" name="cuentas" id="cuenta-destino">
+            <option th:each="item : ${direccionesDTO}" th:value="${item.id}"
+                    th:text="${item.descripcion} + ' (' + ${item.pais} + ' ' + ${item.cp}
+                            + ')'"></option>
+        </select>
+        <div>
+            <button>Añadir</button>
+        </div>
+    </form>
+    <div class="btn-container">
+        <a th:href="@{/direcciones/cliente/{idclienteDTO}(idclienteDTO=${clienteDTO.id})}">Volver a la lista de direcciones</a>
+    </div>
+</main>
+</body>
+</html>

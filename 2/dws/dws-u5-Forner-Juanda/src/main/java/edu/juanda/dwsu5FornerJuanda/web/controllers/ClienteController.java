@@ -63,7 +63,6 @@ public class ClienteController {
 
     @PostMapping("/save")
     public ModelAndView save(@ModelAttribute ClienteDTO clienteDTO) {
-        log.info("ClienteController - Guardamos el cliente: " + clienteDTO);
         clienteService.save(clienteDTO);
         return new ModelAndView("redirect:/clientes");
     }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+  <title th:text="'Movimiento ' + ${movimiento.id}">Visualizar cuenta</title>
+</head>
+<body>
+<header th:replace="~{common/header}"></header>
+
+<main>
+
+  <section class="show">
+    <h1 th:text="'Movimiento nº ' + ${movimiento.id}"></h1>
+    <div class="show-field">
+      <h2>id</h2>
+      <p th:text="${movimiento.id}"></p>
+    </div>
+    <div class="show-field">
+      <h2>Tipo</h2>
+      <p th:text="${movimiento.tipo}"></p>
+    </div>
+    <div class="show-field">
+      <h2>Fecha de la operación</h2>
+      <p th:text="${#dates.format(movimiento.fecha, 'dd/MM/yyyy')}"></p>
+    </div>
+    <div class="show-field">
+      <h2>Descripción</h2>
+      <p th:text="${movimiento.descripcion}"></p>
+    </div>
+    <div class="show-field">
+      <h2>Importe</h2>
+      <p th:text="${movimiento.importe}"></p>
+    </div>
+    <div class="show-field">
+      <h2>Origen</h2>
+      <p th:text="${movimiento.cuentaOrigenDTO.numeroCuenta}
+                + ' (' + ${movimiento.cuentaOrigenDTO.clienteDTO.nombre} + ' '
+                + ${movimiento.cuentaOrigenDTO.clienteDTO.apellidos} + ')'"></p>
+    </div>
+    <div class="show-field">
+      <h2>Destino</h2>
+      <p th:text="${movimiento.cuentaDestinoDTO.numeroCuenta}
+                + ' (' + ${movimiento.cuentaDestinoDTO.clienteDTO.nombre} + ' '
+                + ${movimiento.cuentaDestinoDTO.clienteDTO.apellidos} + ')'"></p>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

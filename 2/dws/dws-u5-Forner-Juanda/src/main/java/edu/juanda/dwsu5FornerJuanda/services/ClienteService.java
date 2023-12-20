@@ -9,7 +9,8 @@ import java.util.List;
 @Service
 public interface ClienteService {
     List<ClienteDTO> findAll();
-    ClienteDTO findById(Long idCliente);
+    ClienteDTO findById(Long id);
+    ClienteDTO findByCuentaId(Long idCuenta);
     void save(ClienteDTO clienteDTO);
     void delete(Long idCliente);
 }

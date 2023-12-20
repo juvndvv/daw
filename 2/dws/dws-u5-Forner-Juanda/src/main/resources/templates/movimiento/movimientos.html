@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title>Movimientos</title>
+</head>
+<body>
+
+<!-- Cabecera -->
+<header th:replace="~{common/header}"></header>
+
+<!-- Contenido principal -->
+<main>
+
+    <div th:if="${cuentaDTO != null}" class="btn-container">
+        <a th:href="@{/cuentas/cliente/{idCliente}(idCliente=${cuentaDTO.clienteDTO.id})}">Volver a la lista de cuentas</a>
+        <a th:href="@{/movimientos/cuenta/{idCuenta}/create(idCuenta=${cuentaDTO.id})}">Crear movimiento</a>
+    </div>
+
+    <!-- if not movimientos -->
+    <h2 th:if="${movimientosDTO.isEmpty()}">No hay movimientos</h2>
+
+    <!-- if movimientos -->
+    <section th:if="${!movimientosDTO.isEmpty()}">
+
+        <h2 th:text="'Movimientos de ' + ${cuentaDTO.numeroCuenta}"></h2>
+
+        <!-- Tabla de movimientos -->
+        <table>
+            <thead>
+            <tr>
+                <td>id</td>
+                <td>Origen</td>
+                <td>Destino</td>
+                <td>Tipo</td>
+                <td>Fecha de operación</td>
+                <td>Descripción</td>
+                <td>Importe</td>
+                <td>Editar</td>
+                <td>Eliminar</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="item : ${movimientosDTO}">
+                <td>
+                    <a th:text="${item.id}" th:href="@{/movimientos/{idMovimiento}(idMovimiento=${item.id})}">Id</a>
+                </td>
+                <td>
+                    <a th:href="@{/cuentas/{idCuenta}(idCuenta=${item.cuentaOrigenDTO.id})}" th:text="${item.cuentaOrigenDTO.numeroCuenta} + ' (' + ${item.cuentaOrigenDTO.clienteDTO.nombre} + ' ' + ${item.cuentaOrigenDTO.clienteDTO.apellidos} + ')'"></a>
+                </td>
+                <td>
+                    <a th:href="@{/cuentas/{idCuenta}(idCuenta=${item.cuentaDestinoDTO.id})}" th:text="${item.cuentaDestinoDTO.numeroCuenta} + ' (' + ${item.cuentaDestinoDTO.clienteDTO.nombre} + ' ' + ${item.cuentaDestinoDTO.clienteDTO.apellidos} + ')'"></a>
+                </td>
+                <td th:text="${item.tipo}">Tipo</td>
+                <td th:text="${#dates.format(item.fecha, 'dd/MM/yyyy')}">Fecha de la operación</td>
+                <td th:text="${item.descripcion}">Descripción</td>
+                <td th:text="${item.importe}">Importe</td>
+                <td><a th:href="@{/movimientos/update/{idMovimiento}(idMovimiento=${item.id})}">Editar</a></td>
+                <td><a th:href="@{/movimientos/delete/{idMovimiento}(idMovimiento=${item.id})}">Eliminar</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+</body>
+</html>

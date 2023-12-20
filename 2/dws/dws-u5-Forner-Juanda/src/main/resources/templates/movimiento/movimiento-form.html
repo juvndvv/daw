@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+  <title th:text="${add} ? 'Nuevo movimiento' : 'Actualizar movimiento'"></title>
+</head>
+<body>
+<!-- Cabecera -->
+<header th:replace="~{common/header}"></header>
+
+<!-- Contenido principal -->
+<main>
+  <!-- Formulario -->
+  <form th:action="@{/movimientos/save}" th:object="${movimientoDTO}" method="post">
+
+    <!-- Cabecera del formulario -->
+    <h2 th:text="(${add} ? 'Nuevo movimiento' : 'Actualizar movimiento')"/>
+
+    <!-- Campos del formulario -->
+    <div th:if="${movimientoDTO.id}" class="form-field">
+      <label for="id">id</label>
+      <input id="id" type="text" th:field="*{id}" readonly/>
+    </div>
+    <div class="form-field">
+      <label for="cuenta-origen">Origen</label>
+      <input id="cuenta-origen" type="text"  th:field="*{cuentaOrigenDTO.id}" th:placeholder="${movimientoDTO.cuentaOrigenDTO.id}" readonly>
+    </div>
+    <div class="form-field">
+      <label for="cuenta-destino">Destino</label>
+
+      <!-- if añadir -->
+      <select th:if="${add}" th:field="*{cuentaDestinoDTO.id}" name="cuentas" id="cuenta-destino">
+        <option th:if="${movimientoDTO.cuentaOrigenDTO.id != item.id}" th:each="item : ${cuentasDTO}" th:value="${item.id}"
+                th:text="${item.numeroCuenta} + ' (' + ${item.clienteDTO.nombre} + ' ' + ${item.clienteDTO.apellidos}
+                            + ')'"></option>
+      </select>
+
+      <!-- if editar -->
+      <input th:if="${!add}" id="cuenta-destino" type="text" th:field="*{cuentaDestinoDTO.id}" readonly>
+    </div>
+    <div class="form-field">
+      <label for="tipo">Tipo</label>
+      <input id="tipo" type="text" th:field="*{tipo}" th:placeholder="${movimientoDTO.tipo}" />
+    </div>
+    <div class="form-field">
+      <label for="descripcion">Descripción</label>
+      <input id="descripcion" type="text" th:field="*{descripcion}" th:placeholder="${movimientoDTO.descripcion}" />
+    </div>
+    <div class="form-field">
+      <label for="importe">Importe</label>
+      <input id="importe" type="text" th:field="*{importe}" th:placeholder="${movimientoDTO.importe}" />
+    </div>
+
+    <!-- Submit -->
+    <div>
+      <button th:text="${add} ? 'Nuevo' : 'Actualizar'"> </button>
+    </div>
+  </form>
+</main>
+</body>
+</html>

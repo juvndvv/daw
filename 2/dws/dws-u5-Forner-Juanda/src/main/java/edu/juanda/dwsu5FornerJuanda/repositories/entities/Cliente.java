@@ -4,7 +4,10 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.ToString;
 
+import java.util.HashSet;
+import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 @Data
 @Entity
@@ -32,6 +35,25 @@ public class Cliente {
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL, mappedBy = "cliente")
     @ToString.Exclude
     private Recomendacion recomendacion;
+
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "cliente")
+    private Set<Cuenta> cuentas;
+
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(
+            name = "clientes_direcciones",
+            joinColumns = @JoinColumn(name = "id_cliente"),
+            inverseJoinColumns = @JoinColumn(name = "id_direccion")
+    )
+    @ToString.Exclude
+    private Set<Direccion> direcciones;
+
+    public Cliente() {
+        super();
+        this.recomendacion = new Recomendacion();
+        this.cuentas = new HashSet<>();
+        this.direcciones = new HashSet<>();
+    }
 
     @Override
     public boolean equals(Object obj) {

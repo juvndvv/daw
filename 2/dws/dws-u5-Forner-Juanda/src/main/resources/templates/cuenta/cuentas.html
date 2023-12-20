@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+  <title>Cuentas</title>
+</head>
+<body>
+
+<header th:replace="~{common/header}"></header>
+
+<main>
+
+  <div th:if="${clienteDTO !=null}" class="btn-container">
+    <a th:href="@{/clientes}">Volver a la lista de clientes</a>
+    <a th:href="@{/cuentas/cliente/{idCliente}/create(idCliente=${clienteDTO.id})}">Crear cuenta</a>
+  </div>
+
+  <h2 th:if="${cuentasDTO.isEmpty()}">No hay cuentas</h2>
+
+  <section th:if="${!cuentasDTO.isEmpty()}">
+
+    <h2 th:if="${cuentasDTO != null}" th:text="'Cuentas de ' + ${clienteDTO.nombre} + ' ' + ${clienteDTO.apellidos}"></h2>
+
+    <h2 th:if="${clienteDTO == null}" th:text="'Listado de cuentas'"></h2>
+
+    <table>
+      <thead>
+      <tr>
+        <td>id</td>
+        <td>Banco</td>
+        <td>Sucursal</td>
+        <td>Número de cuenta</td>
+        <td>Dc</td>
+        <td>Saldo</td>
+        <td>Editar</td>
+        <td>Eliminar</td>
+        <td>Movimientos</td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr th:each="item : ${cuentasDTO}">
+        <td>
+          <a th:text="${item.id}" th:href="@{/cuentas/{idCuenta}(idCuenta=${item.id})}"></a>
+        </td>
+        <td th:text="${item.banco}"></td>
+        <td th:text="${item.sucursal}"></td>
+        <td th:text="${item.numeroCuenta}"></td>
+        <td th:text="${item.dc}"></td>
+        <td th:text="${item.saldo}"></td>
+        <td><a th:href="@{/cuentas/update/{idCuenta}(idCuenta=${item.id})}">Editar</a></td>
+        <td><a th:href="@{/cuentas/delete/{idCuenta}(idCuenta=${item.id})}">Eliminar</a></td>
+        <td><a th:href="@{/movimientos/cuenta/{idCuenta}(idCuenta=${item.id})}">Ver movimientos</a></td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+</body>
+</html>

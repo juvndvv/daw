@@ -40,6 +40,11 @@ public class ClienteServiceImpl implements ClienteService {
     }
 
     @Override
+    public ClienteDTO findByCuentaId(Long idCuenta) {
+        return clienteMapper.toDTO(clienteRepository.findClienteByCuentaId(idCuenta));
+    }
+
+    @Override
     public void save(ClienteDTO clienteDTO) {
         clienteRepository.save(clienteMapper.toEntity(clienteDTO));
     }

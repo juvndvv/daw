@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title>Direcciones</title>
+</head>
+<body>
+
+<header th:replace="~{common/header}"></header>
+
+<main>
+
+    <div class="btn-container">
+        <a th:href="@{/clientes}">Volver a la lista de clientes</a>
+        <a th:href="@{/direcciones/cliente/{idCliente}/add(idCliente=${clienteDTO.id})}">Crear dirección</a>
+        <a th:href="@{/direcciones/cliente/{idCliente}/select(idCliente=${clienteDTO.id})}">Añadir existente</a>
+    </div>
+
+    <!-- Si no hay cuentas -->
+    <h2 th:if="${direccionesDTO.isEmpty()}">No hay direcciones</h2>
+
+    <section th:if="${!direccionesDTO.isEmpty()}">
+        <h2 th:text="'Direcciones de ' + ${clienteDTO.nombre} + ' ' + ${clienteDTO.apellidos}"></h2>
+
+        <!-- Tabla de cuentas -->
+        <table>
+            <thead>
+            <tr>
+                <td>id</td>
+                <td>Dirección</td>
+                <td>Pais</td>
+                <td>CP</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="item : ${direccionesDTO}">
+                <td th:text="${item.id}"></td>
+                <td th:text="${item.descripcion}"></td>
+                <td th:text="${item.pais}"></td>
+                <td th:text="${item.cp}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+</body>
+</html>
