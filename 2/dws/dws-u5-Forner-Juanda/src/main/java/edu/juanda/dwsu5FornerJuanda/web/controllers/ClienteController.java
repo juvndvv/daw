@@ -2,6 +2,7 @@ package edu.juanda.dwsu5FornerJuanda.web.controllers;
 
 import edu.juanda.dwsu5FornerJuanda.models.dto.ClienteDTO;
 import edu.juanda.dwsu5FornerJuanda.services.ClienteService;
+import edu.juanda.dwsu5FornerJuanda.validations.Validator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -19,6 +21,9 @@ public class ClienteController {
 
     @Autowired
     private ClienteService clienteService;
+
+    @Autowired
+    private Validator validator;
 
     @GetMapping
     public ModelAndView findAll() {
@@ -63,6 +68,16 @@ public class ClienteController {
 
     @PostMapping("/save")
     public ModelAndView save(@ModelAttribute ClienteDTO clienteDTO) {
+        ArrayList<String> errores = validator.validate(clienteDTO);
+        if (!errores.isEmpty()) {
+            log.info("ClienteController - save: Hay errores en el formulario");
+            ModelAndView mav = new ModelAndView("cliente/cliente-form");
+            mav.addObject("clienteDTO", clienteDTO);
+            mav.addObject("errores", errores);
+            mav.addObject("add", clienteDTO.getId() == null);
+            return mav;
+        }
+
         clienteService.save(clienteDTO);
         return new ModelAndView("redirect:/clientes");
     }

@@ -4,10 +4,13 @@ import edu.juanda.dwsu5FornerJuanda.models.dto.CuentaDTO;
 import edu.juanda.dwsu5FornerJuanda.models.dto.MovimientoDTO;
 import edu.juanda.dwsu5FornerJuanda.services.CuentaService;
 import edu.juanda.dwsu5FornerJuanda.services.MovimientoService;
+import edu.juanda.dwsu5FornerJuanda.validations.Validator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
+
+import java.util.ArrayList;
 
 @Controller
 @RequestMapping("movimientos")
@@ -18,6 +21,9 @@ public class MovimientoController {
 
     @Autowired
     private MovimientoService movimientoService;
+
+    @Autowired
+    private Validator validator;
 
     @GetMapping("/cuenta/{idCuenta}")
     public ModelAndView findByCuenta(@PathVariable Long idCuenta) {
@@ -63,9 +69,21 @@ public class MovimientoController {
     }
 
     @PostMapping("/save")
-    public String save(@ModelAttribute MovimientoDTO movimientoDTO) {
+    public ModelAndView save(@ModelAttribute MovimientoDTO movimientoDTO) {
+        ArrayList<String> errores = validator.validate(movimientoDTO);
+
+        if (!errores.isEmpty()) {
+            ModelAndView mav = new ModelAndView("movimiento/movimiento-form");
+            mav.addObject("movimientoDTO", movimientoDTO);
+            mav.addObject("cuentasDTO", cuentaService.findAll());
+            mav.addObject("add", true);
+            mav.addObject("errores", errores);
+            return mav;
+        }
+
         movimientoService.save(movimientoDTO);
-        return "redirect:/movimientos/cuenta/" + movimientoDTO.getCuentaOrigenDTO().getId();
+        return new ModelAndView(
+                "redirect:/movimientos/cuenta/" + movimientoDTO.getCuentaOrigenDTO().getId());
     }
 
     @GetMapping("/delete/{id}")

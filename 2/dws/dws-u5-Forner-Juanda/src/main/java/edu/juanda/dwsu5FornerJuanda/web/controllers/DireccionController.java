@@ -4,11 +4,13 @@ import edu.juanda.dwsu5FornerJuanda.models.dto.ClienteDTO;
 import edu.juanda.dwsu5FornerJuanda.models.dto.DireccionDTO;
 import edu.juanda.dwsu5FornerJuanda.services.ClienteService;
 import edu.juanda.dwsu5FornerJuanda.services.DireccionService;
+import edu.juanda.dwsu5FornerJuanda.validations.Validator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -19,6 +21,9 @@ public class DireccionController {
 
     @Autowired
     ClienteService clienteService;
+
+    @Autowired
+    Validator validator;
 
     @GetMapping("/cliente/{idCliente}")
     public ModelAndView findAllByCliente(@PathVariable Long idCliente) {
@@ -50,7 +55,6 @@ public class DireccionController {
 
         ModelAndView mav = new ModelAndView("direccion/direcciones-select");
         mav.addObject("direccionDTO", new DireccionDTO());
-        // TODO en vez de llamar a findAll hacer para que filtre las que no tiene un cliente
         mav.addObject("direccionesDTO", direccionService.findAll());
         mav.addObject("clienteDTO", clienteDTO);
         return mav;
@@ -59,10 +63,25 @@ public class DireccionController {
     @PostMapping("/cliente/{idCliente}/save")
     public ModelAndView save(@PathVariable Long idCliente,
                              @ModelAttribute DireccionDTO direccionDTO) {
+        ArrayList<String> errores = new ArrayList<>();
+
+        if (direccionDTO.getId() == null) {
+            errores = validator.validate(direccionDTO);
+        }
+
+        if (!errores.isEmpty()) {
+            ModelAndView mav = new ModelAndView("direccion/direcciones-form");
+            mav.addObject("errores", errores);
+            mav.addObject("direccionDTO", direccionDTO);
+            mav.addObject("clienteDTO", clienteService.findById(idCliente));
+            return mav;
+        }
+
         ClienteDTO clienteDTO = clienteService.findById(idCliente);
 
         clienteDTO.getDireccionesDTO().add(direccionDTO);
         direccionDTO.getClientesDTO().add(clienteDTO);
+
         direccionService.save(direccionDTO);
 
         return new ModelAndView("redirect:/direcciones/cliente/{idCliente}");

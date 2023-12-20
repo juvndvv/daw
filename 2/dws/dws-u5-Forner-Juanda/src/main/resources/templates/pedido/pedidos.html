@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title>Pedidos</title>
+</head>
+<body>
+<header th:replace="~{common/header}"></header>
+<nav th:replace="~{common/nav}"></nav>
+
+<main>
+
+    <div class="btn-container">
+        <a th:href="@{/pedidos/cliente/{idCliente}/create(idCliente=${idCliente})}">Crear pedido</a>
+    </div>
+
+    <h2 th:if="${pedidosDTO.isEmpty()}">No hay pedidos</h2>
+
+    <section th:if="${!pedidosDTO.isEmpty()}">
+        <h2>Listado de pedidos</h2>
+        <table>
+            <thead>
+            <tr>
+                <td>id</td>
+                <td>Articulo</td>
+                <td>Cantidad</td>
+                <td>Cliente</td>
+                <td>Proveedor</td>
+                <td>Editar</td>
+                <td>Eliminar</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="item : ${pedidosDTO}">
+                <td>
+                    <a th:text="${item.id}" th:href="@{pedidos/{id}(id=${item.id})}"></a>
+                </td>
+                <td th:text="${item.articulo}"/>
+                <td th:text="${item.cantidad}"/>
+                <td th:text="${item.clienteDTO.nombre}"></td>
+                <td th:text="${item.proveedorDTO.nombre}"></td>
+                <td><a th:href="@{/pedidos/update/{idPedido}(idPedido=${item.id})}">Editar</a></td>
+                <td th:if="${esCliente}"><a th:href="@{/pedidos/delete/{idPedido}/cliente/{idCliente}(idPedido=${item.id}, idCliente=${item.clienteDTO.id})}">Eliminar</a></td>
+                <td th:if="${!esCliente}"><a th:href="@{/pedidos/delete/{idPedido}/proveedor/{idProveedor}(idPedido=${item.id}, idProveedor=${item.proveedorDTO.id})}">Eliminar</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+</body>
+</html>

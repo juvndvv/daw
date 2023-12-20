@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+  <title th:text="${add} ? 'Nuevo cliente' : 'Actualizar cliente'"></title>
+</head>
+<body>
+<header th:replace="~{common/header}"></header>
+
+<main>
+  <dialog th:replace="~{common/errores}"></dialog>
+  <div class="btn-container">
+    <a th:href="@{/proveedores}">Volver a la lista de proveedores</a>
+  </div>
+
+  <h2 th:text="${add} ? 'Nuevo proveedor' : 'Actualizar proveedor'" />
+
+  <form th:action="@{/proveedores/save}" th:object="${proveedorDTO}"
+        method="POST">
+
+    <div class="form-field">
+      <label for="id">Id</label>
+      <input id="id" type="text" th:field="*{id}" th:placeholder="${proveedorDTO.id}" readonly/>
+    </div>
+    <div class="form-field">
+      <label for="nombre">Nombre</label>
+      <input id="nombre" type="text" th:field="*{nombre}" th:placeholder="${proveedorDTO.nombre}" />
+    </div>
+    <div class="form-field">
+      <label for="apellidos">CIF</label>
+      <input id="apellidos" type="text" th:field="*{cif}" th:placeholder="${proveedorDTO.cif}" />
+    </div>
+
+    <div>
+      <button th:text="${add} ? 'Nuevo' : 'Actualizar'"> </button>
+    </div>
+  </form>
+</main>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+  <title th:text="${add} ? 'Nuevo cliente' : 'Actualizar cliente'"></title>
+</head>
+<body>
+<header th:replace="~{common/header}"></header>
+
+<main>
+  <dialog th:replace="~{common/errores}"></dialog>
+  <div class="btn-container">
+    <a th:href="@{/pedidos/cliente/{idCliente}(idCliente=${idCliente})}">Volver a la lista de pedidos</a>
+  </div>
+
+  <h2 th:text="${add} ? 'Nuevo pedido' : 'Actualizar pedido'" />
+
+  <form th:action="@{/pedidos/save}" th:object="${pedidoDTO}"
+        method="POST">
+
+    <div class="form-field">
+      <label for="id">Id</label>
+      <input id="id" type="text" th:field="*{id}" th:placeholder="${pedidoDTO.id}" readonly/>
+    </div>
+    <div class="form-field">
+      <label for="nombre">Articulo</label>
+      <input id="nombre" type="text" th:field="*{articulo}" th:placeholder="${pedidoDTO.articulo}" />
+    </div>
+    <div class="form-field">
+      <label for="apellidos">Cantidad</label>
+      <input id="apellidos" type="number" th:field="*{cantidad}" th:placeholder="${pedidoDTO.cantidad}" />
+    </div>
+    <div class="form-field">
+      <select th:if="${add}" th:field="*{proveedorDTO.id}" name="cuentas" id="cuenta-destino">
+        <option th:each="item : ${proveedoresDTO}" th:value="${item.id}"
+                th:text="${item.nombre}"></option>
+      </select>
+    </div>
+
+    <input type="text" th:field="*{clienteDTO.id}" th:placeholder="${pedidoDTO.clienteDTO.id}" readonly hidden>
+
+    <div>
+      <button th:text="${add} ? 'Nuevo' : 'Actualizar'"> </button>
+    </div>
+  </form>
+</main>
+</body>
+</html>

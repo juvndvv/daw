@@ -7,6 +7,7 @@
 </head>
 <body>
 <header th:replace="~{common/header}"></header>
+<nav th:replace="~{common/nav}"></nav>
 
 <main>
 
@@ -31,6 +32,8 @@
                 <td>Eliminar</td>
                 <td>Cuentas</td>
                 <td>Direcciones</td>
+                <td>Pedidos</td>
+                <td>Proveedores</td>
             </tr>
             </thead>
             <tbody>
@@ -47,6 +50,8 @@
                 <td><a th:href="@{/clientes/delete/{idCliente}(idCliente=${item.id})}">Eliminar</a></td>
                 <td><a th:href="@{/cuentas/cliente/{idCliente}(idCliente=${item.id})}">Cuentas</a></td>
                 <td><a th:href="@{/direcciones/cliente/{idCliente}(idCliente=${item.id})}">Direcciones</a></td>
+                <td><a th:href="@{/pedidos/cliente/{idCliente}(idCliente=${item.id})}">Pedidos</a></td>
+                <td><a th:href="@{/proveedores/cliente/{idCliente}(idCliente=${item.id})}">Proveedores</a></td>
             </tr>
             </tbody>
         </table>

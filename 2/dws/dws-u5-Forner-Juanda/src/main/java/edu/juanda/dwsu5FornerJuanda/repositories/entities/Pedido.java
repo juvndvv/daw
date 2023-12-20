@@ -2,32 +2,34 @@ package edu.juanda.dwsu5FornerJuanda.repositories.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.ToString;
 
 import java.util.Objects;
 
 @Data
 @Entity
-@Table(name = "recomendaciones")
-public class Recomendacion {
+@Table(name = "pedidos")
+public class Pedido {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(length = 100)
-    private String observaciones;
+    private String articulo;
+    private int cantidad;
 
-    @OneToOne(fetch = FetchType.EAGER, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "id_cliente")
-    @ToString.Exclude
     private Cliente cliente;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "id_proveedor")
+    private Proveedor proveedor;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Recomendacion that = (Recomendacion) o;
-        return Objects.equals(id, that.id);
+        Pedido pedido = (Pedido) o;
+        return Objects.equals(id, pedido.id);
     }
 
     @Override

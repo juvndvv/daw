@@ -4,29 +4,38 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.ToString;
 
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 @Data
 @Entity
-@Table(name = "recomendaciones")
-public class Recomendacion {
+@Table(name = "proveedores")
+public class Proveedor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(length = 100)
-    private String observaciones;
+    private String nombre;
 
-    @OneToOne(fetch = FetchType.EAGER, optional = false)
-    @JoinColumn(name = "id_cliente")
+    @Column(length = 25)
+    private String cif;
+
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "proveedor")
     @ToString.Exclude
-    private Cliente cliente;
+    private Set<Pedido> pedidos;
+
+    public Proveedor() {
+        super();
+        this.pedidos = new HashSet<>();
+    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Recomendacion that = (Recomendacion) o;
+        Proveedor that = (Proveedor) o;
         return Objects.equals(id, that.id);
     }
 

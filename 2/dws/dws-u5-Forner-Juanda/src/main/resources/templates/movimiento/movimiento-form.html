@@ -11,6 +11,7 @@
 
 <!-- Contenido principal -->
 <main>
+  <dialog th:replace="~{common/errores}"></dialog>
   <!-- Formulario -->
   <form th:action="@{/movimientos/save}" th:object="${movimientoDTO}" method="post">
 

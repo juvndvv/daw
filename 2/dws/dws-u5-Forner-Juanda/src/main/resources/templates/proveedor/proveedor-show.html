@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <title th:text="${proveedorDTO.nombre}">Visualizar proveedor</title>
+</head>
+<body>
+<!-- Cabecera -->
+<header th:replace="~{common/header}"></header>
+
+<!-- Contenido principal -->
+<main>
+
+    <div class="btn-container">
+        <a th:href="@{/proveedores}">Volver a la lista de proveedores</a>
+    </div>
+
+    <!-- Cliente -->
+    <section class="show">
+        <h1 th:text="${proveedorDTO.nombre}"></h1>
+        <div class="show-field">
+            <h2>id</h2>
+            <p th:text="${proveedorDTO.id}"></p>
+        </div>
+        <div class="show-field">
+            <h2>Nombre</h2>
+            <p th:text="${proveedorDTO.nombre}"></p>
+        </div>
+        <div class="show-field">
+            <h2>CIF</h2>
+            <p th:text="${proveedorDTO.cif}"></p>
+        </div>
+    </section>
+</main>
+</body>
+</html>

@@ -48,11 +48,16 @@ public class Cliente {
     @ToString.Exclude
     private Set<Direccion> direcciones;
 
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "cliente")
+    @ToString.Exclude
+    private Set<Pedido> pedidos;
+
     public Cliente() {
         super();
         this.recomendacion = new Recomendacion();
         this.cuentas = new HashSet<>();
         this.direcciones = new HashSet<>();
+        this.pedidos = new HashSet<>();
     }
 
     @Override

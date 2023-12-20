@@ -1,0 +1,7 @@
+<dialog open th:if="${errores}">
+  <h2>Errores</h2>
+  <ul class="errores">
+    <li th:each="error : ${errores}" th:text="${error}"></li>
+  </ul>
+  <button onclick="this.parentNode.remove()">Cerrar</button>
+</dialog>

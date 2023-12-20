@@ -9,6 +9,7 @@
 <header th:replace="common/header"></header>
 
 <main>
+    <dialog th:replace="~{common/errores}"></dialog>
     <form th:action="@{/direcciones/cliente/{idCliente}/save(idCliente=${clienteDTO.id})}"
           th:object="${direccionDTO}"
           method="post">

@@ -9,6 +9,7 @@
 <header th:replace="common/header"></header>
 
 <main>
+    <dialog th:replace="~{common/errores}"></dialog>
     <form th:action="@{/cuentas/save}"
           th:object="${cuentaDTO}"
           method="post" >
