@@ -2,7 +2,9 @@ export function createMovieCard(movie) {
   const card = document.createElement("article");
   card.classList.add("pelicula");
   card.innerHTML = `
-    <img src="https://image.tmdb.org/t/p/w500${movie.poster}" alt="${movie.title}">
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500${movie.poster}" alt="${movie.title}">
+    </div>
     <h3>${movie.title}</h3>
   `;
 
@@ -22,9 +24,9 @@ export function createMovieDetails(movie) {
     <img src="https://image.tmdb.org/t/p/w500${movie.poster}" alt="${
     movie.title
   }">
-    <button>X</button>
-    <div>
-      <h3>${movie.title}</h3>
+  <button>X</button>
+  <div>
+    <h3>${movie.title}</h3>
       <p>${
         movie.overview === "" ? "Descripción no disponible" : movie.overview
       }</p>
