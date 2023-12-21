@@ -7,7 +7,7 @@ export function fetchMoviesData(page) {
       .then(data => {
         const movies = data.results.map(movie => {
           return {
-            title: movietitle,
+            title: movie.title,
             poster: movie.poster_path,
             overview: movie.overview
           }
