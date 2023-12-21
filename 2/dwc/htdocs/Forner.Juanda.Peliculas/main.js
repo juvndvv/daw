@@ -19,18 +19,20 @@ function fetchMoviesData(page) {
 }
 
 // Funciones para crear elementos
-function createMovieCard(movie) {
+function createMovieCard({ title, poster, overview }) {
+  // Crea la tarjeta de la pelicula
   const card = document.createElement("article");
   card.classList.add("pelicula");
   card.innerHTML = `
     <div>
-      <img src="https://image.tmdb.org/t/p/w500${movie.poster}" alt="${movie.title}">
+      <img src="https://image.tmdb.org/t/p/w500${poster}" alt="${title}">
     </div>
-    <h3>${movie.title}</h3>
+    <h3>${title}</h3>
   `;
 
+  // Muestra los detalles de la pelicula
   card.addEventListener("click", () => {
-    const details = createMovieDetails(movie);
+    const details = createMovieDetails({ title, poster, overview });
     document.body.appendChild(details);
     details.showModal();
   });
@@ -38,21 +40,19 @@ function createMovieCard(movie) {
   return card;
 }
 
-function createMovieDetails(movie) {
+function createMovieDetails({ title, poster, overview }) {
+  // Crea el dialogo
   const details = document.createElement("dialog");
   details.innerHTML = `
-    <img src="https://image.tmdb.org/t/p/w500${movie.poster}" alt="${
-    movie.title
-  }">
-  <button>X</button>
-  <div>
-    <h3>${movie.title}</h3>
-      <p>${
-        movie.overview === "" ? "Descripción no disponible" : movie.overview
-      }</p>
+    <img src="https://image.tmdb.org/t/p/w500${poster}" alt="${title}">
+    <button>X</button>
+    <div>
+      <h3>${title}</h3>
+      <p>${overview === "" ? "Descripción no disponible" : overview}</p>
     </div>
   `;
 
+  // Cierra el dialogo
   details.querySelector("button").addEventListener("click", () => {
     details.remove();
   });
@@ -64,10 +64,12 @@ function createMovieDetails(movie) {
 function renderMovies(movies) {
   const moviesContainer = document.querySelector(".peliculas-container");
 
+  // Elimina las peliculas anteriores
   moviesContainer
     .querySelectorAll(".pelicula")
     .forEach((pelicula) => pelicula.remove());
 
+  // Renderiza las peliculas
   movies.forEach((movie) => {
     const movieCard = createMovieCard(movie);
     moviesContainer.appendChild(movieCard);
