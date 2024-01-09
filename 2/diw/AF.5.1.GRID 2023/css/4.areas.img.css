@@ -1,0 +1,26 @@
+/*
+    *********     ATENCIÓN
+    
+    *********     NO puedes quitar ni modificar ninguna de las reglas que se proporcionan en este código css
+    *********     SÓLO debes añadir el código necesario y óptimo que se pide para que el contenedor grid se visualice tal
+    y como aparece en las capturas de pantalla
+
+*/
+
+img{
+    object-fit: cover;
+    width: 100%;    /* importante para que se acoplen al ancho de las celdas del grid*/
+    height: 100%;   /* importante para que se acoplen al alto de las celdas del grid*/
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+/***************  GRID ITEMS */
+/***************  Identificación de las áreas */
+
+
+
+
+/***************  CONTENEDOR GRID */
+/*************** ASIGNACIÓN DE ÁREAS */
+
+

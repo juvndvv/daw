@@ -1,0 +1,85 @@
+/**************    GRID GENERAL ********************/
+/*
+    *********     ATENCIÓN
+
+    *********     NO puedes quitar ni modificar ninguna de las reglas que se proporcionan en este código css
+    *********     SÓLO debes añadir el código necesario y óptimo que se pide para que el contenedor grid se visualice tal
+    y como aparece en las capturas de pantalla
+
+*/
+
+:root {
+  --blue: #00ffff;
+  --green: #88ff00;
+  --red: #ff0000;
+  --pink: #ff0080;
+  --purple: #aa7ae4;
+  --beige: #ecb5b5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header,
+section,
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+header,
+footer {
+  background-color: black;
+  color: white;
+  padding: 0 20px;
+}
+
+header {
+  flex-direction: column;
+  text-align: center;
+}
+
+header > h1 {
+  margin-bottom: 0;
+}
+
+/***************  CONTENEDOR GRID */
+main > div {
+  /* Defino estos valores que NO puedes modificar para  el contenedor GRID*/
+  height: 500px;
+  width: 900px;
+  margin: 0 auto;
+
+  display: grid; /*************   DEFINE ESTE ELEMENTO COMO CONTENEDOR GRID*/
+
+  /* Identifica cuántas columnas y filas hay en las capturas de pantalla proporcionadas */
+  /* define el número de filas/columnas del contenedor GRID */
+  /* Establece el ancho de las columnas y el alto de las filas con la "unidad relativa" fr de CSS exclusiva para usar con GRID */
+  /*https://keepcoding.io/blog/unidad-relativa-fr-en-css/*/
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+
+  background-color: #2196f3;
+  padding: 10px;
+  gap: 2px;
+}
+
+/***************  GRID ITEMS */
+
+div > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 2em;
+
+  /* ... A los GRID ITEMS los hacemos flexibles para que su contenido se centre */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

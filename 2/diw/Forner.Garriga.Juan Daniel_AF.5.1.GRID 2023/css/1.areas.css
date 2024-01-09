@@ -1,0 +1,91 @@
+/***************  CONTENEDOR GRID */
+/***************  distribución de áreas en el contenedor */
+
+main > div {
+  grid-template-areas:
+    "a a a a b j j"
+    "a a a a c j j"
+    "a a a a d k k"
+    "e f g h i k k"
+    "l l l l l l l";
+}
+
+/***************  GRID ITEMS */
+/***************  Identificación de las áreas */
+
+div > div:nth-child(1) {
+  grid-area: a;
+}
+
+div > div:nth-child(2) {
+  grid-area: b;
+}
+
+div > div:nth-child(3) {
+  grid-area: c;
+}
+
+div > div:nth-child(4) {
+  grid-area: d;
+}
+
+div > div:nth-child(5) {
+  grid-area: e;
+}
+
+div > div:nth-child(6) {
+  grid-area: f;
+}
+
+div > div:nth-child(7) {
+  grid-area: g;
+}
+
+div > div:nth-child(8) {
+  grid-area: h;
+}
+
+div > div:nth-child(9) {
+  grid-area: i;
+}
+
+div > div:nth-child(10) {
+  grid-area: j;
+}
+
+div > div:nth-child(11) {
+  grid-area: k;
+}
+
+div > div:nth-child(12) {
+  grid-area: l;
+}
+
+/********** COLORES */
+
+div > div:nth-child(2n),
+div > div:nth-child(5),
+div > div:nth-child(7) {
+  background-color: var(--green);
+}
+
+div > div:nth-child(2n + 6) {
+  background-color: var(--pink);
+}
+
+div > div:nth-child(1) {
+  background-color: var(--blue);
+}
+
+div > div:nth-child(3) {
+  background-color: var(--red);
+}
+
+div > div:nth-child(10),
+div > div:nth-child(11) {
+  background-color: var(--purple);
+}
+
+div > div:nth-child(12) {
+  background-color: var(--beige);
+}

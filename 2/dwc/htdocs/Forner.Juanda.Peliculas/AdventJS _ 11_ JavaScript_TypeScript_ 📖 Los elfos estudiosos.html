@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://adventjs.dev/es/challenges/2023/11 -->
+<html lang="es" style="overflow: hidden; padding-right: 0px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="apple-touch-icon" sizes="57x57" href="https://adventjs.dev/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="https://adventjs.dev/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="https://adventjs.dev/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="https://adventjs.dev/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="https://adventjs.dev/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="https://adventjs.dev/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="https://adventjs.dev/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="https://adventjs.dev/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="https://adventjs.dev/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="https://adventjs.dev/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="https://adventjs.dev/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="https://adventjs.dev/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="https://adventjs.dev/favicon-16x16.png"><link rel="manifest" href="https://adventjs.dev/manifest.json"><meta name="msapplication-TileColor" content="#fbbf24"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><title>AdventJS | 11: JavaScript/TypeScript: 📖 Los elfos estudiosos</title><meta name="viewport" content="initial-scale=1.0, width=device-width"><meta property="og:title" content="AdventJS | 11: JavaScript/TypeScript: 📖 Los elfos estudiosos"><meta name="description" content="Solve the challenge 11 with JavaScript or TypeScript and get a score!"><meta property="og:image" content="https://adventjs.dev/api/generate-og?challengeId=11&amp;locale=es"><meta name="next-head-count" content="8"><link rel="preload" href="https://adventjs.dev/_next/static/media/942a3b44c5e07f09-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"><link rel="preload" href="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/24f0cb1cb06aed42.css" as="style"><link rel="stylesheet" href="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/24f0cb1cb06aed42.css" data-n-g=""><noscript data-n-css=""></noscript><style data-n-href="/_next/static/css/a26bd86a6819ef91.css" media="x">.atropos{position:relative;display:block;perspective:1200px;transform:translateZ(0)}.atropos-rotate-scroll-x,.atropos-rotate-scroll-y,.atropos-rotate-touch{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.atropos-rotate-touch-scroll-y{touch-action:pan-y}.atropos-rotate-touch-scroll-x{touch-action:pan-x}.atropos-rotate-touch{touch-action:none}.atropos-rotate,.atropos-scale{width:100%;height:100%;transform-style:preserve-3d;transition-property:transform;display:block}.atropos-highlight,.atropos-shadow{position:absolute;pointer-events:none;transition-property:transform,opacity;display:block;opacity:0}.atropos-shadow{z-index:-1;background:#000;left:0;top:0;width:100%;height:100%;filter:blur(30px)}.atropos-highlight{left:-50%;top:-50%;width:200%;height:200%;background-image:radial-gradient(circle at 50%,hsla(0,0%,100%,.25),transparent 50%);z-index:0}.atropos-inner,.atropos-rotate{position:relative}.atropos-inner{width:100%;height:100%;overflow:hidden;transform-style:preserve-3d;transform:translateZ(0);display:block}.atropos-active{z-index:1}.atropos-active .atropos-shadow{opacity:1!important}::slotted([data-atropos-offset]),[data-atropos-offset]{transition-property:transform}[data-atropos-opacity]{transition-property:opacity}::slotted([data-atropos-offset][data-atropos-opacity]),[data-atropos-offset][data-atropos-opacity]{transition-property:transform,opacity}</style><script defer="" nomodule="" src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/polyfills-c67a75d1b6f99dc8.js.descarga"></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/webpack-02abfd5cc1edc2d3.js.descarga" defer=""></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/framework-f53963ca0daad776.js.descarga" defer=""></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/main-28cd3e8bea97bf0b.js.descarga" defer=""></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/_app-a9df357aa9287d20.js.descarga" defer=""></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/7391-7994ec24e0126b0a.js.descarga" defer=""></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/2371-96ce2bc57c23a794.js.descarga" defer=""></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/3695-2c68b93912885746.js.descarga" defer=""></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/9917-bd4133d83c314738.js.descarga" defer=""></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/[id]-aed25e78f3cd47c9.js.descarga" defer=""></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/_buildManifest.js.descarga" defer=""></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/_ssgManifest.js.descarga" defer=""></script><style id="react-tooltip-core-styles" type="text/css">:root{--rt-color-white:#fff;--rt-color-dark:#222;--rt-color-success:#8dc572;--rt-color-error:#be6464;--rt-color-warning:#f0ad4e;--rt-color-info:#337ab7;--rt-opacity:0.9;--rt-transition-show-delay:0.15s;--rt-transition-closing-delay:0.15s}.core-styles-module_tooltip__3vRRp{position:absolute;top:0;left:0;pointer-events:none;opacity:0;will-change:opacity}.core-styles-module_fixed__pcSol{position:fixed}.core-styles-module_arrow__cvMwQ{position:absolute;background:inherit}.core-styles-module_noArrow__xock6{display:none}.core-styles-module_clickable__ZuTTB{pointer-events:auto}.core-styles-module_show__Nt9eE{opacity:var(--rt-opacity);transition:opacity var(--rt-transition-show-delay)ease-out}.core-styles-module_closing__sGnxF{opacity:0;transition:opacity var(--rt-transition-closing-delay)ease-in}</style><style id="react-tooltip-base-styles" type="text/css">
+.styles-module_tooltip__mnnfp{padding:8px 16px;border-radius:3px;font-size:90%;width:max-content}.styles-module_arrow__K0L3T{width:8px;height:8px}[class*='react-tooltip__place-top']>.styles-module_arrow__K0L3T{transform:rotate(45deg)}[class*='react-tooltip__place-right']>.styles-module_arrow__K0L3T{transform:rotate(135deg)}[class*='react-tooltip__place-bottom']>.styles-module_arrow__K0L3T{transform:rotate(225deg)}[class*='react-tooltip__place-left']>.styles-module_arrow__K0L3T{transform:rotate(315deg)}.styles-module_dark__xNqje{background:var(--rt-color-dark);color:var(--rt-color-white)}.styles-module_light__Z6W-X{background-color:var(--rt-color-white);color:var(--rt-color-dark)}.styles-module_success__A2AKt{background-color:var(--rt-color-success);color:var(--rt-color-white)}.styles-module_warning__SCK0X{background-color:var(--rt-color-warning);color:var(--rt-color-white)}.styles-module_error__JvumD{background-color:var(--rt-color-error);color:var(--rt-color-white)}.styles-module_info__BWdHW{background-color:var(--rt-color-info);color:var(--rt-color-white)}</style><script src="chrome-extension://nngceckbapebfimnlniiiahkandclblb/content/fido2/page-script.js"></script><link as="script" rel="prefetch" href="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/7914-12220465e77cc2f3.js.descarga"><link as="script" rel="prefetch" href="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/7478-771cc78ed390a2e9.js.descarga"><link as="script" rel="prefetch" href="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/1058-12495094c7b16233.js.descarga"><link as="script" rel="prefetch" href="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/index-7d39184bc0aaccc7.js.descarga"><script async="async" type="text/javascript" src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/editor.main.js.descarga"></script><link rel="stylesheet" type="text/css" data-name="vs/editor/editor.main" href="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/editor.main.css"><script async="async" type="text/javascript" src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/editor.main.nls.js.descarga"></script><script async="async" type="text/javascript" src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/javascript.js.descarga"></script><script async="async" type="text/javascript" src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/tsMode.js.descarga"></script><style type="text/css" media="screen" class="monaco-colors">.codicon-add:before { content: '\ea60'; }
+.codicon-plus:before { content: '\ea60'; }
+.codicon-gist-new:before { content: '\ea60'; }
+.codicon-repo-create:before { content: '\ea60'; }
+.codicon-lightbulb:before { content: '\ea61'; }
+.codicon-light-bulb:before { content: '\ea61'; }
+.codicon-repo:before { content: '\ea62'; }
+.codicon-repo-delete:before { content: '\ea62'; }
+.codicon-gist-fork:before { content: '\ea63'; }
+.codicon-repo-forked:before { content: '\ea63'; }
+.codicon-git-pull-request:before { content: '\ea64'; }
+.codicon-git-pull-request-abandoned:before { content: '\ea64'; }
+.codicon-record-keys:before { content: '\ea65'; }
+.codicon-keyboard:before { content: '\ea65'; }
+.codicon-tag:before { content: '\ea66'; }
+.codicon-tag-add:before { content: '\ea66'; }
+.codicon-tag-remove:before { content: '\ea66'; }
+.codicon-git-pull-request-label:before { content: '\ea66'; }
+.codicon-person:before { content: '\ea67'; }
+.codicon-person-follow:before { content: '\ea67'; }
+.codicon-person-outline:before { content: '\ea67'; }
+.codicon-person-filled:before { content: '\ea67'; }
+.codicon-git-branch:before { content: '\ea68'; }
+.codicon-git-branch-create:before { content: '\ea68'; }
+.codicon-git-branch-delete:before { content: '\ea68'; }
+.codicon-source-control:before { content: '\ea68'; }
+.codicon-mirror:before { content: '\ea69'; }
+.codicon-mirror-public:before { content: '\ea69'; }
+.codicon-star:before { content: '\ea6a'; }
+.codicon-star-add:before { content: '\ea6a'; }
+.codicon-star-delete:before { content: '\ea6a'; }
+.codicon-star-empty:before { content: '\ea6a'; }
+.codicon-comment:before { content: '\ea6b'; }
+.codicon-comment-add:before { content: '\ea6b'; }
+.codicon-alert:before { content: '\ea6c'; }
+.codicon-warning:before { content: '\ea6c'; }
+.codicon-search:before { content: '\ea6d'; }
+.codicon-search-save:before { content: '\ea6d'; }
+.codicon-log-out:before { content: '\ea6e'; }
+.codicon-sign-out:before { content: '\ea6e'; }
+.codicon-log-in:before { content: '\ea6f'; }
+.codicon-sign-in:before { content: '\ea6f'; }
+.codicon-eye:before { content: '\ea70'; }
+.codicon-eye-unwatch:before { content: '\ea70'; }
+.codicon-eye-watch:before { content: '\ea70'; }
+.codicon-circle-filled:before { content: '\ea71'; }
+.codicon-primitive-dot:before { content: '\ea71'; }
+.codicon-close-dirty:before { content: '\ea71'; }
+.codicon-debug-breakpoint:before { content: '\ea71'; }
+.codicon-debug-breakpoint-disabled:before { content: '\ea71'; }
+.codicon-debug-hint:before { content: '\ea71'; }
+.codicon-primitive-square:before { content: '\ea72'; }
+.codicon-edit:before { content: '\ea73'; }
+.codicon-pencil:before { content: '\ea73'; }
+.codicon-info:before { content: '\ea74'; }
+.codicon-issue-opened:before { content: '\ea74'; }
+.codicon-gist-private:before { content: '\ea75'; }
+.codicon-git-fork-private:before { content: '\ea75'; }
+.codicon-lock:before { content: '\ea75'; }
+.codicon-mirror-private:before { content: '\ea75'; }
+.codicon-close:before { content: '\ea76'; }
+.codicon-remove-close:before { content: '\ea76'; }
+.codicon-x:before { content: '\ea76'; }
+.codicon-repo-sync:before { content: '\ea77'; }
+.codicon-sync:before { content: '\ea77'; }
+.codicon-clone:before { content: '\ea78'; }
+.codicon-desktop-download:before { content: '\ea78'; }
+.codicon-beaker:before { content: '\ea79'; }
+.codicon-microscope:before { content: '\ea79'; }
+.codicon-vm:before { content: '\ea7a'; }
+.codicon-device-desktop:before { content: '\ea7a'; }
+.codicon-file:before { content: '\ea7b'; }
+.codicon-file-text:before { content: '\ea7b'; }
+.codicon-more:before { content: '\ea7c'; }
+.codicon-ellipsis:before { content: '\ea7c'; }
+.codicon-kebab-horizontal:before { content: '\ea7c'; }
+.codicon-mail-reply:before { content: '\ea7d'; }
+.codicon-reply:before { content: '\ea7d'; }
+.codicon-organization:before { content: '\ea7e'; }
+.codicon-organization-filled:before { content: '\ea7e'; }
+.codicon-organization-outline:before { content: '\ea7e'; }
+.codicon-new-file:before { content: '\ea7f'; }
+.codicon-file-add:before { content: '\ea7f'; }
+.codicon-new-folder:before { content: '\ea80'; }
+.codicon-file-directory-create:before { content: '\ea80'; }
+.codicon-trash:before { content: '\ea81'; }
+.codicon-trashcan:before { content: '\ea81'; }
+.codicon-history:before { content: '\ea82'; }
+.codicon-clock:before { content: '\ea82'; }
+.codicon-folder:before { content: '\ea83'; }
+.codicon-file-directory:before { content: '\ea83'; }
+.codicon-symbol-folder:before { content: '\ea83'; }
+.codicon-logo-github:before { content: '\ea84'; }
+.codicon-mark-github:before { content: '\ea84'; }
+.codicon-github:before { content: '\ea84'; }
+.codicon-terminal:before { content: '\ea85'; }
+.codicon-console:before { content: '\ea85'; }
+.codicon-repl:before { content: '\ea85'; }
+.codicon-zap:before { content: '\ea86'; }
+.codicon-symbol-event:before { content: '\ea86'; }
+.codicon-error:before { content: '\ea87'; }
+.codicon-stop:before { content: '\ea87'; }
+.codicon-variable:before { content: '\ea88'; }
+.codicon-symbol-variable:before { content: '\ea88'; }
+.codicon-array:before { content: '\ea8a'; }
+.codicon-symbol-array:before { content: '\ea8a'; }
+.codicon-symbol-module:before { content: '\ea8b'; }
+.codicon-symbol-package:before { content: '\ea8b'; }
+.codicon-symbol-namespace:before { content: '\ea8b'; }
+.codicon-symbol-object:before { content: '\ea8b'; }
+.codicon-symbol-method:before { content: '\ea8c'; }
+.codicon-symbol-function:before { content: '\ea8c'; }
+.codicon-symbol-constructor:before { content: '\ea8c'; }
+.codicon-symbol-boolean:before { content: '\ea8f'; }
+.codicon-symbol-null:before { content: '\ea8f'; }
+.codicon-symbol-numeric:before { content: '\ea90'; }
+.codicon-symbol-number:before { content: '\ea90'; }
+.codicon-symbol-structure:before { content: '\ea91'; }
+.codicon-symbol-struct:before { content: '\ea91'; }
+.codicon-symbol-parameter:before { content: '\ea92'; }
+.codicon-symbol-type-parameter:before { content: '\ea92'; }
+.codicon-symbol-key:before { content: '\ea93'; }
+.codicon-symbol-text:before { content: '\ea93'; }
+.codicon-symbol-reference:before { content: '\ea94'; }
+.codicon-go-to-file:before { content: '\ea94'; }
+.codicon-symbol-enum:before { content: '\ea95'; }
+.codicon-symbol-value:before { content: '\ea95'; }
+.codicon-symbol-ruler:before { content: '\ea96'; }
+.codicon-symbol-unit:before { content: '\ea96'; }
+.codicon-activate-breakpoints:before { content: '\ea97'; }
+.codicon-archive:before { content: '\ea98'; }
+.codicon-arrow-both:before { content: '\ea99'; }
+.codicon-arrow-down:before { content: '\ea9a'; }
+.codicon-arrow-left:before { content: '\ea9b'; }
+.codicon-arrow-right:before { content: '\ea9c'; }
+.codicon-arrow-small-down:before { content: '\ea9d'; }
+.codicon-arrow-small-left:before { content: '\ea9e'; }
+.codicon-arrow-small-right:before { content: '\ea9f'; }
+.codicon-arrow-small-up:before { content: '\eaa0'; }
+.codicon-arrow-up:before { content: '\eaa1'; }
+.codicon-bell:before { content: '\eaa2'; }
+.codicon-bold:before { content: '\eaa3'; }
+.codicon-book:before { content: '\eaa4'; }
+.codicon-bookmark:before { content: '\eaa5'; }
+.codicon-debug-breakpoint-conditional-unverified:before { content: '\eaa6'; }
+.codicon-debug-breakpoint-conditional:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-conditional-disabled:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-data-unverified:before { content: '\eaa8'; }
+.codicon-debug-breakpoint-data:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-data-disabled:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-log-unverified:before { content: '\eaaa'; }
+.codicon-debug-breakpoint-log:before { content: '\eaab'; }
+.codicon-debug-breakpoint-log-disabled:before { content: '\eaab'; }
+.codicon-briefcase:before { content: '\eaac'; }
+.codicon-broadcast:before { content: '\eaad'; }
+.codicon-browser:before { content: '\eaae'; }
+.codicon-bug:before { content: '\eaaf'; }
+.codicon-calendar:before { content: '\eab0'; }
+.codicon-case-sensitive:before { content: '\eab1'; }
+.codicon-check:before { content: '\eab2'; }
+.codicon-checklist:before { content: '\eab3'; }
+.codicon-chevron-down:before { content: '\eab4'; }
+.codicon-drop-down-button:before { content: '\eab4'; }
+.codicon-chevron-left:before { content: '\eab5'; }
+.codicon-chevron-right:before { content: '\eab6'; }
+.codicon-chevron-up:before { content: '\eab7'; }
+.codicon-chrome-close:before { content: '\eab8'; }
+.codicon-chrome-maximize:before { content: '\eab9'; }
+.codicon-chrome-minimize:before { content: '\eaba'; }
+.codicon-chrome-restore:before { content: '\eabb'; }
+.codicon-circle:before { content: '\eabc'; }
+.codicon-circle-outline:before { content: '\eabc'; }
+.codicon-debug-breakpoint-unverified:before { content: '\eabc'; }
+.codicon-circle-slash:before { content: '\eabd'; }
+.codicon-circuit-board:before { content: '\eabe'; }
+.codicon-clear-all:before { content: '\eabf'; }
+.codicon-clippy:before { content: '\eac0'; }
+.codicon-close-all:before { content: '\eac1'; }
+.codicon-cloud-download:before { content: '\eac2'; }
+.codicon-cloud-upload:before { content: '\eac3'; }
+.codicon-code:before { content: '\eac4'; }
+.codicon-collapse-all:before { content: '\eac5'; }
+.codicon-color-mode:before { content: '\eac6'; }
+.codicon-comment-discussion:before { content: '\eac7'; }
+.codicon-compare-changes:before { content: '\eafd'; }
+.codicon-credit-card:before { content: '\eac9'; }
+.codicon-dash:before { content: '\eacc'; }
+.codicon-dashboard:before { content: '\eacd'; }
+.codicon-database:before { content: '\eace'; }
+.codicon-debug-continue:before { content: '\eacf'; }
+.codicon-debug-disconnect:before { content: '\ead0'; }
+.codicon-debug-pause:before { content: '\ead1'; }
+.codicon-debug-restart:before { content: '\ead2'; }
+.codicon-debug-start:before { content: '\ead3'; }
+.codicon-debug-step-into:before { content: '\ead4'; }
+.codicon-debug-step-out:before { content: '\ead5'; }
+.codicon-debug-step-over:before { content: '\ead6'; }
+.codicon-debug-stop:before { content: '\ead7'; }
+.codicon-debug:before { content: '\ead8'; }
+.codicon-device-camera-video:before { content: '\ead9'; }
+.codicon-device-camera:before { content: '\eada'; }
+.codicon-device-mobile:before { content: '\eadb'; }
+.codicon-diff-added:before { content: '\eadc'; }
+.codicon-diff-ignored:before { content: '\eadd'; }
+.codicon-diff-modified:before { content: '\eade'; }
+.codicon-diff-removed:before { content: '\eadf'; }
+.codicon-diff-renamed:before { content: '\eae0'; }
+.codicon-diff:before { content: '\eae1'; }
+.codicon-discard:before { content: '\eae2'; }
+.codicon-editor-layout:before { content: '\eae3'; }
+.codicon-empty-window:before { content: '\eae4'; }
+.codicon-exclude:before { content: '\eae5'; }
+.codicon-extensions:before { content: '\eae6'; }
+.codicon-eye-closed:before { content: '\eae7'; }
+.codicon-file-binary:before { content: '\eae8'; }
+.codicon-file-code:before { content: '\eae9'; }
+.codicon-file-media:before { content: '\eaea'; }
+.codicon-file-pdf:before { content: '\eaeb'; }
+.codicon-file-submodule:before { content: '\eaec'; }
+.codicon-file-symlink-directory:before { content: '\eaed'; }
+.codicon-file-symlink-file:before { content: '\eaee'; }
+.codicon-file-zip:before { content: '\eaef'; }
+.codicon-files:before { content: '\eaf0'; }
+.codicon-filter:before { content: '\eaf1'; }
+.codicon-flame:before { content: '\eaf2'; }
+.codicon-fold-down:before { content: '\eaf3'; }
+.codicon-fold-up:before { content: '\eaf4'; }
+.codicon-fold:before { content: '\eaf5'; }
+.codicon-folder-active:before { content: '\eaf6'; }
+.codicon-folder-opened:before { content: '\eaf7'; }
+.codicon-gear:before { content: '\eaf8'; }
+.codicon-gift:before { content: '\eaf9'; }
+.codicon-gist-secret:before { content: '\eafa'; }
+.codicon-gist:before { content: '\eafb'; }
+.codicon-git-commit:before { content: '\eafc'; }
+.codicon-git-compare:before { content: '\eafd'; }
+.codicon-git-merge:before { content: '\eafe'; }
+.codicon-github-action:before { content: '\eaff'; }
+.codicon-github-alt:before { content: '\eb00'; }
+.codicon-globe:before { content: '\eb01'; }
+.codicon-grabber:before { content: '\eb02'; }
+.codicon-graph:before { content: '\eb03'; }
+.codicon-gripper:before { content: '\eb04'; }
+.codicon-heart:before { content: '\eb05'; }
+.codicon-home:before { content: '\eb06'; }
+.codicon-horizontal-rule:before { content: '\eb07'; }
+.codicon-hubot:before { content: '\eb08'; }
+.codicon-inbox:before { content: '\eb09'; }
+.codicon-issue-closed:before { content: '\eba4'; }
+.codicon-issue-reopened:before { content: '\eb0b'; }
+.codicon-issues:before { content: '\eb0c'; }
+.codicon-italic:before { content: '\eb0d'; }
+.codicon-jersey:before { content: '\eb0e'; }
+.codicon-json:before { content: '\eb0f'; }
+.codicon-bracket:before { content: '\eb0f'; }
+.codicon-kebab-vertical:before { content: '\eb10'; }
+.codicon-key:before { content: '\eb11'; }
+.codicon-law:before { content: '\eb12'; }
+.codicon-lightbulb-autofix:before { content: '\eb13'; }
+.codicon-link-external:before { content: '\eb14'; }
+.codicon-link:before { content: '\eb15'; }
+.codicon-list-ordered:before { content: '\eb16'; }
+.codicon-list-unordered:before { content: '\eb17'; }
+.codicon-live-share:before { content: '\eb18'; }
+.codicon-loading:before { content: '\eb19'; }
+.codicon-location:before { content: '\eb1a'; }
+.codicon-mail-read:before { content: '\eb1b'; }
+.codicon-mail:before { content: '\eb1c'; }
+.codicon-markdown:before { content: '\eb1d'; }
+.codicon-megaphone:before { content: '\eb1e'; }
+.codicon-mention:before { content: '\eb1f'; }
+.codicon-milestone:before { content: '\eb20'; }
+.codicon-git-pull-request-milestone:before { content: '\eb20'; }
+.codicon-mortar-board:before { content: '\eb21'; }
+.codicon-move:before { content: '\eb22'; }
+.codicon-multiple-windows:before { content: '\eb23'; }
+.codicon-mute:before { content: '\eb24'; }
+.codicon-no-newline:before { content: '\eb25'; }
+.codicon-note:before { content: '\eb26'; }
+.codicon-octoface:before { content: '\eb27'; }
+.codicon-open-preview:before { content: '\eb28'; }
+.codicon-package:before { content: '\eb29'; }
+.codicon-paintcan:before { content: '\eb2a'; }
+.codicon-pin:before { content: '\eb2b'; }
+.codicon-play:before { content: '\eb2c'; }
+.codicon-run:before { content: '\eb2c'; }
+.codicon-plug:before { content: '\eb2d'; }
+.codicon-preserve-case:before { content: '\eb2e'; }
+.codicon-preview:before { content: '\eb2f'; }
+.codicon-project:before { content: '\eb30'; }
+.codicon-pulse:before { content: '\eb31'; }
+.codicon-question:before { content: '\eb32'; }
+.codicon-quote:before { content: '\eb33'; }
+.codicon-radio-tower:before { content: '\eb34'; }
+.codicon-reactions:before { content: '\eb35'; }
+.codicon-references:before { content: '\eb36'; }
+.codicon-refresh:before { content: '\eb37'; }
+.codicon-regex:before { content: '\eb38'; }
+.codicon-remote-explorer:before { content: '\eb39'; }
+.codicon-remote:before { content: '\eb3a'; }
+.codicon-remove:before { content: '\eb3b'; }
+.codicon-replace-all:before { content: '\eb3c'; }
+.codicon-replace:before { content: '\eb3d'; }
+.codicon-repo-clone:before { content: '\eb3e'; }
+.codicon-repo-force-push:before { content: '\eb3f'; }
+.codicon-repo-pull:before { content: '\eb40'; }
+.codicon-repo-push:before { content: '\eb41'; }
+.codicon-report:before { content: '\eb42'; }
+.codicon-request-changes:before { content: '\eb43'; }
+.codicon-rocket:before { content: '\eb44'; }
+.codicon-root-folder-opened:before { content: '\eb45'; }
+.codicon-root-folder:before { content: '\eb46'; }
+.codicon-rss:before { content: '\eb47'; }
+.codicon-ruby:before { content: '\eb48'; }
+.codicon-save-all:before { content: '\eb49'; }
+.codicon-save-as:before { content: '\eb4a'; }
+.codicon-save:before { content: '\eb4b'; }
+.codicon-screen-full:before { content: '\eb4c'; }
+.codicon-screen-normal:before { content: '\eb4d'; }
+.codicon-search-stop:before { content: '\eb4e'; }
+.codicon-server:before { content: '\eb50'; }
+.codicon-settings-gear:before { content: '\eb51'; }
+.codicon-settings:before { content: '\eb52'; }
+.codicon-shield:before { content: '\eb53'; }
+.codicon-smiley:before { content: '\eb54'; }
+.codicon-sort-precedence:before { content: '\eb55'; }
+.codicon-split-horizontal:before { content: '\eb56'; }
+.codicon-split-vertical:before { content: '\eb57'; }
+.codicon-squirrel:before { content: '\eb58'; }
+.codicon-star-full:before { content: '\eb59'; }
+.codicon-star-half:before { content: '\eb5a'; }
+.codicon-symbol-class:before { content: '\eb5b'; }
+.codicon-symbol-color:before { content: '\eb5c'; }
+.codicon-symbol-customcolor:before { content: '\eb5c'; }
+.codicon-symbol-constant:before { content: '\eb5d'; }
+.codicon-symbol-enum-member:before { content: '\eb5e'; }
+.codicon-symbol-field:before { content: '\eb5f'; }
+.codicon-symbol-file:before { content: '\eb60'; }
+.codicon-symbol-interface:before { content: '\eb61'; }
+.codicon-symbol-keyword:before { content: '\eb62'; }
+.codicon-symbol-misc:before { content: '\eb63'; }
+.codicon-symbol-operator:before { content: '\eb64'; }
+.codicon-symbol-property:before { content: '\eb65'; }
+.codicon-wrench:before { content: '\eb65'; }
+.codicon-wrench-subaction:before { content: '\eb65'; }
+.codicon-symbol-snippet:before { content: '\eb66'; }
+.codicon-tasklist:before { content: '\eb67'; }
+.codicon-telescope:before { content: '\eb68'; }
+.codicon-text-size:before { content: '\eb69'; }
+.codicon-three-bars:before { content: '\eb6a'; }
+.codicon-thumbsdown:before { content: '\eb6b'; }
+.codicon-thumbsup:before { content: '\eb6c'; }
+.codicon-tools:before { content: '\eb6d'; }
+.codicon-triangle-down:before { content: '\eb6e'; }
+.codicon-triangle-left:before { content: '\eb6f'; }
+.codicon-triangle-right:before { content: '\eb70'; }
+.codicon-triangle-up:before { content: '\eb71'; }
+.codicon-twitter:before { content: '\eb72'; }
+.codicon-unfold:before { content: '\eb73'; }
+.codicon-unlock:before { content: '\eb74'; }
+.codicon-unmute:before { content: '\eb75'; }
+.codicon-unverified:before { content: '\eb76'; }
+.codicon-verified:before { content: '\eb77'; }
+.codicon-versions:before { content: '\eb78'; }
+.codicon-vm-active:before { content: '\eb79'; }
+.codicon-vm-outline:before { content: '\eb7a'; }
+.codicon-vm-running:before { content: '\eb7b'; }
+.codicon-watch:before { content: '\eb7c'; }
+.codicon-whitespace:before { content: '\eb7d'; }
+.codicon-whole-word:before { content: '\eb7e'; }
+.codicon-window:before { content: '\eb7f'; }
+.codicon-word-wrap:before { content: '\eb80'; }
+.codicon-zoom-in:before { content: '\eb81'; }
+.codicon-zoom-out:before { content: '\eb82'; }
+.codicon-list-filter:before { content: '\eb83'; }
+.codicon-list-flat:before { content: '\eb84'; }
+.codicon-list-selection:before { content: '\eb85'; }
+.codicon-selection:before { content: '\eb85'; }
+.codicon-list-tree:before { content: '\eb86'; }
+.codicon-debug-breakpoint-function-unverified:before { content: '\eb87'; }
+.codicon-debug-breakpoint-function:before { content: '\eb88'; }
+.codicon-debug-breakpoint-function-disabled:before { content: '\eb88'; }
+.codicon-debug-stackframe-active:before { content: '\eb89'; }
+.codicon-circle-small-filled:before { content: '\eb8a'; }
+.codicon-debug-stackframe-dot:before { content: '\eb8a'; }
+.codicon-debug-stackframe:before { content: '\eb8b'; }
+.codicon-debug-stackframe-focused:before { content: '\eb8b'; }
+.codicon-debug-breakpoint-unsupported:before { content: '\eb8c'; }
+.codicon-symbol-string:before { content: '\eb8d'; }
+.codicon-debug-reverse-continue:before { content: '\eb8e'; }
+.codicon-debug-step-back:before { content: '\eb8f'; }
+.codicon-debug-restart-frame:before { content: '\eb90'; }
+.codicon-call-incoming:before { content: '\eb92'; }
+.codicon-call-outgoing:before { content: '\eb93'; }
+.codicon-menu:before { content: '\eb94'; }
+.codicon-expand-all:before { content: '\eb95'; }
+.codicon-feedback:before { content: '\eb96'; }
+.codicon-git-pull-request-reviewer:before { content: '\eb96'; }
+.codicon-group-by-ref-type:before { content: '\eb97'; }
+.codicon-ungroup-by-ref-type:before { content: '\eb98'; }
+.codicon-account:before { content: '\eb99'; }
+.codicon-git-pull-request-assignee:before { content: '\eb99'; }
+.codicon-bell-dot:before { content: '\eb9a'; }
+.codicon-debug-console:before { content: '\eb9b'; }
+.codicon-library:before { content: '\eb9c'; }
+.codicon-output:before { content: '\eb9d'; }
+.codicon-run-all:before { content: '\eb9e'; }
+.codicon-sync-ignored:before { content: '\eb9f'; }
+.codicon-pinned:before { content: '\eba0'; }
+.codicon-github-inverted:before { content: '\eba1'; }
+.codicon-debug-alt:before { content: '\eb91'; }
+.codicon-server-process:before { content: '\eba2'; }
+.codicon-server-environment:before { content: '\eba3'; }
+.codicon-pass:before { content: '\eba4'; }
+.codicon-stop-circle:before { content: '\eba5'; }
+.codicon-play-circle:before { content: '\eba6'; }
+.codicon-record:before { content: '\eba7'; }
+.codicon-debug-alt-small:before { content: '\eba8'; }
+.codicon-vm-connect:before { content: '\eba9'; }
+.codicon-cloud:before { content: '\ebaa'; }
+.codicon-merge:before { content: '\ebab'; }
+.codicon-export:before { content: '\ebac'; }
+.codicon-graph-left:before { content: '\ebad'; }
+.codicon-magnet:before { content: '\ebae'; }
+.codicon-notebook:before { content: '\ebaf'; }
+.codicon-redo:before { content: '\ebb0'; }
+.codicon-check-all:before { content: '\ebb1'; }
+.codicon-pinned-dirty:before { content: '\ebb2'; }
+.codicon-pass-filled:before { content: '\ebb3'; }
+.codicon-circle-large-filled:before { content: '\ebb4'; }
+.codicon-circle-large:before { content: '\ebb5'; }
+.codicon-circle-large-outline:before { content: '\ebb5'; }
+.codicon-combine:before { content: '\ebb6'; }
+.codicon-gather:before { content: '\ebb6'; }
+.codicon-table:before { content: '\ebb7'; }
+.codicon-variable-group:before { content: '\ebb8'; }
+.codicon-type-hierarchy:before { content: '\ebb9'; }
+.codicon-type-hierarchy-sub:before { content: '\ebba'; }
+.codicon-type-hierarchy-super:before { content: '\ebbb'; }
+.codicon-git-pull-request-create:before { content: '\ebbc'; }
+.codicon-run-above:before { content: '\ebbd'; }
+.codicon-run-below:before { content: '\ebbe'; }
+.codicon-notebook-template:before { content: '\ebbf'; }
+.codicon-debug-rerun:before { content: '\ebc0'; }
+.codicon-workspace-trusted:before { content: '\ebc1'; }
+.codicon-workspace-untrusted:before { content: '\ebc2'; }
+.codicon-workspace-unspecified:before { content: '\ebc3'; }
+.codicon-terminal-cmd:before { content: '\ebc4'; }
+.codicon-terminal-debian:before { content: '\ebc5'; }
+.codicon-terminal-linux:before { content: '\ebc6'; }
+.codicon-terminal-powershell:before { content: '\ebc7'; }
+.codicon-terminal-tmux:before { content: '\ebc8'; }
+.codicon-terminal-ubuntu:before { content: '\ebc9'; }
+.codicon-terminal-bash:before { content: '\ebca'; }
+.codicon-arrow-swap:before { content: '\ebcb'; }
+.codicon-copy:before { content: '\ebcc'; }
+.codicon-person-add:before { content: '\ebcd'; }
+.codicon-filter-filled:before { content: '\ebce'; }
+.codicon-wand:before { content: '\ebcf'; }
+.codicon-debug-line-by-line:before { content: '\ebd0'; }
+.codicon-inspect:before { content: '\ebd1'; }
+.codicon-layers:before { content: '\ebd2'; }
+.codicon-layers-dot:before { content: '\ebd3'; }
+.codicon-layers-active:before { content: '\ebd4'; }
+.codicon-compass:before { content: '\ebd5'; }
+.codicon-compass-dot:before { content: '\ebd6'; }
+.codicon-compass-active:before { content: '\ebd7'; }
+.codicon-azure:before { content: '\ebd8'; }
+.codicon-issue-draft:before { content: '\ebd9'; }
+.codicon-git-pull-request-closed:before { content: '\ebda'; }
+.codicon-git-pull-request-draft:before { content: '\ebdb'; }
+.codicon-debug-all:before { content: '\ebdc'; }
+.codicon-debug-coverage:before { content: '\ebdd'; }
+.codicon-run-errors:before { content: '\ebde'; }
+.codicon-folder-library:before { content: '\ebdf'; }
+.codicon-debug-continue-small:before { content: '\ebe0'; }
+.codicon-beaker-stop:before { content: '\ebe1'; }
+.codicon-graph-line:before { content: '\ebe2'; }
+.codicon-graph-scatter:before { content: '\ebe3'; }
+.codicon-pie-chart:before { content: '\ebe4'; }
+.codicon-bracket-dot:before { content: '\ebe5'; }
+.codicon-bracket-error:before { content: '\ebe6'; }
+.codicon-lock-small:before { content: '\ebe7'; }
+.codicon-azure-devops:before { content: '\ebe8'; }
+.codicon-verified-filled:before { content: '\ebe9'; }
+.codicon-newline:before { content: '\ebea'; }
+.codicon-layout:before { content: '\ebeb'; }
+.codicon-layout-activitybar-left:before { content: '\ebec'; }
+.codicon-layout-activitybar-right:before { content: '\ebed'; }
+.codicon-layout-panel-left:before { content: '\ebee'; }
+.codicon-layout-panel-center:before { content: '\ebef'; }
+.codicon-layout-panel-justify:before { content: '\ebf0'; }
+.codicon-layout-panel-right:before { content: '\ebf1'; }
+.codicon-layout-panel:before { content: '\ebf2'; }
+.codicon-layout-sidebar-left:before { content: '\ebf3'; }
+.codicon-layout-sidebar-right:before { content: '\ebf4'; }
+.codicon-layout-statusbar:before { content: '\ebf5'; }
+.codicon-layout-menubar:before { content: '\ebf6'; }
+.codicon-layout-centered:before { content: '\ebf7'; }
+.codicon-layout-sidebar-right-off:before { content: '\ec00'; }
+.codicon-layout-panel-off:before { content: '\ec01'; }
+.codicon-layout-sidebar-left-off:before { content: '\ec02'; }
+.codicon-target:before { content: '\ebf8'; }
+.codicon-indent:before { content: '\ebf9'; }
+.codicon-record-small:before { content: '\ebfa'; }
+.codicon-error-small:before { content: '\ebfb'; }
+.codicon-arrow-circle-down:before { content: '\ebfc'; }
+.codicon-arrow-circle-left:before { content: '\ebfd'; }
+.codicon-arrow-circle-right:before { content: '\ebfe'; }
+.codicon-arrow-circle-up:before { content: '\ebff'; }
+.codicon-heart-filled:before { content: '\ec04'; }
+.codicon-map:before { content: '\ec05'; }
+.codicon-map-filled:before { content: '\ec06'; }
+.codicon-circle-small:before { content: '\ec07'; }
+.codicon-bell-slash:before { content: '\ec08'; }
+.codicon-bell-slash-dot:before { content: '\ec09'; }
+.codicon-comment-unresolved:before { content: '\ec0a'; }
+.codicon-git-pull-request-go-to-changes:before { content: '\ec0b'; }
+.codicon-git-pull-request-new-changes:before { content: '\ec0c'; }
+.codicon-search-fuzzy:before { content: '\ec0d'; }
+.codicon-comment-draft:before { content: '\ec0e'; }
+.codicon-send:before { content: '\ec0f'; }
+.codicon-sparkle:before { content: '\ec10'; }
+.codicon-insert:before { content: '\ec11'; }
+.codicon-mic:before { content: '\ec12'; }
+.codicon-dialog-error:before { content: '\ea87'; }
+.codicon-dialog-warning:before { content: '\ea6c'; }
+.codicon-dialog-info:before { content: '\ea74'; }
+.codicon-dialog-close:before { content: '\ea76'; }
+.codicon-tree-item-expanded:before { content: '\eab4'; }
+.codicon-tree-filter-on-type-on:before { content: '\eb83'; }
+.codicon-tree-filter-on-type-off:before { content: '\eb85'; }
+.codicon-tree-filter-clear:before { content: '\ea76'; }
+.codicon-tree-item-loading:before { content: '\eb19'; }
+.codicon-menu-selection:before { content: '\eab2'; }
+.codicon-menu-submenu:before { content: '\eab6'; }
+.codicon-menubar-more:before { content: '\ea7c'; }
+.codicon-scrollbar-button-left:before { content: '\eb6f'; }
+.codicon-scrollbar-button-right:before { content: '\eb70'; }
+.codicon-scrollbar-button-up:before { content: '\eb71'; }
+.codicon-scrollbar-button-down:before { content: '\eb6e'; }
+.codicon-toolbar-more:before { content: '\ea7c'; }
+.codicon-quick-input-back:before { content: '\ea9b'; }
+.codicon-widget-close:before { content: '\ea76'; }
+.codicon-goto-previous-location:before { content: '\eaa1'; }
+.codicon-goto-next-location:before { content: '\ea9a'; }
+.codicon-diff-review-insert:before { content: '\ea60'; }
+.codicon-diff-review-remove:before { content: '\eb3b'; }
+.codicon-diff-review-close:before { content: '\ea76'; }
+.codicon-parameter-hints-next:before { content: '\eab4'; }
+.codicon-parameter-hints-previous:before { content: '\eab7'; }
+.codicon-suggest-more-info:before { content: '\eab6'; }
+.codicon-inline-suggestion-hints-next:before { content: '\eab6'; }
+.codicon-inline-suggestion-hints-previous:before { content: '\eab5'; }
+.codicon-diff-insert:before { content: '\ea60'; }
+.codicon-diff-remove:before { content: '\eb3b'; }
+.codicon-find-selection:before { content: '\eb85'; }
+.codicon-find-collapsed:before { content: '\eab6'; }
+.codicon-find-expanded:before { content: '\eab4'; }
+.codicon-find-replace:before { content: '\eb3d'; }
+.codicon-find-replace-all:before { content: '\eb3c'; }
+.codicon-find-previous-match:before { content: '\eaa1'; }
+.codicon-find-next-match:before { content: '\ea9a'; }
+.codicon-folding-expanded:before { content: '\eab4'; }
+.codicon-folding-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-expanded:before { content: '\eab4'; }
+.codicon-marker-navigation-next:before { content: '\ea9a'; }
+.codicon-marker-navigation-previous:before { content: '\eaa1'; }
+.codicon-extensions-warning-message:before { content: '\ea6c'; }
+.monaco-editor .inputarea.ime-input { background-color: #111111; }
+.monaco-editor .view-overlays .current-line { background-color: #111111; }
+.monaco-editor .margin-view-overlays .current-line-margin { background-color: #111111; border: none; }
+.monaco-editor .bracket-indent-guide.lvl-0 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-1 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-2 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-3 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-4 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-5 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-6 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-7 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-8 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-9 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-10 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-11 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-12 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-13 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-14 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-15 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-16 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-17 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-18 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-19 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-20 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-21 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-22 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-23 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-24 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-25 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-26 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-27 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-28 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-29 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .vertical { box-shadow: 1px 0 0 0 var(--guide-color) inset; }
+.monaco-editor .horizontal-top { border-top: 1px solid var(--guide-color); }
+.monaco-editor .horizontal-bottom { border-bottom: 1px solid var(--guide-color); }
+.monaco-editor .vertical.indent-active { box-shadow: 1px 0 0 0 var(--guide-color-active) inset; }
+.monaco-editor .horizontal-top.indent-active { border-top: 1px solid var(--guide-color-active); }
+.monaco-editor .horizontal-bottom.indent-active { border-bottom: 1px solid var(--guide-color-active); }
+.monaco-editor .lines-content .core-guide-indent.lvl-0 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-1 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-2 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-3 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-4 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-5 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-6 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-7 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-8 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-9 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-10 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-11 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-12 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-13 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-14 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-15 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-16 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-17 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-18 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-19 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-20 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-21 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-22 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-23 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-24 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-25 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-26 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-27 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-28 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-29 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent { box-shadow: 1px 0 0 0 var(--indent-color) inset; }
+.monaco-editor .lines-content .core-guide-indent.indent-active { box-shadow: 1px 0 0 0 var(--indent-color-active) inset; }
+.monaco-editor .line-numbers.dimmed-line-number { color: rgba(133, 133, 133, 0.4); }
+.monaco-editor .cursors-layer .cursor { background-color: #ffffff; border-color: #ffffff; color: #000000; }
+.monaco-editor .unexpected-closing-bracket { color: rgba(255, 18, 18, 0.8); }
+.monaco-editor .bracket-highlighting-0 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-1 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-2 { color: #179fff; }
+.monaco-editor .bracket-highlighting-3 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-4 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-5 { color: #179fff; }
+.monaco-editor .bracket-highlighting-6 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-7 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-8 { color: #179fff; }
+.monaco-editor .bracket-highlighting-9 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-10 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-11 { color: #179fff; }
+.monaco-editor .bracket-highlighting-12 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-13 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-14 { color: #179fff; }
+.monaco-editor .bracket-highlighting-15 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-16 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-17 { color: #179fff; }
+.monaco-editor .bracket-highlighting-18 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-19 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-20 { color: #179fff; }
+.monaco-editor .bracket-highlighting-21 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-22 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-23 { color: #179fff; }
+.monaco-editor .bracket-highlighting-24 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-25 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-26 { color: #179fff; }
+.monaco-editor .bracket-highlighting-27 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-28 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-29 { color: #179fff; }
+.monaco-editor .squiggly-error { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23f14c4c'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-warning { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23cca700'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-info { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%233794ff'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-hint { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%223%22%20width%3D%2212%22%3E%3Cg%20fill%3D%22rgba(238%2C%20238%2C%20238%2C%200.7)%22%3E%3Ccircle%20cx%3D%221%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat bottom left; }
+.monaco-editor.showUnused .squiggly-inline-unnecessary { opacity: 0.667; }
+.monaco-editor .selectionHighlight { background-color: rgba(173, 214, 255, 0.07); }
+
+	.monaco-editor .diagonal-fill {
+		background-image: linear-gradient(
+			-45deg,
+			rgba(204, 204, 204, 0.2) 12.5%,
+			#0000 12.5%, #0000 50%,
+			rgba(204, 204, 204, 0.2) 50%, rgba(204, 204, 204, 0.2) 62.5%,
+			#0000 62.5%, #0000 100%
+		);
+		background-size: 8px 8px;
+	}
+	
+.monaco-editor .findMatch { background-color: rgba(234, 92, 0, 0.33); }
+.monaco-editor .currentFindMatch { background-color: #515c6a; }
+.monaco-editor .findScope { background-color: rgba(58, 61, 65, 0.4); }
+.monaco-editor .find-widget { background-color: #252526; }
+.monaco-editor .find-widget { box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.36); }
+.monaco-editor .find-widget { color: #cccccc; }
+.monaco-editor .find-widget.no-results .matchesCount { color: #f48771; }
+.monaco-editor .find-widget .monaco-sash { background-color: #454545; }
+
+		.monaco-editor .find-widget .button:not(.disabled):hover,
+		.monaco-editor .find-widget .codicon-find-selection:hover {
+			background-color: rgba(90, 93, 94, 0.31) !important;
+		}
+	
+.monaco-editor .find-widget .monaco-inputbox.synthetic-focus { outline-color: #007fd4; }
+.monaco-editor .monaco-hover .hover-row:not(:first-child):not(:empty) { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor .monaco-hover hr { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor .monaco-hover hr { border-bottom: 0px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor, .monaco-diff-editor { --vscode-foreground: #cccccc;
+--vscode-disabledForeground: rgba(204, 204, 204, 0.5);
+--vscode-errorForeground: #f48771;
+--vscode-descriptionForeground: rgba(204, 204, 204, 0.7);
+--vscode-icon-foreground: #c5c5c5;
+--vscode-focusBorder: #007fd4;
+--vscode-textSeparator-foreground: rgba(255, 255, 255, 0.18);
+--vscode-textLink-foreground: #3794ff;
+--vscode-textLink-activeForeground: #3794ff;
+--vscode-textPreformat-foreground: #d7ba7d;
+--vscode-textBlockQuote-background: rgba(127, 127, 127, 0.1);
+--vscode-textBlockQuote-border: rgba(0, 122, 204, 0.5);
+--vscode-textCodeBlock-background: rgba(10, 10, 10, 0.4);
+--vscode-widget-shadow: rgba(0, 0, 0, 0.36);
+--vscode-input-background: #3c3c3c;
+--vscode-input-foreground: #cccccc;
+--vscode-inputOption-activeBorder: #007acc;
+--vscode-inputOption-hoverBackground: rgba(90, 93, 94, 0.5);
+--vscode-inputOption-activeBackground: rgba(0, 127, 212, 0.4);
+--vscode-inputOption-activeForeground: #ffffff;
+--vscode-input-placeholderForeground: rgba(204, 204, 204, 0.5);
+--vscode-inputValidation-infoBackground: #063b49;
+--vscode-inputValidation-infoBorder: #007acc;
+--vscode-inputValidation-warningBackground: #352a05;
+--vscode-inputValidation-warningBorder: #b89500;
+--vscode-inputValidation-errorBackground: #5a1d1d;
+--vscode-inputValidation-errorBorder: #be1100;
+--vscode-dropdown-background: #3c3c3c;
+--vscode-dropdown-foreground: #f0f0f0;
+--vscode-dropdown-border: #3c3c3c;
+--vscode-button-foreground: #ffffff;
+--vscode-button-separator: rgba(255, 255, 255, 0.4);
+--vscode-button-background: #0e639c;
+--vscode-button-hoverBackground: #1177bb;
+--vscode-button-secondaryForeground: #ffffff;
+--vscode-button-secondaryBackground: #3a3d41;
+--vscode-button-secondaryHoverBackground: #45494e;
+--vscode-badge-background: #4d4d4d;
+--vscode-badge-foreground: #ffffff;
+--vscode-scrollbar-shadow: #000000;
+--vscode-scrollbarSlider-background: rgba(121, 121, 121, 0.4);
+--vscode-scrollbarSlider-hoverBackground: rgba(100, 100, 100, 0.7);
+--vscode-scrollbarSlider-activeBackground: rgba(191, 191, 191, 0.4);
+--vscode-progressBar-background: #0e70c0;
+--vscode-editorError-foreground: #f14c4c;
+--vscode-editorWarning-foreground: #cca700;
+--vscode-editorInfo-foreground: #3794ff;
+--vscode-editorHint-foreground: rgba(238, 238, 238, 0.7);
+--vscode-sash-hoverBorder: #007fd4;
+--vscode-editor-background: #18181b;
+--vscode-editor-foreground: #f6f8fa;
+--vscode-editorStickyScroll-background: #18181b;
+--vscode-editorStickyScrollHover-background: #2a2d2e;
+--vscode-editorWidget-background: #252526;
+--vscode-editorWidget-foreground: #cccccc;
+--vscode-editorWidget-border: #454545;
+--vscode-quickInput-background: #252526;
+--vscode-quickInput-foreground: #cccccc;
+--vscode-quickInputTitle-background: rgba(255, 255, 255, 0.1);
+--vscode-pickerGroup-foreground: #3794ff;
+--vscode-pickerGroup-border: #3f3f46;
+--vscode-keybindingLabel-background: rgba(128, 128, 128, 0.17);
+--vscode-keybindingLabel-foreground: #cccccc;
+--vscode-keybindingLabel-border: rgba(51, 51, 51, 0.6);
+--vscode-keybindingLabel-bottomBorder: rgba(68, 68, 68, 0.6);
+--vscode-editor-selectionBackground: #4c2889;
+--vscode-editor-inactiveSelectionBackground: #444d56;
+--vscode-editor-selectionHighlightBackground: rgba(173, 214, 255, 0.15);
+--vscode-editor-selectionHighlightBorder: #444d56;
+--vscode-editor-findMatchBackground: #515c6a;
+--vscode-editor-findMatchHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editor-findRangeHighlightBackground: rgba(58, 61, 65, 0.4);
+--vscode-searchEditor-findMatchBackground: rgba(234, 92, 0, 0.22);
+--vscode-search-resultsInfoForeground: rgba(204, 204, 204, 0.65);
+--vscode-editor-hoverHighlightBackground: rgba(38, 79, 120, 0.25);
+--vscode-editorHoverWidget-background: #252526;
+--vscode-editorHoverWidget-foreground: #cccccc;
+--vscode-editorHoverWidget-border: #454545;
+--vscode-editorHoverWidget-statusBarBackground: #2c2c2d;
+--vscode-editorLink-activeForeground: #4e94ce;
+--vscode-editorInlayHint-foreground: #969696;
+--vscode-editorInlayHint-background: rgba(77, 77, 77, 0.1);
+--vscode-editorInlayHint-typeForeground: #969696;
+--vscode-editorInlayHint-typeBackground: rgba(77, 77, 77, 0.1);
+--vscode-editorInlayHint-parameterForeground: #969696;
+--vscode-editorInlayHint-parameterBackground: rgba(77, 77, 77, 0.1);
+--vscode-editorLightBulb-foreground: #ffcc00;
+--vscode-editorLightBulbAutoFix-foreground: #75beff;
+--vscode-diffEditor-insertedTextBackground: rgba(156, 204, 44, 0.2);
+--vscode-diffEditor-removedTextBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-insertedLineBackground: rgba(155, 185, 85, 0.2);
+--vscode-diffEditor-removedLineBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-diagonalFill: rgba(204, 204, 204, 0.2);
+--vscode-diffEditor-unchangedRegionBackground: #3e3e3e;
+--vscode-diffEditor-unchangedRegionForeground: #a3a2a2;
+--vscode-diffEditor-unchangedCodeBackground: rgba(116, 116, 116, 0.16);
+--vscode-list-focusOutline: #007fd4;
+--vscode-list-activeSelectionBackground: #04395e;
+--vscode-list-activeSelectionForeground: #ffffff;
+--vscode-list-inactiveSelectionBackground: #37373d;
+--vscode-list-hoverBackground: #2a2d2e;
+--vscode-list-dropBackground: #062f4a;
+--vscode-list-highlightForeground: #2aaaff;
+--vscode-list-focusHighlightForeground: #2aaaff;
+--vscode-list-invalidItemForeground: #b89500;
+--vscode-list-errorForeground: #f88070;
+--vscode-list-warningForeground: #cca700;
+--vscode-listFilterWidget-background: #252526;
+--vscode-listFilterWidget-outline: rgba(0, 0, 0, 0);
+--vscode-listFilterWidget-noMatchesOutline: #be1100;
+--vscode-listFilterWidget-shadow: rgba(0, 0, 0, 0.36);
+--vscode-list-filterMatchBackground: rgba(234, 92, 0, 0.33);
+--vscode-tree-indentGuidesStroke: #585858;
+--vscode-tree-inactiveIndentGuidesStroke: rgba(88, 88, 88, 0.4);
+--vscode-tree-tableColumnsBorder: rgba(204, 204, 204, 0.13);
+--vscode-tree-tableOddRowsBackground: rgba(204, 204, 204, 0.04);
+--vscode-list-deemphasizedForeground: #8c8c8c;
+--vscode-checkbox-background: #3c3c3c;
+--vscode-checkbox-selectBackground: #252526;
+--vscode-checkbox-foreground: #f0f0f0;
+--vscode-checkbox-border: #3c3c3c;
+--vscode-checkbox-selectBorder: #c5c5c5;
+--vscode-quickInputList-focusForeground: #ffffff;
+--vscode-quickInputList-focusBackground: #04395e;
+--vscode-menu-foreground: #f0f0f0;
+--vscode-menu-background: #3c3c3c;
+--vscode-menu-selectionForeground: #ffffff;
+--vscode-menu-selectionBackground: #04395e;
+--vscode-menu-separatorBackground: #606060;
+--vscode-toolbar-hoverBackground: rgba(90, 93, 94, 0.31);
+--vscode-toolbar-activeBackground: rgba(99, 102, 103, 0.31);
+--vscode-editor-snippetTabstopHighlightBackground: rgba(124, 124, 124, 0.3);
+--vscode-editor-snippetFinalTabstopHighlightBorder: #525252;
+--vscode-breadcrumb-foreground: rgba(204, 204, 204, 0.8);
+--vscode-breadcrumb-background: #18181b;
+--vscode-breadcrumb-focusForeground: #e0e0e0;
+--vscode-breadcrumb-activeSelectionForeground: #e0e0e0;
+--vscode-breadcrumbPicker-background: #252526;
+--vscode-merge-currentHeaderBackground: rgba(64, 200, 174, 0.5);
+--vscode-merge-currentContentBackground: rgba(64, 200, 174, 0.2);
+--vscode-merge-incomingHeaderBackground: rgba(64, 166, 255, 0.5);
+--vscode-merge-incomingContentBackground: rgba(64, 166, 255, 0.2);
+--vscode-merge-commonHeaderBackground: rgba(96, 96, 96, 0.4);
+--vscode-merge-commonContentBackground: rgba(96, 96, 96, 0.16);
+--vscode-editorOverviewRuler-currentContentForeground: rgba(64, 200, 174, 0.5);
+--vscode-editorOverviewRuler-incomingContentForeground: rgba(64, 166, 255, 0.5);
+--vscode-editorOverviewRuler-commonContentForeground: rgba(96, 96, 96, 0.4);
+--vscode-editorOverviewRuler-findMatchForeground: rgba(209, 134, 22, 0.49);
+--vscode-editorOverviewRuler-selectionHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-minimap-findMatchHighlight: #d18616;
+--vscode-minimap-selectionOccurrenceHighlight: #676767;
+--vscode-minimap-selectionHighlight: #264f78;
+--vscode-minimap-errorHighlight: rgba(255, 18, 18, 0.7);
+--vscode-minimap-warningHighlight: #cca700;
+--vscode-minimap-foregroundOpacity: #000000;
+--vscode-minimapSlider-background: rgba(121, 121, 121, 0.2);
+--vscode-minimapSlider-hoverBackground: rgba(100, 100, 100, 0.35);
+--vscode-minimapSlider-activeBackground: rgba(191, 191, 191, 0.2);
+--vscode-problemsErrorIcon-foreground: #f14c4c;
+--vscode-problemsWarningIcon-foreground: #cca700;
+--vscode-problemsInfoIcon-foreground: #3794ff;
+--vscode-charts-foreground: #cccccc;
+--vscode-charts-lines: rgba(204, 204, 204, 0.5);
+--vscode-charts-red: #f14c4c;
+--vscode-charts-blue: #3794ff;
+--vscode-charts-yellow: #cca700;
+--vscode-charts-orange: #d18616;
+--vscode-charts-green: #89d185;
+--vscode-charts-purple: #b180d7;
+--vscode-diffEditor-move-border: rgba(139, 139, 139, 0.61);
+--vscode-diffEditor-moveActive-border: #ffa500;
+--vscode-symbolIcon-arrayForeground: #cccccc;
+--vscode-symbolIcon-booleanForeground: #cccccc;
+--vscode-symbolIcon-classForeground: #ee9d28;
+--vscode-symbolIcon-colorForeground: #cccccc;
+--vscode-symbolIcon-constantForeground: #cccccc;
+--vscode-symbolIcon-constructorForeground: #b180d7;
+--vscode-symbolIcon-enumeratorForeground: #ee9d28;
+--vscode-symbolIcon-enumeratorMemberForeground: #75beff;
+--vscode-symbolIcon-eventForeground: #ee9d28;
+--vscode-symbolIcon-fieldForeground: #75beff;
+--vscode-symbolIcon-fileForeground: #cccccc;
+--vscode-symbolIcon-folderForeground: #cccccc;
+--vscode-symbolIcon-functionForeground: #b180d7;
+--vscode-symbolIcon-interfaceForeground: #75beff;
+--vscode-symbolIcon-keyForeground: #cccccc;
+--vscode-symbolIcon-keywordForeground: #cccccc;
+--vscode-symbolIcon-methodForeground: #b180d7;
+--vscode-symbolIcon-moduleForeground: #cccccc;
+--vscode-symbolIcon-namespaceForeground: #cccccc;
+--vscode-symbolIcon-nullForeground: #cccccc;
+--vscode-symbolIcon-numberForeground: #cccccc;
+--vscode-symbolIcon-objectForeground: #cccccc;
+--vscode-symbolIcon-operatorForeground: #cccccc;
+--vscode-symbolIcon-packageForeground: #cccccc;
+--vscode-symbolIcon-propertyForeground: #cccccc;
+--vscode-symbolIcon-referenceForeground: #cccccc;
+--vscode-symbolIcon-snippetForeground: #cccccc;
+--vscode-symbolIcon-stringForeground: #cccccc;
+--vscode-symbolIcon-structForeground: #cccccc;
+--vscode-symbolIcon-textForeground: #cccccc;
+--vscode-symbolIcon-typeParameterForeground: #cccccc;
+--vscode-symbolIcon-unitForeground: #cccccc;
+--vscode-symbolIcon-variableForeground: #75beff;
+--vscode-actionBar-toggledBackground: rgba(0, 127, 212, 0.4);
+--vscode-editor-lineHighlightBackground: #111111;
+--vscode-editor-lineHighlightBorder: #282828;
+--vscode-editor-rangeHighlightBackground: rgba(255, 255, 255, 0.04);
+--vscode-editor-symbolHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editorCursor-foreground: #ffffff;
+--vscode-editorWhitespace-foreground: #6a737d;
+--vscode-editorLineNumber-foreground: #858585;
+--vscode-editorIndentGuide-background: #6a737d;
+--vscode-editorIndentGuide-activeBackground: #f6f8fa;
+--vscode-editorIndentGuide-background1: #404040;
+--vscode-editorIndentGuide-background2: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background3: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background4: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background5: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background6: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground1: #707070;
+--vscode-editorIndentGuide-activeBackground2: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground3: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground4: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground5: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground6: rgba(0, 0, 0, 0);
+--vscode-editorActiveLineNumber-foreground: #c6c6c6;
+--vscode-editorLineNumber-activeForeground: #c6c6c6;
+--vscode-editorRuler-foreground: #5a5a5a;
+--vscode-editorCodeLens-foreground: #999999;
+--vscode-editorBracketMatch-background: rgba(0, 100, 0, 0.1);
+--vscode-editorBracketMatch-border: #888888;
+--vscode-editorOverviewRuler-border: rgba(127, 127, 127, 0.3);
+--vscode-editorGutter-background: #18181b;
+--vscode-editorUnnecessaryCode-opacity: rgba(0, 0, 0, 0.67);
+--vscode-editorGhostText-foreground: rgba(255, 255, 255, 0.34);
+--vscode-editorOverviewRuler-rangeHighlightForeground: rgba(0, 122, 204, 0.6);
+--vscode-editorOverviewRuler-errorForeground: rgba(255, 18, 18, 0.7);
+--vscode-editorOverviewRuler-warningForeground: #cca700;
+--vscode-editorOverviewRuler-infoForeground: #3794ff;
+--vscode-editorBracketHighlight-foreground1: #ffd700;
+--vscode-editorBracketHighlight-foreground2: #da70d6;
+--vscode-editorBracketHighlight-foreground3: #179fff;
+--vscode-editorBracketHighlight-foreground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground6: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-unexpectedBracket-foreground: rgba(255, 18, 18, 0.8);
+--vscode-editorBracketPairGuide-background1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background6: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground6: rgba(0, 0, 0, 0);
+--vscode-editorUnicodeHighlight-border: #bd9b03;
+--vscode-editorUnicodeHighlight-background: rgba(189, 155, 3, 0.15);
+--vscode-editorOverviewRuler-bracketMatchForeground: #a0a0a0;
+--vscode-editor-linkedEditingBackground: rgba(255, 0, 0, 0.3);
+--vscode-editor-wordHighlightBackground: rgba(87, 87, 87, 0.72);
+--vscode-editor-wordHighlightStrongBackground: rgba(0, 73, 114, 0.72);
+--vscode-editor-wordHighlightTextBackground: rgba(87, 87, 87, 0.72);
+--vscode-editorOverviewRuler-wordHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-editorOverviewRuler-wordHighlightStrongForeground: rgba(192, 160, 192, 0.8);
+--vscode-editorOverviewRuler-wordHighlightTextForeground: rgba(160, 160, 160, 0.8);
+--vscode-peekViewTitle-background: #252526;
+--vscode-peekViewTitleLabel-foreground: #ffffff;
+--vscode-peekViewTitleDescription-foreground: rgba(204, 204, 204, 0.7);
+--vscode-peekView-border: #3794ff;
+--vscode-peekViewResult-background: #252526;
+--vscode-peekViewResult-lineForeground: #bbbbbb;
+--vscode-peekViewResult-fileForeground: #ffffff;
+--vscode-peekViewResult-selectionBackground: rgba(51, 153, 255, 0.2);
+--vscode-peekViewResult-selectionForeground: #ffffff;
+--vscode-peekViewEditor-background: #001f33;
+--vscode-peekViewEditorGutter-background: #001f33;
+--vscode-peekViewEditorStickyScroll-background: #001f33;
+--vscode-peekViewResult-matchHighlightBackground: rgba(234, 92, 0, 0.3);
+--vscode-peekViewEditor-matchHighlightBackground: rgba(255, 143, 0, 0.6);
+--vscode-editorMarkerNavigationError-background: #f14c4c;
+--vscode-editorMarkerNavigationError-headerBackground: rgba(241, 76, 76, 0.1);
+--vscode-editorMarkerNavigationWarning-background: #cca700;
+--vscode-editorMarkerNavigationWarning-headerBackground: rgba(204, 167, 0, 0.1);
+--vscode-editorMarkerNavigationInfo-background: #3794ff;
+--vscode-editorMarkerNavigationInfo-headerBackground: rgba(55, 148, 255, 0.1);
+--vscode-editorMarkerNavigation-background: #18181b;
+--vscode-editorHoverWidget-highlightForeground: #2aaaff;
+--vscode-editorSuggestWidget-background: #252526;
+--vscode-editorSuggestWidget-border: #454545;
+--vscode-editorSuggestWidget-foreground: #f6f8fa;
+--vscode-editorSuggestWidget-selectedForeground: #ffffff;
+--vscode-editorSuggestWidget-selectedBackground: #04395e;
+--vscode-editorSuggestWidget-highlightForeground: #2aaaff;
+--vscode-editorSuggestWidget-focusHighlightForeground: #2aaaff;
+--vscode-editorSuggestWidgetStatus-foreground: rgba(246, 248, 250, 0.5);
+--vscode-editor-foldBackground: rgba(76, 40, 137, 0.3);
+--vscode-editorGutter-foldingControlForeground: #c5c5c5; }
+
+.mtk1 { color: #f6f8fa; }
+.mtk2 { color: #18181b; }
+.mtk3 { color: #cc6666; }
+.mtk4 { color: #9cdcfe; }
+.mtk5 { color: #ce9178; }
+.mtk6 { color: #d4d4d4; }
+.mtk7 { color: #b5cea8; }
+.mtk8 { color: #ffeef0; }
+.mtk9 { color: #d73a49; }
+.mtk10 { color: #fafbfc; }
+.mtk11 { color: #608b4e; }
+.mtk12 { color: #959da5; }
+.mtk13 { color: #569cd6; }
+.mtk14 { color: #c8e1ff; }
+.mtk15 { color: #79b8ff; }
+.mtk16 { color: #dcdcdc; }
+.mtk17 { color: #808080; }
+.mtk18 { color: #b392f0; }
+.mtk19 { color: #7bcc72; }
+.mtk20 { color: #f44747; }
+.mtk21 { color: #ea4a5a; }
+.mtk22 { color: #c586c0; }
+.mtk23 { color: #b08800; }
+.mtk24 { color: #fffdef; }
+.mtk25 { color: #b31d28; }
+.mtk26 { color: #0366d6; }
+.mtk27 { color: #2f363d; }
+.mtk28 { color: #176f2c; }
+.mtk29 { color: #f0fff4; }
+.mtk30 { color: #fb8532; }
+.mtk31 { color: #a79873; }
+.mtk32 { color: #dd6a6f; }
+.mtk33 { color: #5bb498; }
+.mtk34 { color: #909090; }
+.mtk35 { color: #778899; }
+.mtk36 { color: #ff00ff; }
+.mtk37 { color: #b46695; }
+.mtk38 { color: #ff0000; }
+.mtk39 { color: #6a737d; }
+.mtk40 { color: #4f76ac; }
+.mtk41 { color: #3dc9b0; }
+.mtk42 { color: #74b0df; }
+.mtk43 { color: #4864aa; }
+.mtki { font-style: italic; }
+.mtkb { font-weight: bold; }
+.mtku { text-decoration: underline; text-underline-position: under; }
+.mtks { text-decoration: line-through; }
+.mtks.mtku { text-decoration: underline line-through; text-underline-position: under; }</style><link as="script" rel="prefetch" href="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/5283-345bbce4385d8ebc.js.descarga"><link as="script" rel="prefetch" href="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/leaderboard-2023-95e388bb5455671e.js.descarga"><script async="async" type="text/javascript" src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/typescript.js.descarga"></script></head><body><div id="__next" aria-hidden="true" inert=""><div class="__variable_d39c0b"><div class="fixed flex flex-col w-full h-full"><header class="items-center justify-between flex-grow-0 flex-shrink-0 hidden w-full px-6 py-4 border-b sm:flex border-b-white/10"><div class="hidden lg:block"><a id="" class="relative block transition-all transform scale-105 hover:contrast-150" href="https://adventjs.dev/es"><h1 class="flex items-center justify-center text-xl text-yellow-300 font-sweater">Advent<img class="w-auto h-10 ml-2" src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/js-logo.png" alt="JavaScript Logo"></h1></a></div><div class="flex flex-col items-start justify-center pl-4 gap-y-1"><h1 class=""><div class="font-sweater"><div class="relative"><button class="relative w-full py-2 pl-4 pr-10 text-base tracking-wider text-left transition border rounded md:text-xl xl:text-2xl cursor-pointe border-white/20 bg-black/50 focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 group hover:border hover:bg-black/10 hover:border-white/50" id="headlessui-listbox-button-:rd:" type="button" aria-haspopup="listbox" aria-expanded="false" data-headlessui-state=""><span class="block truncate">Reto #11: 📖 Los elfos estudiosos</span><span class="absolute inset-y-0 right-0 flex items-center pr-0 pointer-events-none"><svg class="w-10 h-10 text-yellow-300 transition-all group-hover:scale-125" height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></span></button></div></div></h1></div><div class="flex flex-row items-center justify-center pl-1 gap-x-8 min-w-[190px]"><div class="flex flex-col justify-center pl-1 gap-x-1"><span class="flex items-center ml-1 text-lg text-center text-yellow-300 font-sweater gap-x-3"><svg class="w-6 h-6 -mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>business-prodect-diamond</title><g><path d="M22.8525 15.997499999999999H24v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M22.8525 10.290000000000001h-4.5675v-4.574999999999999h1.1400000000000001V4.574999999999999h-1.1400000000000001V3.4275H5.715V4.574999999999999H4.5675v1.1400000000000001H3.4275v1.1400000000000001H2.2874999999999996v1.1475H1.1400000000000001v1.1400000000000001H0v3.4275h1.1400000000000001v-1.1400000000000001h5.715v2.2874999999999996h1.1400000000000001v2.2800000000000002h1.1475v2.2874999999999996h1.1400000000000001v2.2874999999999996h1.1475V11.43h4.5675v2.2874999999999996h-1.1400000000000001v2.2800000000000002h-1.1475v2.2874999999999996h-1.1400000000000001v2.2874999999999996h-1.1400000000000001v1.1400000000000001h-1.1475v1.1475h1.1475V24h1.1400000000000001v-1.1400000000000001h1.1400000000000001v-1.1475h1.1475v-1.1400000000000001h1.1400000000000001v-1.1400000000000001h1.1475v-1.1475h1.1400000000000001v-1.1400000000000001h1.1400000000000001v-1.1475h1.1475v-1.1400000000000001h1.1400000000000001v-1.1400000000000001h1.1400000000000001v-1.1475H24v-3.4275h-1.1475Zm-6.855 0H7.995v-1.1475H6.855V4.574999999999999h4.574999999999999v1.1400000000000001h1.1400000000000001v1.1400000000000001h1.1400000000000001v1.1475h1.1475v1.1400000000000001h1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 19.4325h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 8.0025h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 20.572499999999998h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 18.285h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 6.855h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 2.2874999999999996 -1.1475 0 0 1.1400000000000001 1.1475 0 0 1.1475 1.1400000000000001 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0 0 1.1475z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 19.4325h1.1475v1.1400000000000001H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 5.715h1.1475v1.1400000000000001H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.145 22.86h1.1400000000000001V24h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.145 0h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 5.715h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 1.1400000000000001h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 20.572499999999998h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 6.855h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M7.995 19.4325h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M7.995 8.0025h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 21.7125h1.1400000000000001v1.1475H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 18.285h1.1400000000000001v1.1475H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.715 17.145h1.1400000000000001v1.1400000000000001H5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 15.997499999999999h1.1475v1.1475H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 14.857499999999998h1.1400000000000001v1.1400000000000001H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 2.2874999999999996h1.1400000000000001v1.1400000000000001H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="m2.2874999999999996 18.285 0 1.1475 -1.1475 0 0 1.1400000000000001 1.1475 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 13.7175h1.1400000000000001v1.1400000000000001H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 3.4275h1.1400000000000001V4.574999999999999H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 1.1400000000000001h1.1400000000000001v1.1475H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 12.57h1.1475v1.1475H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 2.2874999999999996h1.1475v1.1400000000000001H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 15.997499999999999h1.1400000000000001v1.1475H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg><span class="text-center">25 puntos</span></span><span class="block text-xs italic font-semibold text-center text-green-400"><span class="text-center">Completado por 738 usuarios</span></span></div><div class="flex justify-center gap-x-2"><a href="https://adventjs.dev/es/challenges/2023/12" class="z-10 inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-black transition bg-white border-white hover:bg-black font-sweater gap-x-2 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"><svg class="hidden lg:inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>business-product-startup-1</title><g><path d="M21.7125 21.7125H24v1.1475h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 22.86h1.1400000000000001V24h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 14.857499999999998 -1.1475 0 0 1.1400000000000001 1.1475 0 0 1.1475 1.1400000000000001 0 0 -5.715 -1.1400000000000001 0 0 3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="M18.285 21.7125h2.2874999999999996v1.1475h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 10.290000000000001h1.1475v1.1400000000000001H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.997499999999999 20.572499999999998h2.2874999999999996v1.1400000000000001h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="m17.145 15.997499999999999 1.1400000000000001 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -3.4275 1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0 0 -3.4275 -1.1400000000000001 0 0 10.2825z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 22.86h1.1400000000000001V24h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 13.7175h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 11.43h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.71 20.572499999999998h1.1475v2.2874999999999996h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 18.285h4.574999999999999v1.1475h-4.574999999999999Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.71 1.1400000000000001h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M11.43 0h2.2800000000000002v1.1400000000000001h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="m14.857499999999998 6.855 -1.1475 0 0 -1.1400000000000001 -2.2800000000000002 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1475 -1.1400000000000001 0 0 -1.1475 -1.1475 0 0 2.2874999999999996 1.1475 0 0 1.1475 2.2800000000000002 0 0 -1.1475 1.1475 0 0 -2.2874999999999996z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 20.572499999999998h1.1475v2.2874999999999996h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="m7.995 17.145 1.1475 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 4.574999999999999 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1475 0 0 -1.1475 -9.149999999999999 0 0 1.1475z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 1.1400000000000001h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 22.86h1.1400000000000001V24h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 20.572499999999998h2.2874999999999996v1.1400000000000001H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="m10.2825 3.4275 0 -1.1400000000000001 -1.1400000000000001 0 0 1.1400000000000001 -1.1475 0 0 2.2874999999999996 1.1475 0 0 -1.1400000000000001 6.855 0 0 1.1400000000000001 1.1475 0 0 -2.2874999999999996 -1.1475 0 0 -1.1400000000000001 -1.1400000000000001 0 0 1.1400000000000001 -4.574999999999999 0z" fill="currentColor" stroke-width="0.75"></path><path d="m7.995 5.715 -1.1400000000000001 0 0 3.4275 -1.1400000000000001 0 0 1.1475 1.1400000000000001 0 0 3.4275 -1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 -10.2825z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 21.7125h2.2874999999999996v1.1475H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 10.290000000000001h1.1475v1.1400000000000001H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 22.86h1.1400000000000001V24H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="m4.5675 11.43 -1.1400000000000001 0 0 5.715 1.1400000000000001 0 0 -1.1475 1.1475 0 0 -1.1400000000000001 -1.1475 0 0 -3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 21.7125h2.2874999999999996v1.1475H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 22.86h1.1400000000000001V24H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg><span class="hidden lg:inline-block">Ir al siguiente reto</span> →</a></div></div></header><div class="flex flex-col items-stretch flex-grow w-full h-full overflow-hidden md:flex-row"><div id="editor" class="relative p-0 pt-2 ml-0 md:-ml-2 sm:p-4 sm:pl-0 bg-zinc-900" style="min-width: 60%; width: calc(50% - 5px);"><div class="absolute z-10 hidden top-2 sm:block right-12"><button class="relative flex flex-col items-center px-6 py-2 bg-black rounded-full font-sweater gap-x-4" id="headlessui-switch-:re:" role="switch" type="button" tabindex="0" aria-checked="false" data-headlessui-state=""><div class="flex gap-x-4"><span class="sr-only">Use TypeScript</span><svg class="transition w-5 h-5 pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 1052 1052"><path fill="#f0db4f" d="M0 0h1052v1052H0z"></path><path d="M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.801 42.8 39.7 45.4-29.399 45.3-29.2 77-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3 1.3-20.699 2.699-31 4-29.699 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.399 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.699 67.899-86 62-35.6-7.4-55.399-25.5-76.8-58.4-39.399 22.8-39.399 22.8-79.899 46.1 9.6 21 19.699 30.5 35.8 48.7 76.2 77.3 266.899 73.5 301.1-43.5 1.399-4.001 10.6-30.801 3.199-72.101zm-394-317.6h-98.4c0 85-.399 169.4-.399 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.899-51.7 26.2-68.7 20.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699 16.3-53.3 32.699-80 49 13.301 27.3 32.9 51 58 66.399 37.5 22.5 87.9 29.4 140.601 17.3 34.3-10 63.899-30.699 79.399-62.199 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z" fill="#323330"></path></svg><svg class="transition w-5 h-5 grayscale" fill="none" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><rect fill="#3178c6" height="512" rx="50" width="512"></rect><rect fill="#3178c6" height="512" rx="50" width="512"></rect><path clip-rule="evenodd" d="m316.939 407.424v50.061c8.138 4.172 17.763 7.3 28.875 9.386s22.823 3.129 35.135 3.129c11.999 0 23.397-1.147 34.196-3.442 10.799-2.294 20.268-6.075 28.406-11.342 8.138-5.266 14.581-12.15 19.328-20.65s7.121-19.007 7.121-31.522c0-9.074-1.356-17.026-4.069-23.857s-6.625-12.906-11.738-18.225c-5.112-5.319-11.242-10.091-18.389-14.315s-15.207-8.213-24.18-11.967c-6.573-2.712-12.468-5.345-17.685-7.9-5.217-2.556-9.651-5.163-13.303-7.822-3.652-2.66-6.469-5.476-8.451-8.448-1.982-2.973-2.974-6.336-2.974-10.091 0-3.441.887-6.544 2.661-9.308s4.278-5.136 7.512-7.118c3.235-1.981 7.199-3.52 11.894-4.615 4.696-1.095 9.912-1.642 15.651-1.642 4.173 0 8.581.313 13.224.938 4.643.626 9.312 1.591 14.008 2.894 4.695 1.304 9.259 2.947 13.694 4.928 4.434 1.982 8.529 4.276 12.285 6.884v-46.776c-7.616-2.92-15.937-5.084-24.962-6.492s-19.381-2.112-31.066-2.112c-11.895 0-23.163 1.278-33.805 3.833s-20.006 6.544-28.093 11.967c-8.086 5.424-14.476 12.333-19.171 20.729-4.695 8.395-7.043 18.433-7.043 30.114 0 14.914 4.304 27.638 12.912 38.172 8.607 10.533 21.675 19.45 39.204 26.751 6.886 2.816 13.303 5.579 19.25 8.291s11.086 5.528 15.415 8.448c4.33 2.92 7.747 6.101 10.252 9.543 2.504 3.441 3.756 7.352 3.756 11.733 0 3.233-.783 6.231-2.348 8.995s-3.939 5.162-7.121 7.196-7.147 3.624-11.894 4.771c-4.748 1.148-10.303 1.721-16.668 1.721-10.851 0-21.597-1.903-32.24-5.71-10.642-3.806-20.502-9.516-29.579-17.13zm-84.159-123.342h64.22v-41.082h-179v41.082h63.906v182.918h50.874z" fill="#fff" fill-rule="evenodd"></path></svg></div></button></div><section style="display: flex; position: relative; text-align: initial; width: 100%; height: 100%;"><div style="width: 100%; --vscode-editorCodeLens-lineHeight: 21px; --vscode-editorCodeLens-fontSize: 16px; --vscode-editorCodeLens-fontFeatureSettings: &quot;liga&quot; off, &quot;calt&quot; off; --code-editorInlayHintsFontFamily: Consolas, &#39;Courier New&#39;, monospace;" data-keybinding-context="2" data-mode-id="javascript"><div class="monaco-editor no-user-select  showUnused showDeprecated vs-dark" role="code" data-uri="inmemory://model/2" style="width: 1008px; height: 771px;"><div data-mprt="3" class="overflow-guard" style="width: 1008px; height: 771px;"><div class="margin" role="presentation" aria-hidden="true" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; top: -141px; height: 1635px; width: 75px;"><div class="glyph-margin" style="left: 0px; width: 0px; height: 1635px;"></div><div class="margin-view-zones" role="presentation" aria-hidden="true" style="position: absolute;"></div><div class="margin-view-overlays" role="presentation" aria-hidden="true" style="position: absolute; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 18px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 24px; letter-spacing: 0px; width: 75px; height: 1323px;"><div style="position:absolute;top:552px;width:100%;height:24px;"><div class="current-line current-line-margin-both" style="width:75px; height:24px;"></div><div class="line-numbers active-line-number" style="left:0px;width:49px;">24</div></div><div style="position:absolute;top:504px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">22</div></div><div style="position:absolute;top:528px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">23</div></div><div style="position:absolute;top:432px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">19</div></div><div style="position:absolute;top:456px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">20</div></div><div style="position:absolute;top:480px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">21</div></div><div style="position:absolute;top:360px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">16</div></div><div style="position:absolute;top:384px;width:100%;height:24px;"><div class="cldr codicon codicon-folding-expanded" style="left:49px;width:26px;"></div><div class="line-numbers" style="left:0px;width:49px;">17</div></div><div style="position:absolute;top:408px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">18</div></div><div style="position:absolute;top:312px;width:100%;height:24px;"><div class="cldr codicon codicon-folding-expanded" style="left:49px;width:26px;"></div><div class="line-numbers" style="left:0px;width:49px;">14</div></div><div style="position:absolute;top:336px;width:100%;height:24px;"><div class="cldr codicon codicon-folding-expanded" style="left:49px;width:26px;"></div><div class="line-numbers" style="left:0px;width:49px;">15</div></div><div style="position:absolute;top:240px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">11</div></div><div style="position:absolute;top:264px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">12</div></div><div style="position:absolute;top:288px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">13</div></div><div style="position:absolute;top:168px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">8</div></div><div style="position:absolute;top:192px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">9</div></div><div style="position:absolute;top:216px;width:100%;height:24px;"><div class="cldr codicon codicon-folding-expanded" style="left:49px;width:26px;"></div><div class="line-numbers" style="left:0px;width:49px;">10</div></div><div style="position:absolute;top:120px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">6</div></div><div style="position:absolute;top:144px;width:100%;height:24px;"><div class="line-numbers" style="left:0px;width:49px;">7</div></div></div><div class="glyph-margin-widgets" style="position: absolute; top: 0px;"></div></div><div class="monaco-scrollable-element editor-scrollable vs-dark" role="presentation" data-mprt="5" style="position: absolute; overflow: hidden; left: 75px; height: 771px; width: 933px;"><div class="lines-content monaco-editor-background" style="position: absolute; overflow: hidden; width: 1e+06px; height: 1e+06px; transform: translate3d(0px, 0px, 0px); contain: strict; top: -141px; left: 0px;"><div class="view-overlays" role="presentation" aria-hidden="true" style="position: absolute; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 18px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 24px; letter-spacing: 0px; height: 0px; width: 933px;"><div style="position:absolute;top:552px;width:100%;height:24px;"><div class="current-line" style="width:933px; height:24px;"></div></div><div style="position:absolute;top:504px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:528px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:432px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-2 vertical" style="left:39.59375px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-3 vertical" style="left:59.390625px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-4 vertical" style="left:79.1875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-5 vertical" style="left:98.984375px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:456px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-2 vertical" style="left:39.59375px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-3 vertical" style="left:59.390625px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:480px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:360px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-2 vertical" style="left:39.59375px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-3 vertical" style="left:59.390625px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-4 vertical" style="left:79.1875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-5 vertical" style="left:98.984375px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:384px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-2 vertical" style="left:39.59375px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-3 vertical" style="left:59.390625px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-4 vertical" style="left:79.1875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-5 vertical" style="left:98.984375px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:408px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-2 vertical" style="left:39.59375px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-3 vertical" style="left:59.390625px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-4 vertical" style="left:79.1875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-5 vertical" style="left:98.984375px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-6 vertical" style="left:118.78125px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-7 vertical" style="left:138.578125px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:312px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:336px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-2 vertical" style="left:39.59375px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-3 vertical" style="left:59.390625px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:240px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-2 vertical" style="left:39.59375px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-3 vertical" style="left:59.390625px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:264px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:288px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:168px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:192px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:216px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:120px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-2 vertical" style="left:39.59375px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-3 vertical" style="left:59.390625px;height:24px;width:9.8984375px"></div></div><div style="position:absolute;top:144px;width:100%;height:24px;"><div class="core-guide core-guide-indent lvl-0 vertical" style="left:0px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:19.796875px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-2 vertical" style="left:39.59375px;height:24px;width:9.8984375px"></div><div class="core-guide core-guide-indent lvl-3 vertical" style="left:59.390625px;height:24px;width:9.8984375px"></div></div></div><div role="presentation" aria-hidden="true" class="view-rulers"></div><div class="view-zones" role="presentation" aria-hidden="true" style="position: absolute;"></div><div class="view-lines monaco-mouse-cursor-text" role="presentation" aria-hidden="true" data-mprt="7" style="position: absolute; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 18px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 24px; letter-spacing: 0px; width: 933px; height: 1323px;"><div style="top:552px;height:24px;" class="view-line"><span><span class="mtk16 bracket-highlighting-0">}</span></span></div><div style="top:504px;height:24px;" class="view-line"><span><span></span></span></div><div style="top:528px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk21">return</span><span class="mtk1">&nbsp;</span><span class="mtk21">null</span><span class="mtk16">;</span></span></div><div style="top:432px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk16 bracket-highlighting-3">}</span></span></div><div style="top:456px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk16 bracket-highlighting-2">}</span></span></div><div style="top:480px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk16 bracket-highlighting-1">}</span></span></div><div style="top:360px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk21">let</span><span class="mtk1">&nbsp;swapped&nbsp;</span><span class="mtk16">=</span><span class="mtk1">&nbsp;swap</span><span class="mtk16 bracket-highlighting-3">(</span><span class="mtk1">word</span><span class="mtk16">,</span><span class="mtk1">&nbsp;i</span><span class="mtk16">,</span><span class="mtk1">&nbsp;j</span><span class="mtk16 bracket-highlighting-3">)</span><span class="mtk16">;</span></span></div><div style="top:384px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk21">if</span><span class="mtk1">&nbsp;</span><span class="mtk16 bracket-highlighting-3">(</span><span class="mtk1">swapped&nbsp;</span><span class="mtk16">===</span><span class="mtk1">&nbsp;swapped</span><span class="mtk16">.</span><span class="mtk1">split</span><span class="mtk16 bracket-highlighting-4">(</span><span class="mtk15">''</span><span class="mtk16 bracket-highlighting-4">)</span><span class="mtk16">.</span><span class="mtk1">reverse</span><span class="mtk16 bracket-highlighting-4">(</span><span class="mtk16 bracket-highlighting-4">)</span><span class="mtk16">.</span><span class="mtk1">join</span><span class="mtk16 bracket-highlighting-4">(</span><span class="mtk15">''</span><span class="mtk16 bracket-highlighting-4">)</span><span class="mtk16 bracket-highlighting-3">)</span><span class="mtk1">&nbsp;</span><span class="mtk16 bracket-highlighting-3">{</span></span></div><div style="top:408px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk21">return</span><span class="mtk1">&nbsp;</span><span class="mtk16 bracket-highlighting-4">[</span><span class="mtk1">i</span><span class="mtk16">,</span><span class="mtk1">&nbsp;j</span><span class="mtk16 bracket-highlighting-4">]</span><span class="mtk16">;</span></span></div><div style="top:312px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk21">for</span><span class="mtk1">&nbsp;</span><span class="mtk16 bracket-highlighting-1">(</span><span class="mtk21">let</span><span class="mtk1">&nbsp;i&nbsp;</span><span class="mtk16">=</span><span class="mtk1">&nbsp;</span><span class="mtk7">0</span><span class="mtk16">;</span><span class="mtk1">&nbsp;i&nbsp;</span><span class="mtk16">&lt;</span><span class="mtk1">&nbsp;word</span><span class="mtk16">.</span><span class="mtk1">length</span><span class="mtk16">;</span><span class="mtk1">&nbsp;i</span><span class="mtk16">++</span><span class="mtk16 bracket-highlighting-1">)</span><span class="mtk1">&nbsp;</span><span class="mtk16 bracket-highlighting-1">{</span></span></div><div style="top:336px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk21">for</span><span class="mtk1">&nbsp;</span><span class="mtk16 bracket-highlighting-2">(</span><span class="mtk21">let</span><span class="mtk1">&nbsp;j&nbsp;</span><span class="mtk16">=</span><span class="mtk1">&nbsp;i&nbsp;</span><span class="mtk16">+</span><span class="mtk1">&nbsp;</span><span class="mtk7">1</span><span class="mtk16">;</span><span class="mtk1">&nbsp;j&nbsp;</span><span class="mtk16">&lt;</span><span class="mtk1">&nbsp;word</span><span class="mtk16">.</span><span class="mtk1">length</span><span class="mtk16">;</span><span class="mtk1">&nbsp;j</span><span class="mtk16">++</span><span class="mtk16 bracket-highlighting-2">)</span><span class="mtk1">&nbsp;</span><span class="mtk16 bracket-highlighting-2">{</span></span></div><div style="top:240px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk21">return</span><span class="mtk1">&nbsp;</span><span class="mtk16 bracket-highlighting-2">[</span><span class="mtk16 bracket-highlighting-2">]</span><span class="mtk16">;</span></span></div><div style="top:264px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk16 bracket-highlighting-1">}</span></span></div><div style="top:288px;height:24px;" class="view-line"><span><span></span></span></div><div style="top:168px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk16 bracket-highlighting-1">}</span></span></div><div style="top:192px;height:24px;" class="view-line"><span><span></span></span></div><div style="top:216px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk21">if</span><span class="mtk1">&nbsp;</span><span class="mtk16 bracket-highlighting-1">(</span><span class="mtk1">word&nbsp;</span><span class="mtk16">===</span><span class="mtk1">&nbsp;word</span><span class="mtk16">.</span><span class="mtk1">split</span><span class="mtk16 bracket-highlighting-2">(</span><span class="mtk15">''</span><span class="mtk16 bracket-highlighting-2">)</span><span class="mtk16">.</span><span class="mtk1">reverse</span><span class="mtk16 bracket-highlighting-2">(</span><span class="mtk16 bracket-highlighting-2">)</span><span class="mtk16">.</span><span class="mtk1">join</span><span class="mtk16 bracket-highlighting-2">(</span><span class="mtk15">''</span><span class="mtk16 bracket-highlighting-2">)</span><span class="mtk16 bracket-highlighting-1">)</span><span class="mtk1">&nbsp;</span><span class="mtk16 bracket-highlighting-1">{</span></span></div><div style="top:120px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chars</span><span class="mtk16 bracket-highlighting-2">[</span><span class="mtk1">j</span><span class="mtk16 bracket-highlighting-2">]</span><span class="mtk1">&nbsp;</span><span class="mtk16">=</span><span class="mtk1">&nbsp;temp</span><span class="mtk16">;</span></span></div><div style="top:144px;height:24px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk21">return</span><span class="mtk1">&nbsp;chars</span><span class="mtk16">.</span><span class="mtk1">join</span><span class="mtk16 bracket-highlighting-2">(</span><span class="mtk15">''</span><span class="mtk16 bracket-highlighting-2">)</span><span class="mtk16">;</span></span></div></div><div data-mprt="1" class="contentWidgets" style="position: absolute; top: 0px;"><div class="lightBulbWidget codicon-light-bulb codicon" widgetid="LightBulbWidget" title="Show Code Actions (Ctrl+.)" style="position: absolute; display: none; visibility: hidden; max-width: 933px; top: 24px; left: 0px;"></div></div><div role="presentation" aria-hidden="true" class="cursors-layer cursor-line-style cursor-solid"><div class="cursor monaco-mouse-cursor-text " style="height: 24px; top: 552px; left: 10px; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 18px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 24px; letter-spacing: 0px; display: block; visibility: hidden; padding-left: 0px; width: 1.77778px;"></div></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar horizontal" style="position: absolute; width: 919px; height: 12px; left: 0px; bottom: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; height: 12px; transform: translate3d(0px, 0px, 0px); contain: strict; width: 919px;"></div></div><canvas class="decorationsOverviewRuler" aria-hidden="true" width="15" height="867" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; top: 0px; right: 0px; width: 14px; height: 771px; display: block;"></canvas><div role="presentation" aria-hidden="true" class="invisible scrollbar vertical fade" style="position: absolute; width: 14px; height: 771px; right: 0px; top: 0px;"><div class="slider" style="position: absolute; top: 82px; left: 0px; width: 14px; transform: translate3d(0px, 0px, 0px); contain: strict; height: 449px;"></div></div></div><div role="presentation" aria-hidden="true" style="width: 1008px;" class="scroll-decoration"></div><textarea data-mprt="6" class="inputarea monaco-mouse-cursor-text" wrap="on" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" aria-label="Editor content;Press Alt+F1 for Accessibility Options." aria-required="false" tabindex="0" role="textbox" aria-roledescription="editor" aria-multiline="true" aria-autocomplete="both" style="tab-size: 19.7969px; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 18px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 24px; letter-spacing: 0px; top: 411px; left: 75px; width: 911px; height: 1px;"></textarea><div class="monaco-editor-background textAreaCover line-numbers" style="position: absolute; top: 0px; left: 0px; width: 0px; height: 0px;"></div><div data-mprt="4" class="overlayWidgets" style="width: 1008px;"></div><div data-mprt="8" class="minimap slider-mouseover" role="presentation" aria-hidden="true" style="position: absolute; left: 0px; width: 0px; height: 771px;"><div class="minimap-shadow-hidden" style="height: 771px;"></div><canvas width="0" height="867" style="position: absolute; left: 0px; width: 0px; height: 771px;"></canvas><canvas class="minimap-decorations-layer" width="0" height="867" style="position: absolute; left: 0px; width: 0px; height: 771px;"></canvas><div class="minimap-slider" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; width: 0px;"><div class="minimap-slider-horizontal" style="position: absolute; width: 0px; height: 0px;"></div></div></div><div role="presentation" aria-hidden="true" class="blockDecorations-container"></div></div><div data-mprt="2" class="overflowingContentWidgets"><div widgetid="editor.contrib.resizableContentHoverWidget" style="position: fixed; height: 34px; width: 196px; z-index: 50; display: none; visibility: hidden; max-width: 1707px; top: 478.667px; left: 166px;"><div class="monaco-sash vertical" style="left: 194px;"></div><div class="monaco-sash vertical disabled" style="left: -2px;"></div><div class="monaco-sash orthogonal-edge-north horizontal" style="top: -2px;"><div class="orthogonal-drag-handle end"></div></div><div class="monaco-sash orthogonal-edge-south horizontal disabled" style="top: 32px;"><div class="orthogonal-drag-handle end"></div></div><div class="monaco-hover hidden" tabindex="0" role="tooltip" style="max-width: 665.28px; max-height: 250px; --vscode-hover-maxWidth: 665.2800000000001px; width: 196px; height: 34px;"><div class="monaco-scrollable-element " role="presentation" style="position: relative; overflow: hidden;"><div class="monaco-hover-content" style="overflow: hidden; font-size: 18px; line-height: 1.33333; max-width: 665.28px; max-height: 250px; width: 196px; height: 34px;"><div class="hover-row markdown-hover"><div class="hover-contents code-hover-contents"><div class="rendered-markdown"><div data-code="id#2"><span style="font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 18px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 24px; letter-spacing: 0px;"><div class="monaco-tokenized-source"><span class="mtk16">(</span><span class="mtk1">parameter</span><span class="mtk16">)</span><span class="mtk1"> i</span><span class="mtk16">:</span><span class="mtk1"> </span><span class="mtk21">any</span></div></span></div></div></div></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar horizontal" style="position: absolute; width: 186px; height: 10px; left: 0px; bottom: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; height: 10px; transform: translate3d(0px, 0px, 0px); contain: strict; width: 186px;"></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar vertical" style="position: absolute; width: 10px; height: 34px; right: 0px; top: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; width: 10px; transform: translate3d(0px, 0px, 0px); contain: strict; height: 34px;"></div></div><div class="shadow"></div><div class="shadow"></div><div class="shadow"></div></div></div></div></div></div></div></section><footer class="absolute bottom-0 left-0 right-0 flex flex-col md:gap-4 md:left-12 md:bottom-4 md:right-12"><button class="bg-sky-600 text-white hover:bg-sky-800 disabled:bg-gray-500 disabled:pointer-events-none cursor-pointer tracking-wider shadow-black/20 shadow-xl text-sm md:text-xl flex transition-all items-center justify-center px-4 py-2 w-full mt-4 gap-x-2 font-sweater"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>business-product-check</title><g><path d="M21.71625 11.43375h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.56875 12.57375h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.56875 10.286249999999999h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.42875 13.713750000000001h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.42875 9.14625h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="m18.28875 18.28875 -3.435 0 0 1.1400000000000001 4.574999999999999 0 0 -4.5675 -1.1400000000000001 0 0 3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="m11.42625 12.57375 -1.1400000000000001 0 0 -1.1400000000000001 -1.1475 0 0 -1.1475 -1.1400000000000001 0 0 1.1475 -1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1475 1.1475 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1475 -1.1475 0 0 1.1475 -1.1400000000000001 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 -1.1475 0 0 1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m18.28875 5.71875 0 3.4275 1.1400000000000001 0 0 -4.574999999999999 -4.574999999999999 0 0 1.1475 3.435 0z" fill="currentColor" stroke-width="0.75"></path><path d="M13.713750000000001 19.42875h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.713750000000001 3.4312500000000004h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M12.57375 20.576249999999998h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M12.57375 2.2912500000000002h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M11.42625 21.71625h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M11.42625 1.1437499999999998h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.286249999999999 20.576249999999998h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.286249999999999 2.2912500000000002h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.13875 19.42875h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.13875 3.4312500000000004h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="m5.71125 18.28875 0 -3.4275 -1.1400000000000001 0 0 4.5675 4.5675 0 0 -1.1400000000000001 -3.4275 0z" fill="currentColor" stroke-width="0.75"></path><path d="m5.71125 5.71875 3.4275 0 0 -1.1475 -4.5675 0 0 4.574999999999999 1.1400000000000001 0 0 -3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4312500000000004 13.713750000000001h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4312500000000004 9.14625h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.28375 12.57375h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.28375 10.286249999999999h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1437499999999998 11.43375h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path></g></svg>Enviar solución<span class="hidden md:flex animate-fade text-[10px] text-white gap-x-1 items-center ml-4 opacity-70"><kbd class="px-2 font-mono text-lg border border-gray-200 rounded opacity-70"><span class="flex justify-center text-base">Ctrl</span></kbd><div class="font-mono text-xl opacity-50">+</div><kbd class="px-2 font-mono text-lg border border-gray-200 rounded opacity-70"><span class="flex justify-center text-2xl">⏎</span></kbd></span></button></footer></div><div class="gutter gutter-horizontal" style="width: 10px;"></div><div id="challenge" class="h-full min-w-full p-4 px-8 overflow-auto md:min-w-0 bg-black/50" style="width: calc(50% - 5px);"><div class="flex flex-row flex-wrap items-center justify-between w-full gap-0 mb-4 gap-x-4"><div class="flex gap-x-4"><button class="
+      
+      bg-white text-gray-800
+        select-none
+        flex items-center justify-center
+        px-4 py-1 lg:py-3 relative transition font-sweater
+        hover:scale-110
+      
+                flex text-sm lg:text-lg gap-x-3
+                
+                
+              "><svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><g><path d="M22.86 3.4275H24v18.285h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 21.7125h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 2.2874999999999996h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 22.86h19.424999999999997V24H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.574999999999999 18.285h14.857499999999998v1.1475H4.574999999999999Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.574999999999999 13.7175h14.857499999999998v1.1400000000000001H4.574999999999999Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.7175 9.1425h5.715v1.1400000000000001h-5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.7175 5.715h5.715v1.1400000000000001h-5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.715 2.2874999999999996v7.995h1.1400000000000001v-1.1400000000000001h1.1475v-1.1400000000000001h1.1400000000000001v1.1400000000000001h1.1400000000000001v1.1400000000000001h1.1475V2.2874999999999996h10.2825V1.1400000000000001H10.2825V0H3.4275v1.1400000000000001H1.1400000000000001v1.1475Zm2.2874999999999996 -1.1475h1.1400000000000001v1.1475h1.1400000000000001V4.574999999999999h-1.1400000000000001V2.2874999999999996h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 21.7125h1.1475v1.1475H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 2.2874999999999996h1.1400000000000001v19.424999999999997H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg>Instrucciones</button><button class="
+      
+      text-red-100 bg-xmas-green before:content-[&quot;*&quot;] before:absolute before:-left-[7px] before:-top-[10px]
+        select-none
+        flex items-center justify-center
+        px-4 py-1 lg:py-3 relative transition font-sweater
+        hover:scale-110
+      
+                flex text-sm lg:text-lg gap-x-3
+                pointer-events-none
+                
+              "><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><g><path d="M22.29 17.71875h-1.1475V16.575000000000003h-1.1400000000000001v-1.1400000000000001h-1.1475v-2.2874999999999996h-1.1400000000000001v2.2874999999999996H16.575000000000003v1.1400000000000001h-1.1475v1.1475h-2.2800000000000002v1.1400000000000001h2.2800000000000002v1.1400000000000001h1.1475v1.1475h1.1400000000000001v1.1400000000000001h1.1400000000000001v1.1400000000000001h3.435v-1.1400000000000001h1.1400000000000001v-3.4275h-1.1400000000000001Zm0 3.4275h-1.1475v-1.1475h-1.1400000000000001v-1.1400000000000001h-1.1475v-1.1400000000000001h1.1475v1.1400000000000001h1.1400000000000001v1.1400000000000001h1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M18.855 7.428749999999999h1.1475v5.715h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.715 5.14125h1.1400000000000001v2.2874999999999996h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M16.575000000000003 4.00125h1.1400000000000001v1.1400000000000001H16.575000000000003Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.4275 9.71625h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.4275 2.86125h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.287500000000001 10.85625h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.287500000000001 8.568750000000001h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.1475 12.00375h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.1475 7.428749999999999h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.1475 1.71375h2.2800000000000002v1.1475h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="M7.4325 18.85875h5.715v1.1400000000000001H7.4325Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.86 7.428749999999999H12v2.2874999999999996h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.712499999999999 9.71625h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M8.5725 10.85625h1.1400000000000001v2.2874999999999996h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M7.4325 0.57375h5.715v1.1400000000000001H7.4325Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.1450000000000005 17.71875h2.2874999999999996v1.1400000000000001H5.1450000000000005Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.285 12.00375h1.1475v1.1400000000000001H6.285Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.285 7.428749999999999h1.1475v1.1400000000000001H6.285Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.1450000000000005 1.71375h2.2874999999999996v1.1475H5.1450000000000005Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.1450000000000005 10.85625h1.1400000000000001v1.1475H5.1450000000000005Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.1450000000000005 8.568750000000001h1.1400000000000001v1.1475H5.1450000000000005Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.005 16.57125h1.1400000000000001v1.1475H4.005Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.005 9.71625h1.1400000000000001v1.1400000000000001H4.005Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.005 2.86125h1.1400000000000001v1.1400000000000001H4.005Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.8575 15.431249999999999h1.1475v1.1400000000000001H2.8575Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.8575 4.00125h1.1475v1.1400000000000001H2.8575Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.7175 13.143749999999999h1.1400000000000001v2.2874999999999996H1.7175Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.7175 5.14125h1.1400000000000001v2.2874999999999996H1.7175Z" fill="currentColor" stroke-width="0.75"></path><path d="M0.5700000000000001 7.428749999999999h1.1475v5.715H0.5700000000000001Z" fill="currentColor" stroke-width="0.75"></path></g></svg>Resultados</button></div><div><span class="text-yellow-400  relative text-base px-3 text-center bg-black rounded-full font-sweater">Medio</span></div></div><div><div class="flex flex-col items-center justify-center pt-2 text-center"><div class="flex flex-col w-full h-full pb-4 gap-x-4 "><article class="relative flex flex-col gap-1 p-8 py-4 mb-4 overflow-hidden border-4 border-yellow-300"><div class="flex pb-2 items-center justify-start w-full text-4xl gap-x-4 text-yellow-300 gap-x-2"><svg class="pl-1 w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>business-prodect-diamond</title><g><path d="M22.8525 15.997499999999999H24v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M22.8525 10.290000000000001h-4.5675v-4.574999999999999h1.1400000000000001V4.574999999999999h-1.1400000000000001V3.4275H5.715V4.574999999999999H4.5675v1.1400000000000001H3.4275v1.1400000000000001H2.2874999999999996v1.1475H1.1400000000000001v1.1400000000000001H0v3.4275h1.1400000000000001v-1.1400000000000001h5.715v2.2874999999999996h1.1400000000000001v2.2800000000000002h1.1475v2.2874999999999996h1.1400000000000001v2.2874999999999996h1.1475V11.43h4.5675v2.2874999999999996h-1.1400000000000001v2.2800000000000002h-1.1475v2.2874999999999996h-1.1400000000000001v2.2874999999999996h-1.1400000000000001v1.1400000000000001h-1.1475v1.1475h1.1475V24h1.1400000000000001v-1.1400000000000001h1.1400000000000001v-1.1475h1.1475v-1.1400000000000001h1.1400000000000001v-1.1400000000000001h1.1475v-1.1475h1.1400000000000001v-1.1400000000000001h1.1400000000000001v-1.1475h1.1475v-1.1400000000000001h1.1400000000000001v-1.1400000000000001h1.1400000000000001v-1.1475H24v-3.4275h-1.1475Zm-6.855 0H7.995v-1.1475H6.855V4.574999999999999h4.574999999999999v1.1400000000000001h1.1400000000000001v1.1400000000000001h1.1400000000000001v1.1475h1.1475v1.1400000000000001h1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 19.4325h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 8.0025h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 20.572499999999998h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 18.285h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 6.855h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 2.2874999999999996 -1.1475 0 0 1.1400000000000001 1.1475 0 0 1.1475 1.1400000000000001 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0 0 1.1475z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 19.4325h1.1475v1.1400000000000001H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 5.715h1.1475v1.1400000000000001H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.145 22.86h1.1400000000000001V24h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.145 0h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 5.715h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 1.1400000000000001h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 20.572499999999998h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 6.855h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M7.995 19.4325h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M7.995 8.0025h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 21.7125h1.1400000000000001v1.1475H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 18.285h1.1400000000000001v1.1475H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.715 17.145h1.1400000000000001v1.1400000000000001H5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 15.997499999999999h1.1475v1.1475H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 14.857499999999998h1.1400000000000001v1.1400000000000001H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 2.2874999999999996h1.1400000000000001v1.1400000000000001H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="m2.2874999999999996 18.285 0 1.1475 -1.1475 0 0 1.1400000000000001 1.1475 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 13.7175h1.1400000000000001v1.1400000000000001H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 3.4275h1.1400000000000001V4.574999999999999H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 1.1400000000000001h1.1400000000000001v1.1475H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 12.57h1.1475v1.1475H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 2.2874999999999996h1.1475v1.1400000000000001H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 15.997499999999999h1.1400000000000001v1.1475H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg><div class="relative flex items-center tracking-wider text-left font-sweater gap-x-2">Puntos conseguidos: 25</div></div><div class="flex items-center justify-start w-full pl-1 mt-2 text-sky-300 gap-x-2"><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>interface-essential-flash</title><g><path d="M22.2825 6.285h1.1475V7.425000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.142500000000002 7.425000000000001h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.142500000000002 5.1450000000000005h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.0025 6.285h1.1400000000000001V7.425000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.0025 21.142500000000002 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1400000000000001 -1.1475 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1475 1.1475 0z" fill="currentColor" stroke-width="0.75"></path><path d="M18.855 9.712499999999999h1.1475V12h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.715 12h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.715 2.8575h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M16.5675 13.14h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M16.5675 3.9975h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.4275 14.287500000000001h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.4275 5.1450000000000005h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.287500000000001 15.4275h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.287500000000001 6.285h1.1400000000000001V7.425000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.14 22.2825h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.14 16.5675h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="m13.14 7.425000000000001 0 1.1475 -1.1400000000000001 0 0 1.1400000000000001 6.855 0 0 -1.1400000000000001 -4.5675 0 0 -1.1475 -1.1475 0z" fill="currentColor" stroke-width="0.75"></path><path d="M12 17.715h1.1400000000000001v1.1400000000000001H12Z" fill="currentColor" stroke-width="0.75"></path><path d="m18.855 1.71 0 1.1475 1.1475 0 0 -2.2874999999999996 -9.1425 0 0 1.1400000000000001 7.995 0z" fill="currentColor" stroke-width="0.75"></path><path d="M10.86 18.855H12v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.712499999999999 19.995h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.712499999999999 1.71h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M8.5725 21.142500000000002h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="m9.712499999999999 12 -6.855 0 0 1.1400000000000001 5.715 0 0 2.2874999999999996 1.1400000000000001 0 0 -3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="M8.5725 2.8575h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M7.425000000000001 22.2825h1.1475v1.1475H7.425000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M7.425000000000001 15.4275h1.1475v3.4275H7.425000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M7.425000000000001 3.9975h1.1475v1.1475H7.425000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.285 18.855H7.425000000000001v3.4275H6.285Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.285 5.1450000000000005H7.425000000000001v1.1400000000000001H6.285Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.1450000000000005 6.285h1.1400000000000001V7.425000000000001H5.1450000000000005Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.9975 7.425000000000001h1.1475v1.1475H3.9975Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.8575 16.5675h1.1400000000000001v1.1475H2.8575Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.8575 8.5725h1.1400000000000001v1.1400000000000001H2.8575Z" fill="currentColor" stroke-width="0.75"></path><path d="m2.8575 0.5700000000000001 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1475 0 0 -1.1475 -1.1475 0 0 -1.1400000000000001 -1.1400000000000001 0z" fill="currentColor" stroke-width="0.75"></path><path d="M1.7175 17.715h1.1400000000000001v1.1400000000000001H1.7175Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.7175 15.4275h1.1400000000000001v1.1400000000000001H1.7175Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.7175 9.712499999999999h1.1400000000000001V12H1.7175Z" fill="currentColor" stroke-width="0.75"></path><path d="M0.5700000000000001 16.5675h1.1475v1.1475H0.5700000000000001Z" fill="currentColor" stroke-width="0.75"></path></g></svg><span class="items-center pl-1 gap-x-1 text-left [text-wrap:balance] leading-tight">444 ops/s <span class="text-xs text-white">(Más alto es mejor)</span></span></div><div class="flex items-center justify-start w-full pl-1 mt-2 text-sky-300 gap-x-2"><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>technology-robot-ai-signal-1</title><g><path d="M21.71625 12.57h1.1400000000000001v5.715h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.56875 1.1400000000000001h1.1475v4.574999999999999h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.56875 12.57 1.1475 0 0 -1.1400000000000001 -1.1475 0 0 -1.1475 -1.1400000000000001 0 0 11.43 1.1400000000000001 0 0 -2.2874999999999996 1.1475 0 0 -1.1400000000000001 -1.1475 0 0 -5.715z" fill="currentColor" stroke-width="0.75"></path><path d="M19.42875 5.715h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.42875 0h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M18.28125 21.7125h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M18.28125 9.1425h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.14125 12.57h1.1400000000000001v2.2874999999999996h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.14125 2.2874999999999996h1.1400000000000001v2.2800000000000002h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.71125 22.86h12.57V24H5.71125Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.85375 11.43h2.2874999999999996v1.1400000000000001h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M16.00125 4.5675h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M16.00125 1.1400000000000001h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.85375 14.857499999999998h2.2874999999999996v1.1400000000000001h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="m7.998749999999999 18.285 0 1.1400000000000001 1.1400000000000001 0 0 1.1475 1.1475 0 0 1.1400000000000001 3.4275 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1475 1.1475 0 0 -1.1400000000000001 -8.0025 0z" fill="currentColor" stroke-width="0.75"></path><path d="M13.713750000000001 12.57h1.1400000000000001v2.2874999999999996h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="m10.286249999999999 17.145 3.4275 0 0 -1.1475 -1.1475 0 0 -1.1400000000000001 -1.1400000000000001 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475z" fill="currentColor" stroke-width="0.75"></path><path d="M9.13875 12.57h1.1475v2.2874999999999996h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.85875 14.857499999999998h2.2800000000000002v1.1400000000000001h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.85875 11.43h2.2800000000000002v1.1400000000000001h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="m18.28125 9.1425 0 -1.1400000000000001 -5.715 0 0 -2.2874999999999996 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -3.4275 -1.1400000000000001 0 0 -1.1400000000000001 -3.4275 0 0 1.1400000000000001 -1.1475 0 0 3.4275 1.1475 0 0 1.1475 1.1400000000000001 0 0 2.2874999999999996 -5.715 0 0 1.1400000000000001 12.57 0z" fill="currentColor" stroke-width="0.75"></path><path d="M6.85875 4.5675h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.85875 1.1400000000000001h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.71125 12.57h1.1475v2.2874999999999996h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.71125 2.2874999999999996h1.1475v2.2800000000000002h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.57125 21.7125h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.57125 9.1425h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="m4.57125 10.2825 -1.1475 0 0 1.1475 -1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 5.715 -1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 2.2874999999999996 1.1475 0 0 -11.43z" fill="currentColor" stroke-width="0.75"></path><path d="M3.42375 5.715h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.42375 0h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.28375 1.1400000000000001h1.1400000000000001v4.574999999999999h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1437499999999998 12.57h1.1400000000000001v5.715h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path></g></svg><span class="flex items-center pl-1 gap-x-1 text-left [text-wrap:balance] leading-tight">Complejidad cognitiva: 6 <span class="text-xs text-white">(Más bajo es mejor)</span><a class="flex justify-start text-yellow-300 transition hover:scale-125" href="https://www.sonarsource.com/docs/CognitiveComplexity.pdf" target="_blank" rel="noreferrer nofollow noopener"><svg class="w-5 h-4" height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" transform="translate(2 2)"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="8"></circle><path d="m8.5 12.5v-4h-1"></path><path d="m7.5 12.5h2"></path></g><circle cx="8.5" cy="5.5" fill="currentColor" r="1"></circle></g></svg></a></span></div><div class="flex items-center justify-start w-full pt-2 pl-1 mt-2 text-white/80 flex-0 gap-x-2"><div><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>interface-essential-question-help-square</title><g><path d="M22.86 2.2874999999999996H24v19.424999999999997h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 21.7125h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 1.1400000000000001h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 22.86h19.424999999999997V24H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 18.285 -1.1400000000000001 0 0 1.1400000000000001 -1.1475 0 0 1.1475 1.1475 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 2.2874999999999996 -1.1400000000000001 0 0 1.1400000000000001 -1.1475 0 0 1.1400000000000001 1.1475 0 0 1.1475 1.1400000000000001 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m16.005 4.5675 -1.1475 0 0 -1.1400000000000001 -5.715 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 -1.1400000000000001 0 0 3.4275 2.2800000000000002 0 0 -2.2874999999999996 1.1475 0 0 -1.1400000000000001 2.2800000000000002 0 0 1.1400000000000001 1.1475 0 0 2.2874999999999996 -1.1475 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 -1.1400000000000001 0 0 2.2800000000000002 3.4275 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -4.5675 -1.1400000000000001 0 0 -1.1475z" fill="currentColor" stroke-width="0.75"></path><path d="m13.7175 14.857499999999998 -3.4275 0 0 1.1400000000000001 -1.1475 0 0 3.4275 1.1475 0 0 1.1475 3.4275 0 0 -1.1475 1.1400000000000001 0 0 -3.4275 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m4.574999999999999 18.285 -1.1475 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 1.1400000000000001 0 0 1.1400000000000001 1.1475 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m4.574999999999999 2.2874999999999996 -1.1475 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1475 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 0h19.424999999999997v1.1400000000000001H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1475 21.7125h1.1400000000000001v1.1475H1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1475 1.1400000000000001h1.1400000000000001v1.1475H1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 2.2874999999999996h1.1475v19.424999999999997H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg></div><span class="flex items-center pl-1 text-xs text-left gap-x-1">Los retos son puntuados utilizando diferentes factores como la complejidad cognitiva y la velocidad de ejecución. El número de líneas no es un factor determinante.</span></div></article><h3 class="flex items-center text-left text-2xl xl:text-4xl font-sweater text-green-400 gap-x-2"><svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>business-product-check</title><g><path d="M21.71625 11.43375h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.56875 12.57375h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.56875 10.286249999999999h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.42875 13.713750000000001h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.42875 9.14625h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="m18.28875 18.28875 -3.435 0 0 1.1400000000000001 4.574999999999999 0 0 -4.5675 -1.1400000000000001 0 0 3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="m11.42625 12.57375 -1.1400000000000001 0 0 -1.1400000000000001 -1.1475 0 0 -1.1475 -1.1400000000000001 0 0 1.1475 -1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1475 1.1475 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1475 -1.1475 0 0 1.1475 -1.1400000000000001 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 -1.1475 0 0 1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m18.28875 5.71875 0 3.4275 1.1400000000000001 0 0 -4.574999999999999 -4.574999999999999 0 0 1.1475 3.435 0z" fill="currentColor" stroke-width="0.75"></path><path d="M13.713750000000001 19.42875h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.713750000000001 3.4312500000000004h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M12.57375 20.576249999999998h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M12.57375 2.2912500000000002h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M11.42625 21.71625h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M11.42625 1.1437499999999998h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.286249999999999 20.576249999999998h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.286249999999999 2.2912500000000002h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.13875 19.42875h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.13875 3.4312500000000004h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="m5.71125 18.28875 0 -3.4275 -1.1400000000000001 0 0 4.5675 4.5675 0 0 -1.1400000000000001 -3.4275 0z" fill="currentColor" stroke-width="0.75"></path><path d="m5.71125 5.71875 3.4275 0 0 -1.1475 -4.5675 0 0 4.574999999999999 1.1400000000000001 0 0 -3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4312500000000004 13.713750000000001h1.1400000000000001v1.1475h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4312500000000004 9.14625h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.28375 12.57375h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.28375 10.286249999999999h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1437499999999998 11.43375h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path></g></svg>¡Todos los tests pasaron!</h3></div><ul class="flex flex-col w-full"><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold  text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #01 </span></div><svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></summary><span class="block p-4 text-left"><pre class="text-xs">Test: return type<br><br>Expected:<br><span class="text-green-400">"function"</span><br><br>Actual:<br><span class="text-green-400">"function"</span></pre></span></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold  text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #02 </span></div><svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></summary><span class="block p-4 text-left"><pre class="text-xs">Test: getIndexsForPalindrome('anna')<br><br>Expected:<br><span class="text-green-400">[]</span><br><br>Actual:<br><span class="text-green-400">[]</span></pre></span></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold  text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #03 </span></div><svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></summary><span class="block p-4 text-left"><pre class="text-xs">Test: getIndexsForPalindrome('abab')<br><br>Expected:<br><span class="text-green-400">[
+  0,
+  1
+]</span><br><br>Actual:<br><span class="text-green-400">[
+  0,
+  1
+]</span></pre></span></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold  text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #04 </span></div><svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></summary><span class="block p-4 text-left"><pre class="text-xs">Test: getIndexsForPalindrome('abac')<br><br>Expected:<br><span class="text-green-400">null</span><br><br>Actual:<br><span class="text-green-400">null</span></pre></span></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold  text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #05 </span></div><svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></summary><span class="block p-4 text-left"><pre class="text-xs">Test: getIndexsForPalindrome('aaaaaaaa')<br><br>Expected:<br><span class="text-green-400">[]</span><br><br>Actual:<br><span class="text-green-400">[]</span></pre></span></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold  text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #06 </span></div><svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></summary><span class="block p-4 text-left"><pre class="text-xs">Test: getIndexsForPalindrome('aaababa')<br><br>Expected:<br><span class="text-green-400">[
+  1,
+  3
+]</span><br><br>Actual:<br><span class="text-green-400">[
+  1,
+  3
+]</span></pre></span></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold  text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #07 </span></div><svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></summary><span class="block p-4 text-left"><pre class="text-xs">Test: getIndexsForPalindrome('caababa')<br><br>Expected:<br><span class="text-green-400">null</span><br><br>Actual:<br><span class="text-green-400">null</span></pre></span></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold  text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #08 </span></div><svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></summary><span class="block p-4 text-left"><pre class="text-xs">Test: getIndexsForPalindrome('rotavator')<br><br>Expected:<br><span class="text-green-400">[]</span><br><br>Actual:<br><span class="text-green-400">[]</span></pre></span></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold  text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #09 </span></div><svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></summary><span class="block p-4 text-left"><pre class="text-xs">Test: getIndexsForPalindrome('rotaratov')<br><br>Expected:<br><span class="text-green-400">[
+  4,
+  8
+]</span><br><br>Actual:<br><span class="text-green-400">[
+  4,
+  8
+]</span></pre></span></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold  text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #10 </span></div><svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 8)"></path></svg></summary><span class="block p-4 text-left"><pre class="text-xs">Test: getIndexsForPalindrome('saippuakivikauppias')<br><br>Expected:<br><span class="text-green-400">[]</span><br><br>Actual:<br><span class="text-green-400">[]</span></pre></span></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold pointer-events-none text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #11 secret</span></div><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>interface-essential-key-login</title><g><path d="M22.8525 9.1425H24v4.574999999999999h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 13.7175h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 8.0025h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 18.285h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 19.424999999999997h1.1475v1.1475H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 14.857499999999998h4.574999999999999v1.1400000000000001h-4.574999999999999Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 9.1425 -2.2874999999999996 0 0 1.1400000000000001 -1.1475 0 0 2.2874999999999996 1.1475 0 0 1.1475 2.2874999999999996 0 0 -1.1475 1.1400000000000001 0 0 -2.2874999999999996 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 3.4275h1.1475V4.574999999999999H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 6.855h4.574999999999999v1.1475h-4.574999999999999Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 20.572499999999998h2.2874999999999996v1.1400000000000001h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 2.2874999999999996h2.2874999999999996v1.1400000000000001h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.997499999999999 13.7175h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.997499999999999 8.0025h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 21.7125h2.2800000000000002v1.1475h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="m11.43 11.43 0 3.4275 1.1400000000000001 0 0 -2.2874999999999996 2.2874999999999996 0 0 1.1475 1.1400000000000001 0 0 -2.2874999999999996 -4.5675 0z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 1.1400000000000001h2.2800000000000002v1.1475h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 22.86h5.715V24h-5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 14.857499999999998h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 0h5.715v1.1400000000000001h-5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="m10.2825 11.43 -3.4275 0 0 3.4275 1.1400000000000001 0 0 -2.2874999999999996 1.1475 0 0 2.2874999999999996 1.1400000000000001 0 0 -3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 21.7125h2.2874999999999996v1.1475H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 1.1400000000000001h2.2874999999999996v1.1475H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.715 9.1425h10.2825v1.1400000000000001H5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 20.572499999999998h2.2874999999999996v1.1400000000000001H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.715 14.857499999999998h1.1400000000000001v1.1400000000000001H5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 2.2874999999999996h2.2874999999999996v1.1400000000000001H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 10.2825h1.1475v4.574999999999999H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 19.424999999999997h1.1400000000000001v1.1475H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 3.4275h1.1400000000000001V4.574999999999999H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 17.145h1.1400000000000001v2.2800000000000002H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 4.574999999999999h1.1400000000000001v2.2800000000000002H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 14.857499999999998h1.1475v2.2874999999999996H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 6.855h1.1475v2.2874999999999996H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 9.1425h1.1400000000000001v5.715H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg></summary></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold pointer-events-none text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #12 secret</span></div><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>interface-essential-key-login</title><g><path d="M22.8525 9.1425H24v4.574999999999999h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 13.7175h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 8.0025h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 18.285h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 19.424999999999997h1.1475v1.1475H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 14.857499999999998h4.574999999999999v1.1400000000000001h-4.574999999999999Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 9.1425 -2.2874999999999996 0 0 1.1400000000000001 -1.1475 0 0 2.2874999999999996 1.1475 0 0 1.1475 2.2874999999999996 0 0 -1.1475 1.1400000000000001 0 0 -2.2874999999999996 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 3.4275h1.1475V4.574999999999999H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 6.855h4.574999999999999v1.1475h-4.574999999999999Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 20.572499999999998h2.2874999999999996v1.1400000000000001h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 2.2874999999999996h2.2874999999999996v1.1400000000000001h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.997499999999999 13.7175h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.997499999999999 8.0025h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 21.7125h2.2800000000000002v1.1475h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="m11.43 11.43 0 3.4275 1.1400000000000001 0 0 -2.2874999999999996 2.2874999999999996 0 0 1.1475 1.1400000000000001 0 0 -2.2874999999999996 -4.5675 0z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 1.1400000000000001h2.2800000000000002v1.1475h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 22.86h5.715V24h-5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 14.857499999999998h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 0h5.715v1.1400000000000001h-5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="m10.2825 11.43 -3.4275 0 0 3.4275 1.1400000000000001 0 0 -2.2874999999999996 1.1475 0 0 2.2874999999999996 1.1400000000000001 0 0 -3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 21.7125h2.2874999999999996v1.1475H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 1.1400000000000001h2.2874999999999996v1.1475H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.715 9.1425h10.2825v1.1400000000000001H5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 20.572499999999998h2.2874999999999996v1.1400000000000001H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.715 14.857499999999998h1.1400000000000001v1.1400000000000001H5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 2.2874999999999996h2.2874999999999996v1.1400000000000001H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 10.2825h1.1475v4.574999999999999H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 19.424999999999997h1.1400000000000001v1.1475H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 3.4275h1.1400000000000001V4.574999999999999H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 17.145h1.1400000000000001v2.2800000000000002H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 4.574999999999999h1.1400000000000001v2.2800000000000002H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 14.857499999999998h1.1475v2.2874999999999996H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 6.855h1.1475v2.2874999999999996H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 9.1425h1.1400000000000001v5.715H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg></summary></details><details class="flex w-full"><summary class="flex items-center justify-between w-full p-2 text-sm font-bold pointer-events-none text-green-400 hover:bg-green-800/20 border-b cursor-pointer border-gray-200/20 "><div class="flex items-center justify-center gap-x-2"><span class="rounded-full w-3 h-3 bg-green-400"></span><span class="text-lg">Test #13 secret</span></div><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>interface-essential-key-login</title><g><path d="M22.8525 9.1425H24v4.574999999999999h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 13.7175h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 8.0025h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 18.285h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 19.424999999999997h1.1475v1.1475H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 14.857499999999998h4.574999999999999v1.1400000000000001h-4.574999999999999Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 9.1425 -2.2874999999999996 0 0 1.1400000000000001 -1.1475 0 0 2.2874999999999996 1.1475 0 0 1.1475 2.2874999999999996 0 0 -1.1475 1.1400000000000001 0 0 -2.2874999999999996 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 3.4275h1.1475V4.574999999999999H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 6.855h4.574999999999999v1.1475h-4.574999999999999Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 20.572499999999998h2.2874999999999996v1.1400000000000001h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M17.137500000000003 2.2874999999999996h2.2874999999999996v1.1400000000000001h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.997499999999999 13.7175h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.997499999999999 8.0025h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 21.7125h2.2800000000000002v1.1475h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="m11.43 11.43 0 3.4275 1.1400000000000001 0 0 -2.2874999999999996 2.2874999999999996 0 0 1.1475 1.1400000000000001 0 0 -2.2874999999999996 -4.5675 0z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 1.1400000000000001h2.2800000000000002v1.1475h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 22.86h5.715V24h-5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 14.857499999999998h1.1475v1.1400000000000001h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 0h5.715v1.1400000000000001h-5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="m10.2825 11.43 -3.4275 0 0 3.4275 1.1400000000000001 0 0 -2.2874999999999996 1.1475 0 0 2.2874999999999996 1.1400000000000001 0 0 -3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 21.7125h2.2874999999999996v1.1475H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 1.1400000000000001h2.2874999999999996v1.1475H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.715 9.1425h10.2825v1.1400000000000001H5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 20.572499999999998h2.2874999999999996v1.1400000000000001H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M5.715 14.857499999999998h1.1400000000000001v1.1400000000000001H5.715Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 2.2874999999999996h2.2874999999999996v1.1400000000000001H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 10.2825h1.1475v4.574999999999999H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 19.424999999999997h1.1400000000000001v1.1475H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 3.4275h1.1400000000000001V4.574999999999999H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 17.145h1.1400000000000001v2.2800000000000002H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 4.574999999999999h1.1400000000000001v2.2800000000000002H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 14.857499999999998h1.1475v2.2874999999999996H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 6.855h1.1475v2.2874999999999996H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 9.1425h1.1400000000000001v5.715H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg></summary></details></ul><div class="flex items-center justify-start w-full pt-2 pl-1 mt-2 text-white/80 flex-0 gap-x-2"><div><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>interface-essential-question-help-square</title><g><path d="M22.86 2.2874999999999996H24v19.424999999999997h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 21.7125h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 1.1400000000000001h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 22.86h19.424999999999997V24H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 18.285 -1.1400000000000001 0 0 1.1400000000000001 -1.1475 0 0 1.1475 1.1475 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 2.2874999999999996 -1.1400000000000001 0 0 1.1400000000000001 -1.1475 0 0 1.1400000000000001 1.1475 0 0 1.1475 1.1400000000000001 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m16.005 4.5675 -1.1475 0 0 -1.1400000000000001 -5.715 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 -1.1400000000000001 0 0 3.4275 2.2800000000000002 0 0 -2.2874999999999996 1.1475 0 0 -1.1400000000000001 2.2800000000000002 0 0 1.1400000000000001 1.1475 0 0 2.2874999999999996 -1.1475 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 -1.1400000000000001 0 0 2.2800000000000002 3.4275 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -4.5675 -1.1400000000000001 0 0 -1.1475z" fill="currentColor" stroke-width="0.75"></path><path d="m13.7175 14.857499999999998 -3.4275 0 0 1.1400000000000001 -1.1475 0 0 3.4275 1.1475 0 0 1.1475 3.4275 0 0 -1.1475 1.1400000000000001 0 0 -3.4275 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m4.574999999999999 18.285 -1.1475 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 1.1400000000000001 0 0 1.1400000000000001 1.1475 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m4.574999999999999 2.2874999999999996 -1.1475 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1475 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 0h19.424999999999997v1.1400000000000001H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1475 21.7125h1.1400000000000001v1.1475H1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1475 1.1400000000000001h1.1400000000000001v1.1475H1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 2.2874999999999996h1.1475v19.424999999999997H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg></div><span class="pl-1 text-xs text-left text-white gap-x-1"><strong class="text-yellow-300">Me falla un test secreto. ¿Por qué no son públicos?</strong> Los tests secretos están pensados para que no se puedan resolver con una solución que sólo pase los tests. Si fallas un test secreto, es porque tu solución no es válida para el problema planteado en todos los casos.</span></div><div class="flex items-center justify-start w-full pt-2 pl-1 mt-2 text-white/80 flex-0 gap-x-2"><div><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>interface-essential-question-help-square</title><g><path d="M22.86 2.2874999999999996H24v19.424999999999997h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 21.7125h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M21.7125 1.1400000000000001h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 22.86h19.424999999999997V24H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 18.285 -1.1400000000000001 0 0 1.1400000000000001 -1.1475 0 0 1.1475 1.1475 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 2.2874999999999996 -1.1400000000000001 0 0 1.1400000000000001 -1.1475 0 0 1.1400000000000001 1.1475 0 0 1.1475 1.1400000000000001 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m16.005 4.5675 -1.1475 0 0 -1.1400000000000001 -5.715 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 -1.1400000000000001 0 0 3.4275 2.2800000000000002 0 0 -2.2874999999999996 1.1475 0 0 -1.1400000000000001 2.2800000000000002 0 0 1.1400000000000001 1.1475 0 0 2.2874999999999996 -1.1475 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 -1.1400000000000001 0 0 2.2800000000000002 3.4275 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -4.5675 -1.1400000000000001 0 0 -1.1475z" fill="currentColor" stroke-width="0.75"></path><path d="m13.7175 14.857499999999998 -3.4275 0 0 1.1400000000000001 -1.1475 0 0 3.4275 1.1475 0 0 1.1475 3.4275 0 0 -1.1475 1.1400000000000001 0 0 -3.4275 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m4.574999999999999 18.285 -1.1475 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1475 1.1400000000000001 0 0 1.1400000000000001 1.1475 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="m4.574999999999999 2.2874999999999996 -1.1475 0 0 1.1400000000000001 -1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1475 1.1475 0 0 -1.1475 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -1.1400000000000001z" fill="currentColor" stroke-width="0.75"></path><path d="M2.2874999999999996 0h19.424999999999997v1.1400000000000001H2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1475 21.7125h1.1400000000000001v1.1475H1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1475 1.1400000000000001h1.1400000000000001v1.1475H1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 2.2874999999999996h1.1475v19.424999999999997H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg></div><span class="pl-1 text-xs text-left text-white gap-x-1"><strong class="text-yellow-300">Cada vez me falla un test secreto distinto. ¿Por qué?</strong> Los tests secretos se ejecutan en un orden aleatorio por lo que es posible que cada vez que ejecutes los tests, se ejecuten en un orden distinto.</span></div><div class="flex flex-col items-center justify-center w-full pt-8 gap-y-10"></div></div></div></div></div></div><div style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"></div><div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"challenges":[{"level":"easy","title":"🎁 ¡Primer regalo repetido!"},{"level":"easy","title":"🏭 Ponemos en marcha la fábrica"},{"level":"easy","title":"😏 El elfo travieso"},{"level":"medium","title":"😵‍💫 Dale la vuelta a los paréntesis"},{"level":"medium","title":"🛷 El CyberTruck de Santa"},{"level":"easy","title":"🦌 Los renos a prueba"},{"level":"easy","title":"📦 Las cajas en 3D"},{"level":"medium","title":"🏬 Ordenando el almacén"},{"level":"easy","title":"🚦 Alterna las luces"},{"level":"easy","title":"🎄 Crea tu propio árbol de navidad"},{"level":"medium","title":"📖 Los elfos estudiosos"},{"level":"medium","title":"📸 ¿Es una copia válida?"},{"level":"easy","title":"⌚️ Calculando el tiempo"},{"level":"medium","title":"🚨 Evita la alarma"},{"level":"medium","title":"↔️ Robot autónomo"},{"level":"easy","title":"❌ Despliegue en viernes"},{"level":"easy","title":"🛷 Optimizando el alquiler"},{"level":"hard","title":"🔢 El reloj digital"},{"level":"medium","title":"💣 Enfrenta el sabotaje"},{"level":"hard","title":"🏋️‍♂️ Distribuye el peso"},{"level":"medium","title":"🪐 Mensaje binario"},{"level":"easy","title":"🚂 Lenguaje de programación"}],"title":"📖 Los elfos estudiosos","isMacOs":false,"challengeId":10,"defaultCode":"function getIndexsForPalindrome(word) {\n  return [0, 0]\n}","description":"\u003cp\u003eEn el taller de Santa, los elfos aman los acertijos 🧠. Este año, han creado uno especial: un desafío para formar un palíndromo navideño.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUn palíndromo es una palabra que se lee igual hacia adelante y hacia atrás.\u003c/strong\u003e Los elfos quieren saber si es posible formar un palíndromo haciendo, como mucho, un intercambio de letras.\u003c/p\u003e\n\u003cp\u003eCrea una función \u003ccode\u003egetIndexsForPalindrome\u003c/code\u003e que reciba una cadena de caracteres y devolverá:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eSi ya es un palíndromo, un array vacío.\u003c/li\u003e\n\u003cli\u003eSi no es posible, null.\u003c/li\u003e\n\u003cli\u003eSi se puede formar un palíndromo con un cambio, un array con las dos posiciones (índices) que se deben intercambiar para poder crearlo.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003ePor ejemplo:\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"javascript language-javascript\"\u003egetIndexsForPalindrome('anna') // []\ngetIndexsForPalindrome('abab') // [0, 1]\ngetIndexsForPalindrome('abac') // null\ngetIndexsForPalindrome('aaaaaaaa') // []\ngetIndexsForPalindrome('aaababa') // [1, 3]\ngetIndexsForPalindrome('caababa') // null\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eSi se puede formar el palíndromo con diferentes intercambios, \u003cstrong\u003esiempre se debe devolver el primero que se encuentre.\u003c/strong\u003e\u003c/p\u003e","level":"medium","nextChallengeId":12},"__N_SSP":true},"page":"/challenges/2023/[id]","query":{"id":"11"},"buildId":"GwuUJ38zHKdVKJU8AqoiU","isFallback":false,"isExperimentalCompile":false,"gssp":true,"locale":"es","locales":["en","es","pt"],"defaultLocale":"en","scriptLoader":[]}</script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/loader.js.descarga"></script><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;">AdventJS | 11: JavaScript/TypeScript: 📖 Los elfos estudiosos</p></next-route-announcer><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/7914-12220465e77cc2f3.js.descarga"></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/7478-771cc78ed390a2e9.js.descarga"></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/1058-12495094c7b16233.js.descarga"></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/index-7d39184bc0aaccc7.js.descarga"></script><div class="monaco-aria-container"><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-status" aria-live="polite" aria-atomic="true"></div><div class="monaco-status" aria-live="polite" aria-atomic="true"></div></div><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/5283-345bbce4385d8ebc.js.descarga"></script><script src="./AdventJS _ 11_ JavaScript_TypeScript_ 📖 Los elfos estudiosos_files/leaderboard-2023-95e388bb5455671e.js.descarga"></script><div id="headlessui-portal-root"><div data-headlessui-portal=""><button type="button" data-headlessui-focus-guard="true" aria-hidden="true" style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"></button><div><div class="fixed inset-0 z-10 overflow-y-auto shadow-2xl shadow-slate-900" id="headlessui-dialog-:rh:" role="dialog" aria-modal="true" data-headlessui-state="open" aria-labelledby="headlessui-dialog-title-:rj:"><div class="grid min-h-screen px-4 pt-4 pb-20 text-center place-content-center sm:p-0"><div class="fixed inset-0 z-10 transition-opacity bg-gray-900 bg-opacity-75" id="headlessui-dialog-overlay-:ri:" aria-hidden="true" data-headlessui-state="open"></div><div class="relative z-20 inline-block w-full max-w-md p-1 transition-all"><div class="flex flex-col items-center justify-center px-6 py-8 text-xl bg-black border-4 border-xmas-dark-green bg-xmas md:text-3xl gap-x-2"><div class="w-40 mb-4 -mt-32"><img class="w-full h-auto -mb-11 animate-wiggle-santa" src="https://adventjs.dev/santa-top.png"><img class="w-full h-auto" src="https://adventjs.dev/santa-bottom.png"></div><h3 class="pb-4 text-3xl leading-6 text-yellow-300 font-sweater" id="headlessui-dialog-title-:rj:" data-headlessui-state="open">¡Reto superado! 🎉</h3><div class="hidden p-2 [text-wrap:balance] mt-2 text-lg md:block text-white/90"><p>¡Comparte en Twitter y reta a tus amigos!</p></div><div class="flex flex-col gap-4"><button class="
+      
+      bg-white text-gray-800
+        select-none
+        flex items-center justify-center
+        px-4 py-1 lg:py-3 relative transition font-sweater
+        hover:scale-110
+      gap-2 px-4 !py-2 text-xl tracking-wide !bg-[#00a6e8] !text-white transition-all border border-transparent hover:contrast-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500
+              "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg>Compartir en Twitter</button><a href="https://adventjs.dev/es/challenges/2023/12" class="z-10 inline-flex items-center justify-center px-4 py-2 text-sm text-xl font-medium text-black transition bg-white border-white hover:bg-black font-sweater gap-x-2 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24"><title>business-product-startup-1</title><g><path d="M21.7125 21.7125H24v1.1475h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M20.572499999999998 22.86h1.1400000000000001V24h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="m20.572499999999998 14.857499999999998 -1.1475 0 0 1.1400000000000001 1.1475 0 0 1.1475 1.1400000000000001 0 0 -5.715 -1.1400000000000001 0 0 3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="M18.285 21.7125h2.2874999999999996v1.1475h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="M19.424999999999997 10.290000000000001h1.1475v1.1400000000000001H19.424999999999997Z" fill="currentColor" stroke-width="0.75"></path><path d="M15.997499999999999 20.572499999999998h2.2874999999999996v1.1400000000000001h-2.2874999999999996Z" fill="currentColor" stroke-width="0.75"></path><path d="m17.145 15.997499999999999 1.1400000000000001 0 0 -1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 -1.1400000000000001 0 0 -3.4275 1.1400000000000001 0 0 -1.1475 -1.1400000000000001 0 0 -3.4275 -1.1400000000000001 0 0 10.2825z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 22.86h1.1400000000000001V24h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 13.7175h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M14.857499999999998 11.43h1.1400000000000001v1.1400000000000001h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.71 20.572499999999998h1.1475v2.2874999999999996h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 18.285h4.574999999999999v1.1475h-4.574999999999999Z" fill="currentColor" stroke-width="0.75"></path><path d="M13.71 1.1400000000000001h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M11.43 0h2.2800000000000002v1.1400000000000001h-2.2800000000000002Z" fill="currentColor" stroke-width="0.75"></path><path d="m14.857499999999998 6.855 -1.1475 0 0 -1.1400000000000001 -2.2800000000000002 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1475 -1.1400000000000001 0 0 -1.1475 -1.1475 0 0 2.2874999999999996 1.1475 0 0 1.1475 2.2800000000000002 0 0 -1.1475 1.1475 0 0 -2.2874999999999996z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 20.572499999999998h1.1475v2.2874999999999996h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="m7.995 17.145 1.1475 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 4.574999999999999 0 0 1.1400000000000001 1.1400000000000001 0 0 -1.1400000000000001 1.1475 0 0 -1.1475 -9.149999999999999 0 0 1.1475z" fill="currentColor" stroke-width="0.75"></path><path d="M10.2825 1.1400000000000001h1.1475v1.1475h-1.1475Z" fill="currentColor" stroke-width="0.75"></path><path d="M9.1425 22.86h1.1400000000000001V24h-1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M6.855 20.572499999999998h2.2874999999999996v1.1400000000000001H6.855Z" fill="currentColor" stroke-width="0.75"></path><path d="m10.2825 3.4275 0 -1.1400000000000001 -1.1400000000000001 0 0 1.1400000000000001 -1.1475 0 0 2.2874999999999996 1.1475 0 0 -1.1400000000000001 6.855 0 0 1.1400000000000001 1.1475 0 0 -2.2874999999999996 -1.1475 0 0 -1.1400000000000001 -1.1400000000000001 0 0 1.1400000000000001 -4.574999999999999 0z" fill="currentColor" stroke-width="0.75"></path><path d="m7.995 5.715 -1.1400000000000001 0 0 3.4275 -1.1400000000000001 0 0 1.1475 1.1400000000000001 0 0 3.4275 -1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 1.1400000000000001 1.1400000000000001 0 0 -10.2825z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 21.7125h2.2874999999999996v1.1475H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M4.5675 10.290000000000001h1.1475v1.1400000000000001H4.5675Z" fill="currentColor" stroke-width="0.75"></path><path d="M3.4275 22.86h1.1400000000000001V24H3.4275Z" fill="currentColor" stroke-width="0.75"></path><path d="m4.5675 11.43 -1.1400000000000001 0 0 5.715 1.1400000000000001 0 0 -1.1475 1.1475 0 0 -1.1400000000000001 -1.1475 0 0 -3.4275z" fill="currentColor" stroke-width="0.75"></path><path d="M1.1400000000000001 21.7125h2.2874999999999996v1.1475H1.1400000000000001Z" fill="currentColor" stroke-width="0.75"></path><path d="M0 22.86h1.1400000000000001V24H0Z" fill="currentColor" stroke-width="0.75"></path></g></svg>Ir al siguiente reto →</a></div></div></div></div></div></div><button type="button" data-headlessui-focus-guard="true" aria-hidden="true" style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"></button></div></div></body></html>

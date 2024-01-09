@@ -1,0 +1,80 @@
+/*
+    *********     ATENCIÓN
+    
+    *********     NO puedes quitar ni modificar ninguna de las reglas que se proporcionan en este código css
+    *********     SÓLO debes añadir el código necesario y óptimo que se pide para que el contenedor grid se visualice tal
+    y como aparece en las capturas de pantalla
+
+*/
+
+img {
+  object-fit: cover;
+  width: 100%; /* importante para que se acoplen al ancho de las celdas del grid*/
+  height: 100%; /* importante para que se acoplen al alto de las celdas del grid*/
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  display: block;
+}
+
+/***************  CONTENEDOR GRID */
+/*************** ASIGNACIÓN DE ÁREAS */
+
+main > div {
+  background-color: black;
+  grid-template-areas:
+    "a a a a b j j"
+    "a a a a c j j"
+    "a a a a d k k"
+    "e f g h i k k"
+    "l l l l l l l";
+}
+
+/***************  GRID ITEMS */
+/***************  Identificación de las áreas */
+
+div > img:nth-child(1) {
+  grid-area: a;
+}
+
+div > img:nth-child(2) {
+  grid-area: b;
+}
+
+div > img:nth-child(3) {
+  grid-area: c;
+}
+
+div > img:nth-child(4) {
+  grid-area: d;
+}
+
+div > img:nth-child(5) {
+  grid-area: e;
+}
+
+div > img:nth-child(6) {
+  grid-area: f;
+}
+
+div > img:nth-child(7) {
+  grid-area: g;
+}
+
+div > img:nth-child(8) {
+  grid-area: h;
+}
+
+div > img:nth-child(9) {
+  grid-area: i;
+}
+
+div > img:nth-child(10) {
+  grid-area: j;
+}
+
+div > img:nth-child(11) {
+  grid-area: k;
+}
+
+div > img:nth-child(12) {
+  grid-area: l;
+}
