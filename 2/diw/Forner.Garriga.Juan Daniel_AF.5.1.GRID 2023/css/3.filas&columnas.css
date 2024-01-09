@@ -1,61 +1,37 @@
 /***************  GRID ITEMS */
 /***************  ASIGNACIÓN DE ITEMS A LAS CELDAS (filas/columnas) */
 div > div:nth-child(1) {
-    grid-area: a;
-    background-image: url(../img/1.png);
-  }
-  
-  div > div:nth-child(2) {
-    grid-area: b;
-    background-image: url(../img/2.jpg);
-  }
-  
-  div > div:nth-child(3) {
-    grid-area: c;
-    background-image: url(../img/3.jpg);
-  }
-  
-  div > div:nth-child(4) {
-    grid-area: d;
-    background-image: url(../img/4.jpg);
-  }
-  
-  div > div:nth-child(5) {
-    grid-area: e;
-    background-image: url(../img/5.jpg);
-  }
-  
-  div > div:nth-child(6) {
-    grid-area: f;
-    background-image: url(../img/6.jpg);
-  }
-  
-  div > div:nth-child(7) {
-    grid-area: g;
-    background-image: url(../img/7.jpg);
-  }
-  
-  div > div:nth-child(8) {
-    grid-area: h;
-    background-image: url(../img/8.jpg);
-  }
-  
-  div > div:nth-child(9) {
-    grid-area: i;
-    background-image: url(../img/9.jpg);
-  }
-  
-  div > div:nth-child(10) {
-    grid-area: j;
-    background-image: url(../img/10.jpg);
-  }
-  
-  div > div:nth-child(11) {
-    grid-area: k;
-    background-image: url(../img/11.jpg);
-  }
-  
-  div > div:nth-child(12) {
-    grid-area: l;
-    background-image: url(../img/12.jpg);
-  }
+  grid-column: span 4;
+  grid-row: span 3;
+  background-color: var(--blue);
+}
+
+div > div:nth-child(6),
+div > div:nth-child(8) {
+  grid-column: span 2;
+  background-color: var(--orange);
+}
+
+div > div:nth-child(3),
+div > div:nth-child(4),
+div > div:nth-child(5),
+div > div:nth-child(7),
+div > div:nth-child(10) {
+  grid-row: span 2;
+  background-color: var(--red);
+}
+
+div > div:nth-child(9) {
+  grid-column: span 3;
+  background-color: var(--purple);
+}
+
+div > div:nth-child(12) {
+  grid-column: span 4;
+  background-color: var(--beige);
+}
+
+div > div:nth-child(2),
+div > div:nth-child(11) {
+  background-color: var(--green);
+}

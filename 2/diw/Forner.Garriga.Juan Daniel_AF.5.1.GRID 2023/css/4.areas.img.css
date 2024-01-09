@@ -12,7 +12,7 @@ img {
   width: 100%; /* importante para que se acoplen al ancho de las celdas del grid*/
   height: 100%; /* importante para que se acoplen al alto de las celdas del grid*/
   border: 1px solid rgba(255, 255, 255, 0.8);
-  display: block;
+  overflow: hidden; /*** Necesario poner esto para Chrome */
 }
 
 /***************  CONTENEDOR GRID */

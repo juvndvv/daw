@@ -15,6 +15,7 @@
   --pink: #ff0080;
   --purple: #aa7ae4;
   --beige: #ecb5b5;
+  --orange: #ffae00
 }
 
 * {
@@ -65,7 +66,7 @@ main > div {
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(5, 1fr);
 
-  background-color: #2196f3;
+  background-color: black;
   padding: 10px;
   gap: 2px;
 }
