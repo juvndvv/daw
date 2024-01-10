@@ -2,7 +2,6 @@
 /***************  distribución de áreas en el contenedor */
 
 main > div {
-  background-color: black;
   grid-template-areas:
     "a a a a b j j"
     "a a a a c j j"
@@ -48,6 +47,7 @@ div > div:nth-child(8) {
 
 div > div:nth-child(9) {
   grid-area: i;
+  background-color: white;
 }
 
 div > div:nth-child(10) {

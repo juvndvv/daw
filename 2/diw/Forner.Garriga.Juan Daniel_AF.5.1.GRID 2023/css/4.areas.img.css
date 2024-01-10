@@ -19,7 +19,6 @@ img {
 /*************** ASIGNACIÓN DE ÁREAS */
 
 main > div {
-  background-color: black;
   grid-template-areas:
     "a a a a b j j"
     "a a a a c j j"
