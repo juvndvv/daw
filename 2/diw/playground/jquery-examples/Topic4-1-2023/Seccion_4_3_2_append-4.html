@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+    <title>4.3.2 append-4 </title>
+
+</head>
+
+<body>
+    <!-- Ejemplo de http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_append_ref -->
+
+
+    <!--******************************-->
+    <header>
+        <h2>4.2.2_append() </h2>
+    </header>
+
+    <section>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <ol>
+            <li>Item list 1</li>
+            <li>List item 2</li>
+            <li>Item list 3</li>
+        </ol>
+        <button id="btn1">Add text to paragraph </button>
+        <button id="btn2">Add Item to List </button>
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+
+    <!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btn1").on("click", function () {
+                $("p").append(" <b>Text added to paragraph </b>.");
+            });
+            $("#btn2").on("click", function () {
+                $("ol").append("<li>list Item added</li>");
+            });
+        });
+    </script>
+
+</body>
+
+</html>

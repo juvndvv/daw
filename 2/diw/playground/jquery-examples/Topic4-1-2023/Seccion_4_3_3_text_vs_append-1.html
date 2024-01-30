@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+
+	<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+	<title>4.3.3 text() vs append 1</title>
+
+
+</head>
+
+<body>
+	<header>
+		<h2>4.3.3_text() vs append() I </h2>
+	</header>
+
+	<main>
+		<h3>.text() allows to substitute the content of a selected element </h3>
+		<h3>.append() allows to insert a content at the end of the selected element </h3>
+		<div class="mydivs">
+			<p> My div 1</p>
+			<img src="./images/logojQuery.png" alt="logo" />
+		</div>
+		<div class="mydivs">
+			<p>My div 2</p>
+		</div>
+		<div class="mydivs">
+			<p>My div 3</p>
+		</div>
+	</main>
+
+	<footer>
+		<h3>IES CAMP DE MORVEDRE</h3>
+	</footer>
+
+
+
+
+	<!--*************** SCRIPT ***************-->
+		<!--  
+.append() permite insertar un contenido como el último hijo (árbol DOM) de cada elemento de la colección seleccionada. 
+        Si lo que se desea es insertarlo como primer hijo, entonces se usa.prepend() de la misma manera.            
+.append() añade el contenido al final del elemento/capa que nosotros le especifiquemos.
+
+.prepend() funciona exactamente igual, pero el contenido se añade al principio del elemento/capa que nosotros le especifiquemos. 
+
+.text() sustituye el elemento seleccionado por el texto especificado "tal cual"
+        -->
+	<!-- script -->
+
+	<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+		$(document).ready(function () {
+			var counter=0;
+			$(".mydivs").on("click", function () {
+				$(this).text("<b>Text written</b> with method <code>text()</code>");
+				$(this).append("<p><b>Text added</b> -at the end- with method <code>append()</code></p>");
+				$(this).prepend("<p><b>" + ++counter + ": Text added</b> -at the beginning- with method <code>prepend()</code></p>");
+			})
+		});
+	</script>
+</body>
+
+</html>
+

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>22 Method .each()</title>
+    <meta charset="utf-8" />
+    <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+    
+
+  </head>
+<body>
+    <h2>22 método .each()</h2>
+    <main id="metodo-each">
+        <div>
+            Texto de la primera entrada
+        </div>
+        <div id="segunda-entrada">
+            Texto de la segunda entrada
+        </div>
+        <div>
+            Texto de la tercera entrada
+        </div>
+        <button>cambio color</button>
+    </main>
+
+    <footer>
+      <p>** Comentarios en el archivo de código html</p>
+  </footer>
+
+    <!-- ******************************** SCRIPTS -->
+    <script src="http://code.jquery.com/jquery-3.7.1.min.js" ></script>
+    <script>
+      $(function() 
+	  {
+          //.each() Para recorrer los elementos del conjunto seleccionado y realizar tareas sobre cada uno de ellos
+          // parámetro "i" : Esta función recibirá como parámetro el índice del elemento actual comenzando por 0.
+          // como la ejecución de la función se realiza en el contexto del elemento actual del conjunto, podemos acceder a él a través de this.
+        $("button").on("click", function(){
+            $("div").each(function (i) 
+            {
+              if (this.style.color != "#314A76")
+                this.style.color = "#FF0000";
+            });
+            
+        })
+      }); 
+    </script>
+
+</body>
+</html>

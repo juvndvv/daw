@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+
+	<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+	<title>4.2.2 CSS property value</title>
+
+</head>
+
+<body id="cssChange">
+	<header>
+		<h2>4.2.2 .alert() & .css("propiedad")</h2>
+	</header>
+
+
+	<main>
+		<h4>Know the value of a property </h4>
+		<p> Click on this text to know its color </p>
+	</main>
+	<footer>
+		<h3>IES CAMP DE MORVEDRE</h3>
+	</footer>
+
+
+		<!--  
+Si se desea obtener el valor de una propiedad para un elemento determinado se utiliza 
+el método .css()
+
+        -->
+
+	<!-- script -->
+
+	<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("p").on("click", function () {
+				alert("Text color is " + $(this).css("color"));
+			});
+		});
+
+		/*	 alert("HOLA" );})});
+		 */
+	</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset=UTF-8 />
+
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+<title>4.1.1  secuencias show/hide </title>
+
+
+</head>
+<body>
+
+
+
+<!--******************************-->
+    <header>
+        <h2> 4.1.1  Secuencias show/hide  </h2>        
+    </header>
+
+    <section>
+        <div id="mydivs">"#mydivs"  utiliza pila de ejecución</div>
+        <div id="mydivs1">"#mydivs1"  utiliza secuencias de puntos</div>
+        <div id="mydivs2">"#mydivs2" utiliza callback</div>
+        <div id="mydivs3">"#mydivs3" utiliza funcion asignada a variable </div>
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+    
+<!-- ******************* script *********************** -->
+
+        <!--  
+  Para:
+    "#mydivs"  utiliza pila de ejecución
+    "#mydivs1" utiliza secuencias de puntos
+    "#mydivs2" utiliza callback
+    "#mydivs3" utiliza funcion asignada a variable  
+        -->
+<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+<script>
+var mostrar=function () { 
+        $("#mydivs3").css({background: "#A6B0C2"}).show(2000);
+        };
+$(document).ready(function() {
+        
+    $("#mydivs").hide(2000);
+    $("#mydivs").css({"background": "#314A76", "color": "#fff"});
+    $("#mydivs").show(2000);
+
+    $("#mydivs1").hide(2000).css({"background": "#314A76", "color": "#fff"}).show(2000);
+
+    $("#mydivs2").hide(2000, function(){
+        $(this).css({background: "#e7c992", "color": "#314a76"}).show(2000);
+    });
+
+    $("#mydivs3").hide(2000, mostrar);
+});
+
+</script>
+</body>
+</html>
+

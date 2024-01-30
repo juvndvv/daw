@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <title>4.2 on() element&document. Example of use</title>
+  <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen" />
+  <style>
+    main {
+      overflow: auto;
+      height: calc(100vh - 255px);
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>4.2 .on() element&document. Example of use</h2>
+    <ul>
+      <li> <code>$("element").on("click", function () { ... });</code></li>
+      <li> <code>$(document).on("click", function () { ... });</code></li>
+    </ul>
+  </header>
+  <main>
+
+    <p>Click over this paragraph.</p>
+    <button> Append paragraphs</button>
+    <div>
+      <!-- Aquí se irán añadiendo nuevos párrafos dinámicamente -->
+    </div>
+
+
+  </main>
+  <footer>
+    <h3>IES CAMP DE MORVEDRE</h3>
+    <section>
+      <h4>Te propongo un ejercicio</h4>
+      <p>En el código HTML, en la parte del SCRIPT, tienes dos opciones para implementar <code>.on()</code> </p>
+      <p>Si comentas la OPCIÓN 2 y te quedas sólo con la OPCIÓN 1 ... ¿qué pasa?</p>
+    </section>
+
+  </footer>
+  <!-- /******************* SCRIPTS ****************/ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      var count = 0;
+      // forma OBSOLETA de implementar eventos
+      // $("p").click(function () {
+      //   $(this).css("background-color", "yellow");
+      // });
+
+      // OPCIÓN 1. ... Forma actualizada.Method on() aplicado a elemento DOM ya existente
+      $("p").on("click", function () {
+        $(this).css("background-color", "yellow");
+      });
+
+      /* OPCIÓN 2. ... Method on() aplicado a document
+            De esta forma, el evento click funcionará:
+            1. para todos los párrafos inicialmente presentes en el HTML y 
+            2. para los párrafos futuros cuando sean insertados dinámicamente por un script */
+
+      $(document).on("click", "p", function () {
+        $(this).css({
+          "background-color": "blue",
+          "color": "white"
+        });
+      });
+
+
+      /* En jQuery, al igual que en CSS, prevalece el último código escrito 
+      */
+
+      /* Si comentas la OPCIÓN 2 y te quedas sólo con la OPCIÓN 1 ... ¿qué pasa? */
+
+
+
+      $("button").on("click", function () {
+        $("div").append("<p>Click over this <i>Appended text</i> " + ++count + "</p>");
+      });
+
+
+      // .clone() ... Para clonar elementos. OJO!!! este código clonará TODOS los párrafos
+      //  $("button").on("click", function(){
+      //    $("p").clone().appendTo("div");
+      //  });
+
+    });
+  </script>
+
+</body>
+
+</html>

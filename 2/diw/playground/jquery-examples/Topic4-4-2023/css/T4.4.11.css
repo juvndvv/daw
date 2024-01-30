@@ -1,0 +1,36 @@
+article{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #4C6189;
+}
+article h3{
+    border-bottom: 1px solid #A7B0C2;
+}
+div {
+    color: white;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: left;
+}
+
+#divText {
+    background-color:  #4C6189;
+}
+
+#divHtml {
+    background-color: #B28A3F
+}
+
+input {
+    width: 300px;
+}
+footer{
+    flex-wrap: wrap;
+  }
+  footer section{
+    width: 100%;
+  }
+  footer section p{
+    font-size: 1em;
+  }

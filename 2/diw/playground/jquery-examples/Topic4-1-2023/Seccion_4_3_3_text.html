@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+        <meta charset="utf-8" />
+
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+<title>Example of use:  text()/val() </title>
+        <!--  
+.text() sustituye el contenido del elemento seleccionado por el texto especificado "tal cual"
+.val()  devuelve/establece el atributo valor de un campo de form_box
+        -->
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+     $(document).ready(function () {
+         $(".mydivs").on("click", function () {
+            $(this).text("Text written with the text()...method replaces ALL the previous content of the element");
+             $("p").text("<b>New</b> text...");
+         });
+         $("button").first().on("click", function () { $("input:text").val("IES Camp de Morvedre"); });
+         $("button").last().on("click", function () { alert($("input:text").val()); });
+     });
+</script>
+
+</head>
+<body>
+
+
+<!--******************************-->
+    <header>
+        <h2>4.2.3_text()</h2>
+    </header>
+
+    <section>
+            <h5>Click on any of the following two items </h5>
+            <div class="mydivs"><p>My div 1</p></div>
+            <section class="mydivs">
+                <h3> My div 2 </h3>
+                <img src="imagenes/logo.png" alt="logo">
+            </section>
+            <p>This is a paragraph </p>
+            <p>This is another paragraph </p>
+            <hr>
+            <h2>4.2.3_val()</h2>
+            <h5>Attribute "value" of a form field </h5>
+            <p>Name: <input type="text" name="user" value="A text"></p>
+            <button>Sets the "value" attribute of the field <i>input:text</i></button>.
+            <button>Gets the "value" attribute of the field <i>input:text</i></button>.
+        </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+    
+
+</body>
+</html>
+
+

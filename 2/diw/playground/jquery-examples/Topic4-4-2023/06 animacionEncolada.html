@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>06 glue animation</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.4.css">
+    
+    <style>
+        div {
+            background:#FFF1D7;
+            width: 200px;
+            height: 2em;
+            line-height: 2em;
+            text-align: center;
+            border: 2px solid #4C6189;
+            margin: 3px auto;
+            font-size: 14px;
+        }
+
+        button {
+            font-size: 14px;
+        }
+    </style>
+
+    <!--
+tenemos dos bloques, sobre los cuales, se aplicarán tres animaciones.
+
+El primer bloque, se animará sin introducir las animaciones en la cola, 
+{ queue: false, duration: 3000 } por lo tanto, se ejecutarán todas simultáneamente.
+ 
+El segundo bloque, sí que introducirá las animaciones en la cola, así que las animaciones se irán realizando una tras otra.
+-->
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.4.2023 Examples</h1>
+        <h2>06 glue animation</h2>
+    </header>
+    <main>
+        <nav>
+            <button id="go1">&raquo; Animate Block1</button>
+            <button id="go2">&raquo; Animate Block2</button>
+            <button id="go3">&raquo; Animate Both</button>
+            <button id="go4">&raquo; Reset</button>
+        </nav>
+
+        <div id="block1">Block1</div>
+        <div id="block2">Block2</div>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+</body>
+<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+    <script>
+        $(function () {
+            $("#go1").on("click", function () {
+                $("#block1").animate({
+                        width: "90%"
+                    }, {
+                        queue: false,    // to execute the three animations simultaneously
+                        duration: 3000
+                    })
+                    .animate({
+                        fontSize: "24px"
+                    }, 1500)
+                    .animate({
+                        borderRightWidth: "15px"
+                    }, 1500);
+            });
+
+            $("#go2").on("click", function () { // to execute the three animations one after another
+                $("#block2").animate({
+                        width: "90%"
+                    }, 1000)
+                    .animate({
+                        fontSize: "24px"
+                    }, 1000)
+                    .animate({
+                        borderLeftWidth: "15px"
+                    }, 1000);
+            });
+
+            $("#go3").on("click", function () {
+                //$("#go1").add("#go2").click();   // pretty the same as $("#go1, #go2").click();
+                $("#go1, #go2").click();
+            });
+
+            $("#go4").on("click", function () {
+                $("div").css({
+                    width: "",
+                    fontSize: "",
+                    borderWidth: ""
+                });
+            });
+        });
+    </script>
+</html>
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>02 Animated Basic effects</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.4.css">
+    
+    <style>
+        p {
+            width: 300px;
+            height: 300px;
+            background: #4C6189;
+            color: #FFF1D7;
+            font-size: 2em;
+            text-align: center;
+            /*2023*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+   
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.4.2023 Examples</h1>
+        <h2>02 show(2000),  hide("slow"), toggle(3000)  Animated</h2>
+    </header>
+    <main>
+        <nav><a href="#" id="show">Show(2000)</a> | <a href="#" id="hide">Hide("slow")</a> | <a href="#" id="toggle">Toggle(3000)</a></nav>
+        <section>
+            <h3>Paragraph appear/dissappear</h3>
+            <p>Paragraph</p>
+        </section>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+</body>
+<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="script/date.en.js"></script>
+<script src="script/topic4.4.2023.js"></script>
+
+<script>
+    /* show(),  hide(), toggle()  CON PARÁMETROS
+            se oculta o se muestra inmediatamente, con animación.
+
+    pueden recibir por parámetros una duración y/o una función, de forma, que se convertirán en métodos de animación:
+    Duración: El parámetro duración indicará el número de milisegundos que durará la animación.
+    Completado: El parámetro completado será una función que se ejecutará cuando la animación haya terminado.
+            */
+    $(function () {
+        $("#show").on("click", function (event) {
+            event.preventDefault();
+            $("p").show(2000, function () {
+                console.log("mostrado");
+            });
+        });
+        $("#hide").on("click", function (event) {
+            event.preventDefault();
+            $("p").hide("slow", function () {
+                console.log("oculto");
+            });
+        });
+        $("#toggle").on("click", function (event) {
+            event.preventDefault();
+            $("p").toggle(3000, function () {
+                console.log("cambiado");
+            });
+        });
+    });
+</script>
+</html>

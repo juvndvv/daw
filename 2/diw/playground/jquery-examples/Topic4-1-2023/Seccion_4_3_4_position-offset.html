@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Seccion_4_3_position</title>
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+    <LINK rel=StyleSheet href="./css/position-offset.css" type="text/css" media="screen">
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <header>
+	<h2>position offset </h2>
+    </header>
+
+<!--******************************-->
+
+
+    <main>
+	<div>     
+<!-- esta primera capa <div> la ponemos para darle un alto fijo, y así mantener el espacio necesario en el caso de mover la capa div de su interior -->
+            <h3>Elemento &ltdiv&gt position:<span></span></h3>
+	    <div>
+		<p>IES Camp de Morvedre</p>
+	    </div> 
+	</div>
+    <section>
+        <h3>Posicionamiento del elemento &ltdiv&gt</h3>
+        <button id="estatico">static</button>
+        <button id="relativo">relative</button>
+        <button id="absoluto">absolute</button>
+        <button id="fijo">fixed</button>
+    </section>
+
+    <section id="position">
+        <h3>position()</h3>
+        <p></p>
+        <p></p>
+        <p></p>
+    </section>
+    <section id="offset">
+        <h3>offset()</h3>
+        <p></p>
+        <p></p>
+        <p></p>
+    </section>
+</main>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+    
+
+    <script>
+        
+        $(document).ready(function(){
+// variables globales que no van a cambiar
+var p = $("p").filter(":first"); 
+// p:first .... selecciona el primer p que encuentra en el HTML.... del párrafo que hay dentro del <div> que estamos posicionanado
+        var position_body = $("body").position();
+        var offset_body = $("body").offset();
+
+        posicionamiento_div("static");
+
+        // funciones
+        function posicionamiento_div(posicion) {
+            $("div>div").css("position", posicion);    // asignamos la posición seleccionada al pulsar el botón correspondiente
+            $("h3>span").text(posicion);	       // escribimos el tipo de posición en h3
+
+	//asignamos valores de top y left según la posición seleccionada y asignada
+            if ((posicion=="absolute") || (posicion=="fixed")){ $("div>div").css({"top":"20px", "left":"20px"}) }
+            else { $("div>div").css({"top":"20px", "left":"20px"}) }
+	// consultar posición y visualizarla
+            position_jQuery();
+            offset_jQuery();
+        }
+        function position_jQuery() {
+            position_body = $("body").position();
+            var position_p = p.position();    			// Posición del primer p que encuentra en el HTML 
+            var position_div = $("div>div").position();  	// Posición del <div> que estamos posicionando 
+
+            $("#position p:last").text("Posición <p>... left: " + position_p.left + ", top: " + position_p.top)
+                               .prev().text("Posición <div>... left: " + position_div.left + ", top: " + position_div.top)
+                               .prev().text("Posición <body>... left: " + position_body.left + ", top: " + position_body.top);
+        }
+
+        function offset_jQuery() {
+        offset_body = $("body").offset();            
+            var offset_p = p.offset();
+            var offset_div = $("div>div").offset();
+
+            $("#offset p:last").text("offset <p>... left: " + offset_p.left + ", top: " + offset_p.top)
+                               .prev().text("offset <div>... left: " + offset_div.left + ", top: " + offset_div.top)
+                               .prev().text("offset <body>... left: " + offset_body.left + ", top: " + offset_body.top);
+        }
+
+        //eventos
+        /*$("#estatico").on("click", function () { posicionamiento_div("static");})
+        $("#relativo").on("click", function () { posicionamiento_div("relative");})
+        $("#absoluto").on("click", function () { posicionamiento_div("absolute"); })
+        $("#fijo").on("click", function () {  posicionamiento_div("fixed"); })*/
+
+        $("button").on("click", function () { posicionamiento_div($(this).text());})
+
+        })
+</script>
+ 
+</body>
+</html>

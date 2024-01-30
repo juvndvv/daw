@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+        <meta charset="utf-8" /> 
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+		<title>animación slideUp()/slideDown() </title>
+        <!--
+   Los sliding permiten hacer efectos de plegado y despliegue     
+   
+.slideUp ([duración][, easing][, callback])         recoge los elementos en altura de manera gradual.
+.slideDown ([duración][, easing][, callback])       despliega los elementos en altura de manera gradual. 
+.slideToggle ([duración][, easing][, callback])     al igual que Toggle, alterna el proceso de plegado y desplegado en altura segun se haga clie sobre el elemento un ntimero par de veces o un numero impar. 
+  
+        -->
+
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>		
+		$(document).ready(function() {
+			$(document.body).on("click", function () {
+				if ($("div:first").is(":hidden")) {
+				    $("div").slideDown("slow");
+				} else {
+				    $("div").hide("slow");          /* curioso efecto .hide("slow") */ /* Actividad 4.2. Solución .slideUp("slow") */
+                     
+				}
+			});
+		});
+
+        /* 
+        Actividad 4.2. Solución 
+        "Atajo" a la solución anterior con .slideUp("slow") para hacerlo desaparecer 
+       		
+        $(document.body).on("click", function () { $("div").slideToggle("slow");     }  
+        */  
+        
+ 		</script>
+
+
+	</head>
+
+    <body >		
+        <h2> slideUp() & slideDown()</h2>
+		<h3>¡Pincha en cualquier punto del cuerpo de la página!</h3>
+        <section id="slide-flex">
+		    <div>Los efectos no son sólo para divs o spans</div>
+		    <div>También son para cualquier elemento </div>
+		    <div><button id="hidr">Botones también</button></div>
+		    <div><p> aunque no estén incluidos en un div </p></div>
+        </section>
+
+<!--******************************-->
+    <header>
+    </header>
+
+    <section>
+
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+
+	</body>
+</html>
+

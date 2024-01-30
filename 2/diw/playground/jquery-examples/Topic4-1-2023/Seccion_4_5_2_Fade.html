@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+        <meta charset="utf-8" /> 
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+		<title>Ejemplo de animación con FadeOut()</title>
+        <!--  
+.fadeIn ([duration][, easing][, callback])              muestra un elemento con opacidad gradual (hasta llegar a 1). 
+.fadeout ([duration][, easing][, callback])             oculta un elemento con opacidad gradual( hasta llegar a 0).
+.fadeToggle ([duration][, easing][, callback])          al igual que Toggle, alterna el proceso de aparecer y desvanecer según se haga clic sobre el elemento un número par de veces o un número impar. 
+
+    Todos los parámetros son opcionales y tienen el mismo significado que los vistos on show() y hide(). 
+        duration:   una cadena (slow o fast) o un numero (milisegundos) para determiner el tiempo que la animaci6n se ejecutará. 
+        easing:     es la funci6n que se usará para el tipo de transici6n. Por defecto, show anima al mostrar y ocultar modificando el alto, ancho y la opacidad del objeto. Para ver más funciones de transición es necesario un plugin 
+        callback:   una funci6n para llamar una vez finalizada la animación (tal y como se mostró en el apartado 4.3). 
+     
+.fadeTo (duration, opacidad [, easing][, callback])     coloca el elemento a una opacidad determinada (opacidad) en un tiempo establecido 
+    Parámetros obligatorios en este metodo:
+        duration: número que indica milisegundos, fast o slow. 
+        La opacidad toma como valor un valor entre 0 y 1. 
+    
+        -->
+   
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+		$(document).ready(function() {
+
+			 $("span").hover(
+                 function () { $(this).addClass("hilite"); }, 
+                 function () { $(this).removeClass("hilite"); 
+             }); 
+             // .hover() definida por dos funciones:  una para cuando se pone el cursor sobre el elemento y
+             //                                       otra para cuando se quita el cursor del elemento 
+             $("span").on("click", function () {
+			 	 $(this).fadeOut(1000, function () {
+					  $("div").text($("div").text() + "  '" + $(this).text() + "' ¡Se ha desvanecido!");
+					  $(this).remove();    // quita el span que se ha clicado
+				  }); //función del evento Fade
+			  }); //Function del Click
+			
+		});
+		</script>
+
+    </head>
+
+	<body id="fade">
+
+<!--******************************-->
+    <header>
+        <h2> Efecto fadeOut() + evento hover()</h2>
+    </header>
+
+    <section>
+        <h3> Métodos addClass(), removeClass(), text(), remove()</h3>
+		<h4>Encuentra los adjetivos </h4> 
+		<h4>Haz click sobre ellos para que desaparezcan </h4> 
+		<p> La chaqueta <span>roja</span> es la mejor cuando hace un tiempo <span>cálido</span> ¿verdad?</p>
+        <div></div>
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+
+	</body>
+
+</html>
+

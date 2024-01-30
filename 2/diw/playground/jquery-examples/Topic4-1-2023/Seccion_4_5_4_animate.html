@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+    <title>4.5.4 .animate()</title>
+
+</head>
+<body id="animate">
+
+
+<!--******************************-->
+    <header>
+        <h1> 4.5.4 Animación jQuery con <code>.animate()</code></h1>    
+    </header>
+
+    <main>
+        <div>
+            <button id="left">&laquo;</button> 
+            <button id="right">&raquo;</button>
+        </div>
+        <div class="block">Pincha AQUÍ también</div>
+    </main>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <section>
+            <h4>Te propongo un ejercicio de mejora...</h4>
+            <p>Controla que el div que se mueve NO se salga de su contenedor</p>
+        </section>
+    </footer>
+
+            <!--  
+
+Este método anima un elemento según las propiedades CSS que se pongan en el parametro propiedades. PERO estas propiedades han de tener valor numérico.            
+    
+    .animate (propiedades, [duración][, easing] [, callback])
+
+El valor de las propiedades puede ser relativo al que tenga actualmente. Para ello se utiliza "+=" o "-="
+
+duration:   una cadena (slow o fast) o un numero (milisegundos) para determiner el tiempo que la animaci6n se ejecutará. 
+easing:     es la funci6n que se usará para el tipo de transici6n. Por defecto, show anima al mostrar y ocultar modificando el alto, ancho y la opacidad del objeto. Para ver más funciones de transición es necesario un plugin 
+callback:   una funci6n para llamar una vez finalizada la animación (tal y como se mostró en el apartado 4.3). 
+
+        -->
+
+<!-- script -->
+
+<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+<script>
+$(document).ready(function() {
+    $("#right").on("click", function(){ //Animación del botón derecho.
+          $(".block").animate({"left": "+=50px"}, "slow");
+    /* Mejora: controlar que el objeto .block  NO se salga del body */
+    });
+    $("#left").on("click", function(){//Animación del botón izquierdo.
+        $(".block").animate({"left": "-=50px"}, "slow");
+    /* Mejora: controlar que el objeto .block  NO se salga del body */
+    });
+
+
+    $(".block").one("click", function(){ //al hacer click en div, cambia de tamaño
+      $(this).animate({     //  $("div").animate({
+        width: "60%",
+        opacity: 0.5,
+        margin: "0 auto",
+        fontSize: "3em",
+        borderWidth: "10px",
+        top: "100px"
+      }, 1500 );
+    });
+
+});
+
+</script>
+
+</body>
+</html>
+

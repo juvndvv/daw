@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>04 Custom Animation</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.4.css">
+    
+    <style>
+        p {
+            position: relative;
+            top:0px;
+            left: 0px;
+            width: 30px;
+            height: 30px;
+            background: #4C6189;
+        }
+    </style>
+
+    
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.4.2023 Examples</h1>
+        <h2>04 Custom Animation</h2>
+    </header>
+    <main>
+        <section>
+            <h3>Click in any part of the document</h3>
+            <p>1</p>
+        </section>        
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+</body>
+
+
+
+<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+    <script>
+        /*
+                cada vez que hacemos click con el ratón en cualquier parte del documento, el párrafo:
+                1.- se desplaza 100 píxeles a la derecha 
+                2.- aumenta 30px de ancho
+                3.- aumenta 30px de alto
+                */
+        $(function () {
+            $(document).on("click", function (event) {
+                $("p").animate({
+                    left: '+=100',
+                    width: '+=30',
+                    height: '+=30'
+                }, 200);
+            });
+        });
+
+// OJO! no estamos haciendo un control de límites de desplazamiento
+// Propuesta:
+//   Mueve el párrafo mientras esté dentro de su contenedor.
+//   Cuando llegue al borde derecho de su contenedor, ha de volver de golpe a su posición inicial.
+
+</script>
+</html>
+
+<!--
+
+método .animate().
+
+Cualquier propiedad que utilice un valor numérico es susceptible de ser animada mediante este método. 
+Por ejemplo, la posición (left, right, top o bottom), el ancho (width), el alto (height), etc.
+
+El método .animate() tiene la siguiente definición:
+$(selector).animate(propiedades, [duración], [easing], [completado])
+
+Significado de los parámetros:
+
+propiedades: Será un objeto de propiedades css y los valores hacia los que la animación se mueve. 
+Ejemplos de este tipo de objetos:
+o {width: 0}: Se realiza una animación que irá desde el ancho actual hasta 0.
+o {left: "+=100"}: Cuando el valor de una propiedad se pasa como string, precedido por los caracteres += o -=, dicho valor será relativo al valor actual de la propiedad. Por lo tanto, en este caso, se incrementará el valor de la propiedad left en 100 píxeles.
+o {height: "toggle"}: 
+Cuando utilizamos "toggle" como valor de una propiedad, si el elemento está visible se ocultará, animando para ello
+la propiedad height y, si está oculto, se mostrará animando la misma propiedad.
+o {opacity: 0.25, left: "+=50", height: "toggle"}: 
+Podemos animar un elemento utilizando varias propiedades. 
+En este caso, la opacidad del elemento se configurará en un 25%, será desplazado 50 píxeles a la izquierda y se mostrará u ocultara de forma alterna.
+
+Easing: Este parámetro representará el nombre de una función de aceleración. Una función de aceleración especifica la velocidad, a la cual, la animación progresa en diferentes puntos dentro de la animación. La librería jQuery dispone de dos funciones implementadas:
+o swing: la utilizada por defecto.
+o linear: el progreso se realiza a un ritmo constante.
+
+Con el uso de plug-ins, como jQuery UI, tenemos disponibles más funciones de aceleración.
+
+
+
+-->

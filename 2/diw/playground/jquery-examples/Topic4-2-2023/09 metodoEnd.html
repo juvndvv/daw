@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>09 Method .end()</title>
+  <meta charset="utf-8" />
+  <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+  <h2>09 método .end()</h2>
+  <ul>
+    <li class="camiones">Camiones</li>
+    <li class="coches">Coches</li>
+    <li class="motos">Motos</li>
+    <li class="furgonetas">Furgonetas</li>
+  </ul>
+
+  <!-- ******************************** SCRIPTS -->
+  <script src="http://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script>
+  <script>
+    $(function () {
+      /*
+      Otros métodos transversales del DOM
+      .end() Finaliza la operación de filtrado más reciente en el encadenamiento actual y devuelve el conjunto de elementos 
+       seleccionados a su anterior estado.
+      */
+      /*
+      Poner el color de fondo plum        a los <li> de la clase coches y
+      el color de fondo yellowgreen a los <li> de la clase motos, 
+      cuando sean descendientes de un <ul>:
+      */
+      //$('ul').find('li.coches').css('background-color', 'plum')
+      //		.end().find('li.motos').css('background-color', 'yellowgreen');
+
+      $('ul').find('li.coches').css('background-color', 'plum')
+        .find('li.motos').css('background-color', 'yellowgreen');
+      /*
+      $('ul').find('li.coches').css('background-color', 'plum');
+      $('ul').find('li.motos').css('background-color', 'yellowgreen');
+      */
+
+    });
+  </script>
+</body>
+
+</html>

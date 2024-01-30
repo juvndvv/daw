@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+    <title>4.1.3   Change CSS property value</title>
+
+
+</head>
+
+<body id="cssChange">
+    <header>
+        <h2>4.1.3   .css("property": "value", ...)</h2>
+    </header>
+
+    <section>
+        <h4>Change CSS property value </h4>
+        <p> Click once on this <b>text </b> to change its properties </p>
+        <div>Click once on this <b>layer </b> to change its properties </div>
+        <p> 2 Click once on this <b>text </b> to change its properties </p>
+        <div>2 Click once on this <b>layer </b> to change its properties </div></section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+
+
+
+
+    <!--  
+        Si se desea CAMBIAR el valor de una propiedad para un elemento determinado se utiliza el método .css()
+
+        Un parámetro: 
+            $("p").css({"color", "red"})
+
+        Varios parámetros:
+            $("p").css({"color":"red", "background-color":"blue","font-size":"200%"})
+
+        -->
+    <!-- script -->
+    <style>
+        div{
+            z-index: 1;
+        }
+        </style>
+    
+        <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("p").on("click", function () {
+                    $(this).css({
+                        "color": "#E7C992",
+                        "background-color": "#314A76",
+                        "font-weight": "bold"
+                    });
+                });
+    
+                $("div").on("click", function () {
+
+                    $(this).css({
+                        "background-color": "#B28A3F",
+                        "color": "#FFF1D7",
+                        position: "absolute",
+                        // width: "200px",
+                        top: "340px",
+                        left: "calc(100% - 300px)",   // 300px width original
+                        border : " 2px solid black"
+                    })
+                });
+    
+                
+            });
+        </script>
+</body>
+
+</html>

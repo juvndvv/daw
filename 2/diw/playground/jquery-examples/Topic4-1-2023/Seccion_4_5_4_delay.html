@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+    <title>5_4_5 delay()</title>
+
+</head>
+<body id="delay">
+
+    <header>
+        <h1>5_4_5 delay()</h1>
+    </header>
+
+    <main>
+        <h3> Pincha en cualquiera de los textos </h3>
+        <div class="beforebox"><p>   Antes </p> </div>
+        <div class="afterbox"><p>   Después  </p> </div>
+        <div class="beforebox"><p>   Antes </p> </div>
+        <div class="afterbox"><p>   Después  </p> </div>
+    </main>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+
+
+<!--************   SCRIPTS  ******************-->
+<!--  
+        .delay( duration [, NombreCola] ) 
+Este metodo retrasa un tiempo especificado (duration) la animation de los elementos que se encuentran en una estructura cola (NombreCola), a la espera de ser animados. 
+El significado de sus parámetros es el siguiente:
+duration:   un numero en milisegundos que indica cuánto tiempo se retrasará el comienzo de una animation con respecto al siguiente elemento de una cola. 
+NombreCola: una cadena que contiene el nombre de la cola que contiene los elementos que se retrasarán.
+    Por defecto existe la cola estdádar fx que es la que se usa si no se pone valor a este parámetro. 
+
+
+In the example code, when clicking on any of the paragraphs, all of them are picked up with slideUp(300) and those with "before" identifier with fadeIn(1000) appear; and later, with a delay(3000); those with "after" identifier also with a fadeIn(1000) effect; 
+Let's remember that in jQuery all effects are produced at the same time, therefore, 
+
+-->
+<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+<script>
+    $(document).ready(function () {
+        $("div").on("click", function () {
+            $("div.beforebox").slideUp(300);
+
+            $("div.beforebox").fadeIn(1000);
+            $("div.afterbox").slideUp(300);
+            $("div.afterbox").delay(3000);
+            $("div.afterbox").fadeIn(1000);
+        });
+    });
+
+    // They will occur at the same time. In other words, ALL will disappear and only the div.before will appear. As there is a delay of 3000ms for the divs to appear after, they will be seen 3 seconds later. 
+</script>
+
+</body>
+</html>
+

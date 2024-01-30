@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Reemplazando elementos -->
+
+  <title>14 Method .replaceAll()</title>
+  <meta charset="utf-8" />
+  <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+  <h2>14 método .replaceAll()</h2>
+  <div class="container">
+    <h3>Saludos</h3>
+    <div class="inner"> <h4>Hola</h4> <h4>Más elementos</h4>
+    </div>
+    <div class="inner"><h4>Adios</h4></div>
+  </div>
+  <footer>
+    <article>
+      <h4>Te propongo un ejercicio</h4>
+      <p>incluye una nueva acción...
+        <br>En lugar de reemplazar los textos al cargarse la página, implementa el manejador para un evento determinado sobre cada caja <code>.inner</code>
+      </p>
+    </article>
+    <p>** Comentarios en el archivo de código html</p>
+  </footer>
+
+  <!-- ******************************** SCRIPTS -->
+  <script src="http://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script>
+  <script>
+
+    /* se reemplazan todos los elementos de la clase inner por un <h2>. */
+
+    $(function () {
+      $('<h2>Hola MUNDO</h2>').replaceAll('.inner');
+    });		
+  </script>
+
+</body>
+
+</html>
+
+

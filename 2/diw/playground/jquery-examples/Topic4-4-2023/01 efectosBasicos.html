@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>01 Basic effects</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.4.css">
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Topic4.4.2023 Examples</h1>
+        <h2>01 Show-Hide-Toggle</h2>
+    </header>
+    <main>
+        <nav><a href="#" id="show">Show</a> | <a href="#" id="hide">Hide</a> | <a href="#" id="toggle">Toggle</a></nav>
+        <section>
+            <h3>Paragraph appear/dissappear</h3>
+            <p>Paragraph</p>
+        </section>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+</body>
+
+<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="script/date.en.js"></script>
+<script src="script/topic4.4.2023.js"></script>
+
+<script>
+    /* show(),  hide(), toggle()  SIN PARÁMETROS
+            se oculta o se muestra inmediatamente, sin ningún tipo de animación.
+            */
+    $(function () {
+        $("#show").on("click", function (event) {
+            event.preventDefault();
+            $("p").show();
+        });
+        $("#hide").on("click", function (event) {
+            event.preventDefault();
+            $("p").hide();
+        });
+        $("#toggle").on("click", function (event) {
+            event.preventDefault();
+            $("p").toggle();
+        });
+    });
+</script>
+</html>

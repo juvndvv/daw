@@ -1,0 +1,90 @@
+/* As hex codes */
+/*http://paletton.com/#uid=23I0u0kbRt14+E48dwffUpTkImm*/
+/* As hex codes */
+
+.color-primary-0 { color: #66789A }	/* Main Primary color  Azules*/
+.color-primary-1 { color: #A7B0C2 }
+.color-primary-2 { color: #8391AA }
+.color-primary-3 { color: #4C6189 }
+.color-primary-4 { color: #314A76 }
+
+.color-complement-0 { color: #E7C992 }	/* Main Complement color Beig*/
+.color-complement-1 { color: #FFF1D7 }
+.color-complement-2 { color: #FFE8BE }
+.color-complement-3 { color: #CEAA68 }
+.color-complement-4 { color: #B28A3F }
+
+/*general style */
+*{box-sizing: border-box;}
+img{
+    object-fit: cover;
+}
+body { background: #FFe8be; 
+       font-size: large;
+       font-family: Verdana; 
+       height: calc(100vh - 5px);  /* boxshadow 5px*/
+       min-height:500px;
+       width: 80%;
+       min-width: 800px;
+       margin: 0 auto;
+       padding: 10px;
+       border: 1px solid #A6B0C2;
+       box-shadow: 5px 5px 2px #A6B0C2;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+}
+
+header{
+    margin: 1vh 0;
+    box-shadow: 5px 5px 2px #A6B0C2;
+    text-align: center;
+    padding: 1px;
+    border: 1px solid #A6B0C2;
+    height: 150px;
+}
+main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    /*! flex-direction: column; */
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+height: 80px;
+border: 1px solid #A6B0C2;
+}
+footer h3{
+    margin: 0 20px;
+}
+
+.flexible-column{
+    display: flex;
+    flex-direction:column;
+    align-items:center;  
+    justify-content:center;        
+}
+#ejemplosT4_3, #destino2{
+    margin: 10px 10px 30px;
+    min-height: 50px;
+    text-align: center;
+    padding: 7px;
+}
+#destino2{
+    box-shadow: 5px 5px 2px #B28A3F;
+    border: 1px solid #B28A3F;
+}
+
+
+/*  12 metodoOn2.html   */
+.enlace{
+    box-shadow: 5px 5px 2px #B28A3F;
+    border: 1px solid #B28A3F;
+    padding: 5px;   
+    margin: 0 20px; 
+}

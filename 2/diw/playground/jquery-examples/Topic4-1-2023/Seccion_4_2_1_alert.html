@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+        <meta charset="utf-8" />
+
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+ 		
+		<title>4.2.1 ALERT - Event handling</title>
+        <!--  
+Para cada evento disponible hay dos posibilidades de manejo: 
+
+1. Se le puede pasar una función que determine su comportamiento. 
+2. No se le pasa función, entonces se ejecuta el evento JavaScript del elemento. 
+    jQuery tiene tantas funciones como eventos estandar de JavaScript. 
+    El nombre de cada función es el mismo que el del evento, pero sin el habitual prefijo "on" de los eventos: 
+
+        -->
+
+	</head>
+
+	<body>
+
+        <header>
+            <h2>4.2.1 ALERT</h2>
+        </header>
+
+    	<div>
+            <p> An "alert" window appears when you click on this text</p>
+            <p> ANOTHER "alert" </p>            
+        </div>	
+
+        <footer>
+            <h3>IES CAMP DE MORVEDRE</h3>
+        </footer>
+
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$("p").on("click", 
+                    function(){alert($(this).text() );})});
+                   
+		</script>	    
+    </body>
+
+</html>
+

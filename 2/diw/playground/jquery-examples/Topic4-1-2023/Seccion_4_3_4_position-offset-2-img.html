@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Seccion_4_2_2_position</title>
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+ 
+    <style>
+
+        #botones{text-align: center;}
+        button{margin: 5px;}
+        #contenedor{
+            position:relative; 
+            background-color: #4c6189; 
+            padding: 20px;  /* OJO con los contenedores con "padding"*/
+            width: 500px; height: 250px;  margin: 0 auto;
+        }
+        #objeto{
+            position:relative; 
+            top:0px; left:0px; /*inicialmente en la esquina superior izquierda*/
+            width:100px; margin: 0; padding: 0;
+            /* border : 2px solid #B28A3F;*/ } 
+        #objeto img{
+                width: 100%;
+                object-fit: cover;
+                
+            }
+        #informacion{
+            margin-left: 40px;
+            text-align: left;
+        }
+  
+    </style>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+
+
+<!--******************************-->
+    <header>
+	   <h3> Mover un elemento dentro de un contenedor con padding</h3>        
+    </header>
+
+    <section>
+        <h4>Contenedor</h4>
+        <div id="contenedor">
+            <div id="objeto" ><img src="./images/logojQuery.png" alt="logo"></div>
+            <!-- si ponemos directamente la imagen en el contenedor, ésta automáticamente se centra y no se comporta bien al moverla -->
+        </div>
+        <hr>
+
+            <section id="botones">
+                <button id="SupIz">SupIzda</button>
+                <button id="InfIz">InfIzda</button>
+                <button id="centro">Centro</button>
+                <button id="SupDe">SupDcha</button>
+                <button id="InfDe">SupIzda</button>        
+            </section>
+        <hr>
+
+            <section id="informacion">
+                <h3>Dimensiones</h3>
+            </section>
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+    
+    <script>
+
+        $(document).ready(function () {
+
+            var interiorWCont = $("#contenedor").width();   /* ancho sin considerar padding ni bordes */
+            var interiorHCont = $("#contenedor").height();  /* alto  sin considerar padding ni bordes */
+            var exteriorWCont = $("#contenedor").outerWidth();   /* ancho total */
+            var exteriorHCont = $("#contenedor").outerHeight();  /* alto  totsl */
+            var centroCx = interiorWCont / 2;
+            var centroCy = interiorHCont / 2;
+            var anchoOb = $("#objeto").outerWidth();
+            var altoOb = $("#objeto").outerHeight();
+            var centroObj_t = centroCy - altoOb / 2; /* Para situar el objeto en el centro del contenedor */
+            var centroObj_l = centroCx - anchoOb / 2;
+            var objTop; 
+            var objLeft;
+
+
+            $("#informacion").append("<p>Externas contenedor: " + exteriorWCont + " x " + exteriorHCont + "</p>").append("<p>Internas contenedor: " + interiorWCont + " x " + interiorHCont + "</p>");
+            $("#informacion").append("<p>Externas objeto:     " + anchoOb + " x " + altoOb + "</p>");
+
+            $("#SupIz").on("click", function () {
+
+                $("#objeto").animate({ top: "0px", left: "0px" });
+
+               })
+            $("#SupDe").on("click", function () { 
+                objLeft= (interiorWCont - anchoOb) + "px";
+                $("#objeto").animate({ top: "0px", left:  objLeft});  
+                })
+            $("#InfIz").on("click", function () { 
+                objTop= (interiorHCont - altoOb) + "px"
+                $("#objeto").animate({ top: objTop, left: "0px" }); 
+                })
+            $("#InfDe").on("click", function () { 
+                objTop = (interiorHCont - altoOb) + "px";
+                objLeft = (interiorWCont - anchoOb) + "px";                
+                $("#objeto").animate({ top:  objTop, left:  objLeft}); 
+
+                })
+            $("#centro").on("click", function () { 
+                objTop  = centroObj_t + "px";
+                objLeft = centroObj_l + "px";
+                $("#objeto").animate({ top: objTop, left:  objLeft}); 
+
+                 })
+/* En realidad veremos que se sitúa por dentro del padding del contenedor*/            
+    })
+
+    </script>
+</body>
+
+</html>

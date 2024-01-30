@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+    <title>4.2 on() Example of use </title>
+   
+</head>
+
+<body>
+
+    <header>
+        <h2>4.2 on()</h2>
+    </header>
+
+    <main>
+        <h3><strong>Define</strong> manejadores de evento para <strong>uno o varios elementos</strong> de la página</h3>
+        <p> El texto cambia de color al entrar o salir con el ratón o hacer click</p>
+        <p> Párrafo DOS del texto </p>
+        <p> Párrafo TRES del texto </p>
+    </main>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+
+<!-- *********************** script ************************** -->
+
+    <!--  
+        .on(): permite asociar a un elemento un nº ilimitado de eventos, todos a la vez, si tienen el mismo comportamiento
+        Sintaxis: 
+        .on("tipo_de_evento1 tipo evento2 ... tipo evento n", manejador (handler) ) 
+        -->
+ <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("p").on("click mouseenter mouseleave", function (e) {
+            /* acciones a ejecutar */
+            if ($(this).css("color") != "rgb(255, 0, 0)")
+                $(this).css("color", "rgb(255, 0, 0)");
+            else
+                $(this).css("color", "rgb(0, 0, 255)");
+        })
+
+    });
+</script>
+
+</body>
+
+</html>

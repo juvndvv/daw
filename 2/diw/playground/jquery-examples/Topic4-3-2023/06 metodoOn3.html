@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>.on()</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.3.css">
+
+    <link rel=StyleSheet href="./css/estiloT4.3.css" type="text/css" media="screen">
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+
+    <script>
+        $(function () {
+            $("button").on("click", function () {
+                console.log("Manejador 1");
+                $("p").text("Manejador 1");
+            });
+            $("button").on("click", function () {
+                var mensaje = $("p").text() + "... Manejador 2";
+                console.log("Manejador 2");
+                $("p").text(mensaje);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.3.2023 Examples</h1>
+        <h2>.on()</h2>
+    </header>
+    <main>
+        <button>Click on me!</button>
+        <div class="flexible-column">
+            <p></p>
+        </div>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+
+</body>
+
+</html>

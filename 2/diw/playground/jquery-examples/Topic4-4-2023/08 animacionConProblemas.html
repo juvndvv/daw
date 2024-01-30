@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>08 animation with problems</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/estiloT4.4.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Topic4.4.2023 Ejemplos</h1>
+    <h2>08 animación ¿con problemas?</h2>
+    <p>Click en cualquier parte de la pantalla</p>
+  </header>
+  <main>
+    <div id="animado">
+    </div>
+  </main>
+  <footer>
+    <h3>IES CAMP DE MORVEDRE</h3>
+    <h4></h4>
+  </footer>
+
+
+  <!-- **************** SCRIPT ********* -->
+  <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="script/date.en.js"></script>
+  <script>
+    $(function () {
+
+      $(document).on("click", function (event) {
+        $("div").animate({
+          left: '+=100'
+        }, 200);
+        var pleft=$("div").css("left");
+        console.log(pleft);
+        $("div").html(pleft);
+      });
+    });
+  </script>
+</body>
+
+</html>
+
+<!--
+Cuando realizamos una animación, hemos de tener en cuenta, que tendrá una determinada duración, 
+por lo tanto, mientras la animación se realiza el código javascript seguirá su curso. 
+
+Por ejemplo, si mientras la animación está en marcha se produce un evento sobre un elemento que tiene un manejador, el código del manejador será ejecutado. 
+
+Si, además, desde este manejador se accede a la propiedad que se está animando, podemos encontrarnos con problemas, ya que el valor de la propiedad será impredecible.
+
+¿Porqué?
+
+Al hacer click con el botón del ratón en cualquier parte del documento, el <div> de "main" se desplazará 100 píxeles a la izquierda con una animación que durará 200 segundos,
+además, también se escribirá dentro del <div> el valor de su propiedad left. 
+
+Si probamos el ejemplo, vemos que al hacer un click funciona perfectamente, pero 
+si hacemos varios click rápidamente, observamos que el valor de la propiedad left que se va mostrando en el <div>, no va de 100 en 100 como podríamos esperar, 
+sino que va tomando valores intermedios, incluso, con decimales.
+
+Esto es así, porque estamos accediendo a la propiedad que estamos animando a mientras la animación está en marcha. 
+
+
+SOLUCIÓN:
+
+Tenemos dos formas de solucionar este tipo de problemas: 
+usando una variable centinela o usando una función de completado. 
+Ejemplo 09 animacionSolucionadaFuncionCompletado.html
+
+-->

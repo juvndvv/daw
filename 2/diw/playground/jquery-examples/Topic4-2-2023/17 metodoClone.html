@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>17 Method .clone()</title>
+    <meta charset="utf-8" />
+    <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+
+  </head>
+<body>
+     <h2>17 método .clone()</h2>
+
+     <main id="clonar">
+
+         <div id="productos1">
+            <p>Camisas</p>
+            <p>Pantalones</p>
+          </div>
+          <div id="productos2">   </div>
+        <button id="b1">1º Clonar</button>
+        <button id="b2">2º Modificar clonado</button>
+    </main>
+
+
+    <footer>
+      <p>** Comentarios en el archivo de código html</p>
+    </footer>
+    
+    <!-- ******************************** SCRIPTS -->
+    <script src="http://code.jquery.com/jquery-3.7.1.min.js" ></script>
+    <script>
+        $(function () {
+            /*
+            Podemos encontrarnos situaciones, donde necesitemos copiar un elemento del DOM y colocarlo en algún otro lugar.
+
+            .clone() 
+            Duplica todos los elementos seleccionados. Después podemos colocarlos donde queramos utilizando otros métodos.
+
+            En este ejemplo:
+            Se duplica el contenido del elemento con id productos1 y se añade al final del elemento con id productos2.
+            */
+            $("#b1").on("click", function(){
+                $('#productos1').clone().appendTo('#productos2');})
+
+            /* una vez duplicado y añadido, podemos tratarlo */
+            $("#b2").on("click", function(){
+                $('#productos2').children().css({"background-color": "#314A76", "color":"#FFE8BE"});})
+        });
+    </script>
+    
+</body>
+</html>

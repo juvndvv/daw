@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+        <meta charset="utf-8" />
+ 
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+	<title>keypress() Animation</title>
+        <!--  
+ .keypress() 
+    Se lanza el evento cuando el usuario presiona una tecla pero con la idea de registrar que carácter se ha pulsado. 
+    También se puede conseguir con keydown(), sin embargo si se pulsa una tecla y se mantiene, 
+            keydown() solo registra un evento para esa tecla, mientras que 
+            keypress() registra uno por cada carácter introducido.        
+        -->
+
+</head>
+<body id="keydown">
+
+<!--******************************-->
+    <header>
+        <h1>keypress() "Animation"</h1>
+    </header>
+
+    <section>
+        <form>
+
+            <label for="objetivo">Press any key</label>
+            <input id="objetivo" type="text" />
+            <div id="salidapress"></div>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+<!--******************************-->
+
+
+
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#objetivo').val(""); /* empty text box */
+            $('#objetivo').focus();
+            $('#objetivo').keypress(function (e) {
+                //   e.preventDefault();          
+                //Si se llama a este método, no se activará la acción predeterminada del evento. NO SE ESCRIBIRÁ el caracter pulsado
+                $("#salidapress").html(e.which + ": " + String.fromCharCode(e.which))
+                // event.which     Para los eventos de mouse o teclado, esta propiedad indica la tecla o el botón específico que se presionó.			  
+            });
+        });
+    </script>
+
+</body>
+</html>

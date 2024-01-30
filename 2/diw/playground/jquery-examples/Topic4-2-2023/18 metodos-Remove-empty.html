@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>18 .remove() & .empty()</title>
+    <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+
+</head>
+<body>
+    <h2>18 métodos .remove()   .empty()  y  .addClass() </h2>
+
+    <main id="remove">
+        <div>
+            Texto en el div.
+            <p>Párrafo en el div.</p>
+            <p>Otro párrafo en el div.</p>
+        </div>
+        <div class="vacio"></div>
+        <div> <p>HOLA</p> </div>
+        <div id="botones">
+            <button id="b1">Vacia el primer div</button>
+            <button id="b2">Elimina los div vacios</button>
+        </div>
+    </main>
+
+    <!-- ******************************** SCRIPTS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+              $("#b1").on("click", function(){
+                    $("div").first().empty().addClass("vacio");
+              });
+              $("#b2").on("click", function(){
+                    $("div:empty").remove();
+              });
+    });
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>03 fade-slide default effects </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.4.css">
+    
+    <style>
+        p {
+            width: 300px;
+            height: 300px;
+            background: #4C6189;
+            color: #FFF1D7;
+            font-size: 2em;
+            text-align: center;
+            /*2023*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+    <script src="script/topic4.4.2023.js"></script>
+
+    <script>
+        $(function () {
+            $("#incfade").on("click", function (event) {
+                event.preventDefault(); /*por ser un enlace.*/
+                $("p").fadeOut(600, function () {
+                    var valor = parseInt($(this).text());
+                    valor++;
+                    $(this).html(valor).fadeIn(600);
+                });
+            });
+            $("#incslide").on("click", function (event) {
+                event.preventDefault(); /*por ser un enlace.*/
+                $("p").slideUp(600, function () {
+                    var valor = parseInt($(this).text());
+                    valor++;
+                    $(this).html(valor).slideDown(600);
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.4.2023 Examples</h1>
+        <h2>03 fade-slide default effects</h2>
+    </header>
+    <main>
+        <nav>
+            <a href="#" id="incfade">Increment-fade</a> | <a href="#" id="incslide">Increment-slide</a>
+        </nav>
+        <section>
+            <h3>Paragraph fade/slide</h3>
+            <p>1</p>
+        </section>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+</body>
+
+</html>

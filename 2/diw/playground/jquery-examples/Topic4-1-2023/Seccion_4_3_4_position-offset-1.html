@@ -1,0 +1,127 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Seccion_4_2_2_position</title>
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+ 
+    <style>
+#mover{height:900px;}
+        #botones{text-align: center;}
+        button{margin: 5px;}
+        #contenedor{position:relative; background-color: #4c6189; width: 500px; height: 250px; /*padding: 20px; */margin: 0 auto;}
+        #objeto{position:relative; background-color: #e7c992; width: 150px; height: 100px;border : 10px solid #B28A3F;}
+  
+    </style>
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body id="mover">
+
+
+<!--******************************-->
+    <header>
+	<h2> Mover un elemento dentro de un contenedor</h2>
+    </header>
+
+    <section>
+	<h3>Contenedor</h3>
+	<div id="contenedor">
+	    <div id="objeto"></div>
+	    <!--<img id="objeto" src="./imagenes/logo.png" alt="logo">-->
+	</div>
+	<hr>
+
+	    <section id="botones">
+	        <h3> Pulsa sobre los botones para mover el objeto </h3>
+	        <button id="SupIz">SupIzda</button>
+	        <button id="InfIz">InfIzda</button>
+	        <button id="centro">Centro</button>
+	        <button id="SupDe">SupDcha</button>
+	        <button id="InfDe">SupDcha</button>
+	    </section>
+	<hr>
+
+	    <section id="informacion">
+	        <h3>Dimensiones</h3>
+	    </section>
+	    <section id="posicion">
+	        <h3>Posición elemento</h3>
+	        <p></p>
+	    </section>
+
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+    
+
+    <script>
+
+        $(document).ready(function () {
+
+            /*          var paddingCont = 2 * $("#contenedor").css("padding");
+            var interiorWCont = $("#contenedor").innerWidth()- paddingCont ;
+            var interiorHCont = $("#contenedor").innerHeight()- paddingCont;*/
+            var interiorWCont = $("#contenedor").width();   /* ancho sin considerar padding ni bordes */
+            var interiorHCont = $("#contenedor").height();  /* alto  sin considerar padding ni bordes */
+            var centroCx = interiorWCont / 2;
+            var centroCy = interiorHCont / 2;
+            var anchoOb = $("#objeto").outerWidth();
+            var altoOb = $("#objeto").outerHeight();
+            var centroObj_t = centroCy - altoOb / 2;
+            var centroObj_l = centroCx - anchoOb / 2;
+            var objTop  = centroObj_t + "px";
+            var objLeft = centroObj_l + "px";
+
+
+            $("#informacion").append("<p>Dimensiones internas contenedor: " + interiorWCont + " x " + interiorHCont + "</p>")
+            $("#informacion").append("<p>Dimensiones externas objeto:     " + anchoOb + " x " + altoOb + "</p>")
+            $("#objeto").css({ "top": objTop, "left": objLeft });
+            
+$("#posicion>p").text("top: " + centroObj_t + "px,  left: " + centroObj_l + "px");
+
+            escribir_posicion();
+
+            function escribir_posicion() {
+                var iTop= Math.round($("#objeto").position().top);
+                var iLeft= Math.round($("#objeto").position().left);
+                $("#posicion>p").text("top: " + iTop + "px,  left: " + iLeft + "px");
+            };
+
+            $("#SupIz").on("click", function () {
+
+                $("#objeto").css({ "top": "0px", "left": "0px" });
+                escribir_posicion();
+
+               })
+            $("#SupDe").on("click", function () { 
+                objLeft= (interiorWCont - anchoOb) + "px";
+                $("#objeto").css({ "top": "0px", "left":  objLeft}); 
+                escribir_posicion();
+                })
+            $("#InfIz").on("click", function () { 
+                objTop= (interiorHCont - altoOb) + "px"
+                $("#objeto").css({ "top": objTop, "left": "0px" }); 
+                escribir_posicion();
+                })
+            $("#InfDe").on("click", function () { 
+                objTop = (interiorHCont - altoOb) + "px";
+                objLeft = (interiorWCont - anchoOb) + "px";
+                
+                $("#objeto").css({ "top": objTop, "left":  objLeft}); 
+                escribir_posicion();
+                })
+            $("#centro").on("click", function () { 
+                objTop  = centroObj_t + "px";
+                objLeft = centroObj_l + "px";
+
+                $("#objeto").css({ "top": objTop, "left":  objLeft}); 
+                escribir_posicion();
+                 })
+    })
+
+    </script>
+</body>
+
+</html>

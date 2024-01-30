@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+        <meta charset="utf-8" />
+
+ 
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+	<title>scroll() Animation</title>
+        <!--  
+ .scroll()
+    Este evento se atiende cuando sobre un elemento que tiene barras de desplazamiento se mueve una de ellas. 
+    El evento se suele aplicar al elemento "ventana" pero también sobre frames o elementos con la propiedad CSS overflow puesta a scroll.       
+    
+ .resize() 
+    El evento se lanza cuando a un elemento tipo ventana se le cambia el tamaño.     
+        -->
+
+</head>
+<body id="scroll">
+ 
+
+
+<!--******************************-->
+    <header>
+        <h2>scroll() Animation</h2>
+    </header>
+
+    <section>
+        <h4>Click over the scroll bar</h4>
+        <div id="text">
+            
+            <p>
+                <strong>.scroll()</strong> The scroll event is sent to an element when the user scrolls to a different place
+                in the element. It applies to window objects, but also to scrollable frames and elements with the
+                overflow CSS property set to scroll (or auto when the element's explicit height or width is less than
+                the height or width of its contents).
+            </p>
+            <p>
+                <strong>.resize()</strong> The resize event is sent to the window element when the size of the browser window
+                changes
+            </p>
+            <hr>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.                
+            </p>
+        </div>
+
+        <p>Scrolled <span>0</span> times.</p>
+
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+<!--******************************-->
+
+
+
+<!-- script -->
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+        var x = 0;
+    $(document).ready(function () {
+        $("div").scroll(function(){
+    $("section>p span").text( x+= 1);
+  });
+
+
+    });
+</script>
+
+</body>
+</html>

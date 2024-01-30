@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+        <meta charset="utf-8" />
+
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen"/>
+ 		
+		<title>4.2 on() y off() </title>
+
+	</head>
+
+	<body>
+
+        <header>
+            <h2>4.2 on() / off()</h2>
+        </header>
+
+    	<section>
+                <h3>Define/deletes event handlers for one or more page elements </h3>>
+                <p> Text changes color when entering or exiting with the mouse or click </p>
+                <button>Remove color-change when clicking, EVEN IF IT KEEPS GOING IN AND OUT WITH THE POINTER </button>
+                <button>Reactivate the color-change when clicking </button>.
+        </section>
+
+        <footer>
+            <h3>IES CAMP DE MORVEDRE</h3>
+        </footer>	
+
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+        <!--  
+
+            Con .on() podemos asignar uno o varios eventos a los elementos del DOM, cuando 
+            estos eventos tengan un mismo manejador
+
+            Con .off()  elimina un evento previamente asignado a un elemento o varios de una página. 
+         Sintaxis:  $("p").off("click");
+
+            .off()  sin ningún parámetro:  se eliminan todos los manejadores de cualquier tipo de evento. 
+         Sintaxis:  $("p").off();
+
+         Esto es útil cuando se quiere quitar la interacción a unos elementos de una página por cualquier motivo. 
+    
+        -->
+
+	<script>
+      $(document).ready(function () {
+          /* var funcionqueManeja = function()   coloca la función dentro de una variable */
+          var funcionqueManeja = function () {
+              if ($(this).css("color") != "rgb(255, 0, 0)")
+                  $(this).css("color", "rgb(255, 0, 0)");
+              else
+                  $(this).css("color", "rgb(0, 0, 255)");
+          }
+/*define inicialmente un mismo comortamiento para los tres eventos: 
+        1. click, 
+        2. mouseenter y 
+        3. mouseleave */
+
+          $("p").on("click mouseenter mouseleave", funcionqueManeja);
+
+
+          $("button").first().on("click", function () {
+              $("p").off("click", funcionqueManeja);
+          });
+
+          $("button").last().on("click", function () {
+              $("p").on("click", funcionqueManeja);
+          })          
+      });
+
+		</script>
+	</body>
+
+</html>
+

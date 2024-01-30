@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>18 Method .remove()</title>
+    <meta charset="utf-8" />
+    <style>
+        .cambioColor {
+            color: red
+        }
+
+        ;
+    </style>
+    <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+    <h2>18 método .remove()</h2>
+    <main>
+        <div>
+            <ol>Con este método podemos eliminar:
+                <li>Elementos que cumplan una determinada condición <code> $("p").remove(":contains('Además')")</code>
+                </li>
+                <li>Un conjunto de elementos <code>$("section").remove()</code></li>
+            </ol>
+            <section>
+                <h4>SECCIÓN 1</h4>
+                <p>Contenido de la sección 1</p>
+            </section>
+        </div>
+        <section>
+            <h4>SECCIÓN 2</h4>
+            <p>Contenido de la sección 2</p>
+        </section>
+        <p>Esto es un párrafo <span>que contiene un span</span></p>
+        <p>Además este párrafo también lo eliminamos</p>
+        <div>
+            <button id="b3">Cambiar estilo a párrafos que contienen "ADEMÁS"</button>
+            <button id="b1">Borrar los párrafos que contienen "ADEMÁS"</button>
+            <button id="b2">Borrar todas las secciones</button>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>** Comentarios en el archivo de código html</p>
+    </footer>
+    <!-- ******************************** SCRIPTS -->
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <!--
+    Eliminando elementos del DOM. Method .remove()
+    
+    $(function() {
+          $('#contenido').remove();
+    });
+    
+    También podemos eliminar elementos que cumplan una determinada condición, pasándole dicha condición como parámetro al método .remove(). 
+    
+    Por ejemplo, para borrar todos los párrafos que contengan el texto "Además" haremos lo siguiente
+    -->
+    <script>
+        $(function () {
+            $("#b1").on("click", function () { $("p").remove(":contains('Además')"); });
+            $("#b2").on("click", function () { $("section").remove(); });
+            $("#b3").on("click", function () { $("p:contains('Además')").addClass("cambioColor"); })
+        });
+    </script>
+
+</body>
+
+</html>

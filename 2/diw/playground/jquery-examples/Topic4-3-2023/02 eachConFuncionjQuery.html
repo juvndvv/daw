@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>.each() with jQuery objects</title>
+    <link rel="stylesheet" href="css/estiloT4.3.css">
+    <style>
+        
+
+        div:nth-child(odd) {
+            color: red;
+        }
+
+        div:nth-child(even) {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.3.2023 Examples</h1>
+        <h2>.each() with jQuery objects</h2>
+    </header>
+    <main>
+        <div>
+            <p>Water Sports</p>
+        </div>
+        <div>
+            <p>Air Sports</p>
+        </div>
+        <div>
+            <p>Wind Sports</p>
+        </div>
+        <div>
+            <p>Athletics</p>
+        </div>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+    
+    <!-- Los scripts también pueden ir situados justo antes de cerrar el "body"-->
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(function() {
+            /*
+            Si quisiéramos obtener un objeto jQuery con el elemento que estamos recorriendo, 
+            sólo tendríamos que seleccionarlo. 
+            El código del ejemplo "01 each.html" podría utilizar objetos jQuery $(this) de la siguiente forma:
+            */
+            $("div").each(function(i) {
+                if ($(this).css("color") != "blue")
+                    $(this).css("color", "blue");
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

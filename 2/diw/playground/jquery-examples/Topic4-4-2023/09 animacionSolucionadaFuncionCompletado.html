@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>09 animation solved function completed</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.4.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.4.2023 Ejemplos</h1>
+        <h2>09 animación solucionada con función <code>completed</code> </h2>
+        <p>Click en cualquier parte de la pantalla</p>
+    </header>
+    <main>
+        <div id="animado">
+        </div>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+        <article>
+            <h4>Te propongo un ejercicio</h4>
+            <p>incluye una nueva acción...
+              <br>El objeto ha de recorrer el perímetro interior de su contenedor (<code>main</code>), "pegado" a los bordes, pero sin salirse.
+            </p>
+          </article>        
+    </footer>
+</body>
+
+
+
+
+<!-- /*********  SCRIPT *********/ -->
+<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="script/date.en.js"></script>
+<script>
+    $(function () {
+        var sLeft="";
+        var iLeft = 0;
+        var oWdiv=$("div").outerWidth() ;
+        var iWmain=$("main").innerWidth();
+
+        var imaxLeft = iWmain - oWdiv ;
+        var maxLeft = imaxLeft + 'px';
+
+        var sDatos= "CSS top: " + $("div").css("top") + "; CSS left: " + $("div").css("left") + 
+         "\n" + "position top: " + $("div").position().top + "; position left: " + $("div").position().left + 
+         "\n" + "offset top: " + $("div").offset().top + "; offset left: " + $("div").offset().left + 
+         "\n" + "maxLeft: " + maxLeft;
+
+        //  alert(sDatos);
+
+// CSS top: 0px; CSS left: 0px
+// position top: 213.11666870117188; position left: 203
+// offset top: 213.11666870117188; offset left: 203
+
+        //definimos función 
+        var pLeft = function() {
+            sLeft = $("div").css("left");
+            console.log(sLeft);
+            $("div").html(sLeft);
+            iLeft = parseInt($("div").position().left);
+        }
+// .position().left y .css("left") coinciden si el elemento tiene posición absoluta
+        pLeft();
+
+        $(document).on("click", function (event) {
+
+            // movimiento hacia la derecha hasta llegar al borde derecho
+            if (iLeft + oWdiv + 100 < iWmain) {
+                $("div").animate({
+                    left: '+=100px'
+                },
+                    200,       /* duración */
+                    pLeft)    /* función al final de la animación */
+            }
+            else{
+                $("div").stop();
+                $("div").animate({
+                    left: maxLeft
+                },
+                    200,       /* duración */
+                    pLeft)    /* función al final de la animación */
+            }               
+            
+        });
+    });
+</script>
+
+</html>
+
+<!--
+
+sólo accedemos a la propiedad left cuando estamos seguros de que la animación ha terminado, es decir, en la función completado:
+function (){
+			$( "div" ).html($( "div" ).css("left"));
+		   });
+-->

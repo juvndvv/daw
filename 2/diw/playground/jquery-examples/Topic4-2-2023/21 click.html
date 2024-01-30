@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--  EVENTOS y manejadores de eventos  -->
+
+    <title>21 Method .click()</title>
+    <meta charset="utf-8" />
+    <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+
+
+
+
+</head>
+
+<body>
+    <h2>21 método .click()</h2>
+    <main id="click">
+        <p>Pulsa sobre el número para incrementarlo</p>
+        <h4>0</h4>
+    </main>
+
+
+    <footer>
+        <p>** Comentarios en el archivo de código html</p>
+    </footer>
+
+    <!-- ******************************** SCRIPTS -->
+    <script src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            $("h4").on("click", function (event) {
+                var counter = parseInt($(this).text());
+                counter++;
+                $(this).html(counter);
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+<!--
+En el ejemplo, vemos como asociamos un manejador de evento para el evento click del enlace. Este manejador de evento incrementa el número que contiene el enlace realizando los siguientes pasos:
+    Obtiene el texto.
+    Lo convierte a entero.
+    Lo incrementa.
+    Vuelve a cargar el valor incrementado en el html del enlace.
+
+Cuando pulsamos sobre un enlace, la acción por defecto, es cargar una nueva página. 
+Una de las formas de evitar que el enlace se comporte así, es haciendo que el manejador de evento devuelva false.
+
+Para poder acceder al elemento, sobre el cual se produce el evento, podemos utilizar el objeto $(this). 
+$(this) será un objeto jQuery, por lo tanto, podremos llamar a cualquier método a través de él.
+
+En el ejemplo se llama a los métodos .text() y .html() de este objeto.
+
+
+-->

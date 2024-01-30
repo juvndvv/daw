@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+    <title>resize() window browswe</title>
+    <!--  
+ .scroll()
+    Este evento se atiende cuando sobre un elemento que tiene barras de desplazamiento se mueve una de ellas. 
+    El evento se suele aplicar al elemento "ventana" pero también sobre frames o elementos con la propiedad CSS overflow puesta a scroll.       
+    
+ .resize() 
+    El evento se lanza cuando a un elemento tipo ventana se le cambia el tamaño.     
+        -->
+
+
+</head>
+
+<body id="resize">
+
+
+    <!--******************************-->
+    <header>
+        <h1>resize() Animation</h1>
+    </header>
+
+    <section>
+        <h3>How to know the window browser size?</h3>
+        <h4>Resize the window browser</h4>
+        <div id="boxsize">
+            <h4>Browser Window size. W: <span></span> x H: <span></span></h4>
+        </div>
+        <div id="text">
+            <p>
+                <strong>.scroll()</strong> The scroll event is sent to an element when the user scrolls to a different place
+                in the element. It applies to window objects, but also to scrollable frames and elements with the
+                overflow CSS property set to scroll (or auto when the element's explicit height or width is less than
+                the height or width of its contents).
+            </p>
+            <p>
+                <strong>.resize()</strong> The resize event is sent to the window element when the size of the browser window
+                changes
+            </p>
+            <hr>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.                
+            </p>
+        </div>
+
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+    <!--******************************-->
+
+
+    <!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            function text_background() {
+var boxsize=$(window).width();
+                $("#boxsize>h4>span").first().text(boxsize);
+                $("#boxsize>h4>span").last().text($(window).height());
+
+                if (boxsize > 800) {
+                    $('#text').css("background", "#A7B0C2");
+                } else {
+                    $('#text').css("background", "#CEAA68");
+                }
+
+            }
+
+            text_background();
+
+            $(window).resize(function () { //ventana del navegador. Cambiar tamaño.
+                text_background();
+            });
+        });
+    </script>
+</body>
+
+</html>

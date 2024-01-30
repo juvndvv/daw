@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>16.1 Method .unwrap()</title>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="./css/estiloT4.2.css">
+
+  <style>
+    div {
+      background-color: #FFF1D7;
+    }
+
+    article {
+      background-color: #B28A3F;
+      color: #FFF1D7;
+      padding: 5px;
+    }
+
+    article code {
+      background-color: #FFF1D7;
+    }
+
+    body>main {
+      background-color: #ccdbf5;
+      padding: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h2>16.1 Method .unwrap()</h2>
+  <main>
+    <div>
+      <p>This is a paragraph inside a <code>div</code> element.</p>
+    </div>
+
+    <article>
+      <h2>article</h2>
+      <p>This is a paragraph inside an <code>article</code> element.</p>
+    </article>
+    <button>Remove the parent container of each <code>p</code> element</button>
+  </main>
+
+
+  <!-- ******************************** SCRIPTS -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("button").click(function () {
+        $("p").unwrap();
+      });
+    });
+  </script>
+
+</body>
+
+</html>

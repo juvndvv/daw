@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>.on()</title>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.3.css">
+
+    <link rel=StyleSheet href="./css/estiloT4.3.css" type="text/css" media="screen">
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+
+    <script>
+        $(function () {
+            var counter_div = 0;
+            var counter_p = 0;
+            var str = "";
+            $("#aDiv").on("click", function () {
+                console.log("Manejador 1");
+            });
+            $("#aDiv").on("click", function () {
+                console.log("Manejador 2");
+                str = "<p>" + ++counter_div + " <b>Text</b> inserted by <i>click</i> in div</p>";
+                $("#destino2").append(str);
+            });
+
+            /* Method on() aplicado a document
+            Para que el evento click funcione:
+            1. para todos los párrafos inicialmente presentes en el HTML y 
+            2. futuros al ser insertados dinámicamente por un script */
+            $(document).on("click", "p", function () {
+                console.log("Paragraph handler");
+                str = "<p>" + ++counter_p + " <b>Text</b> inserted by <i>click</i> inn p</p>";
+                $("#ejemplosT4_3").append(str)
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.3.2023 Examples</h1>
+        <h2>.on() applied to document</h2>
+    </header>
+    <main>
+        <div id="ejemplosT4_3">
+            <div id="aDiv" class="flexible-column">Click here!</div>
+            <p>Initial paragraph. Click here!</p>
+        </div>
+        <div id="destino2">
+            <h4> Here, more content </h4>
+        </div>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+</body>
+
+</html>

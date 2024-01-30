@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>06 Method .nextUntil()</title>
+  <meta charset="utf-8" />
+  <link rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+  <h2>06 método .nextUntil()</h2>
+
+  <!-- description list -->
+  <dl>
+    <dt id="term-1">término 1</dt>
+    <dd>definición 1-a</dd>
+    <dd>definición 1-b</dd>
+    <dd>definición 1-c</dd>
+    <dd>definición 1-d</dd>
+
+    <dt id="term-2">término 2</dt>
+    <dd>definición 2-a</dd>
+    <dd>definición 2-b</dd>
+    <dd>definición 2-c</dd>
+
+    <dt id="term-3">término 3</dt>
+    <dd>definición 3-a</dd>
+    <dd>definición 3-b</dd>
+  </dl>
+
+
+
+  <!-- ******************************** SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      /*
+      Poner el color de fondo verde a los siguientes hermanos de un elemento "#term-2" hasta que aparezca 
+      un hermano de tipo <dt>:          
+      */
+      //$("#term-1").nextUntil("#term-2").css("background-color", "#ccdbf5");
+      $("#term-1").nextUntil("#term-2").addBack().css("background-color", "#ccdbf5");
+      $("#term-2").nextUntil("dt").css("background-color", "#FFF1D7");
+    });
+  </script>
+</body>
+
+</html>

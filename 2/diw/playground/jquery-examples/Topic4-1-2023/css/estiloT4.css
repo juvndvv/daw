@@ -1,0 +1,231 @@
+/* As hex codes */
+/*http://paletton.com/#uid=23I0u0kbRt14+E48dwffUpTkImm*/
+/* As hex codes */
+
+.color-primary-0 { color: #66789A }	/* Main Primary color  Azules*/
+.color-primary-1 { color: #A7B0C2 }
+.color-primary-2 { color: #8391AA }
+.color-primary-3 { color: #4C6189 }
+.color-primary-4 { color: #314A76 }
+
+.color-complement-0 { color: #E7C992 }	/* Main Complement color Beig*/
+.color-complement-1 { color: #FFF1D7 }
+.color-complement-2 { color: #FFE8BE }
+.color-complement-3 { color: #CEAA68 }
+.color-complement-4 { color: #B28A3F }
+
+*{box-sizing: border-box;}
+
+img{
+    object-fit: cover;
+}
+body { 
+    position:relative;
+    background: #FFe8be; 
+       font-size: large;
+       font-family: Verdana; 
+       height:99vh;
+       min-height: 600px;
+    width:85%;
+       min-width: 800px;
+       margin: 0 auto;
+       padding: 10px;
+       border: 1px solid #A6B0C2;
+       box-shadow: 5px 5px 2px #A7B0C2;
+       text-align: center;
+}	
+
+header{
+       width: 95%;
+       margin: 0 auto;
+       box-shadow: 5px 5px 2px #B28A3F;
+       padding: 5px;
+}
+footer{
+    position: absolute;
+    width: 98%;
+    margin:10px auto;
+    bottom: 0px;
+    background-color:  #B28A3F;    
+    color: #fff1d7;
+    left:1%;
+}
+
+header hr{width: 80%;}
+#clickme{ background-color: #314A76; color: #FFF1D7;}
+
+/* Seccion_4_2_on.element.vs.document.html*/
+header code{display: block;}
+header ul{text-align: left;}
+
+
+.mydivs,
+div[id^="mydiv"] {
+    background-color: #E7C992;
+    color: #314A76;
+    margin: 15px 0px;
+    padding: 10px;
+}/*h1{color: #ffe8be;}    // azul celeste fuerte   */
+span { background:#A7B0C2; padding:3px 0px;  }
+
+/* Seccion_4_2 on()_off().html */
+
+button{position:static} /* width: 40%;   preparado para cambiar propiedades desde herramientas de desarrollador */
+    
+
+/* Seccion_4_1_3 css()*/
+
+#cssChange {color: #314A76; position: relative;}
+#cssChange div{
+        position: relative;
+        background-color: #A7B0C2;
+        width: 300px;
+        height: 100px;
+        top: 0px;
+        left: 100px;           
+        }
+
+#cssChange section{
+    position: relative;
+}
+
+h2.a {
+    visibility: visible;
+  }
+  
+  h2.b {
+    visibility: hidden;
+  }
+
+
+/* Seccion_4_3_4 position-offset  */
+#secuencia{
+    height: 200px;
+}
+
+/* Seccion_4_5_1*/
+#show_hide section{ margin-top: 20px;}
+#show_hide div{ margin: 15px auto; width:365px;}
+#show_hide div::after{content:""; display: table; clear:both;}
+#show_hide div span {  background:#A7B0C2; padding:3px; float: left; }
+/* Aunque "span" es un elemento en línea, al implementar eventos hide/show, éstos aplican al elemento display:block, por tanto, hemos de hacerlos flotantes */
+
+
+/* Seccion_4_5_2*/
+#fade section{ margin-top: 20px;}
+#fade span { cursor:pointer; background-color: #FFE8BE;}
+#fade span.hilite { background:yellow; }
+#fade div { display:inline; color:red; } /*Se pone inline para que al quitarlo se ocupe su hueco */
+
+/*  Seccion_4_5_3 */
+#slide-flex { display: flex; 
+              justify-content: center;   /*centrado horizontal */
+}
+#slide-flex div { background:#de9a44; margin:3px; width:90px; display:none; }
+
+
+/*  Seccion_4_5_4 */
+#animate {position: relative;}
+#animate div {position: relative; margin: 20px auto;}
+
+#animate div:nth-child(2) {
+	background-color:#A6B0C2;
+	width:90px;
+    padding:10px;
+	}
+
+
+/*  Seccion_4_5_4 */
+#delay div.antes {	background-color:#8391AA; }
+#delay div.despues {background-color:#E7C992;	}
+
+/*  Seccion_4_6_1 focus1.html*/
+#form_box{margin: 10px auto;}
+.form_box1 {
+    border: 1px solid #B28A3F;
+    padding: 10px;
+}
+.form_box2 {
+    border: 1px solid #314A76;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+/*  Seccion_4_6_1 hover.html*/
+#hover section>ul {
+    /*! margin-left:20px; */
+    color: #314A76;
+    margin: 40px auto;
+    width: 30%;
+    text-align: left;
+}
+
+#hover li {
+    cursor: default;
+    position:relative;
+}
+
+#hover .option_loc {
+    display:none; 
+    margin: 0 auto;
+
+}
+
+/*  Seccion_4_6_1 mouseover.html*/
+#mouseover section{margin-top: 20px;}
+
+#mouseover section>div { position:relative;background-color: #66789A; height:400px; width:400px; margin: auto; display:flex;}
+#mouseover section>div>div {  position:relative;background-color: #E7C992;height:200px; width:250px; margin: auto; display:flex; flex-wrap: wrap; justify-content: center;}
+#mouseover p {background:#A7B0C2; width: 90%; }
+
+
+/*  Seccion_4_6_2 keypress.html*/
+#keydown form{ border: 2px solid #314A76; height: 3em;}
+#keydown p {background:#E7C992;}
+
+
+#boxsize{
+    background-color:#011733;
+    color:#FFF1D7;
+	   /*! width: 400px; */ 
+	   height: 60px;
+    margin-top: 15px;
+    margin: 0 auto;	
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#boxsize h4{
+    margin: auto;
+}
+#boxsize h4 span{background: #A7B0C2;}
+
+
+
+#text{
+    overflow: auto; 
+	/*! width: 400px; */ 
+	height: 220px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 7px 3px 0 4px;
+	font-size: 1em;
+    margin: 0 auto;	
+    text-align: justify;
+}
+
+/*  Seccion_4_6_3 scroll.html    resize.html*/
+#scroll section, #resize section, #keydown section{ margin: 20px auto 0;width: 70%;}
+h1+div{margin: 15px 0px;}
+
+		
+/* 4_6_2 keypressed */
+#salidapress{
+    line-height: 1.5em;
+}
+
+/* propuestas de ejercicios */
+footer section {
+    border-top: 1px solid white;
+    text-align: left;
+    padding: 0 10px;
+}

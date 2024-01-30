@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+ 
+        <meta charset="utf-8" />
+
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+		<title>Ejemplo de animación con Show() y Hide()</title>
+        <!--  
+.show	(	[duration]	[	,	easing]	[	,	callback])         Muestra un elemento que estaba oculto.
+
+.hide	(	[duration]	[	,	easing]	[	,	callback])         Ocultar un elemento. 
+ 
+
+duration:   una cadena (slow o fast) o un numero (milisegundos) para determiner el tiempo que la animaci6n se ejecutará. 
+easing:     es la funci6n que se usará para el tipo de transici6n. Por defecto, show anima al mostrar y ocultar modificando el alto, ancho y la opacidad del objeto. Para ver más funciones de transición es necesario un plugin 
+callback:   una funci6n para llamar una vez finalizada la animación (tal y como se mostró en el apartado 4.3). 
+ 
+        
+        
+FILTROS jQuery
+        :last-child        Permite seleccionar el último elemento hijo    
+        
+METODOS DE RECORRIDO del árbol DOM
+        .prev               Obtener el hermano inmediatamente anterior, a cada elemento del conjunto de elementos coincidentes, opcionalmente filtrada por un selector
+        .next               Obtener el hermano inmediatamente posterior        
+        -->
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+		
+        $(document).ready(function() {
+
+	// ocultar  función recursiva. Oculta las palabras del span una a una empezando por la última
+		var ocultar=function () { $(this).prev().hide("slow", ocultar); }
+
+
+            $("#hidr").on("click", function () {
+      			$("span:last-child").hide("slow", ocultar);
+    		});
+
+  			$("#showr").on("click", function () {
+			    $("span").show(500);
+
+		    });
+		});
+
+		</script>
+
+	</head>
+	<body id="show_hide">
+
+
+<!--******************************-->
+    <header>
+        <h2> show() / hide() </h2>
+    </header>
+
+    <section>
+		<button id="hidr">Ocultar</button>
+        <button id="showr">Mostrar</button>
+
+		<div>
+			<span>Había</span> 
+			<span>una </span> 
+			<span>vez</span> 
+		    <span>un</span> 
+			<span>desarrollador </span> 
+			<span>Web</span> 
+		    <span>...</span>
+  		</div>
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+
+	</body>
+</html>
+

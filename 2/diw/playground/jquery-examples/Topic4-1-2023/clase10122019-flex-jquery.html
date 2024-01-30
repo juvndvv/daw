@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+    <title>Change CSS property value</title>
+
+</head>
+
+<body id="cssChange">
+    <header>
+        <h2>4.2.1 .css("property": "value", ...)</h2>
+    </header>
+
+    <section>
+        <h4>Change CSS property value </h4>
+        <p> Click on this <b>text </b> to change its properties </p>
+        <div>Click on this <b> layer </b> to change its properties </div>
+        <p> 2 Click on this <b>text </b> to change its properties </p>
+        <div>2 Click on this <b> layer </b> to change its properties </div></section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+
+
+        <!--  
+        Si se desea CAMBIAR el valor de una propiedad para un elemento determinado se utiliza el método .css()
+
+        Un parámetro: 
+            $("p").css({"color", "red"})
+
+        Varios parámetros:
+            $("p").css({"color":"red", "background-color":"blue","font-size":"200%"})
+
+        -->
+    <!-- script -->
+    <style>
+        div{
+            z-index: 1;
+        }
+        </style>
+    
+        <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("p").on("click", function () {
+                    $(this).css({
+                        "color": "#E7C992",
+                        "background-color": "#314A76",
+                        "font-weight": "bold"
+                    });
+                });
+    
+                $("div").on("click", function () {
+                    $(this).css({
+                        "background-color": "#B28A3F",
+                        "color": "#FFF1D7",
+                        position: "absolute",
+                        width: "400px",
+                        top: "340px",
+                        left: "calc(100% - 400px)",
+                        border : " 2px solid black",
+                        display : "flex",                        
+                        "justify-content": "center",
+                        "align-items": "center"
+                        
+                    })
+                });
+    
+                
+            });
+        </script>
+    
+</body>
+
+</html>

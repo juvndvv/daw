@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--
+      Los siguientes ejemplos, nos muestran técnicas muy sencillas para cambiar los contenidos de nuestra página manipulando los elementos del DOM.
+      -->
+  <title>10 Method .html(). Changing html</title>
+  <meta charset="utf-8" />
+  <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+  <h2>10 método .html()</h2>
+  <main>
+    <p>Corro 4 veces a la semana.</p>
+    <p>Hago pesas 3 veces a la semana.</p>
+  </main>
+
+  <footer>
+    <p>** Comentarios en el archivo de código html</p>
+  </footer>
+
+  <!-- ******************************** SCRIPTS -->
+  <script src="http://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script>
+  <script>
+
+    /*
+    1) se muestra en una ventana de alert el contenido html del <div> con la clase contenido y, 
+    2) se cambia el contenido del <div> por otro <div> que contiene el texto "Hola jQuery".
+    
+    De este ejemplo, se puede deducir que el método .html() sustituye el contenido existente por el nuevo contenido introducido.
+    */
+
+    $(function () {
+      // primero extraigo el contenido actual de main
+      alert("contenido anterior: " + $('main').html());
+      // luego reemplazo el contenido de main
+      $('main').html('<div>Hola jQuery.</div>');
+    });		
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>.offset()</title>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.3.css">
+
+    <style>
+        #offset {
+            position: relative;
+            text-align: left;
+        }
+
+    </style>
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+
+    <script>
+        $(function () {
+            $("p").each(function (i) {
+                var off = $(this).offset();
+                $(this).html(
+                    $(this).html() + " left: " + off.left + ", top: " + off.top);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.3.2023 Examples</h1>
+        <h2>.offset() -I-Position in relation to the document</h2>
+    </header>
+
+    <main>
+        <div id="offset">
+            <p>Hello</p>
+            <p>2nd Paragraph</p>            
+        </div>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+</body>
+
+</html>

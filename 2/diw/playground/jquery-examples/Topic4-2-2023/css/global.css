@@ -1,0 +1,40 @@
+*{box-sizing: border-box;}
+
+body{
+    font-size: 1.2em;
+    width: 1024px;
+    margin: 0 auto;
+    padding:10px;
+    box-shadow: 2px 2px 4px #1c1c1c;
+    height: 99vh;
+    min-height: 800px;
+}
+
+h1, h2, h3, h4, h5, h6{ margin: 10px;}
+
+span{
+    font-style: italic;
+}
+/* 15 filtrosFirstLast.html */
+ul { width:200px; font-family:arial; }
+ul li a { text-decoration:none; }
+
+
+/* 20 selectorAtributos2.html */
+div{/*color: white;*/ font-size: 1.2em}
+
+.deprecated{
+    outline: 1px solid lightgray;
+    padding: 10px;
+    margin-top: 20px;
+}
+.deprecated h3{color:red;}
+
+ nav>a{display: inline-block; width: 210px; background-color: aliceblue; padding: 2px; text-align: center;}
+
+ button{
+    width: 126px;
+    height: 2.5em;
+    font-size: 1.1em
+ }
+ #rojo{color:red;}

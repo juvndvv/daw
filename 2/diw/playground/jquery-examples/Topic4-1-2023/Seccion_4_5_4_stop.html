@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>4.5.4 stop()</title>
+  <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+  <style>
+    div:last-child {
+      background: #98bf21;
+      height: 200px;
+      width: 200px
+    }
+
+    main {
+      height: 540px
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>4.5.4 STOP()</h1>
+  </header>
+
+  <main>
+    <h3> Click on buttons to see the effect </h3>
+    <div>
+      <button id="start">Start Animation</button>
+      <button id="stop">Stop Current Animation</button>
+      <button id="restart">Restart shape</button>
+    </div>
+<!-- elemento animado  -->
+    <div></div>
+  </main>
+
+  <footer>
+    <h3>IES CAMP DE MORVEDRE</h3>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#start").on("click", function () {
+        $("div:last-child").stop().animate({
+          height: "500px",
+          width: "500px"
+        }, 5000).css("background", "red");
+        // css() in a chained function. Notice the effect.
+      });
+      $("#stop").on("click", function () {
+        $("div:last-child").stop();
+      });
+      $("#restart").on("click", function () {
+        $("div:last-child").stop().animate({
+          height: "200px",
+          width: "200px"
+        }, 3000, function () {
+          $(this).css("background", "#98bf21")
+        });
+        //css() in the callback funtion
+      });
+
+      $("li#localizacion").hover(
+        function () { $("span#opcion_loc").show(); },
+        function () { $("span#opcion_loc").hide(); }
+      );
+    });
+  </script>
+</body>
+</html>

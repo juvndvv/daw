@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>01.2 Métodos odd y even</title>
+  <meta charset="utf-8" />
+  <link href="./css/estiloT4.2.css" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+  <h1>01.2 Métodos <span> odd </span> y <span> even</span></h1>
+  <h1>Selector <span> :header </span> </h1>
+  <h2>otro titulo</h2>
+</header>
+
+
+  <main>
+    <p>Haz "click" sobre los títulos anteriores para cambiar el color de la letra y el color de fondo</p>
+
+    <table>
+      <tr>
+        <th>Producto</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+      </tr>
+      <tr>
+        <td>Estuche de pinturas</td>
+        <td>Pinturas de varios colores</td>
+        <td>18,99 </td>
+      </tr>
+      <tr>
+        <td>Compás</td>
+        <td>De diferentes tamaños</td>
+        <td>16,99 </td>
+      </tr>
+      <tr>
+        <td>Folios</td>
+        <td>Paquete de 500 folios</td>
+        <td>5,99 </td>
+      </tr>
+      <tr>
+        <td>Cartulina</td>
+        <td>Tamaño din A2</td>
+        <td>2,99 </td>
+      </tr>
+    </table>
+    <section class="deprecated">
+      <h4>¡Atención! :odd y :even son <i>"selectores obsoletos"</i> desde jQuery 3.4.0</h4>
+      <h5> Se han de usar los métodos <span> .odd() </span> y <span> .even()</span></h5>
+      <nav>
+        <p>More info:</p>
+        <a href="https://api.jquery.com/odd-selector/#odd1">API jQuery odd-selector</a>
+        <a href="https://api.jquery.com/even-selector/#even1">API jQuery even-selector</a>
+      </nav>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>** Comentarios en el archivo de código html</p>
+  </footer>
+
+
+  <!-- ******************************** SCRIPTS -->
+
+  <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+  <script>
+    // $(function () {  // obsoleto
+    //   $('tr:even').css('background', '#dedede');
+    //   $('tr:odd').css('background', '#ffffff');
+    // });
+
+    $(function () {
+      /* directamente se cambia el color de fondo de las filas pares e impares */
+      // $('tr').filter(':even').css('background', '#dedede');
+      // $('tr').filter(':odd').css('background', '#ffffff');
+
+      $('tr').even().css('background', '#dedede');
+      $('tr').odd().css('background', '#ffffff');
+
+      /* Al hacer "click" sobre cualquier título, éste cambia */
+      $(":header").on("click", function () {
+        $(this).css({
+          "background-color": "#B28A3F",
+          "color": "#FFF1D7"
+        })
+      });
+    });
+  </script>
+</body>
+
+</html>

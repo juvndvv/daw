@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>focusin() y focusout()</title>
+    <meta charset="utf-8" />
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+</head>
+<body id="form_box">
+    <h2>form_box</h2>
+    <h2>focusin() y focusout()</h2>
+
+    
+        <form  class="form_box1" method="post" action="./webmarterSERVIDOR.html">  
+            <h3> form_box 1 </h3>
+            <label for="name">Nombre: <span class="required">*</span></label>  
+            <input type="text" id="name" name="name" value="" placeholder="Tu nombre" required="required" autofocus="true" />  
+            <label for="apellidos">Apellidos: <span class="required">*</span></label>  
+            <input type="text" id="apellidos" name="apellidos" value="" placeholder="Tus apellidos" required="required"/>  
+            <label for="Mensaje1">Mensaje1:</label>
+            <textarea id="Mensaje1" name="Mensaje1" cols="40" rows="6" required ></textarea>
+        </form>
+
+
+<!-- 
+    <section class="form_box1">
+        <form method="post" action="./webmarterSERVIDOR.html">  
+            <h3> form_box 1 </h3>
+            <label for="name">Nombre: <span class="required">*</span></label>  
+            <input type="text" id="name" name="name" value="" placeholder="Tu nombre" required="required" autofocus="true" />  
+            <label for="apellidos">Apellidos: <span class="required">*</span></label>  
+            <input type="text" id="apellidos" name="apellidos" value="" placeholder="Tus apellidos" required="required"/>  
+            <label for="Mensaje1">Mensaje1:</label>
+            <textarea id="Mensaje1" name="Mensaje1" cols="40" rows="6" required ></textarea>
+        </form>
+    </section>
+    
+    -->
+<br>
+
+    <section class="form_box2">
+        <h3> form_box 2 </h3>
+    
+        <form action="acceso.html" oninput="range_control_value.value = range_control.valueAsNumber">
+
+            Nombre: <input type="text" name="name_control" autofocus="true" required />
+            <br />
+            Correo Electrónico: <input type="email" name="email_control" required />
+            <br />
+            URL: <input type="url" name="url_control" placeholder="Escripe la URL de tu página web personal" />
+            <br />
+            Fecha: <input type="date" name="date_control" />
+            <br />
+            Tiempo: <input type="time" name="time_control" />
+            <br />
+            Fecha y hora de nacimiento: <input type="datetime" name="datetime_control" />
+            <br />
+            Mes: <input type="month" name="month_control" />
+            <br />
+            Semana: <input type="week" name="week_control" />
+            <br />
+            Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" />
+            <br />
+            Intervalo (min 0, max 10): <input type="range" name="range_control" min="0" max="10" value="0" /> <output for="range_control" name="range_control_value" >0</output>
+            <br />
+            Teléfono: <input type="tel" name="tel_control" />
+            <br />
+            Término de búsqueda: <input type="search" name="search_control" />
+            <br />
+            Color Favorito: <input type="color" name="color_control" />
+            <br />
+
+            <label for="Mensaje2">Mensaje2:</label>
+            <textarea id="Mensaje2"  name="Mensaje2" cols="40" rows="6" required ></textarea>
+            <br />
+            <p>
+             <label for="unittype">Selecciona una opción:</label>
+             <select id="unittype" name="unittype">
+              <option value="1"> Uno </option>
+              <option value="2"> Dos </option>
+              <option value="3" selected> Tres </option>
+              <option value="4"> cuatro </option>
+              <option value="5"> cinco </option>
+             </select>
+            </p>
+                </br>
+            <label>
+             Sexo:
+             <input name=sex list=sexes>
+             <datalist id=sexes>
+              <option value="Mujer">
+              <option value="Varón">
+             </datalist>
+            </label>
+                </br>
+            <input type="submit" value="Submit!" />
+
+        </form>
+    </section>
+<br>
+
+<p>Click sobre un campo de texto para recibir foco. Click fuera del campo de texto para perder el foco.</p>
+
+
+
+!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+
+        <!--  
+El orden de declaración de los efectos sobre los distintos elementos SI QUE INFLUYE en el resultado de la aplicación de dicho efecto
+
+No todos los elementos HTML pueden recibir el foco. En principio los elementos de los form_boxs
+    input type="xxx"
+    textarea, select, datalist, ...
+
+.focusin(). Se lanza este evento cuando un elemento (objeto) gana el foco. For ejemplo, cuando se selecciona una caja de texto para poder escribir sobre ella. 
+  
+.focusout() Es el evento contrario a focusinO, se lazan cuando un elemento (objeto) pierde el foco. 
+    FOCUSIN Y FOCUSOUT para cualquier elemento (susceptible de obtener/perder el foco) dentro del seleccionado
+
+.focus() asigna una función de controlador de eventos a un campo de form_box HTML. La función se ejecuta cuando el campo del form_box OBTIENE el foco
+
+.blur () asigna una función de controlador de eventos a un campo de form_box HTML. La función se ejecuta cuando el campo del form_box PIERDE el foco.
+    FOCUS y BLUR sólo para un elemento
+        -->
+<script>
+$(document).ready(function(){
+  $("div").focusin(function(){
+    $(this).css("background-color", "pink");
+  });
+  $("div").focusout(function(){
+    $(this).css("background-color","#FFe8be");
+  });
+  $(".form_box2").focusin(function(){
+    $(this).css("background-color","lightblue");
+  });
+  $(".form_box2").focusout(function(){
+    $(this).css("background-color","#FFe8be");
+  });
+  $(".form_box1").focusin(function(){
+    $(this).css("background-color", "gray");
+  });
+  $(".form_box1").focusout(function(){
+    $(this).css("background-color","#FFe8be");
+  });
+  $("input").focus(function(){
+    $(this).css("background-color","#cccccc");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color","#ffffff");
+  });
+});
+</script>
+
+</body>
+</html>

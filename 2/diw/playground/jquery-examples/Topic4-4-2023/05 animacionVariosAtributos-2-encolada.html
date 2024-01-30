@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>05 multi-attribute animation-2-glued</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.4.css">
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+    <script>
+        /*
+        Aquí vemos como se animan dos propiedades: la altura (height) y la posición (left). 
+
+        Si el elemento está visible, al hacer click con el ratón sobre el documento, se animará disminuyendo su altura hasta quedar invisible y,
+        si no está visible, hará lo contrario.  PERO se mueve siempre hacia la derecha, por tanto se va alejando cada vez más
+        */
+        $(function () {
+
+            var speed = 2000;
+            var mainW=$("main").innerWidth()/2;
+
+            $(document).on("click", function (event) {
+  
+                
+                $("img").animate({
+                        height: "toggle",
+                        left: '+='+ mainW
+                    }, speed)
+                    .animate({
+                        height: "toggle",
+                        left: '-='+ mainW
+                    }, speed)
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.4.2023 Examples</h1>
+        <h2>05 multi-attribute animation-2-glued</h2>
+    </header>
+    <main>
+        <img src="./imagenes/nave.png" alt="imagen">
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+</body>
+
+</html>

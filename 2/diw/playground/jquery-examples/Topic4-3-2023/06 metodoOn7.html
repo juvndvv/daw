@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>.on()</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.3.css">
+    <style>
+        div{
+            color:darkolivegreen;
+            font-size: 1em;
+        }
+        .active {
+            color: #900;
+            font-size: 2em;
+        }
+        .inside {
+            background-color: whitesmoke;
+            padding: 0 10px;
+        }
+    </style>    
+    
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+
+    <script>
+        $(function () {
+
+            /*
+            tenemos varias alternativas para asociar manejadores de eventos a los elementos del DOM: 
+                * los distintos métodos de evento, tales como, .click(), .mouseout(), etc., 
+                * o los nuevos métodos .on() .off() para asociar distintos manejadores de eventos o distintos eventos a un mismo manejador 
+            Elegiremos una forma u otra en función de nuestras necesidades.
+            */
+
+            $("div").on({
+                click: function () {
+                    $(this).toggleClass("active");
+                },
+                mouseenter: function () {
+                    $(this).addClass("inside");
+                },
+                mouseleave: function () {
+                    $(this).removeClass("inside");
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.3.2023 Examples</h1>
+        <h2>.on()</h2>
+    </header>
+    <main>
+        <div>  <p>Mouseenter click mouseleave</p> </div>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+</body>
+
+</html>

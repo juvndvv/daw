@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>16 Method .unwrap()</title>
+  <meta charset="utf-8" />
+  <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+  <style>
+    .inner {
+      border: #314A76 solid 1px;
+      margin-top: 10px;
+    }
+
+    main {
+      border: #B28A3F solid 1px;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>16 método .unwrap()</h2>
+  <main>
+    <h3>Saludos</h3>
+    <div class="inner">
+      <p>Hola</p>
+    </div>
+    <div class="inner">
+      <p>Adios</p>
+    </div>
+    <div>
+      <button>Unwrap()</button>
+      <button>wrapAll()</button>
+    </div>
+  </main>
+
+
+  <!-- ******************************** SCRIPTS -->
+  <!-- 
+      .unwrap() Elimina los padres de los elementos seleccionados. Este método no recibe parámetros.
+      .wrapAll() method wraps specified HTML element(s) around all selected elements.
+    -->
+
+  <script src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $(function () {
+      $("button").first().on("click", function(){$(".inner").unwrap();})
+      $("button").last().on("click", function(){$("h3, div").wrapAll("<main></main>");})
+      
+    });
+  </script>
+
+
+</body>
+
+</html>
+

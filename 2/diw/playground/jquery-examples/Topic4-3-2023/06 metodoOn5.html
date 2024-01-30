@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>.on()</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.3.css">
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+
+    <script>
+        $(function () {
+            var counter = 0;
+            /* Method on() aplicado a document
+            Para que el evento click funcione:
+            1. para todos los párrafos inicialmente presentes en el HTML y 
+            2. futuros al ser insertados dinámicamente por un script */            
+            $(document).on("click", ".enlace", function (event) {
+                console.log("Tengo un manejador " + ++counter);
+            });
+            $("main").append("<a class='enlace'> new added link </a>");
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.3.2023 Examples</h1>
+        <h2>.on() aplicado a document</h2>
+    </header>
+    <main>
+        <a class='enlace'> first link </a>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+</body>
+
+</html>

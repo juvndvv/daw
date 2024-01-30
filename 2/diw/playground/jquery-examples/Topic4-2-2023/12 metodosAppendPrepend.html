@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>12 Methods .append() .prepend() Añadiendo html dentro del elemento</title>
+  <meta charset="utf-8" />
+  <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+</head>
+
+<body>
+  <h2>12 métodos .append() .prepend()</h2>
+  <main>
+    <p>Corro 4 veces a la semana.</p>
+    <p>Hago pesas 3 veces a la semana.</p>
+  </main>
+
+  <footer>
+    <p>** Comentarios en el archivo de código html</p>
+  </footer>
+
+  <!-- ******************************** SCRIPTS -->
+  <script src="http://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script>
+  <script>
+    $(function () {
+      $('main').append('<p>juego al futbol 1 vez a la semana</p>');
+      $('main').prepend('<p>juego al pádel 1 vez a la semana</p>');
+    });		
+  </script>
+</body>
+
+</html>
+
+<!--
+El método .appendTo(), es parecido al método .append(), la diferencia radica en la colocación del contenido a añadir y el destino de este contenido. 
+
+En el método .append() la expresión del selector anterior al método, es el contenedor y lo que pasamos como parámetro, es el contenido. 
+
+Por el contrario, en el método .appendTo(), la expresión del selector anterior, es el contenido y lo que le pasamos como parámetro, es el contenedor. 
+
+Más adelante, veremos un ejemplo de uso de .appendTo(). También disponemos de un método .prependTo().
+-->

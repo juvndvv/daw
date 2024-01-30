@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>06 Method .find()</title>
+    <meta charset="utf-8" />
+    <link rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+    <h2>05 método .find()</h2>
+    <p>Esto es un texto <span>que contiene <code>span</code> </span> y este otro <span>también lo contiene</span>
+        <b>negrita</b></p>
+
+    <!-- ******************************** SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        /*
+                Poner la fuente de color azul a todos los <span> que hayan dentro de un <p>
+
+                Diferencia
+                find("selector")        "selector" obligatorio
+                children(["selector"])  "selector" opcional
+                */
+        $(document).ready(function () {
+            $("p").find("span").css({
+                "color": "#4C6189",
+                "background-color": "#FFF1D7"
+            });
+        });
+
+    </script>
+</body>
+
+</html>

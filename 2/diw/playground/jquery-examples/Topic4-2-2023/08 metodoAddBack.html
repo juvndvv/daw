@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>08 Method .addBack()</title>
+    <link rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+    <meta charset="utf-8" />
+
+</head>
+
+<body>
+
+    <h2>08 método addBack()</h2>
+    <main id="andSelf">
+        <section>
+            <h4><strong>Antes <code>addBack()</code></strong></h4>
+            <div>
+                <p>Primer párrafo</p>
+                <p>Segundo párrafo</p>
+            </div>
+        </section>
+        <section>
+            <h4><strong>Después <code>addBack()</code></strong></h4>
+            <div>
+                <p>Primer párrafo</p>
+                <p>Segundo párrafo</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- ******************************** SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function() {
+            /*
+            Otros métodos transversales del DOM
+            .addBack() Añade el anterior conjunto de elementos existente en la pila al actual conjunto de elementos seleccionados 
+            */
+            /*
+            En este ejemplo se muestran dos casos:
+                    1) pone un color de fondo  a los párrafos que hay dentro del <div>, 
+                    2) pone un color de fondo  a los párrafos que hay dentro del <div> y también al propio <div>
+            */
+            /*
+                    Además se usa una combinación de funciones encadenadas por "punto"
+
+                    Etiqueta <code>
+                    Delimita el texto considerado un fragmento de código fuente
+            */
+            $("section").find("div, div > p").addClass("borde");
+
+            // Izquierda
+            // $("section:first div").find("p").addClass("fondo");
+            // $("section").first().find("div").find("p").addClass("fondo");
+            
+            // Derecha
+            // $("section:last div").find("p").addBack().addClass("fondo");            
+            $("section").last().find("div").find("p").addClass("fondo");  
+    
+        });
+
+    </script>
+
+</body>
+
+</html>

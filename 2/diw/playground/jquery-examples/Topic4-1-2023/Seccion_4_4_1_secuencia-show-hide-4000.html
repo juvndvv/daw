@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset=UTF-8 />
+
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+<title>4.1.1  secuencias show/hide 4000</title>
+        <!--  
+  Para:
+    "#mydivs"  utiliza pila de ejecución
+    "#mydivs1" utiliza secuencias de puntos
+    "#mydivs2" utiliza callback
+    "#mydivs3" utiliza funcion asignada a variable  
+        -->
+
+</head>
+<body>
+
+<!--******************************-->
+    <header>
+        <h2> 4.1.1  secuencias de acciones show/hide</h2>
+    </header>
+
+    <section>
+        <h4> Tendrá lugar cuando pulses el botón</h4>
+        <div id="secuencia">
+            <div id="mydivs">"#mydivs"  utiliza pila de ejecución</div>
+            <div id="mydivs1">"#mydivs1"  utiliza secuencias de puntos</div>
+            <div id="mydivs2">"#mydivs2" utiliza callback</div>
+            <div id="mydivs3">"#mydivs3" utiliza funcion asignada a variable </div>
+        </div>            
+        <button>Iniciar animación</button>
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+
+
+    <!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+    
+    //"#mydivs3" utiliza funcion asignada a variable 
+	var mostrar=function () { 
+			$("#mydivs3").css({background: "#A6B0C2", "color": "#fff"}).show(4000);
+			};
+
+	$(document).ready(function() {
+		$("button").on("click", function () {
+            //"#mydivs"  utiliza pila de ejecución
+		    $("#mydivs").hide(4000);
+            $("#mydivs").css({"background": "#A6B0C2", "color": "#fff"});
+            $("#mydivs").show(4000);
+            
+            //"#mydivs1" utiliza secuencias de puntos
+		    $("#mydivs1").hide(4000).css({"background": "#A6B0C2", "color": "#fff"}).show(4000);
+            
+            //"#mydivs2" utiliza callback
+		    $("#mydivs2").hide(4000, function(){
+			    $(this).css({background: "#A6B0C2", "color": "#fff"}).show(4000);
+		    });
+
+            //"#mydivs3" utiliza funcion asignada a variable 
+		    $("#mydivs3").hide(4000, mostrar);
+         });
+
+	});
+	
+</script>
+
+</body>
+</html>
+

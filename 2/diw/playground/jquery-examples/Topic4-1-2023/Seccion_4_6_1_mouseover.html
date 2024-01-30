@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+        <meta charset="utf-8" />
+ 
+<link rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+	<title>mouseover() y mouseenter()</title>
+
+
+</head>
+<body id="mouseover">
+
+
+<!--******************************-->
+    <header>
+        <h2>mouseover() y mouseenter()</h2>
+    </header>
+
+    <section>
+        <div>
+            <div>
+                <p>p:first</p>  
+                <p>middle paragraph</p>
+                <p>p:last</p>             
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+<!--******************************-->
+
+
+            <!--  
+.mouseenter() Se lanza este evento cuando el puntero del ratón entra en un elemento (objeto). 
+    No hace falta presionar ningún botón para que este evento se lance cuando el puntero entra en la región definida por el elemento. 
+    Cualquier elemento HTML puede recibir este evento. 
+.mouseleave() Se lanza este evento cuando el puntero del ratón sale de la región delimitada por un elemento (objeto). 
+    Es el evento opuesto a mouseenter() 
+    Cualquier elemento HTML puede recibir este evento. 
+
+
+.mouseover() Es parecido a mouseenter(), pero se también se tienen en cuenta los elementos anidados 
+    Por ejemplo, un <p> dentro de un <div> hijo anidado dentro de un <div> padre: 
+        se lanza el mouseover() del padre al pasar de <p> a <div> hijo o de <div> hijo a <p> o de <div> hijo al <div> padre.
+.mouseout() Es el opuesto de mouseover() Es parecido al mouseleave() pero con la diferencia de considerar también los objetos anidados mostrada con mouseover()
+        
+        -->
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+		$(document).ready(function() {
+			var cuenta_enter=0;
+			var cuenta_over=0;
+    		$("div").first().mouseenter(function() {                  // sólo cuenta cuando entra en div.first
+     			 $("p").first().text("con_mouseEnter "+ ++cuenta_enter);
+	  		});
+			$("div").first().mouseover(function() {                   // también cuenta cuando entra en cada uno de los elementos anidados
+     			 $("p").last().text("con_mouseOver "+ ++cuenta_over);
+            });
+            /*
+            $("div.first").mouseenter(function() {                  // sólo cuenta cuando entra en div.first
+     			 $("p:first").text("con_mouseEnter "+ ++cuenta_enter);
+	  		});
+			$("div.first").mouseover(function() {                   // también cuenta cuando entra en cada uno de los elementos anidados
+     			 $("p:last").text("con_mouseOver "+ ++cuenta_over);
+ 		   });*/
+/*                
+	$(selector).hover(Funcion-de-entrada, Funcion-de-salida)  		
+	$("selector").hover( function() { funcion_entrada(handler) } , 
+                         function() { funcion_salida (handler)}	)	
+*/
+                  
+	   });
+</script>
+</body>
+</html>

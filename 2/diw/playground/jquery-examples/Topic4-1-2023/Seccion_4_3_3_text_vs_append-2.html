@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+<title>4.3.3  text() vs append 2 </title>
+        <!--  
+.append() permite insertar un contenido como el último hijo (árbol DOM) de cada elemento de la colección seleccionada. 
+        Si lo que se desea es insertarlo como primer hijo, entonces se usa.prepend() de la misma manera.            
+.append() añade el contenido al final del elemento/capa que nosotros le especifiquemos.
+
+.prepend() funciona exactamente igual, pero el contenido se añade al principio del elemento/capa que nosotros le especifiquemos. 
+
+.text() sustituye el elemento seleccionado por el texto especificado "tal cual"
+        -->
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+	    $(document).ready(function () {
+
+	        $("#append-text").on("click", function () {
+	            $(".mydivs").append("<p><b>Text</b> added with method append()</p>");
+	            $(".mydivs").text("<p><b>Text</b> written with method text()</p>");
+
+	        })
+	        $("#text-append").on("click", function () {
+	            $(".mydivs").text("<p><b>Text</b> written with method text()</p>");
+	            $(".mydivs").append("<p><b>Text</b> added with method append()</p>");
+
+	        })
+	    });
+	</script>
+
+</head>
+<body>
+
+<!--******************************-->
+    <header>
+	<h2>4.3.3_text() vs append()  II </h2>
+    </header>
+
+    <section>
+	<div class="mydivs"><p>My div 1</p></div>
+	<div class="mydivs"><p>My div 2</p></div>
+	<button id="append-text">1º append() y 2ª text()</button>
+	<button id="text-append">1º text() y 2ª append()</button>
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+    
+
+</body>
+</html>
+
+

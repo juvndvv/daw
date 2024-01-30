@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>05 Method .children()</title>
+  <meta charset="utf-8" />
+  <link rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+  <h2>05 método .children()</h2>
+  <p>Esto es un texto <span class="s1">que contiene span .s1</span> y este otro <span>solo es span</span></p>
+  <p>Esto es un texto <span class="s1">que contiene span .s1</span>, este otro <b>en negrita</b> y este otro <i>en
+      cursiva</i></p>
+
+
+  <!-- ******************************** SCRIPTS -->
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script>
+  <!--
+  Poner la fuente de color "azul" a todos los descendientes de un <p>
+  Poner la fuente con fondo claro a todos los descendientes de un <p> con class="s1"
+
+  Diferencia
+  find("selector")        "selector" obligatorio
+  children(["selector"])  "selector" opcional
+-->
+  <script>
+
+    $(document).ready(function () {
+      /* OJO: en este caso el orden importa */
+      $("p").children().css("color", "#4C6189");
+      $("p").children(".s1").css("background-color", "#FFF1D7");
+    });
+  </script>
+
+</body>
+
+</html>

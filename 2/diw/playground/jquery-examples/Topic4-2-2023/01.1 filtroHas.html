@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>01.1 Filtro has()</title>
+  <meta charset="utf-8" />
+  <link href="./css/estiloT4.2.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>01.1 Filtro <code> .has()</code></h1>
+  </header>
+  <main>
+    <div>
+      <p>Este párrafo dentro de un <code>div</code> está <strong>resaltado</strong></p>
+      <p>Cualquier otro text</p>
+    </div>
+    <div>
+      <p>Este no está resaltado</p>
+    </div>
+    <p>Este párrafo NO está <strong>resaltado</strong></p>
+  </main>
+
+  <!-- ******************************** SCRIPTS -->
+
+  <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+  <script>
+    $(function () {
+      $('div:has(strong)').css('text-decoration', 'underline');
+      //$("div").has("strong").css('text-decoration','underline');
+    }); 
+  </script>
+
+
+</body>
+
+</html>

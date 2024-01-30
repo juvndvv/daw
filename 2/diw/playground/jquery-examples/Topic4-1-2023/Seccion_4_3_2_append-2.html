@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+    <title>4.3.2 append-2</title>
+    <style>
+
+        main {
+            width: 80%;
+            margin: 20px auto 0;
+            border: 1px solid white;
+            height: calc(100% - 180px);
+            overflow: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h2>4.3.2 append-2</h2>
+    </header>
+
+    <main>
+            <h3>El Quijote</h3>
+        <section>
+            <h4>Tranferir el título a otro lugar</h4>
+            <div class="mydivs">
+                <p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme,...</p>
+            </div>
+            <div class="mydivs">
+                <p>no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y
+                    galgo corredor...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+
+    <!-- *****************  SCRIPT  ****************** -->
+    <!--  
+.append() permite insertar un contenido como el último hijo (árbol DOM) de cada elemento de la colecci6n seleccionada. 
+        Si lo que se desea es insertarlo como primer hijo, entonces se usa  .prepend() de la misma manera.            
+        -->
+    <!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        var counter = 0;
+        $(document).ready(function () {
+            $(".mydivs").on("click mouseenter mouseleave", function (e) {
+                $(this).append(" <h5>" + $("h3").html() + " " + ++counter + "</h5>");
+            })
+
+            $("body").on("mouseleave", function (e) {
+                $("div h5").remove();
+            });
+        });
+    </script>
+
+</body>
+
+</html>

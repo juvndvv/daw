@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>01.3 Métodos first y last</title>
+  <meta charset="utf-8" />
+  <link href="./css/estiloT4.2.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <header>
+    <h1>01.3 Métodos <code> .first() </code> and <code> .last()</code></h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href='/index'>Home</a></li>
+      <li><a href='/about'>About Us</a></li>
+      <li><a href='/customer-service'>Customer Service</a></li>
+      <li><a href='/contact'>Contact Us</a></li>
+      <li><a href='/coupons'>Coupons</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="deprecated">
+      <h3>WARNING! <i>"deprecated"</i> jQuery 3.4.0</h3>
+      <h4> Use <code> .filter(":first") </code> and <code> .filter(":last")</code> jQuery Traversing - Filtering
+        method</h4>
+      <h4> Or better, use <code> .first() </code> and <code> .last()</code> jQuery Traversing - Filtering methods</h4>
+    </section>
+    <nav>
+      <p>More info:</p>
+      <a href="https://api.jquery.com/first-selector/#first1">API jQuery first-selector</a>
+      <a href="https://api.jquery.com/last-selector/#last1">API jQuery last-selector</a>
+    </nav>
+
+  </main>
+  <footer>
+    <p>** Comentarios en el archivo de código html</p>
+  </footer>
+
+  <!-- ******************************** SCRIPTS -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+  
+  //Deprecated
+    // $(function()
+    // {
+    //   $('ul li:first').css('border-top','1px solid red');
+    //   $('ul li:last').css('border-bottom','1px solid red');
+    // });
+
+
+// Option 1
+    // $(function()
+    // {
+    //   $('ul li').filter(":first").css('border-top','1px solid red');
+    //   $('ul li').filter(":last").css('border-bottom','1px solid red');
+    // });
+
+// Option 2. Última aceptación
+    $(function()
+    {
+      $('ul li').first().css('border-top','1px solid red');
+      $('ul li').last().css('border-bottom','1px solid red');
+    });
+    </script>
+    
+</body>
+</html>

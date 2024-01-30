@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>07 stop animation</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.4.css">
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.4.2023 Examples</h1>
+        <h2>07 stop animation</h2>
+    </header>
+    <main>
+        <img src="imagenes/nave.png" alt="nave espacial" />
+        <a href="#">move</a>
+        <p>mouseover the link to move the box. Mouseout from the link to stop it </p>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+        <article>
+            <h4>Te propongo un ejercicio</h4>
+            <p>incluye una nueva acción...
+                <br>al hacer clic en cualquier parte del documento, devolver la imagen a su posición inicial
+            </p>
+        </article>
+    </footer>
+
+
+    <!-- *********************** SCRIPT  -->
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+    <script>
+        $(function () {
+            $("a").mouseover(function (evento) {
+                $("img").animate({
+                    left: '+=500'
+                }, 3000);
+            }).mouseout(function () {
+                $("img").stop(true, false);
+            });
+
+// Ejercicio propuesto:  
+// incluye una nueva acción...
+// al hacer clic en cualquier parte del documento, devolver la imagen a su posición inicial
+
+
+        });
+    </script>
+</body>
+
+</html>
+
+<!--
+En este ejemplo se inicia una animación en el evento mouseover del enlace y se detiene en el evento mouseout.
+Por otro lado, al hacer click sobre el enlace, se recargará la página ya que no hemos bloqueado el efecto por defecto de dicho enlace.
+evento.preventDefault()
+-->
+
+<!--
+Cualquier animación se puede detener de dos formas: 
+     utilizando el método .finish() o 
+     utilizando el método .stop().
+
+El método .finish() elimina y completa todas las animaciones existentes en los elementos seleccionados. 
+    Cuando se llama al método .finish(), la animación que está actualmente en ejecución y todas las que estuvieran pendientes se terminarán y 
+    sus propiedades css tomarán los valores de destino especificados.
+
+El método .stop([limpiarCola], [saltarAlFinal]) detiene la animación que se está ejecutando actualmente en el conjunto de elementos seleccionados. 
+    Puede recibir dos parámetros:
+        limpiarCola:    valor booleano que indica si se deben eliminar también las animaciones encoladas.
+        saltarAlFinal:  valor booleano que indica si se debe completar la actual animación inmediatamente, 
+                        es decir, si las propiedades css que se estuvieran animando deben tomar sus valores de destino. 
+                        Si se pasa true y la animación tiene una función callback de completado, esta será llamada inmediatamente.
+
+El método .finish() es similar al método .stop(true, true), ya que, 
+en ambos, se eliminarán todas las animaciones de la cola y se establecerán las propiedades css de la animación actual a su valor de destino. 
+
+Sin embargo, la diferencia en este caso sería, que 
+con el método .finish(), también se establecerían a su valor de destino, las propiedades css de todas las animaciones de la cola.
+
+-->

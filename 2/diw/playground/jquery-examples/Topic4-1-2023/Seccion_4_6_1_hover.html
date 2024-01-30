@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+        <meta charset="utf-8" />
+ 
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+ 
+	<title>hover() Animation</title>
+        <!--  
+ .hover(). 
+    Este evento se lanza cuando el puntero está sobre un elemento o sale de él. 
+    Su principal ventaja es que permite definir una función para cuando el puntero entra en el elemento y otra para cuando salga. 
+    Es un evento muy usado con menús, cuando se desea hacer, per ejemplo, seleccionar opciones de menú, destacando alguna de sus propiedades o 
+    menús que se despliegan. Su sintaxis es: 
+
+            elemento.hover ( funcion_entrada(handler), funcion_salida (handler)); 
+       
+        -->
+
+</head>
+<body id="hover">
+
+
+<!--******************************-->
+    <header>
+        <h2>hover() "Animation"</h2>
+    </header>
+
+    <section>
+        <h3>Mouse over the options in the list </h3>
+        <ul>
+            <li id="localization">Location
+                <ul class="option_loc">
+                    <li>Map</li>
+                    <li>Address </li>
+                    <li>Phones </li>
+                </ul>
+            </li>
+            <li id="recipes">Recipes
+                <ul class="option_loc">
+                    <li>Apetizers</li>
+                    <li>Main</li>
+                    <li>Desserts </li>
+                </ul>
+            </li>
+        </ul>
+
+    </section>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+<!--******************************-->
+
+
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+	$(document).ready(function() {
+
+			$("li").hover(function () { 			 	
+				$(this).find(".option_loc").show();
+				}, 
+                function () {				
+				$(this).find(".option_loc").hide();
+			}); 
+			
+		});
+
+</script>
+	
+</body>
+</html>

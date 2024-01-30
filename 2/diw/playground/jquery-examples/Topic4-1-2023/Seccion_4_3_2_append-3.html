@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+<title>4.3.2 append-3/prepend </title>
+
+</head>
+<body>
+
+<!--******************************-->
+    <header>
+        <h2>4.3.2 append()  and prepend()</h2>
+    </header>
+
+    <main>
+	    <div class="mydivs"><p>My div 1</p></div>
+	    <div class="mydivs"><p>My div 2</p></div>
+    </main>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+    </footer>
+    
+
+
+            <!--  
+.append() permite insertar un contenido como el último hijo (árbol DOM) de cada elemento de la colección seleccionada. 
+        Si lo que se desea es insertarlo como primer hijo, entonces se usa.prepend() de la misma manera.            
+.append() añade el contenido al final del elemento/capa que nosotros le especifiquemos.
+
+.prepend() funciona exactamente igual, pero el contenido se añade al principio del elemento/capa que nosotros le especifiquemos. 
+        -->
+<!-- script -->
+
+<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".mydivs").on("click", function(){
+           $(this).append("<p>... Bye bye!!</p>");
+           $(this).prepend("<p>Hello world</p>");
+
+    })
+});
+</script>
+
+</body>
+</html>
+
+

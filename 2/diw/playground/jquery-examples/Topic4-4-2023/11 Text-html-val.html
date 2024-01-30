@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>11. Text-html-val</title>
+    <link rel="stylesheet" href="css/estiloT4.4.css">
+    <link rel="stylesheet" href="css/T4.4.11.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.4.2023 Examples</h1>
+        <h2>11 Text-html-val</h2>
+    </header>
+    <main>
+        <article>
+            <h3>text() vs html()</h3>
+            <div id="divText"></div>
+            <div id="divHtml"></div>
+        </article>
+        <article>
+            <h3>val()</h3>
+            <input type="text" name="txtTest" value="Input field" />
+            <p>Pulsa el botón para leer el contenido del <strong>input</strong> y escribirlo en el párrafo que hay a
+                continuación del botón</p>
+            <button>Click para leer el campo <strong>input</strong> </button>
+            <p>Aquí se escribirá el contenido del input</p>
+        </article>
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+        <article>
+            <h4>Te propongo un ejercicio</h4>
+            <p>En el código HTML, en la parte del SCRIPT, tienes dos opciones para implementar <code>.on()</code> </p>
+            <p>Si comentas la OPCIÓN 2 y te quedas sólo con la OPCIÓN 1 ... ¿qué pasa?</p>
+        </article>    
+    </footer>
+
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+    <script>
+        $(function () {
+            $("#divText").text("<p><b><i>.text()</i> Escribe texto (todo es texto) dinámico</b></p>");
+            $("#divHtml").html("<p><b><i>.html()</i> Escribe HTML dinámico (etiquetas HTML como tales)</b></p>");
+            $("input").val("Escribe aquí un valor dinámico");
+
+            // ************************* Ejercicio propuesto  **************************
+            // implementa el código necesario para que,al pulsar el botón, se lea el Texto
+            // del campo input y lo escriba en el párrafo vacio que hay a continuación del botón
+
+            
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+
+    <title>4.5.4 :  delay-1 y más </title>
+<style>
+    header code {
+        display: inline;
+    }
+
+</style>
+
+</head>
+<body>
+
+    <header>
+        
+        <h1> 4.5.4 : Cola de efectos  </h1>
+        <h2><code>.delay()</code> & <code>.slideUp()</code> & <code>.slideDown()</code> & <code>.fadeTo()</code> & <code>.animate()</code>  </h2>
+    </header>
+
+    <main>
+        <div class="mydivs"><p>Click aquí para iniciar la cola.</p></div>
+    </main>
+
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <section>
+            <h4>Te propongo un ejercicio</h4>
+            <div>
+                <p>Como la cola de efectos se ejecuta de forma infinita...</p>
+                <p>Implementa 2 botones: Uno para parar la animación, y otro para resetear y volver al estado original.</p>
+                <p>Sin pasar por recargar la página.</p>
+            </div>
+        </section>
+    
+    </footer>
+
+
+    <!--************** SCRIPT ****************-->
+
+        <!--  
+            EFECTOS DE TRANSICIÓN
+
+    De acordeón:        
+        1.jQuery slideDown(): Muestra un elemento con un efecto de deslizamiento (acordeón).
+        2.jQuery slideUp(): Oculta un elemento el efecto de deslizamiento (acordeón).
+        3.jQuery slideToggle(): Muestra u oculta un elemento con efecto de deslizamiento (acordeón).
+
+    De deslizamiento/fading: consiste en cambiar gradualmente la opacidad de un elemento 
+        1.fadeIn(): muestra un elemento (anteriormente oculto) cambiando su opacidad
+        2.fadeOut(): oculta un elemento variando su opacidad
+        3.fadeTo(): asigna un nivel de opacidad de un elemento dado
+        4.fadeToggle(): la acción de este efecto consiste en alternar los efecto fadeIn() y fadeOut() sin tener que duplicar líneas de código
+
+-->
+<!-- script -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+     $(document).ready(function () {
+         var repito = 0;
+         capa = $("main div");
+
+         function colaEfectos() {
+             //alert(repito++ + ": " + capa.queue().length);
+             capa.slideUp(1000);
+             capa.delay(2000);
+             capa.slideDown(1000);
+
+             capa.fadeTo(1500, 0.3).delay(3000).fadeTo(500, 1);
+
+             capa.delay(1000);
+             
+             capa.animate({
+                 "font-size": "+=0.5em"
+             }, 1000, colaEfectos);
+         }
+
+         $("main div").on("click", function () {
+             /* $(this).slideUp(1000).delay(2000).fadeIn(1000).delay(5000).append("<p><b>Text</b> added with method append()</p>");
+             .delay(5000).text("<p><b>Text</b> written with method text()</p>");*/
+             /* algunos métodos "anulan" el retardo de delay()  */
+
+             colaEfectos();
+         })
+     });
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!--
+      Accediendo a los atributos de los elementos del DOM
+      -->
+
+    <title>19 Method .attr()</title>
+    <meta charset="utf-8" />
+    <LINK rel=StyleSheet href="./css/estiloT4.2.css" type="text/css" media="screen">
+    <style>div{width: 330px; margin: 5px auto;}</style>
+    
+  </head>
+    <body>
+      <h2>19 método .attr()</h2>
+      <h3 id="titulo"></h3>
+
+      <div><img src="imagenes/playa.jpg" alt="Imagen de la playa de Isla Saona" /> </div>
+
+      <footer>
+        <p>** Comentarios en el archivo de código html</p>
+      </footer>
+    </body>
+
+    <!-- ******************************** SCRIPTS -->
+
+    <script src="http://code.jquery.com/jquery-3.7.1.min.js" 
+			type="text/javascript"></script>
+    <script>
+/*
+.attr()
+    Obtiene el valor de un atributo para el primer elemento de los seleccionados o establece el valor de un atributo para el conjunto de elementos seleccionados. 
+.prop () 
+    Obtiene el valor de una propiedad para el primer elemento de los seleccionados o establece el valor de una propiedad para el conjunto de elementos seleccionados.
+.removeAttr ()
+    Elimina un atributo de los elementos seleccionados 
+.removeProp () 
+    Elimina una propiedad de los elementos seleccionados
+.val ()
+Obtiene el valor del primer elemento seleccionado o establece el valor para el conjunto de elementos seleccionados 
+        (Se utiliza para obtener o establecer el valor de los campos de form_box).
+*/
+
+      $(function() 
+	  {
+      //$("#titulo").text($("img").attr("alt"));
+      $("h3").text($("img").attr("alt"));
+      });
+    </script>
+
+</html>
+
+    <!--
+El método .attr() tiene dos posibles usos:
+.attr(nombreAtributo):  obtiene el valor del atributo en el primer elemento del conjunto seleccionado. Si lo que queremos es obtener el valor para cada uno de los elementos, tendremos que recorrerlos todos utilizando un bucle .each().
+                        Devolverá undefined para los elementos que no tengan establecido el atributo.
+
+.attr(nombreAtributo, valorAtributo): establece el valor del atributo para el conjunto de elementos seleccionados.
+
+El uso de este método para obtener el valor de un atributo tiene dos ventajas:
+    1. Al llamarse a través de un objeto jQuery, se puede utilizar el encadenamiento.
+    2. Los valores de algunos atributos no son consistentes entre distintos navegadores. 
+    Este método reduce estas inconsistencias.
+    -->

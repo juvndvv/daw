@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <LINK rel=StyleSheet href="./css/estiloT4.css" type="text/css" media="screen">
+    <title>4.3.3 text() vs append 3</title>
+</head>
+<body>
+
+<header>
+    <h2>4.3.3 parent() & text() vs append() III </h2>
+</header>
+
+<main>
+    <div class="mydivs">
+        <p> Click on the image </p>
+        <img src="./images/logo.png" alt="logo" />
+        <p> what's really going on? </p>
+    </div>
+    <div class="mydivs">
+        <p> My div 2</p>
+    </div>
+</main>
+
+<footer>
+    <h3>IES CAMP DE MORVEDRE</h3>
+</footer>   
+
+
+<!--***********   SCRIPTS *******************-->
+<!--  
+.append() permite insertar un contenido como el último hijo (árbol DOM) de cada elemento de la colección seleccionada. 
+        Si lo que se desea es insertarlo como primer hijo, entonces se usa.prepend() de la misma manera.            
+.append() añade el contenido al final del elemento/capa que nosotros le especifiquemos.
+
+.prepend() funciona exactamente igual, pero el contenido se añade al principio del elemento/capa que nosotros le especifiquemos. 
+
+.text() sustituye el elemento seleccionado por el texto especificado "tal cual"
+        -->
+<!-- script -->
+
+<script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+<script>
+    $(document).ready(function() {
+        $("img").on("click", function () {
+           $(this).parent().append("<p> 1. <b>Text</b> added with method append()</p>");
+            $(this).parent().text("<p>2. <b>Text</b> written with method text()</p>");
+/*No se ve el efecto de append porque inmediatamente se reescribe con la función text()*/
+});
+
+});
+</script>
+</body>
+</html>
+
+

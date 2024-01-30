@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>05 multi-attribute animation-1-</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estiloT4.4.css">
+    
+    <style type="text/css">
+    main{justify-content: center;}
+
+        p{color:#314A76 }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Topic4.4.2023 Examples</h1>
+        <h2>05 multi-attribute animation</h2>
+    </header>
+    <main>
+        <img src="./imagenes/nave.png" alt="imagen">
+    </main>
+    <footer>
+        <h3>IES CAMP DE MORVEDRE</h3>
+        <h4></h4>
+    </footer>
+
+
+    <!-- /**********  SCRIPT ***********/ -->
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/date.en.js"></script>
+    <script>
+        /*
+        se realiza una animación que cambia la opacidad, el tamaño y la posición de la imagen. 
+        La animación tiene una duración de 2000 ms y, al terminar, se ejecuta una función anónima (callback) que añade 
+        un párrafo al main.
+        */
+        $(function () {
+            $(document).on("click", function (event) {
+                $("img").animate({
+                    opacity: 0,
+                    width: 10,
+                    height: 10,
+                    left: '+=500px',
+                    top:'-=300px'
+                }, 2000, function () {
+                    $("main").append("<p>BYE BYE!!!</p>");
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
