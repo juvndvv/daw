@@ -1,0 +1,48 @@
+/*  Estilo para dispositivos con pantalla mediana / TABLETS */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Body */
+  body {
+    grid-template-columns: 70% 30%;
+  }
+
+  /* Header */
+  header {
+    grid-column: 1 / -1;
+    flex-direction: row-reverse;
+  }
+
+  header > img:last-of-type {
+    display: block;
+    width: 100px;
+  }
+
+  header > div > h3::after {
+    content: "...TABLET";
+  }
+
+  /* Aside */
+  aside > section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Nav */
+  nav {
+    height: 80px;
+    grid-column: 1 / -1;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  nav > h4 {
+    grid-column: 1 / span 1;
+  }
+
+  /* Footer */
+  footer {
+    grid-column: 1 / -1;
+  }
+}
