@@ -55,6 +55,7 @@ header {
   padding: 16px;
   display: flex;
   justify-content: center;
+  border-bottom: 1px solid var(--title-color);
 }
 
 header > div {
@@ -77,6 +78,9 @@ header > img {
 
 /* Barra de navegación */
 nav {
+  position: sticky;
+  top: 0;
+  background-color: var(--background-color);
   height: 300px;
   width: 100%;
   padding: 16px;
@@ -92,12 +96,18 @@ nav > h4 {
 }
 
 nav > button {
-  background-color: var(--title-color);
-  color: var(--background-color);
+  background-color: rgba(148, 0, 211, 0.1);
+  color: var(--title-color);
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
-  border: none;
+  border: 1px solid var(--title-color);
   border-radius: 8px;
+}
+
+nav > button:hover {
+  background-color: rgba(148, 0, 211, 0.8);
+  color: var(--background-color);
+  cursor: pointer;
 }
 
 /* Main */
@@ -113,6 +123,7 @@ main > h2 {
 }
 
 main > section {
+  padding: 16px;
   background-color: rgba(148, 0, 211, 0.1);
   display: grid;
   place-content: center;
