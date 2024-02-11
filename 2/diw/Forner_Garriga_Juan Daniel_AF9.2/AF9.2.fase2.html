@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Forner AF9.2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/AF9.2.css" rel="stylesheet" type="text/css" />
+    <link href="css/medianos2.css" rel="stylesheet" type="text/css" />
+    <link href="css/grandes2.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- *****no modificar el código que hay a continuación *********-->
+    <header>
+      <img src="images/jQuery-min.png" alt="jQuery 1" />
+      <div>
+        <h1>Responsive & jQuery</h1>
+        <h3></h3>
+      </div>
+      <img src="images/responsive-min.png" alt="responsive 1" />
+    </header>
+    <nav>
+      <h4><span>0</span> ...Menú acciones</h4>
+      <button title="B1 Añade párrafos">1</button>
+      <button title="B2 Muestra/esconde imagen">2</button>
+      <button title="B3 Aparece Cortina semitransparente">3</button>
+      <button title="B4 Desaparece el título por palabras">4</button>
+      <button title="B5 Elementos FLOTANTES">5</button>
+      <button
+        title="B6 Importante!! Rellena el input de la sección 6 antes de pulsar"
+      >
+        6
+      </button>
+      <button title="B7 Vacía la lista desordenada">7</button>
+      <button title="B8 Restaura la lista desordenada">8</button>
+      <button title="B9 Interacción a voluntad">9</button>
+    </nav>
+    <main>
+      <!-- GRID con 9 items -->
+
+      <h2><span>0</span> ... ACCIONES <code>main</code></h2>
+
+      <section
+        title="S1 Al pulsar sobre cualquiera de los párrafos añadidos, se vaciará TODO el contenido de este item grid"
+      >
+        <h4>1</h4>
+        <!-- Inicialmente vacío -->
+
+        <!-- botón 1 -->
+        <!-- En este item se añadirán párrafos al pulsar el botón 1 -->
+      </section>
+      <section title="S2 Pulsa repetidas veces el botón 2">
+        <h4>2</h4>
+        <!-- En este item se cargará, al inicio, la primera imagen (clonada) de la cabecera -->
+
+        <!-- botón 2 -->
+        <!-- Desaparecerá/Aparecerá la imagen al pulsar sucesivamente el botón 2 -->
+      </section>
+      <section title="S3 Cortina semitransparente">
+        <!-- botón 3 -->
+        <h4>3</h4>
+        <div>
+          <p>
+            Al pulsar el 3er. botón del menú de acciones, o haciendo click sobre
+            este item del grid, aparecerá una "cortina" sobre este item
+          </p>
+          <p>
+            Al entrar a este elemento, desaparecerá la "cortina" de esta sección
+          </p>
+        </div>
+        <div>
+          <!-- "cortina" semitransparente que aparece/desaparece-->
+        </div>
+      </section>
+      <section title="S4 Aparece de nuevo el título por palabras">
+        <!-- botón 4 -->
+        <h4>4</h4>
+        <div>
+          <p>
+            Al pulsar el 4º. botón del menú de acciones, desaparecerá el título
+            h2 "por palabras"
+          </p>
+          <p>
+            Al pulsar sobre este item, aparecerá de nuevo el h2 palabra por
+            palabra
+          </p>
+        </div>
+        <h2>
+          <span>Frase </span>
+          <span>que </span>
+          <span>aparece </span>
+          <span>y </span>
+          <span>desaparece </span>
+          <span>por </span>
+          <span>palabras.</span>
+        </h2>
+      </section>
+      <section title="S5 Actuación sobre elementos FLOTANTES">
+        <!-- botón 5 -->
+        <h2>Pulsa el botón 5 para ver qué pasa</h2>
+        <section>
+          <h4>Pulsa aquí para mostrar menos</h4>
+          <img src="images/jQuery-min.png" alt="jQuery 1" />
+          <p>
+            jQuery es una librería desarrollada en 2006 por John Resig que
+            permite añadir una capa de interacción AJAX entre la web y las
+            aplicaciones que desarrollemos controlando eventos, creando
+            animaciones y diferentes efectos para enriquecer la experiencia de
+            usuario.
+          </p>
+          <p>
+            jQuery es un software libre y de código abierto (posee un doble
+            licenciamiento bajo la Licencia MIT y la Licencia Pública General de
+            GNU v2). Cuenta con un diseño que facilita la navegación por un
+            documento y seleccionar elementos DOM proporcionando a los
+            desarrolladores de aplicaciones web complementos que agilizan el
+            desarrollo de proyectos. Esto permite a los desarrolladores
+            centrarse en lo importante y crear abstracciones para interacción y
+            animación de bajo nivel, efectos avanzados y widgets temáticos de
+            alto nivel sin invertir tiempo en desarrollar complejos algoritmos y
+            métodos que los controlen desde cero y generando menos código que
+            las aplicaciones hechas con JS puro. Por ese motivo jQuery es muy
+            popular y podemos verlo en muchas páginas web.
+          </p>
+        </section>
+      </section>
+      <section title="S6 Campos de formulario">
+        <h4>6</h4>
+        <input type="text" placeholder="escribe algo aquí" />
+        <p>Una vez has escrito un dato, ¿Cómo enviarlo al ITEM 7?</p>
+        <ol>
+          <li>Pulsando tecla <code>ENTER</code></li>
+          <li>Pulsando el botón 6</li>
+        </ol>
+      </section>
+      <section title="S7 Intercambio de contenidos entre listas">
+        <h4>7</h4>
+        <p>Lista de palabras del "input"</p>
+        <ul></ul>
+        <footer>
+          <p>Pulsa el botón 7 para vaciar la lista</p>
+          <p>
+            Doble click sobre cualquier elemento para enviarlo a la lista del
+            item 8
+          </p>
+        </footer>
+      </section>
+      <section title="S8 Intercambio de contenidos entre listas">
+        <h4>8</h4>
+        <p>Lista de palabras que vienen del item 7</p>
+        <ol></ol>
+        <footer>
+          <p>
+            Pulsa el botón 8 para devolver TODOS los items a la lista anterior
+          </p>
+          <p>
+            Doble click sobre cualquier elemento para enviarlo a la lista
+            anterior
+          </p>
+        </footer>
+      </section>
+      <section title="S9 Interacción aplicando animate()">
+        <h4>9</h4>
+        <div></div>
+        <!-- Incluye aquí el elemento o elementos que consideres necesarios para desarrollar esta animación -->
+      </section>
+    </main>
+    <aside>
+      <h2>Extra content</h2>
+      <img src="images/jQueryJS-min.png" alt="image1" />
+      <p>Combinación HTML5-CSS-jQuery y diseño adaptativo</p>
+      <section>
+        <h5>Más información</h5>
+      </section>
+    </aside>
+    <footer>
+      <p>Juan Daniel Forner Garriga</p>
+      <p>IES Camp de Morvedre <span></span></p>
+    </footer>
+    <!-- *****FIN código no modificable *********-->
+    <!-- <script src="js/jquery-3.7.1.js"></script> -->
+    <script src="js/AF9.1.fase1.js" type="module"></script>
+    <script src="js/AF9.2.fase2.js" type="module"></script>
+    <script src="js/date.en.js" type="module"></script>
+  </body>
+</html>

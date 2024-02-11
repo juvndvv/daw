@@ -1,4 +1,5 @@
 // Interactividad jQuery.Puntos 18/100
+import "https://code.jquery.com/jquery-3.7.1.min.js";
 
 // jQuery 1. Inserta las dimensiones del viewport en el título
 function dibujaDimensiones() {

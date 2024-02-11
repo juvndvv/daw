@@ -36,11 +36,6 @@
     grid-column: 1 / -1;
   }
 
-  main > section:first-of-type {
-    display: flex;
-    justify-content: center;
-  }
-
   nav > button:last-of-type {
     grid-column: 1 / -1;
   }
