@@ -1,6 +1,5 @@
 ﻿// fecha en el lugar y formato que aparece en las capturas de pantalla
 // Puntos 2/100
-import "https://code.jquery.com/jquery-3.7.1.min.js";
 
 // jQuery 4. Fecha en el footer
 function setDate() {

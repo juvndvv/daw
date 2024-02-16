@@ -1,0 +1,88 @@
+/* (ANIMATION) */
+@keyframes move-to-right-and-back {
+  0%,
+  100% {
+    top: calc(50% - 50px + 19px);
+    left: 0;
+  }
+  25% {
+    top: calc(100% - 100px);
+  }
+  50% {
+    top: calc(50% - 50px + 19px);
+    left: calc(100% - 91px);
+  }
+  75% {
+    top: calc(0% + 38px);
+  }
+}
+
+main > section > img {
+  animation: move-to-right-and-back 2s infinite ease-in-out;
+}
+
+/* (TRANSFORM) */
+@keyframes text-color {
+  0% {
+    transform: rotate(-15deg);
+    color: var(--color-primary);
+  }
+  25% {
+    transform: rotate(15deg);
+    color: var(--color-secondary);
+  }
+  50% {
+    transform: rotate(-15deg);
+    color: var(--color-tertiary);
+  }
+  75% {
+    transform: rotate(15deg);
+    color: var(--color-quaternary);
+  }
+  100% {
+    transform: rotate(-15deg);
+    color: var(--color-primary);
+  }
+}
+
+main > section > p {
+  transform: rotate(-15deg);
+  animation: text-color 0.5s infinite ease-in-out;
+}
+
+/* (TRANSITION) */
+main > section > div {
+  transition: width 0.3s ease-in-out;
+}
+
+main > section > div:hover {
+  width: 100%;
+}
+
+/* Position sticky */
+main > section:nth-of-type(4) > section {
+   position: sticky;
+   animation: move-to-right-and-back 2s infinite ease-in-out;
+}
+
+main > section:nth-of-type(5) > section {
+  position: static;
+  animation: move-to-right-and-back 2s infinite ease-in-out;
+}
+
+main > section:nth-of-type(6) > section {
+  position: relative;
+  animation: move-to-right-and-back 2s infinite ease-in-out;
+}
+
+main > section:nth-of-type(7) > section {
+  position: absolute;
+  animation: move-to-right-and-back 2s infinite ease-in-out;
+  animation-delay: 1200ms;
+}
+
+main > section:nth-of-type(8) > section {
+  position: fixed;
+  animation: move-to-right-and-back 2s infinite ease-in-out;
+  animation-delay: 1500ms;
+}

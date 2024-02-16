@@ -1,4 +1,3 @@
-import "https://code.jquery.com/jquery-3.7.1.min.js";
 // Mantén todo el código jQuery de la fase 1 en el archivo AF7.1.fase1.js
 // Modifícalo en función de los comentarios de la retroalimnentacion
 
