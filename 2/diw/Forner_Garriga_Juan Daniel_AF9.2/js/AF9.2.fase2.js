@@ -20,6 +20,8 @@ $(function () {
     if ($input !== "") {
       $("main > section:nth-of-type(7) > ul").append("<li>" + $input + "</li>");
     }
+    
+    $("main > section:nth-of-type(6) > input").val("");
   }
 
   // jQuery 1
@@ -63,9 +65,7 @@ $(function () {
     }
 
     function button3() {
-      $("main > section:nth-of-type(3) > div:nth-of-type(2)").slideDown(
-        DURATION
-      );
+      $("main > section:nth-of-type(3) > div:nth-of-type(2)").show(DURATION);
     }
 
     function button4() {
@@ -143,7 +143,7 @@ $(function () {
 
   // Section 3 ... A. Cada vez que se pulse sobre esta section, aparecerá una cortina blanca semitransparente sobre esta section
   $("main > section:nth-of-type(3)").on("click", function () {
-    $("main > section:nth-of-type(3) > div:nth-of-type(2)").slideDown(DURATION);
+    $("main > section:nth-of-type(3) > div:nth-of-type(2)").show(DURATION);
   });
 
   // Section 3 ... B. Al entrar en la 3er. section, desaparecerá la cortina con un fade
@@ -186,7 +186,7 @@ $(function () {
   // 1. lo añade a la lista de la sección 7
   // 2. lo borra de esta lista
   $("main > section:nth-of-type(8) > ol").on("dblclick", "li", function () {
-    $(this).appendTo("main > section:nth-of-type(7) > ul");
+    $(this).prependTo("main > section:nth-of-type(7) > ul");
   });
 
   // ratón entra en sección 7 y 8

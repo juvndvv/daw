@@ -3,12 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/multimedia.css" />
     <title>Juan Daniel Forner</title>
   </head>
   <body>
-    <header></header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>AF6.1 Multimedia</h1>
+      <img src="../img/crazy.png" alt="Crazy frog" />
+    </header>
+    <nav>
+      <svg
+        width="100%"
+        height="100%"
+        viewBox="0 0 1000 1000"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        overflow="auto"
+        shape-rendering="auto"
+        fill="#ebebeb"
+      >
+        <defs>
+          <path
+            id="wavepath"
+            d="M 0 2000 0 500 Q 76.5 315 153 500 t 153 0 153 0 153 0 153 0 153 0 153 0 153 0 153 0  v1000 z"
+          />
+          <path id="motionpath" d="M -306 0 0 0" />
+        </defs>
+        <g>
+          <use xlink:href="#wavepath" y="125" fill="#118cdf">
+            <animateMotion dur="5s" repeatCount="indefinite">
+              <mpath xlink:href="#motionpath" />
+            </animateMotion>
+          </use>
+        </g>
+      </svg>
+      <ul>
+        <li><a href="index.html">Animaciones</a></li>
+        <li><a href="videos.html">Video</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+      </ul>
+    </nav>
+    <main>
+      <img src="../img/img1.webp" alt="">
+      <img src="../img/img2.webp" alt="">
+      <img src="../img/img3.webp" alt="">
+      <img src="../img/img4.webp" alt="">
+    </main>
+    <footer>
+      <img src="../img/crazy.png" alt="" />
+      <div>
+        <p>Juan Daniel Forner</p>
+        <p>2024</p>
+      </div>
+    </footer>
+    <audio autoplay src="../audio/toperdio.mp3">
+      Tu navegador no soporta el elemento
+      <code>audio</code>.
+    </audio>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 416c0 17.7 14.3 32 32 32l54.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48L480 448c17.7 0 32-14.3 32-32s-14.3-32-32-32l-246.7 0c-12.3-28.3-40.5-48-73.3-48s-61 19.7-73.3 48L32 384c-17.7 0-32 14.3-32 32zm128 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM320 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32-80c-32.8 0-61 19.7-73.3 48L32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l246.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48l54.7 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-54.7 0c-12.3-28.3-40.5-48-73.3-48zM192 128a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm73.3-64C253 35.7 224.8 16 192 16s-61 19.7-73.3 48L32 64C14.3 64 0 78.3 0 96s14.3 32 32 32l86.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48L480 128c17.7 0 32-14.3 32-32s-14.3-32-32-32L265.3 64z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M48 64C21.5 64 0 85.5 0 112V400c0 26.5 21.5 48 48 48H80c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zm192 0c-26.5 0-48 21.5-48 48V400c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H240z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+    </div>
+    <script>
+      const audio = document.querySelector('audio');
+
+      const play = document.querySelector('body > div > svg:nth-child(2)');
+
+      play.addEventListener('click', () => {
+        if (audio.paused) {
+          audio.play();
+        } else {
+          audio.pause();
+        }
+      });
+
+      const pause = document.querySelector('body > div > svg:nth-child(3)');
+
+      pause.addEventListener('click', () => {
+        audio.pause();
+      });
+
+      const stop = document.querySelector('body > div > svg:nth-child(4)');
+
+      stop.addEventListener('click', () => {
+        audio.pause();
+        audio.currentTime = 0;
+      });
+    </script>
   </body>
 </html>
