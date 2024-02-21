@@ -17,8 +17,20 @@
   }
 }
 
+@keyframes lighting {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.5));
+  }
+
+  50% {
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.5)) brightness(1.5);
+  }
+}
+
 main > section > img {
-  animation: move-to-right-and-back 2s infinite ease-in-out;
+  animation: move-to-right-and-back 2s infinite ease-in-out,
+    lighting 0.5s infinite ease-in-out;
 }
 
 /* (TRANSFORM) */
@@ -59,10 +71,9 @@ main > section > div:hover {
   width: 100%;
 }
 
-/* Position sticky */
 main > section:nth-of-type(4) > section {
-   position: sticky;
-   animation: move-to-right-and-back 2s infinite ease-in-out;
+  position: sticky;
+  animation: move-to-right-and-back 2s infinite ease-in-out;
 }
 
 main > section:nth-of-type(5) > section {
@@ -78,11 +89,11 @@ main > section:nth-of-type(6) > section {
 main > section:nth-of-type(7) > section {
   position: absolute;
   animation: move-to-right-and-back 2s infinite ease-in-out;
-  animation-delay: 1200ms;
+  animation-delay: 100ms;
 }
 
 main > section:nth-of-type(8) > section {
   position: fixed;
   animation: move-to-right-and-back 2s infinite ease-in-out;
-  animation-delay: 1500ms;
+  animation-delay: 200ms;
 }

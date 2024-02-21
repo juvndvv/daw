@@ -1,0 +1,68 @@
+/* para tablets 2024 */
+
+/* REVISA LAS CAPTURAS DE PANTALLA */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header > nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  header > nav > div {
+    display: none;
+  }
+
+  header > nav > ul {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+  }
+
+  main {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
+
+  main > section > article > img {
+    width: 150px;
+    float: left;
+    margin: 8px 16px 16px 8px;
+  }
+
+  main > section:nth-of-type(2n) {
+    display: block;
+  }
+
+  main > section:nth-of-type(1) {
+    grid-column: auto;
+    grid-row: 1 / -1;
+  }
+
+  main > section:last-of-type {
+    display: none;
+  }
+
+  aside {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  aside > * {
+    width: 50%;
+  }
+
+  aside > article:nth-of-type(2n + 1) {
+    background-color: var(--card-bg);
+  }
+
+  aside > article:nth-of-type(1),
+  aside > article:nth-of-type(2) {
+    background-color: black;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/animations.css" />
     <title>Juan Daniel Forner</title>
@@ -11,34 +11,9 @@
   <body>
     <header>
       <h1>AF6.1 Multimedia</h1>
-      <img src="../img/crazy.png" alt="Crazy frog" />
+      <img src="../assets/img/crazy.png" alt="Crazy frog" />
     </header>
     <nav>
-      <svg
-        width="100%"
-        height="100%"
-        viewBox="0 0 1000 1000"
-        xmlns="http://www.w3.org/2000/svg"
-        preserveAspectRatio="none"
-        overflow="auto"
-        shape-rendering="auto"
-        fill="#ebebeb"
-      >
-        <defs>
-          <path
-            id="wavepath"
-            d="M 0 2000 0 500 Q 76.5 315 153 500 t 153 0 153 0 153 0 153 0 153 0 153 0 153 0 153 0  v1000 z"
-          />
-          <path id="motionpath" d="M -306 0 0 0" />
-        </defs>
-        <g>
-          <use xlink:href="#wavepath" y="125" fill="#118cdf">
-            <animateMotion dur="5s" repeatCount="indefinite">
-              <mpath xlink:href="#motionpath" />
-            </animateMotion>
-          </use>
-        </g>
-      </svg>
       <ul>
         <li><a href="index.html">Animaciones</a></li>
         <li><a href="videos.html">Video</a></li>
@@ -48,7 +23,7 @@
     <main>
       <section>
         <h4>animation</h4>
-        <img src="../img/crazy.png" alt="" />
+        <img src="../assets/img/crazy.png" alt="" />
       </section>
       <section>
         <h4>transform</h4>
@@ -80,11 +55,17 @@
       </section>
     </main>
     <footer>
-      <img src="../img/crazy.png" alt="" />
+      <img src="../assets/img/crazy.png" alt="" />
       <div>
         <p>Juan Daniel Forner</p>
         <p>2024</p>
       </div>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/date.js"></script>
   </body>
 </html>

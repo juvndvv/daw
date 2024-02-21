@@ -3,12 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/multimedia.css" />
+    <script defer src="../js/date.js"></script>
     <title>Juan Daniel Forner</title>
   </head>
   <body>
-    <header></header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>AF6.1 Multimedia</h1>
+      <img src="../assets/img/crazy.png" alt="Crazy frog" />
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Animaciones</a></li>
+        <li><a href="videos.html">Video</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+      </ul>
+    </nav>
+    <main>
+      <video controls>
+        <source src="../assets/img/video.mp4" type="video/mp4" />
+        <source src="../assets/video/video.ogv" type="video/ogv" />
+        <source src="../assets/video/video.webm" type="video/webm" />
+        <source src="../assets/video/video.flv" type="video/flv" />
+        Tu navegador no soporta el video
+      </video>
+      <iframe
+        src="https://www.youtube.com/embed/GRSAvXLSzqM"
+        title="Guardia civil discoteca Masia"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        src="https://player.vimeo.com/video/145969349?h=cb145f3104"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </main>
+    <footer>
+      <img src="../assets/img/crazy.png" alt="" />
+      <div>
+        <p>Juan Daniel Forner</p>
+        <p>2024</p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/date.js"></script>
   </body>
 </html>

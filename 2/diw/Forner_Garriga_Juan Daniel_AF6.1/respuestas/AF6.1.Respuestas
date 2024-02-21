@@ -1,0 +1,34 @@
+// (POSICIONES)
+
+Las conclusiones que saco sobre aplicar animaciones a elementos con diferentes posiciones son:
+
+1. Al mover el fixed hace el calculo sobre el viewport por tanto siempre se vera
+
+2. El absolute hace el calculo sobre la pagina por lo que si scrolleamos puede pasar que
+    se deje de ver
+
+3. El static no se mueve ya que estamos haciendo calculos sobre top y left y estas propiedades
+    no aplican
+
+4. El sticky se queda pegado a los bordes de su contenedor y no se mueve por el 
+    centro
+
+5. El relative no le aplica el top
+
+Debemos tener en cuenta que todos los elementos estan metidos en cajas ficticias de grid por lo que
+es posible que esto haga que el comportamiento sea diferente a que si lo tenemos metido dentro de
+un contendor basado en un elemento de html.
+
+Para que los elementos funcionen como se espera se debera aplicar el position: relative a sus contenedores
+esto es en los de tipo absolute y fixed.
+
+// (OPTIMIZACION DE IMAGENES)
+
+En cuanto a la optimizacion de imagenes los requerimientos sugieren que el tamaño maximo en el cual
+se van a ver las imagenes son de 384x216 (el 50% mas de 256x144) por lo que se redimensionan estas a
+ese tamaño.
+
+Importante destacar que el formato webp es un formato especializado para la web, esto hace que sacrificando
+la minima calidad podamos reducir incluso hasta el 80% de tamaño de imagen solo con convertirlo a ese
+formato
+

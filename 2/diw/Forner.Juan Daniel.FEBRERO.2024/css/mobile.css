@@ -1,0 +1,322 @@
+/****************************************************************/
+/*
+Incluye las reglas que creas necesarias.
+
+NO puedes eliminar nada de lo que hay escrito
+
+
+*****************************************************************/
+
+/* body ... Contenedor GRID */
+/* 3.	7 puntos. body y main tendrán una estructura de rejilla. GRID.  */
+
+/* h1, */
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0.5em;
+}
+
+/* Para cambir el color de letra de ciertos elementos */
+header,
+h1,
+h2,
+h3 {
+}
+
+h1 {
+  text-align: right;
+  width: 50%;
+  margin-right: 10px;
+}
+
+/* Parte del logo y menú */
+
+/*1.	2 puntos. cabecera y footer flexibe. Fíjate en las capturas... */
+
+/* 2.	3 puntos. Animación CSS. El título del header tendrá una animación con desplazamiento, cambio de color y espaciado de letras y palabras de 4 segundos hasta quedarse con su estilo final. */
+
+nav {
+  text-align: left;
+  position: relative;
+  width: 50%;
+}
+
+nav ul {
+  padding: 5px 25px;
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/*************** 2024 ***************************************/
+.submenuV {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Estilos parte principal*/
+/* GRID */
+/* 3.	7 puntos. body y main tendrán una estructura de rejilla. GRID.  */
+main {
+  background-color: #cacaca;
+  padding: 2px;
+}
+
+/* 5. 4 puntos. Visualización correcta de la section primera de main. Comprobar capturas. */
+
+article img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ejercicio ANIMACION *******************  transición */
+/* 6.	4 puntos. Animación CSS. Los elementos figure tendrán una animación de 2 segundos sobre su posición (top y left) y sobre la sombra de su caja. */
+/* LEER DOCUMENTO */
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+}
+
+figcaption {
+  font-size: 1.8em;
+}
+
+main > section > h3 {
+  display: none;
+}
+
+/* Para jQuery */
+
+/* 4.	16 puntos total
+a)	Definir primero, en CSS, una clase "flexCentered" para establecer un elemento flexible y centrar su contenido tanto horizontal como verticalmente, y establecer un fondo gris semitransparente del 60%. */
+
+/* 4.	2 puntos. aside será flexible.  */
+aside {
+  border: 2px solid orange;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+aside > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+aside > h2,
+aside > article:nth-of-type(2n) {
+  background-color: white;
+}
+
+aside > article:nth-of-type(2n + 1) {
+  background-color: #ccc;
+}
+
+/* 1.	2 puntos. header y footer serán flexibles. Distribuye las cajas adecuadamente en cada caso */
+header,
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  padding: 0 16px;
+}
+
+footer {
+  padding: 0 32px;
+}
+
+/* Juan Daniel Forner */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Variables globales */
+:root {
+  /* Colores */
+  --base-color: hsl(0, 0%, 17%);
+  --primary-color: hsl(242, 74%, 51%);
+  --accent-color: hsl(308, 80%, 50%);
+  --neutral-color: hsl(0, 0%, 92%);
+  --card-bg: hsl(0, 0%, 20%);
+
+  /* Variables de diseño */
+  --border-radius: 8px;
+
+  /* Tamaño de fuente. Es adaptativo. Generado con: "https://utopia.fyi/type/calculator" */
+  --step--2: clamp(0.48rem, 0.4243rem + 0.2783vi, 0.64rem);
+  --step--1: clamp(0.6rem, 0.5304rem + 0.3478vi, 0.8rem);
+  --step-0: clamp(0.75rem, 0.663rem + 0.4348vi, 1rem);
+  --step-1: clamp(0.9375rem, 0.8288rem + 0.5435vi, 1.25rem);
+  --step-2: clamp(1.1719rem, 1.036rem + 0.6793vi, 1.5625rem);
+  --step-3: clamp(1.4648rem, 1.295rem + 0.8492vi, 1.9531rem);
+  --step-4: clamp(1.8311rem, 1.6188rem + 1.0615vi, 2.4414rem);
+  --step-5: clamp(2.2888rem, 2.0234rem + 1.3269vi, 3.0518rem);
+}
+
+/* Resets */
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* Estilado del body */
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  color: var(--neutral-color);
+  background-image: radial-gradient(
+      circle at center,
+      rgba(255, 255, 255, 0.005) 0,
+      rgba(255, 255, 255, 0.005) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to right, rgba(255, 255, 255, 0.01) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), 1px, transparent 1px);
+  background-size: 10px 10px;
+  background-attachment: fixed;
+  background-color: var(--base-color);
+  font-size: var(--step-0);
+  display: grid;
+}
+
+/* Estilado del main */
+main {
+  overflow: hidden;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4fr 1.5fr 1.5fr;
+}
+
+main > section {
+  background-color: var(--card-bg);
+}
+
+main > section > figure > figcaption {
+  display: none;
+}
+
+main > section:nth-of-type(1) {
+  padding: 20px;
+  grid-column: 1 / -1;
+}
+
+main > section:nth-of-type(2n) {
+  display: none;
+}
+
+/* Estilado del header */
+@keyframes headerAnimation {
+  0% {
+    transform: translateY(-200px);
+    color: var(--primary-color);
+    letter-spacing: 0.5em;
+  }
+  100% {
+    transform: translateY(0);
+    color: var(--accent-color);
+    letter-spacing: 0;
+  }
+}
+
+header {
+  min-height: 60px;
+  align-items: center;
+}
+
+header > h1 {
+  animation: headerAnimation 4s;
+  color: var(--accent-color);
+}
+
+/* Estilado del aside */
+aside {
+  display: flex;
+  flex-direction: column;
+  border-color: var(--accent-color);
+}
+
+aside > h2,
+aside > article:nth-of-type(2n) {
+  background-color: var(--card-bg); /* Modificado */
+}
+
+aside > article:nth-of-type(2n + 1) {
+  background-color: black; /* Modificado */
+}
+
+/* Animacion figure */
+section:has(figure) {
+  position: relative;
+}
+
+figure {
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: top 2s, left 2s, box-shadow 2s;
+}
+
+figure:hover {
+  top: -3px;
+  left: -3px;
+}
+
+.flexCentered {
+  position: relative;
+}
+
+.flexCentered figcaption {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 100%;
+}

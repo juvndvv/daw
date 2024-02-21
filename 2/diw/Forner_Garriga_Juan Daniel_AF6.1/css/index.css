@@ -10,11 +10,6 @@ main {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 8px;
-
-  @media screen and (max-width: 768px){
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 300px);
-  }
 }
 
 /* Estilado general de las secciones */
@@ -30,8 +25,10 @@ main > section > h4 {
   margin: 0;
   line-height: 30px;
   text-align: center;
-  background-color: lightgrey;
-  font-weight: 400;
+  font-weight: 500;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-radius: 8px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -81,7 +78,9 @@ main > section > div {
 main > section > section {
   width: 91px;
   height: 100px;
-  background-color: lightcoral;
+  background-color: var(--accent-color);
+  color: white;
+  font-weight: 500;
   border-radius: 50%;
   display: flex;
   align-items: center;
