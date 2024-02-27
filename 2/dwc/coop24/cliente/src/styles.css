@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --base-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 0%, 20%);
+  --text-color2: hsl(0, 0%, 20%);
+  --accent-color: hsla(24, 91%, 55%, 0.884);
+  --accent-color2: hsla(24, 91%, 55%, 0.6);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  background-color: var(--base-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+}
+
+input,
+textarea,
+button {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form small {
+  color: #ff4136;
+}
+
+form > div:not(:last-of-type):not(.image) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+form > div:not(:last-of-type):not(.image) label {
+  font-size: 1.2rem;
+}
+
+form > div:not(:last-of-type):not(.image) input {
+  padding: 0.5rem;
+}
+
+form > div:last-of-type {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+select {
+  padding: 0.8rem;
+  background-color: var(--base-color);
+  border: 1px solid #aaa;
+}
+
+form textarea {
+  padding: 0.5rem;
+  height: 200px;
+  resize: none;
+}
+
+button.primary {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background-color: var(--accent-color);
+  color: var(--base-color);
+  border: none;
+  cursor: pointer;
+}
+
+button.primary:hover {
+  opacity: 0.8;
+}
+
+button.primary:active {
+  background-color: #d18e1d;
+}
+
+button.secondary {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background-color: var(--base-color);
+  border: 1px solid var(--text-color);
+  cursor: pointer;
+}
+
+button.secondary:hover {
+  background-color: #333;
+  color: var(--base-color);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+button.secondary:active {
+  background-color: #000;
+}
+
+button.danger {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: #ff4136;
+  background-color: var(--base-color);
+  border: 1px solid #ff4136;
+  cursor: pointer;
+}
+
+button.danger:hover {
+  background-color: #ff4136;
+  color: var(--base-color);
+}
+
+button.danger:active {
+  background-color: #d21c00;
+}
+
+.image {
+  display: flex;
+  gap: 1rem;
+}
+
+.image div {
+  flex: 1;
+}
+
+.image > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.image > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*
+* {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+
+*/

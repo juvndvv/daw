@@ -1,0 +1,43 @@
+version: "3"
+
+services:
+  mysql:
+    build: ./mysql/Dockerfile
+    restart: always
+    environment:
+      - MYSQL_DATABASE=venteo
+      - MYSQL_ROOT_PASSWORD=quemirestu
+      - MYSQL_USER=acisiquepotsmirar
+      - MYSQL_PASSWORD=acitampocmires
+    networks:
+      - backend
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  rest:
+    build: ./servicio-rest/Dockerfile
+    restart: always
+    depends_on:
+      - mysql
+    depends_on:
+      - mysql
+    networks:
+      - backend
+      - frontend
+
+  angular-cliente:
+    build: ./cliente/Dockerfile
+    restart: always
+    networks:
+      - frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - rest
+
+networks:
+  frontend:
+  backend:
+
+volumes:
+  mysql_data:
